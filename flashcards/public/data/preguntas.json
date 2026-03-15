@@ -7,7 +7,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Incorrecta. Debería ser Falsa. Un Plan Agregado de Producción se define agrupando productos en familias y se alimenta de pronósticos de demanda a mediano plazo, no a corto plazo ni a nivel de cada producto individual. 59"
   },
@@ -19,7 +19,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. El propósito fundamental de la gestión y las operaciones en un sistema productivo es el de crear productos y servicios que aporten valor a los clientes. 59"
   },
@@ -31,7 +31,7 @@
     "respuesta": false,
     "justificacion": "Permite encontrar BUENAS SOLUCIONES, no óptimos.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Los algoritmos genéticos son clasificados como métodos heurísticos. Permiten encontrar muy buenas secuencias en tiempos razonables, pero no garantizan el óptimo matemático. 59"
   },
@@ -43,7 +43,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Para alimentar los sistemas DRP a lo largo de la red de distribución logística, se requiere generar un pronóstico de ventas por cada producto en cada lugar con punto de venta. 59"
   },
@@ -55,7 +55,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. El método OPT (Manufactura Sincrónica) fundamenta su programación en concentrarse primero en el recurso \"cuello de botella\". 59"
   },
@@ -67,8 +67,8 @@
     "respuesta": false,
     "justificacion": "Eso es realizado por la lista de distribución DRP. La lista de materiales le permite a los sistemas MRP conocer los materiales que se necesitan tener.",
     "unidades": [
-      "Un 6",
-      "7"
+      "Unidad 6",
+      "Unidad 7"
     ],
     "verificacion": "Correcta. El MRP utiliza la Lista de Materiales (BOM) para la estructura de ensamblaje del producto, mientras que el flujo a través de la cadena de suministro hacia puntos de venta lo gestiona el DRP con la Lista de Distribución. 59"
   },
@@ -80,7 +80,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. El Disponible a Prometer (ATP) brinda información a los vendedores sobre la producción planificada y no comprometida, actuando como proyección del inventario en periodos futuros para comprometer entregas a clientes. 59"
   },
@@ -92,7 +92,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Correcta. Las técnicas de series de tiempo buscan estudiar los datos históricos para identificar y predecir patrones (tendencia, estacionalidad, etc.) asumiendo que ocurrirán en el futuro. 59"
   },
@@ -104,7 +104,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. La función del DRP es planificar el flujo de materiales a lo largo de la red o canales de distribución, desde instalaciones centrales hasta las ventas locales. 59"
   },
@@ -116,7 +116,7 @@
     "respuesta": false,
     "justificacion": "Especifican qué materiales son requeridos, en qué cantidad y en qué fecha.",
     "unidades": [
-      "Un 6"
+      "Unidad 6"
     ],
     "verificacion": "Correcta. El MRP planifica requerimientos de materiales para la producción y el control de inventarios, pero no gestiona \"el flujo a través de la cadena de distribución\" como tal. 59"
   },
@@ -128,7 +128,7 @@
     "respuesta": false,
     "justificacion": "Genera Stock.",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. La política de nivelación mantiene la producción constante. Ante demandas estacionales, inevitablemente se debe usar la acumulación de inventario (stock) en periodos bajos para cubrir la fluctuación futura. 59"
   },
@@ -140,7 +140,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Los ERP se basan en gestionar las funcionalidades y procesos de negocio internos (comerciales, financieros, RRHH, productivos, etc.) para toda la empresa de forma integrada. 59"
   },
@@ -152,7 +152,7 @@
     "respuesta": false,
     "justificacion": "El tiempo es mayor debido a que se generan bloqueos en los recursos mientras se espera que se termine todo el lote de producción.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Esperar a que se termine de procesar el lote completo para recién transferirlo aumenta los tiempos muertos y, por ende, aumenta el tiempo total de ciclo y del material en proceso. 59"
   },
@@ -164,7 +164,7 @@
     "respuesta": false,
     "justificacion": "No se utiliza almacenamiento intermedio.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. La política Zero Wait (Cero Espera) obliga a que el trabajo pase de un centro a otro sin demoras; por definición de su operatoria, no se ve afectada ni facilita su gestión el uso de almacenamiento intermedio. 59"
   },
@@ -176,7 +176,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. El stock de seguridad en estos modelos está diseñado matemáticamente para absorber el desvío estándar de la demanda únicamente durante el tiempo de abastecimiento (lead time o tiempo de provisión). 59"
   },
@@ -188,7 +188,7 @@
     "respuesta": false,
     "justificacion": "Sólo los datos de incumbencia se comparten.",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. La integración requiere compartir solo información relevante (B2B, inventarios, etc.), no hacer públicos todos los sistemas. 59"
   },
@@ -200,7 +200,7 @@
     "respuesta": false,
     "justificacion": "También SERVICIOS.",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. El paradigma actual implica competir no solo con bienes por diseño o calidad, sino agregar valor a través de los servicios asociados. 59"
   },
@@ -212,7 +212,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. El comercio electrónico (B2B) es una tecnología habilitadora para la cadena de suministro integrada. 59"
   },
@@ -224,7 +224,7 @@
     "respuesta": false,
     "justificacion": "Se deben calcular para cada Punto de Venta.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. El DRP requiere pronósticos a nivel de Puntos de Venta para \"tirar\" de la demanda aguas arriba. 59"
   },
@@ -236,7 +236,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. En Job Shop los trabajos no siguen la misma ruta ni secuencia, por lo que una política no permutativa amplía el espacio de búsqueda logrando mejores resultados. 59"
   },
@@ -248,7 +248,7 @@
     "respuesta": false,
     "justificacion": "Es distinta para cada tipo de producto.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Dependiendo de la demanda y el tipo de artículo, la red lógica (distribución) cambia. 59"
   },
@@ -260,7 +260,7 @@
     "respuesta": true,
     "justificacion": "PP = d·L + Ss",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Su cálculo formaliza la demanda media esperada durante el Lead Time más un nivel de protección (Ss). 59"
   },
@@ -272,7 +272,7 @@
     "respuesta": false,
     "justificacion": "Job Shop es más flexible pero más complejo.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Al tener flujos de trabajos cruzados (cada uno con rutas distintas), el Job Shop es el entorno de scheduling más difícil de gestionar. 59"
   },
@@ -284,7 +284,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Constraint Programming reduce el espacio de soluciones evaluando la imposibilidad de ciertas asignaciones tempranamente. 59"
   },
@@ -296,7 +296,7 @@
     "respuesta": false,
     "justificacion": "El parámetro de control es el tiempo de revisión.",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. En el modelo de período fijo, el período T es constante (y actúa de parámetro) mientras que las cantidades varían. 59"
   },
@@ -308,7 +308,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. La política de caza anula los costos de inventario, pero suele disparar enormemente los costos por contratación y despidos (fuerza laboral inestable). 59"
   },
@@ -320,7 +320,7 @@
     "respuesta": false,
     "justificacion": "Solo en el primer período.",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. El stock de seguridad se \"protege\" restándolo únicamente en la disponibilidad del primer período. 59"
   },
@@ -332,7 +332,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Evitar que las piezas esperen al resto del lote para avanzar minimiza los tiempos muertos. 59"
   },
@@ -344,7 +344,7 @@
     "respuesta": false,
     "justificacion": "ZW no utiliza almacenamiento intermedio.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. ZW indica que el producto pasa de una máquina a la otra inmediatamente sin detenciones ni esperas. 59"
   },
@@ -356,7 +356,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. El Programa Maestro debe evaluar todos estos factores de corto plazo para verificar si es factible y si protege el nivel de inventario. 59"
   },
@@ -368,7 +368,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. Idem #16. 59"
   },
@@ -380,7 +380,7 @@
     "respuesta": false,
     "justificacion": "Se agregan SERVICIOS.",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Idem #17. 59"
   },
@@ -392,7 +392,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Al monitorear constantemente, disparan pedidos en cuanto se cruza la línea crítica del PP. 59"
   },
@@ -404,7 +404,7 @@
     "respuesta": false,
     "justificacion": "Se deben calcular en cada Punto de Venta.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #19. 59"
   },
@@ -416,7 +416,7 @@
     "respuesta": false,
     "justificacion": "Los NO permutativos son más apropiados para Job Shop.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #20. 59"
   },
@@ -428,7 +428,7 @@
     "respuesta": false,
     "justificacion": "Es distinta para cada tipo de producto.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #21. 59"
   },
@@ -440,7 +440,7 @@
     "respuesta": false,
     "justificacion": "También se incluye la demanda media y el lead time: Pp = d·L + Ss.",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Idem #22. 59"
   },
@@ -452,7 +452,7 @@
     "respuesta": true,
     "justificacion": "Q = NImax – I",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. La cantidad Q depende de lo necesario para restituir el nivel hasta el máximo objetivo en el momento de revisión T. 59"
   },
@@ -464,7 +464,7 @@
     "respuesta": true,
     "justificacion": "El 90% corresponde a B2B.",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Incorrecta. Si el 90% es B2B, la respuesta a la afirmación debería ser Falsa, pero el archivo dice V. La justificación y teoría señalan que es F. 59"
   },
@@ -476,7 +476,7 @@
     "respuesta": false,
     "justificacion": "Pueden dar más flexibilidad al proceso.",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Aunque aumentan costos de mantenimiento, proveen protección contra incertidumbre, logrando mayor flexibilidad para el negocio. 59"
   },
@@ -488,7 +488,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Diferenciación clásica con los sistemas de servicios, donde se da importancia al proceso como tal. 59"
   },
@@ -500,7 +500,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Idem #27. 59"
   },
@@ -512,7 +512,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Menos piezas esperando turno minimiza el Work In Progress (WIP). 59"
   },
@@ -524,7 +524,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Si no hay \"buffers\", una máquina finalizada no puede vaciarse si la siguiente está ocupada, bloqueándose. 59"
   },
@@ -536,7 +536,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Para proteger la planificación, se considera la mayor demanda esperada posible para no generar faltantes. 59"
   },
@@ -548,7 +548,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. Relacionada con la #39. El mayor volumen se da Business-to-Business. 59"
   },
@@ -560,7 +560,7 @@
     "respuesta": true,
     "justificacion": "Se incluye el factor SERVICIOS.",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Idem #17. 59"
   },
@@ -572,7 +572,7 @@
     "respuesta": true,
     "justificacion": "Porque la revisión continua se ajusta a la demanda.",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Idem #33. 59"
   },
@@ -584,7 +584,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Permite enfocar esfuerzos (p.ej. revisión continua a clase A y periódica a clase C). 59"
   },
@@ -596,7 +596,7 @@
     "respuesta": false,
     "justificacion": "El permutativo es para Flow Shop.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. En Flow Shop, debido a que el ruteo tecnológico es único y constante, se utiliza schedule permutativo. 59"
   },
@@ -608,7 +608,7 @@
     "respuesta": false,
     "justificacion": "Es distinta para cada tipo de producto.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #21. 59"
   },
@@ -620,7 +620,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Idem #22. 59"
   },
@@ -632,7 +632,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Incorrecta. En la tabla el original dice \"V\", pero esto contradice la pregunta #38 y la literatura. En revisión periódica el tiempo (T) es fijo pero la cantidad/lote (Q) es variable. La afirmación es Falsa. 59"
   },
@@ -644,8 +644,8 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 1",
-      "9"
+      "Unidad 1",
+      "Unidad 9"
     ],
     "verificacion": "Correcta. 59"
   },
@@ -657,7 +657,7 @@
     "respuesta": false,
     "justificacion": "Es hasta el período siguiente, no hasta el horizonte final.",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Si la falla en la condición de seguridad persiste en el tiempo la regla es insertar nuevos lotes, el \"adelanto\" ocurre cuando en t hay falla pero en t+1 se recobra nivel de seguridad. 59"
   },
@@ -669,7 +669,7 @@
     "respuesta": false,
     "justificacion": "Están asociadas al producto.",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Idem #41. 59"
   },
@@ -681,7 +681,7 @@
     "respuesta": false,
     "justificacion": "Solo en el primer período.",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Idem #27. 59"
   },
@@ -693,7 +693,7 @@
     "respuesta": false,
     "justificacion": "Se caracteriza por un menor inventario.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #43. 59"
   },
@@ -705,7 +705,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #44. 59"
   },
@@ -717,7 +717,7 @@
     "respuesta": false,
     "justificacion": "Si las órdenes comprometidas no superan en valor al pronóstico, se prioriza este último.",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Idem #45. 59"
   },
@@ -729,7 +729,7 @@
     "respuesta": false,
     "justificacion": "Solo el primero.",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Idem #27. 59"
   },
@@ -741,7 +741,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #19. 59"
   },
@@ -753,7 +753,7 @@
     "respuesta": false,
     "justificacion": "Deberá agregar valor al proceso.",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Idem #2. 59"
   },
@@ -765,7 +765,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #20. 59"
   },
@@ -777,7 +777,7 @@
     "respuesta": false,
     "justificacion": "Es distinta para cada tipo de producto.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #21. 59"
   },
@@ -789,7 +789,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Combinan la linealidad para familias de piezas (Flow) con la reconfigurabilidad de celdas ante cambios (Job). 59"
   },
@@ -801,7 +801,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. A mayor tiempo de revisión o lead time, mayor es la cantidad que se debe pedir (Q) para soportar todo el ciclo. 59"
   },
@@ -813,7 +813,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Diferencia con canal comercial donde operan minoristas/mayoristas. 59"
   },
@@ -825,7 +825,7 @@
     "respuesta": false,
     "justificacion": "Debe ser estrictamente mayor (>), no mayor o igual (≥).",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Según las reglas del material: \"Si I_t < Ss y I_{t+1} > Ss\" -> Adelantar. 59"
   },
@@ -837,7 +837,7 @@
     "respuesta": false,
     "justificacion": "Tiene como propósito nivelar la mano de obra; no produce inventarios mínimos.",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Idem #11. 59"
   },
@@ -849,7 +849,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Es su funcionalidad vital comercial. 59"
   },
@@ -861,7 +861,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #43. 59"
   },
@@ -873,7 +873,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #44. 59"
   },
@@ -885,7 +885,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Idem #45. 59"
   },
@@ -897,7 +897,7 @@
     "respuesta": false,
     "justificacion": "Solo en el primer período.",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Idem #27. 59"
   },
@@ -909,7 +909,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #19. 59"
   },
@@ -921,7 +921,7 @@
     "respuesta": false,
     "justificacion": "Debe además agregar valor.",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Idem #2. 59"
   },
@@ -933,7 +933,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Vinculado a competencias genéricas y de TI a futuro para organizaciones adaptables. 59"
   },
@@ -945,7 +945,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Los Data-Driven DSS y Data Mining son herramientas analíticas de negocio clave. 59"
   },
@@ -957,7 +957,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Correcta. Especialmente en el paso de \"Ajustar parámetros\" o el ajuste cualitativo final basado en \"experiencia de management\". 59"
   },
@@ -969,7 +969,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. 59"
   },
@@ -981,7 +981,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. Todos son estándares/modelos de referencia de colaboración evaluados. 59"
   },
@@ -993,7 +993,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Modelos de proyectos (Project scheduling) son por definición de muy bajo volumen (lote=1) y baja estandarización (ej. construcción). 59"
   },
@@ -1005,7 +1005,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Los ERP se basan en gestionar las funcionalidades de negocio integradas aplicables a distintos entornos más allá de la manufactura. 31"
   },
@@ -1017,7 +1017,7 @@
     "respuesta": false,
     "justificacion": "MRP integra los requerimientos en cuanto a qué material se necesita, cuánto y cuándo, pero no el flujo a través de la cadena de suministro (eso lo hace DRP).",
     "unidades": [
-      "Un 6"
+      "Unidad 6"
     ],
     "verificacion": "Correcta. El MRP asiste en la planificación de los requerimientos pero no en la distribución física en la cadena de suministro. 31"
   },
@@ -1029,7 +1029,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Define la orden planificada a través de la red (dónde mandar, qué, cuánto y cuándo). 59"
   },
@@ -1041,7 +1041,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Imita las curvas de demanda período a período mediante altas y bajas laborales. 59"
   },
@@ -1053,7 +1053,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Minoristas son propios del canal de consumo/comercial. 59"
   },
@@ -1065,7 +1065,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Fija un límite duro para no desabastecer lo prometido. 59"
   },
@@ -1077,7 +1077,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Idem #54. 59"
   },
@@ -1089,7 +1089,7 @@
     "respuesta": false,
     "justificacion": "No siempre. El canal puede ser Productor → Consumidor, sin intervenir el minorista.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Pueden existir canales comerciales de nivel \"Cero\" (Venta directa al cliente/consumidor). 59"
   },
@@ -1101,7 +1101,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Su gestión busca el equilibrio entre Nivel de Servicio adecuado y costos de mantenimiento al mínimo tolerado. 59"
   },
@@ -1113,7 +1113,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Correcta. Los métodos exponenciales (incluso si tienen alfa alto) reaccionan ante el último quiebre, mientras el Ajuste Lineal aplana la historia completa. 59"
   },
@@ -1125,7 +1125,7 @@
     "respuesta": false,
     "justificacion": "Si el valor es próximo a cero, no hay relación entre las variables.",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Correcta. Debe estar próximo a 1 (positiva) o -1 (negativa) para poseer capacidad explicativa (r). 59"
   },
@@ -1137,7 +1137,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Absorbe la varianza de Lead Time y/o demanda media. 59"
   },
@@ -1149,7 +1149,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. Los beneficios del SCM integrado atacan fuertemente al efecto bullwhip y los altos tiempos de tránsito. 59"
   },
@@ -1161,7 +1161,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #9. 59"
   },
@@ -1173,7 +1173,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 6"
+      "Unidad 6"
     ],
     "verificacion": "Correcta. A diferencia de lista de distribución (externa), mapea dependencias de M.P. hacia Producto Final. 59"
   },
@@ -1185,7 +1185,7 @@
     "respuesta": false,
     "justificacion": "A mayor varianza, mayor stock.",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Si la dispersión estadística σ crece, Z·σ también lo hace, requiriendo más buffer para el mismo Nivel de Servicio. 59"
   },
@@ -1197,7 +1197,7 @@
     "respuesta": false,
     "justificacion": "Cumple el rol de minorista en un canal de distribución de consumo.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #68/#88. 59"
   },
@@ -1209,7 +1209,7 @@
     "respuesta": false,
     "justificacion": "El parámetro de control es el Punto de Pedido (PP).",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. La revisión detona el pedido (lote) al cruzarse la cantidad en stock con la barrera de reposición \"PP\". 59"
   },
@@ -1221,7 +1221,7 @@
     "respuesta": false,
     "justificacion": "Permiten encontrar buenas soluciones, no el óptimo.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #3. 59"
   },
@@ -1233,7 +1233,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Verdadera. El precio impacta en el costo de mantener inventario (H); un costo alto disminuye la Cantidad Económica a Pedir (Q*). 59"
   },
@@ -1245,7 +1245,7 @@
     "respuesta": false,
     "justificacion": "La estrategia de caza consiste en adaptarse a la demanda.",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Nivelar MO es la \"estrategia de nivelación\". 59"
   },
@@ -1257,7 +1257,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Los métodos heurísticos de agenda generan toda la traza previendo bloqueos, contra el despacho que es \"on-the-fly\" (\"miopía\" algorítmica). 59"
   },
@@ -1269,7 +1269,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Requiere muchísimos más traslados físicos de los carritos o pallets entre máquinas dentro de la planta. 59"
   },
@@ -1281,7 +1281,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Se funda en pronósticos a futuro para adelantar la provisión. 59"
   },
@@ -1293,7 +1293,7 @@
     "respuesta": true,
     "justificacion": "Desde el cliente al proveedor.",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. Suele ser el cliente enviando data de ventas (ej. POS) o pedidos al eslabón previo. 59"
   },
@@ -1305,7 +1305,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Incorrecta. En sistemas no integrados sucede el \"Efecto Látigo\", donde la variación se amplifica fuertemente aguas arriba (hacia proveedor). La respuesta es F. 59"
   },
@@ -1317,7 +1317,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. Al compartir pronósticos se quita el \"inventario de seguridad\" de pánico por eslabón. 59"
   },
@@ -1329,7 +1329,7 @@
     "respuesta": false,
     "justificacion": "Flow Shop es más simple.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #23. 59"
   },
@@ -1341,8 +1341,8 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 6",
-      "7"
+      "Unidad 6",
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Generan planes en base a proyecciones antes de los faltantes. 59"
   },
@@ -1354,7 +1354,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Si la venta consume el stock y se lleva la caja en el momento (ej. un Kiosco), un ATP temporal no tiene sentido. 59"
   },
@@ -1366,7 +1366,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Permite unidades agregadas lógicas para la macro-planificación. 59"
   },
@@ -1378,7 +1378,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Falsa. Usa modelos de programación mixta lineal (MILP), donde asignación es binaria, pero los instantes de start/end time son variables continuas. 59"
   },
@@ -1390,7 +1390,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. Como en VMI o CPFR, la información fluye del minorista al industrial y de respuesta desde fábrica. 59"
   },
@@ -1402,7 +1402,7 @@
     "respuesta": false,
     "justificacion": "El parámetro es el tiempo entre pedidos.",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Idem #25. 59"
   },
@@ -1414,7 +1414,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 6"
+      "Unidad 6"
     ],
     "verificacion": "Correcta. A través de la BOM determina cuánto producir internamente de sub-ensamblajes. 59"
   },
@@ -1426,7 +1426,7 @@
     "respuesta": false,
     "justificacion": "La lista de distribución es la salida de DRP.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Incorrecta. La Lista de Distribución es el input análogo al BOM para rutear el DRP. Según el material la lista es un modelo de datos entrada, la afirmación sería Verdadera. 59"
   },
@@ -1438,7 +1438,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #19. 59"
   },
@@ -1450,7 +1450,7 @@
     "respuesta": false,
     "justificacion": "A mayor costo, mayor lote.",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Si la limpieza es carísima (Costo \"S\"), prorratearla obliga a fabricar un Q más grande (Lote económico EOQ). 59"
   },
@@ -1462,7 +1462,7 @@
     "respuesta": false,
     "justificacion": "Sin almacén intermedio el lote de transporte debe ser igual a 1.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #29 Si las máquinas operan secuencial, se pasan pieza a pieza sin acumular lote. 59"
   },
@@ -1474,7 +1474,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Idem #101. 59"
   },
@@ -1486,7 +1486,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Ese es el horizonte para Plan Agregado (mediano plazo). PMP (Corto Plazo) usa horizonte en semanas. 59"
   },
@@ -1498,7 +1498,7 @@
     "respuesta": false,
     "justificacion": "Debe hacerlo eficaz y eficiente.",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. 59"
   },
@@ -1510,7 +1510,7 @@
     "respuesta": true,
     "justificacion": "Podría considerarse que tienen la misma flexibilidad.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #66. 59"
   },
@@ -1522,7 +1522,7 @@
     "respuesta": false,
     "justificacion": "El stock de seguridad permite reducir la probabilidad de faltantes.",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Idem #95. 59"
   },
@@ -1534,7 +1534,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Falsa. Idem #53/#38. 59"
   },
@@ -1546,7 +1546,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Es un cross-docking, transfiere carga rápidamente sin almacenarla físicamente a largo plazo. 59"
   },
@@ -1558,7 +1558,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Optimización (Matemática) buscará el óptimo. Reglas (Heurística Miópica) encuentran algo rápido pero casi nunca mejor que la optimización. 59"
   },
@@ -1570,7 +1570,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #3. 59"
   },
@@ -1582,7 +1582,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Idem #12. 59"
   },
@@ -1594,7 +1594,7 @@
     "respuesta": true,
     "justificacion": "Este es uno de los propósitos.",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. Idem #110. 59"
   },
@@ -1606,7 +1606,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Porque si se acumula un gran lote antes de moverse, esas piezas retenidas configuran un \"Work in process\" (WIP) e inventario intermedio pasivo. 59"
   },
@@ -1618,7 +1618,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Falsa. Requiere historial para que se diluyan los pesos iniciales. 59"
   },
@@ -1630,7 +1630,7 @@
     "respuesta": true,
     "justificacion": "Sirve para la planificación de los requerimientos de materiales y el control de los inventarios.",
     "unidades": [
-      "Un 6"
+      "Unidad 6"
     ],
     "verificacion": "Correcta. A través de la explosión del PMP en la BOM. 59"
   },
@@ -1642,7 +1642,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Idem #7. 59"
   },
@@ -1654,7 +1654,7 @@
     "respuesta": false,
     "justificacion": "Si el valor es próximo a cero, no hay relación entre las variables.",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Correcta. Idem #94. 59"
   },
@@ -1666,7 +1666,7 @@
     "respuesta": true,
     "justificacion": "A mayor varianza se requiere mayor stock para mantener el mismo nivel de servicio.",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Idem #99. 59"
   },
@@ -1678,7 +1678,7 @@
     "respuesta": false,
     "justificacion": "Son proactivos.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #112. 59"
   },
@@ -1690,7 +1690,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. Idem #18. 59"
   },
@@ -1702,7 +1702,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Idem #99. 59"
   },
@@ -1714,7 +1714,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Correcta. Idem #110. 59"
   },
@@ -1726,7 +1726,7 @@
     "respuesta": false,
     "justificacion": "Los minoristas pertenecen al Canal Comercial.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #88. 59"
   },
@@ -1738,7 +1738,7 @@
     "respuesta": false,
     "justificacion": "MRP utiliza la BOM; DRP utiliza la Lista de Distribución.",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #6/#65. 59"
   },
@@ -1750,7 +1750,7 @@
     "respuesta": false,
     "justificacion": "Si el valor es próximo a cero, no hay relación entre las variables.",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Correcta. Idem #94. 59"
   },
@@ -1762,7 +1762,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Idem #7. 59"
   },
@@ -1774,7 +1774,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Verdadera. El intervalo de riesgo en este modelo incluye el lapso que pasa entre revisión (T) y el tiempo del envío (L). 59"
   },
@@ -1786,7 +1786,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Contrataciones temporales, Horas Extra, Subcontratos. 59"
   },
@@ -1798,7 +1798,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. El principal disparador del EOQ > 1 es amortizar el Costo S. Si S=0, Q*=1 y no habría inventario cíclico. 59"
   },
@@ -1810,7 +1810,7 @@
     "respuesta": false,
     "justificacion": "Están asociadas al proceso.",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. En servicios la manera en que se provee es fundamental para el cliente (el proceso es el producto). 59"
   },
@@ -1822,7 +1822,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #24. 59"
   },
@@ -1834,7 +1834,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Existen factores subjetivos (políticas gremiales, cultura) no modelables puramente matemáticos; se usan Sistemas Soporte de Decisión. 59"
   },
@@ -1846,7 +1846,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Idem #20. 59"
   },
@@ -1858,7 +1858,7 @@
     "respuesta": true,
     "justificacion": "Siempre que el N de las Medias Móviles no sea muy grande.",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Correcta. Alisado Exponencial asigna pesos ponderados decrecientes, y Medias Móviles una ventana finita a los últimos \"n\" periodos. 59"
   },
@@ -1870,7 +1870,7 @@
     "respuesta": false,
     "justificacion": "MRP no gestiona el flujo de materiales. Sirve para la planificación de los requerimientos de materiales y el control de los inventarios.",
     "unidades": [
-      "Un 6"
+      "Unidad 6"
     ],
     "verificacion": "Correcta. Para reposición de stock hacia comercio minorista sin transformación tecnológica se requiere DRP u otra técnica, MRP clásico no encaja. 59"
   },
@@ -1882,7 +1882,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Idem #33. 59"
   },
@@ -1894,7 +1894,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Idem #92. 59"
   },
@@ -1906,7 +1906,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Correcta. Idem #9. 59"
   },
@@ -1918,7 +1918,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Son problemas NP-Hard matemáticamente, el factorial (n!) explota exponencial. 59"
   },
@@ -1930,7 +1930,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Correcta. Un $r^2$ cercano a uno revela fuerte asociación (positiva si es +1). 59"
   },
@@ -1942,7 +1942,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Su componente transversal (Finanzas, RRHH) sirve universalmente. 59"
   },
@@ -1954,7 +1954,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Falsa. Al tener que cubrir una longitud de tiempo mayor (Tiempo de revisión + Lead time), el buffer o Ss requerido siempre es más grande estadísticamente. 59"
   },
@@ -1966,7 +1966,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Comprar o cerrar fábricas, nueva maquinaria base; contrastante a las coyunturales del nivel táctico/operativo. 59"
   },
@@ -1978,7 +1978,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Correcta. Idem #150. 59"
   },
@@ -1990,7 +1990,7 @@
     "respuesta": false,
     "justificacion": "Son las asociadas al producto.",
     "unidades": [
-      "Un 1"
+      "Unidad 1"
     ],
     "verificacion": "Correcta. Idem #41. 59"
   },
@@ -2002,7 +2002,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Idem #7. 59"
   },
@@ -2014,7 +2014,7 @@
     "respuesta": false,
     "justificacion": "Interviene la decisión humana.",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Correcta. Idem #153. 59"
   },
@@ -2026,7 +2026,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Por definición una Orden de Trabajo persigue una serie de características del producto como tal desde inicio a fin, a diferencia del flow contínuo o masivo. 59"
   },
@@ -2038,7 +2038,7 @@
     "respuesta": false,
     "justificacion": "Puede generarlo, pero no siempre lo hace.",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Correcta. Sin almacén el lote se puede demorar \"bloqueando\" en la máq previa, con Zero Wait el producto NO puede detenerse una vez iniciado, obligando a coordinar los tiempos de inicio (Start Time) estrictamente, originando schedules diferentes. 59"
   },
@@ -2050,7 +2050,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Falsa. El modelo básico de alisado exponencial no captura tendencia, genera retraso. Se requiere el método de alisado exponencial ajustado (método de Holt) para capturarla. 59"
   },
@@ -2062,7 +2062,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Falsa. El alisado exponencial ajustado (Holt) solo modela el nivel (media) y la tendencia. Para capturar también estacionalidad se requieren métodos más avanzados o un ajuste estacional específico. 59"
   },
@@ -2074,7 +2074,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Verdadera. El propósito del stock de seguridad es actuar de amortiguador para prevenir un quiebre de stock por variabilidad en la demanda exclusivamente durante el tiempo de provisión o lead time. 59"
   },
@@ -2086,7 +2086,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Verdadera. La gestión agregada exige cotejar la mano de obra requerida con la disponible para luego decidir contrataciones, despidos u horas extras necesarias. 59"
   },
@@ -2098,7 +2098,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Verdadera. Según las reglas del PMP, cuando el inventario proyectado en el período t cae por debajo del nivel de seguridad (IFt < Ss), se debe agregar o adelantar lotes para corregirlo. 59"
   },
@@ -2110,7 +2110,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 6"
+      "Unidad 6"
     ],
     "verificacion": "Falsa. Los requerimientos brutos de nivel cero (productos finales) se inicializan directamente a partir del Programa Maestro de Producción (PMP), no a partir del nivel superior agrupado (Plan Agregado). 59"
   },
@@ -2122,7 +2122,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Falsa. El DRP proyecta el inventario en toda la red. En los nodos dependientes (ej. Almacén Central), no se usa un pronóstico directo, sino que se agregan los requerimientos netos provenientes de los nodos inferiores aguas abajo. 59"
   },
@@ -2134,7 +2134,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Verdadera. El Makespan se define formalmente como la diferencia de tiempo entre el inicio del primer trabajo y la finalización o completion time de la última orden de toda la secuencia. 59"
   },
@@ -2146,7 +2146,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Verdadera. Una de las medidas vitales en la gestión integrada de SC para paliar la distorsión de demanda aguas arriba (efecto látigo) es la reducción agresiva de los tiempos de abastecimiento o lead times. 59"
   },
@@ -2158,7 +2158,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Verdadera. La política Zero Wait (ZW) impone la condición de que el flujo de los trabajos sea directo y sin interrupciones entre las distintas máquinas, lo que hace inviable o innecesario el uso de almacenamiento de buffer (intermedio). 59"
   },
@@ -2170,7 +2170,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Falsa. El coeficiente de correlación (r) indica la fuerza y la dirección de la relación lineal entre variables. La precisión de los pronósticos de un modelo se evalúa formalmente con medidas de error (MAD, MAPD, MSE). 59"
   },
@@ -2182,7 +2182,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Falsa. Al contrario, el ATP permite conocer la producción planificada que todavía no ha sido comprometida (es el remanente descontando las órdenes firmes) para poder venderla o prometerla a nuevos clientes a futuro. 59"
   },
@@ -2194,7 +2194,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 6"
+      "Unidad 6"
     ],
     "verificacion": "Falsa. La BOM brinda únicamente la estructura jerárquica y cantidades necesarias (qué se usa para hacer qué). El estado del inventario y recepciones se consulta en el Archivo Maestro de Inventario, no en la BOM. 59"
   },
@@ -2206,7 +2206,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Verdadera. El cálculo del PMP nivela de forma híbrida tanto la fabricación de inventario contra pronósticos (MTS) como la satisfacción de los pedidos/órdenes ya en firme del cliente (MTO). 59"
   },
@@ -2218,7 +2218,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Falsa. En la revisión continua, el tamaño de lote (EOQ o Q*) está determinado por los costos de orden y almacenamiento y la tasa de demanda anual, no por el lead time. El plazo de provisión afecta el tamaño del Punto de Pedido. 59"
   },
@@ -2230,7 +2230,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Falsa. Idem #171. El modelo de alisado exponencial de primer orden se retrasa de manera persistente en presencia de una fuerte tendencia. 59"
   },
@@ -2242,7 +2242,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 4"
+      "Unidad 4"
     ],
     "verificacion": "Falsa. La revisión continua es un modelo de gestión reactivo desencadenado por eventos. Ordena reposición únicamente cuando las existencias cruzan el nivel del Punto de Pedido; no planifica compras para un \"horizonte futuro\" proactivamente. 59"
   },
@@ -2254,7 +2254,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 3"
+      "Unidad 3"
     ],
     "verificacion": "Falsa. Si bien el MAPD indica la magnitud media del error porcentual, no sirve por sí sola para afirmar un buen ajuste; se requiere además una medida de sesgo (como la Señal de Rastreo o Tracking Signal) para determinar si el modelo no está sistemáticamente sobrestimando o subestimando. 59"
   },
@@ -2266,7 +2266,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Falsa. Su objetivo primordial es nivelar la capacidad (fuerza de trabajo constante) independientemente de la demanda de corto plazo. Como resultado colateral de ello, el inventario va a fluctuar enormemente. 59"
   },
@@ -2278,7 +2278,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 7"
+      "Unidad 7"
     ],
     "verificacion": "Falsa. El DRP tradicional no es un optimizador matemático que minimice funciones de costos; es una técnica que calcula los requerimientos y emite sugerencias de pedido determinísticas en forma análoga al MRP, basándose en Lotes y variables lógicas. 59"
   },
@@ -2290,7 +2290,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 6"
+      "Unidad 6"
     ],
     "verificacion": "Falsa. El MRP no optimiza funciones de objetivo ni considera de origen la viabilidad de la capacidad instalada (capacidad infinita), sus cálculos son de aritmética de requerimientos basada en reglas heurísticas. 59"
   },
@@ -2302,7 +2302,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Falsa. El efecto látigo se define primariamente como la distorsión y amplificación de la variabilidad (varianza) de la demanda a medida que la información pasa aguas arriba; el aumento de los costos y los inventarios de seguridad son consecuencias de ese problema central, no su definición original. 59"
   },
@@ -2314,7 +2314,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Falsa. El makespan no es una medida de tasa o velocidad, es una medida temporal absoluta que representa el tiempo total que toma completar todo un lote de trabajos asignados. 59"
   },
@@ -2326,7 +2326,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 5"
+      "Unidad 5"
     ],
     "verificacion": "Verdadera. Idem #184. 59"
   },
@@ -2338,7 +2338,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 9"
+      "Unidad 9"
     ],
     "verificacion": "Verdadera. El uso del intercambio electrónico de información y plataformas B2B es la clave que subyace a iniciativas de colaboración inter-empresa como VMI o CPFR. 59"
   },
@@ -2350,7 +2350,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 8"
+      "Unidad 8"
     ],
     "verificacion": "Verdadera. Al no detenerse el trabajo entre las estaciones bajo la imposición de \"Zero Wait\", no se genera ni necesita acumular stock en proceso dentro de buffers o almacenes intermedios, haciéndolas mutuamente dependientes o compatibles. 59"
   },
@@ -2362,7 +2362,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 2"
+      "Unidad 2"
     ],
     "verificacion": "Verdadera. La disciplina BPM engloba el modelado, ejecución, medición y optimización estructurada formando en su conjunto un ciclo de vida para la mejora continua del negocio. 59"
   },
@@ -2374,7 +2374,7 @@
     "respuesta": true,
     "justificacion": "—",
     "unidades": [
-      "Un 2"
+      "Unidad 2"
     ],
     "verificacion": "Verdadera. A nivel conceptual de ejecución, un Token en BPMN avanza consumiéndose o replicándose para trazar de forma rigurosa la lógica de caminos paralelos y bifurcaciones (gateways) a lo largo del diagrama. 59"
   },
@@ -2386,7 +2386,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 2"
+      "Unidad 2"
     ],
     "verificacion": "Falsa. Un End Event del tipo Terminate interrumpe y destruye por completo toda la instancia completa en ejecución del proceso de manera tajante. Para cancelar exclusivamente una tarea se adhiere a ella un evento Intermediate Boundary (Attached). 59"
   },
@@ -2398,7 +2398,7 @@
     "respuesta": false,
     "justificacion": "—",
     "unidades": [
-      "Un 2"
+      "Unidad 2"
     ],
     "verificacion": "Falsa. Un ítem de trabajo en un BPMS es la habilitación de una ejecución, pero ésta finalmente es asignada, bloqueada o realizada por un solo individuo/recurso a la vez. 59"
   }
