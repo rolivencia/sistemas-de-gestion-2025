@@ -2401,5 +2401,65 @@
       "Unidad 2"
     ],
     "verificacion": "Falsa. Un ítem de trabajo en un BPMS es la habilitación de una ejecución, pero ésta finalmente es asignada, bloqueada o realizada por un solo individuo/recurso a la vez. 59"
+  },
+  {
+    "id": 201,
+    "examen": "Apuntes Unidad 2",
+    "pregunta": 1,
+    "afirmacion": "Un sistema desarrollado para gestionar el procesamiento de expedientes puede ser considerado un SIOP",
+    "respuesta": true,
+    "justificacion": "Gestiona y ejecuta un proceso estructurado (personas, aplicaciones y datos) sobre la base de un modelo de proceso.",
+    "unidades": [
+      "Unidad 2"
+    ],
+    "verificacion": "Verdadera. El procesamiento de expedientes es un proceso estructurado que involucra personas, aplicaciones y fuentes de información, ejecutado siguiendo una secuencia de actividades (un modelo de proceso). Encaja en la definición de SIOP: un sistema de software que gestiona y ejecuta procesos sobre la base de modelos de procesos."
+  },
+  {
+    "id": 202,
+    "examen": "Apuntes Unidad 2",
+    "pregunta": 2,
+    "afirmacion": "Un Sistema ERP es un SIOP",
+    "respuesta": true,
+    "justificacion": "Un ERP es un SIOP específico del dominio.",
+    "unidades": [
+      "Unidad 2"
+    ],
+    "verificacion": "Verdadera. Según la diapositiva 10, un ERP es un SIOP, específicamente del tipo \"Específico del Dominio\". Gestiona y ejecuta procesos de negocio (compras, ventas, inventario) involucrando personas, aplicaciones y datos. La distinción es que es específico del dominio, no genérico/agnóstico como un BPMS, pero sigue siendo un SIOP."
+  },
+  {
+    "id": 203,
+    "examen": "Apuntes Unidad 2",
+    "pregunta": 3,
+    "afirmacion": "La implementación de un SIOP requiere codificar de manera integrada (en un mismo código) la lógica del flujo de control de las actividades junto con la lógica interna de las actividades",
+    "respuesta": false,
+    "justificacion": "Es lo contrario: el SIOP separa la lógica del proceso de la lógica de las aplicaciones.",
+    "unidades": [
+      "Unidad 2"
+    ],
+    "verificacion": "Falsa. Es exactamente lo contrario. La idea principal del SIOP (diapositiva 6) es separar la lógica de las aplicaciones de la lógica de los procesos de negocio, y definir/gestionar en forma explícita la lógica de los procesos. Codificar ambas lógicas integradas en un mismo código corresponde al enfoque orientado a datos (lógica implícita dentro de las aplicaciones), que es precisamente lo que el SIOP busca evitar."
+  },
+  {
+    "id": 204,
+    "examen": "Apuntes Unidad 2",
+    "pregunta": 4,
+    "afirmacion": "Un sistema de gestión de proyectos basado en la técnica PERT/CPM puede ser considerado un SIOP",
+    "respuesta": false,
+    "justificacion": "PERT/CPM planifica y controla proyectos; no ejecuta el proceso sobre un modelo interpretable.",
+    "unidades": [
+      "Unidad 2"
+    ],
+    "verificacion": "Falsa. PERT/CPM es una técnica de planificación y control de proyectos (cálculo de ruta crítica, duración, dependencias temporales entre tareas), pero no gestiona ni ejecuta el proceso involucrando personas, aplicaciones y fuentes de información sobre la base de un modelo ejecutable que el sistema interpreta para crear y controlar instancias. No coordina la asignación de trabajo ni la ejecución de actividades, por lo que no cumple la definición de SIOP."
+  },
+  {
+    "id": 205,
+    "examen": "Apuntes Unidad 2",
+    "pregunta": 5,
+    "afirmacion": "Un proceso que tiene definido todos los posibles caminos de excepción es un proceso débilmente estructurado",
+    "respuesta": false,
+    "justificacion": "Es lo opuesto: con todos los caminos definidos a priori el proceso es fuertemente estructurado.",
+    "unidades": [
+      "Unidad 2"
+    ],
+    "verificacion": "Falsa. Es lo opuesto. Un proceso con todos sus posibles caminos (incluidos los de excepción) definidos a priori es un proceso fuertemente/bien estructurado: la ejecución sigue el modelo de proceso definido de antemano (diapositiva 11). Un proceso débilmente estructurado es aquel cuyos caminos no están todos predefinidos y se determinan durante la ejecución."
   }
 ]
