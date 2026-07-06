@@ -182,7 +182,7 @@
     "pregunta": 2,
     "afirmacion": "Según las tendencias, en el futuro próximo la competencia entre empresas seguirá sustentada solo en base a calidad y diseño.",
     "respuesta": false,
-    "justificacion": "El paradigma actual implica competir no solo con bienes por diseño o calidad, sino agregar valor a través de los servicios asociados. También SERVICIOS.",
+    "justificacion": "El paradigma actual implica competir no solo con los bienes por su diseño o calidad, sino agregando valor a través de los servicios asociados.",
     "unidades": [
       "Unidad 1"
     ]
@@ -204,7 +204,7 @@
     "pregunta": 4,
     "afirmacion": "Los pronósticos deben ser calculados para cada artículo en cada ISL (punto de almacenamiento) de la cadena de suministros.",
     "respuesta": false,
-    "justificacion": "El DRP requiere pronósticos a nivel de Puntos de Venta para \"tirar\" de la demanda aguas arriba. Se deben calcular para cada Punto de Venta.",
+    "justificacion": "El DRP requiere pronósticos a nivel de cada Punto de Venta —no de cada punto de almacenamiento (ISL)— para \"tirar\" de la demanda aguas arriba.",
     "unidades": [
       "Unidad 7"
     ]
@@ -215,7 +215,7 @@
     "pregunta": 5,
     "afirmacion": "Un schedule NO permutativo es más apropiado para estructuras de proceso tipo Job Shop.",
     "respuesta": true,
-    "justificacion": "En Job Shop los trabajos no siguen la misma ruta ni secuencia, por lo que una política no permutativa amplía el espacio de búsqueda logrando mejores resultados.",
+    "justificacion": "En Job Shop los trabajos no siguen la misma ruta ni secuencia, por lo que una política no permutativa amplía el espacio de búsqueda y logra mejores resultados.",
     "unidades": [
       "Unidad 8"
     ]
@@ -226,7 +226,7 @@
     "pregunta": 6,
     "afirmacion": "La Lista de Distribución es única (es la misma para todos los tipos de productos que distribuye la empresa).",
     "respuesta": false,
-    "justificacion": "Dependiendo de la demanda y el tipo de artículo, la red lógica (distribución) cambia. Es distinta para cada tipo de producto.",
+    "justificacion": "La Lista de Distribución es distinta para cada tipo de producto: la red lógica de distribución cambia según la demanda y el artículo.",
     "unidades": [
       "Unidad 7"
     ]
@@ -342,17 +342,6 @@
     ]
   },
   {
-    "id": 32,
-    "examen": "Examen 3",
-    "pregunta": 2,
-    "afirmacion": "Según las tendencias, en el futuro próximo la competencia entre empresas seguirá sustentada solo en base a calidad y diseño.",
-    "respuesta": false,
-    "justificacion": "El paradigma actual implica competir no solo con bienes por diseño o calidad, sino agregar valor a través de los servicios asociados. Se agregan SERVICIOS (Idem #17).",
-    "unidades": [
-      "Unidad 1"
-    ]
-  },
-  {
     "id": 33,
     "examen": "Examen 3",
     "pregunta": 3,
@@ -364,17 +353,6 @@
     ]
   },
   {
-    "id": 34,
-    "examen": "Examen 3",
-    "pregunta": 4,
-    "afirmacion": "Los pronósticos deben ser calculados para cada artículo en cada ISL (punto de almacenamiento) de la cadena de suministros.",
-    "respuesta": false,
-    "justificacion": "El DRP requiere pronósticos a nivel de Puntos de Venta para \"tirar\" de la demanda aguas arriba. Se deben calcular en cada Punto de Venta (Idem #19).",
-    "unidades": [
-      "Unidad 7"
-    ]
-  },
-  {
     "id": 35,
     "examen": "Examen 3",
     "pregunta": 5,
@@ -383,17 +361,6 @@
     "justificacion": "En Job Shop los trabajos no siguen la misma ruta ni secuencia, por lo que una política no permutativa amplía el espacio de búsqueda logrando mejores resultados. Los NO permutativos son más apropiados para Job Shop (Idem #20).",
     "unidades": [
       "Unidad 8"
-    ]
-  },
-  {
-    "id": 36,
-    "examen": "Examen 3",
-    "pregunta": 6,
-    "afirmacion": "La Lista de Distribución es única (es la misma para todos los tipos de productos que distribuye la empresa).",
-    "respuesta": false,
-    "justificacion": "Dependiendo de la demanda y el tipo de artículo, la red lógica (distribución) cambia. Es distinta para cada tipo de producto (Idem #21).",
-    "unidades": [
-      "Unidad 7"
     ]
   },
   {
@@ -468,7 +435,7 @@
     "pregunta": 13,
     "afirmacion": "Un proceso que utiliza lote de transferencia = 1 se caracteriza por un menor inventario en proceso.",
     "respuesta": true,
-    "justificacion": "Menos piezas esperando turno minimiza el Work In Progress (WIP).",
+    "justificacion": "Menos piezas esperando turno minimiza el inventario en proceso (Work In Progress, WIP).",
     "unidades": [
       "Unidad 8"
     ]
@@ -548,17 +515,6 @@
     "justificacion": "En Flow Shop, debido a que el ruteo tecnológico es único y constante, se utiliza schedule permutativo.",
     "unidades": [
       "Unidad 8"
-    ]
-  },
-  {
-    "id": 51,
-    "examen": "Examen 4",
-    "pregunta": 6,
-    "afirmacion": "La Lista de Distribución es única (es la misma para todos los tipos de productos que distribuye la empresa).",
-    "respuesta": false,
-    "justificacion": "Dependiendo de la demanda y el tipo de artículo, la red lógica (distribución) cambia. Es distinta para cada tipo de producto (Idem #21).",
-    "unidades": [
-      "Unidad 7"
     ]
   },
   {
@@ -645,7 +601,7 @@
     "pregunta": 14,
     "afirmacion": "La disponibilidad de almacenamiento intermedio evita el bloqueo de los recursos.",
     "respuesta": true,
-    "justificacion": "Si no hay \"buffers\", una máquina finalizada no puede vaciarse si la siguiente está ocupada, bloqueándose (Idem #44).",
+    "justificacion": "Si no hay \"buffers\", una máquina que terminó no puede vaciarse mientras la siguiente está ocupada, y se bloquea (Idem #44).",
     "unidades": [
       "Unidad 8"
     ]
@@ -667,7 +623,7 @@
     "pregunta": 16,
     "afirmacion": "En el cálculo del disponible a prometer el stock de seguridad debe restarse a cada lote de producción planificado.",
     "respuesta": false,
-    "justificacion": "El stock de seguridad se \"protege\" restándolo únicamente en la disponibilidad del primer período. Solo el primero (Idem #27).",
+    "justificacion": "El stock de seguridad se descuenta únicamente en la disponibilidad del primer período, no en cada lote planificado (Idem #27).",
     "unidades": [
       "Unidad 5"
     ]
@@ -678,7 +634,7 @@
     "pregunta": 17,
     "afirmacion": "Los pronósticos deben ser calculados para cada artículo en cada punto de venta del mismo.",
     "respuesta": true,
-    "justificacion": "El DRP requiere pronósticos a nivel de Puntos de Venta para \"tirar\" de la demanda aguas arriba (Idem #19).",
+    "justificacion": "Los pronósticos se calculan a nivel de cada Punto de Venta para \"tirar\" de la demanda aguas arriba en el DRP (Idem #19).",
     "unidades": [
       "Unidad 7"
     ]
@@ -689,20 +645,9 @@
     "pregunta": 18,
     "afirmacion": "Desde el punto de vista de la gestión, todo sistema que produce bienes o servicios es considerado como un sistema productivo.",
     "respuesta": false,
-    "justificacion": "El propósito fundamental de la gestión y las operaciones en un sistema productivo es el de crear productos y servicios que aporten valor a los clientes. Deberá agregar valor al proceso (Idem #2).",
+    "justificacion": "El propósito de la gestión y las operaciones en un sistema productivo es crear productos y servicios que aporten valor al cliente; lo definitorio es agregar valor, no el mero hecho de producir (Idem #2).",
     "unidades": [
       "Unidad 1"
-    ]
-  },
-  {
-    "id": 64,
-    "examen": "Examen 5",
-    "pregunta": 0,
-    "afirmacion": "Un schedule No permutativo es más apropiado para estructuras de proceso tipo Job Shop.",
-    "respuesta": true,
-    "justificacion": "En Job Shop los trabajos no siguen la misma ruta ni secuencia, por lo que una política no permutativa amplía el espacio de búsqueda logrando mejores resultados (Idem #20).",
-    "unidades": [
-      "Unidad 8"
     ]
   },
   {
@@ -783,28 +728,6 @@
     ]
   },
   {
-    "id": 72,
-    "examen": "Examen 5",
-    "pregunta": 10,
-    "afirmacion": "Un proceso que utiliza lote de transferencia = 1 se caracteriza por un menor inventario en proceso.",
-    "respuesta": true,
-    "justificacion": "Menos piezas esperando turno minimiza el Work In Progress (WIP) (Idem #43).",
-    "unidades": [
-      "Unidad 8"
-    ]
-  },
-  {
-    "id": 73,
-    "examen": "Examen 5",
-    "pregunta": 11,
-    "afirmacion": "La disponibilidad de almacenamiento intermedio evita el bloqueo de los recursos.",
-    "respuesta": true,
-    "justificacion": "Si no hay \"buffers\", una máquina finalizada no puede vaciarse si la siguiente está ocupada, bloqueándose (Idem #44).",
-    "unidades": [
-      "Unidad 8"
-    ]
-  },
-  {
     "id": 74,
     "examen": "Examen 5",
     "pregunta": 12,
@@ -813,39 +736,6 @@
     "justificacion": "Para proteger la planificación, se considera la mayor demanda esperada posible para no generar faltantes (Idem #45).",
     "unidades": [
       "Unidad 5"
-    ]
-  },
-  {
-    "id": 75,
-    "examen": "Examen 5",
-    "pregunta": 13,
-    "afirmacion": "En el cálculo del disponible a prometer el stock de seguridad debe restarse a cada lote de producción planificado.",
-    "respuesta": false,
-    "justificacion": "El stock de seguridad se \"protege\" restándolo únicamente en la disponibilidad del primer período (Idem #27).",
-    "unidades": [
-      "Unidad 5"
-    ]
-  },
-  {
-    "id": 76,
-    "examen": "Examen 5",
-    "pregunta": 14,
-    "afirmacion": "Los pronósticos deben ser calculados para cada artículo en cada punto de venta del mismo.",
-    "respuesta": true,
-    "justificacion": "El DRP requiere pronósticos a nivel de Puntos de Venta para \"tirar\" de la demanda aguas arriba (Idem #19).",
-    "unidades": [
-      "Unidad 7"
-    ]
-  },
-  {
-    "id": 77,
-    "examen": "Examen 5",
-    "pregunta": 15,
-    "afirmacion": "Desde el punto de vista de la gestión, todo sistema que produce bienes o servicios es considerado como un sistema productivo.",
-    "respuesta": false,
-    "justificacion": "El propósito fundamental de la gestión y las operaciones en un sistema productivo es el de crear productos y servicios que aporten valor a los clientes. Debe además agregar valor (Idem #2).",
-    "unidades": [
-      "Unidad 1"
     ]
   },
   {
@@ -1878,7 +1768,7 @@
     "pregunta": 1,
     "afirmacion": "Un modelo de Alisado Exponencial captura el patrón de tendencia en el comportamiento de una serie de tiempo",
     "respuesta": false,
-    "justificacion": "El modelo básico de alisado exponencial no captura tendencia, genera retraso. Se requiere el método de alisado exponencial ajustado (método de Holt) para capturarla.",
+    "justificacion": "El modelo básico de alisado exponencial no captura la tendencia: se retrasa de forma persistente ante una tendencia fuerte. Para capturarla se necesita el alisado exponencial ajustado (método de Holt).",
     "unidades": [
       "Unidad 3"
     ]
@@ -2021,7 +1911,7 @@
     "pregunta": 14,
     "afirmacion": "El Programa Maestro de la Producción permite combinar una política de producción make-to-stock con una política de producción make-to-order",
     "respuesta": true,
-    "justificacion": "El cálculo del PMP nivela de forma híbrida tanto la fabricación de inventario contra pronósticos (MTS) como la satisfacción de los pedidos/órdenes ya en firme del cliente (MTO).",
+    "justificacion": "El PMP nivela de forma híbrida la fabricación contra pronósticos (make-to-stock) y la satisfacción de pedidos ya en firme del cliente (make-to-order).",
     "unidades": [
       "Unidad 5"
     ]
@@ -2035,17 +1925,6 @@
     "justificacion": "En la revisión continua, el tamaño de lote (EOQ o Q*) está determinado por los costos de orden y almacenamiento y la tasa de demanda anual, no por el lead time. El plazo de provisión afecta el tamaño del Punto de Pedido.",
     "unidades": [
       "Unidad 4"
-    ]
-  },
-  {
-    "id": 186,
-    "examen": "Examen 13",
-    "pregunta": 1,
-    "afirmacion": "Un modelo de Alisado Exponencial captura el patrón de tendencia en el comportamiento de una serie de tiempo",
-    "respuesta": false,
-    "justificacion": "El modelo de alisado exponencial de primer orden se retrasa de manera persistente en presencia de una fuerte tendencia (Idem #171).",
-    "unidades": [
-      "Unidad 3"
     ]
   },
   {
@@ -2123,17 +2002,6 @@
     "justificacion": "El makespan no es una medida de tasa o velocidad, es una medida temporal absoluta que representa el tiempo total que toma completar todo un lote de trabajos asignados.",
     "unidades": [
       "Unidad 8"
-    ]
-  },
-  {
-    "id": 194,
-    "examen": "Examen 13",
-    "pregunta": 9,
-    "afirmacion": "El Programa Maestro de la Producción permite combinar una política de producción make-to-stock con una política de producción make-to-order",
-    "respuesta": true,
-    "justificacion": "El cálculo del PMP nivela de forma híbrida tanto la fabricación de inventario contra pronósticos (MTS) como la satisfacción de los pedidos/órdenes ya en firme del cliente (MTO) (Idem #184).",
-    "unidades": [
-      "Unidad 5"
     ]
   },
   {
