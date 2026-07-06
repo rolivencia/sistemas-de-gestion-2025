@@ -135,11 +135,6 @@ import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle
                             </span>
                           }
                         </div>
-                        @if (!item.answeredCorrectly && item.question.verificacion) {
-                          <p class="text-xs text-muted-foreground mt-3 leading-relaxed">
-                            {{ item.question.verificacion }}
-                          </p>
-                        }
                       </div>
                     </div>
                   </div>

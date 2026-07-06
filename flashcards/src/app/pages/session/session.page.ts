@@ -143,16 +143,6 @@ import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle
                         </p>
                       </div>
                     }
-                    @if (question.verificacion) {
-                      <div>
-                        <p class="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
-                          Verificaci&oacute;n
-                        </p>
-                        <p class="text-sm text-foreground/90 leading-relaxed">
-                          {{ question.verificacion }}
-                        </p>
-                      </div>
-                    }
                   </div>
                 }
 

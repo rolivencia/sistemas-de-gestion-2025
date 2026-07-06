@@ -6,7 +6,6 @@ export interface Question {
   readonly respuesta: boolean;
   readonly justificacion: string;
   readonly unidades: readonly string[];
-  readonly verificacion: string;
 }
 
 export interface SessionAnswer {
