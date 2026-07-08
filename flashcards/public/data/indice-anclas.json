@@ -1,0 +1,3299 @@
+{
+  "meta": {
+    "descripcion": "Índice de anclas de los apuntes del vault para deep-linking desde flashcards (Etapa 3, Fase 0).",
+    "algoritmo_slug": "lowercase -> quitar acentos (NFD+strip Mn) -> runs de [^a-z0-9] a '-' -> trim '-'; duplicados por apunte con sufijo -1,-2,...",
+    "total_apuntes": 28,
+    "total_anclas": 482,
+    "nota_fase3": "Fase 3 debe generar los id de encabezado con ESTE mismo algoritmo (no el github-slugger por defecto de marked), o el scroll no engancha."
+  },
+  "apuntes": [
+    {
+      "archivo": "apunte-1-introduccion-sistemas-de-gestion",
+      "numero_apunte": 1,
+      "unidad": "Unidad 1",
+      "titulo_unidad": "Gestión de Sistemas Productivos y Sistemas de Gestión",
+      "titulo": "Apunte 1 — Introducción a los Sistemas de Gestión",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Agenda de la presentación",
+          "ancla": "agenda-de-la-presentacion",
+          "linea": 16
+        },
+        {
+          "nivel": 2,
+          "seccion": "Objetivos y propósito del curso",
+          "ancla": "objetivos-y-proposito-del-curso",
+          "linea": 25
+        },
+        {
+          "nivel": 2,
+          "seccion": "1. Gestión de Operaciones",
+          "ancla": "1-gestion-de-operaciones",
+          "linea": 45
+        },
+        {
+          "nivel": 3,
+          "seccion": "¿Qué es la Gestión de Operaciones?",
+          "ancla": "que-es-la-gestion-de-operaciones",
+          "linea": 47
+        },
+        {
+          "nivel": 3,
+          "seccion": "Sistemas productivos: producción de bienes vs. producción de servicios",
+          "ancla": "sistemas-productivos-produccion-de-bienes-vs-produccion-de-servicios",
+          "linea": 53
+        },
+        {
+          "nivel": 3,
+          "seccion": "Objetivos principales de la Gestión de Operaciones",
+          "ancla": "objetivos-principales-de-la-gestion-de-operaciones",
+          "linea": 63
+        },
+        {
+          "nivel": 3,
+          "seccion": "Conceptos clave: operación y proceso de transformación",
+          "ancla": "conceptos-clave-operacion-y-proceso-de-transformacion",
+          "linea": 71
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tipos de procesos de transformación",
+          "ancla": "tipos-de-procesos-de-transformacion",
+          "linea": 88
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ejemplo de gestión de operaciones en un sistema productivo",
+          "ancla": "ejemplo-de-gestion-de-operaciones-en-un-sistema-productivo",
+          "linea": 98
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tópicos principales de la Gestión de Operaciones",
+          "ancla": "topicos-principales-de-la-gestion-de-operaciones",
+          "linea": 117
+        },
+        {
+          "nivel": 3,
+          "seccion": "Estrategia: Analítica de Negocio (*Business Analytics*)",
+          "ancla": "estrategia-analitica-de-negocio-business-analytics",
+          "linea": 128
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Gestión de Cadenas de Suministro",
+          "ancla": "2-gestion-de-cadenas-de-suministro",
+          "linea": 137
+        },
+        {
+          "nivel": 3,
+          "seccion": "¿Qué es una Cadena de Suministro?",
+          "ancla": "que-es-una-cadena-de-suministro",
+          "linea": 139
+        },
+        {
+          "nivel": 3,
+          "seccion": "Gestión de la Cadena de Suministro",
+          "ancla": "gestion-de-la-cadena-de-suministro",
+          "linea": 155
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tipos de procesos en la Cadena de Suministro (modelo SCOR)",
+          "ancla": "tipos-de-procesos-en-la-cadena-de-suministro-modelo-scor",
+          "linea": 165
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tres aspectos a considerar en forma integrada",
+          "ancla": "tres-aspectos-a-considerar-en-forma-integrada",
+          "linea": 189
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Gestión de Procesos de Negocio",
+          "ancla": "3-gestion-de-procesos-de-negocio",
+          "linea": 199
+        },
+        {
+          "nivel": 3,
+          "seccion": "Gestión de Procesos de Negocio: Ciclo de Vida",
+          "ancla": "gestion-de-procesos-de-negocio-ciclo-de-vida",
+          "linea": 210
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Sistemas de Información (Sistemas de Gestión)",
+          "ancla": "4-sistemas-de-informacion-sistemas-de-gestion",
+          "linea": 223
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tipos de Sistemas de Información",
+          "ancla": "tipos-de-sistemas-de-informacion",
+          "linea": 225
+        },
+        {
+          "nivel": 3,
+          "seccion": "Evolución de los Sistemas de Gestión Empresariales",
+          "ancla": "evolucion-de-los-sistemas-de-gestion-empresariales",
+          "linea": 234
+        },
+        {
+          "nivel": 3,
+          "seccion": "Sistema MRP",
+          "ancla": "sistema-mrp",
+          "linea": 243
+        },
+        {
+          "nivel": 3,
+          "seccion": "Sistema ERP",
+          "ancla": "sistema-erp",
+          "linea": 252
+        },
+        {
+          "nivel": 3,
+          "seccion": "Sistemas de Gestión de Procesos de Negocio (BPMS)",
+          "ancla": "sistemas-de-gestion-de-procesos-de-negocio-bpms",
+          "linea": 291
+        },
+        {
+          "nivel": 3,
+          "seccion": "Sistemas de Gestión como herramientas analíticas",
+          "ancla": "sistemas-de-gestion-como-herramientas-analiticas",
+          "linea": 312
+        },
+        {
+          "nivel": 3,
+          "seccion": "Sistemas Soporte de Decisión (DSS)",
+          "ancla": "sistemas-soporte-de-decision-dss",
+          "linea": 319
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tipos de analítica (Business Analytics)",
+          "ancla": "tipos-de-analitica-business-analytics",
+          "linea": 376
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tendencias de tecnologías en Sistemas de Gestión",
+          "ancla": "tendencias-de-tecnologias-en-sistemas-de-gestion",
+          "linea": 382
+        },
+        {
+          "nivel": 2,
+          "seccion": "Mapa conceptual de la unidad (síntesis)",
+          "ancla": "mapa-conceptual-de-la-unidad-sintesis",
+          "linea": 390
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-2-bpms",
+      "numero_apunte": 2,
+      "unidad": "Unidad 2",
+      "titulo_unidad": "Gestión de Procesos de Negocio",
+      "titulo": "Apunte 2 — Sistemas de Gestión de Procesos de Negocio (BPMS)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Agenda de la presentación",
+          "ancla": "agenda-de-la-presentacion",
+          "linea": 16
+        },
+        {
+          "nivel": 2,
+          "seccion": "1. Sistemas de Información Orientados a Procesos (SIOP)",
+          "ancla": "1-sistemas-de-informacion-orientados-a-procesos-siop",
+          "linea": 25
+        },
+        {
+          "nivel": 3,
+          "seccion": "Dos tendencias previas en los Sistemas de Información",
+          "ancla": "dos-tendencias-previas-en-los-sistemas-de-informacion",
+          "linea": 27
+        },
+        {
+          "nivel": 3,
+          "seccion": "La idea principal de un SIOP",
+          "ancla": "la-idea-principal-de-un-siop",
+          "linea": 53
+        },
+        {
+          "nivel": 3,
+          "seccion": "Definición de SIOP",
+          "ancla": "definicion-de-siop",
+          "linea": 73
+        },
+        {
+          "nivel": 3,
+          "seccion": "Modelo de proceso, instancia y SIOP",
+          "ancla": "modelo-de-proceso-instancia-y-siop",
+          "linea": 77
+        },
+        {
+          "nivel": 3,
+          "seccion": "Beneficios de los SIOP",
+          "ancla": "beneficios-de-los-siop",
+          "linea": 86
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tipos de SIOP",
+          "ancla": "tipos-de-siop",
+          "linea": 95
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tecnología a estudiar en el curso",
+          "ancla": "tecnologia-a-estudiar-en-el-curso",
+          "linea": 105
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ejercicios (Verdadero/Falso, justificar)",
+          "ancla": "ejercicios-verdadero-falso-justificar",
+          "linea": 113
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Automatización de Procesos y Workflows",
+          "ancla": "2-automatizacion-de-procesos-y-workflows",
+          "linea": 123
+        },
+        {
+          "nivel": 3,
+          "seccion": "Del modelo a la ejecución",
+          "ancla": "del-modelo-a-la-ejecucion",
+          "linea": 125
+        },
+        {
+          "nivel": 3,
+          "seccion": "Especificación de proceso (modelo ejecutable)",
+          "ancla": "especificacion-de-proceso-modelo-ejecutable",
+          "linea": 138
+        },
+        {
+          "nivel": 3,
+          "seccion": "Caso / Instancia de proceso",
+          "ancla": "caso-instancia-de-proceso",
+          "linea": 149
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ciclo de vida de la instancia de un proceso/workflow",
+          "ancla": "ciclo-de-vida-de-la-instancia-de-un-proceso-workflow",
+          "linea": 160
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ciclo de vida de la instancia de una actividad",
+          "ancla": "ciclo-de-vida-de-la-instancia-de-una-actividad",
+          "linea": 171
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ítem de Trabajo (Work Item) y Lista de Trabajos (Worklist)",
+          "ancla": "item-de-trabajo-work-item-y-lista-de-trabajos-worklist",
+          "linea": 184
+        },
+        {
+          "nivel": 3,
+          "seccion": "Relaciones entre los conceptos de workflows",
+          "ancla": "relaciones-entre-los-conceptos-de-workflows",
+          "linea": 190
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ejercicios",
+          "ancla": "ejercicios",
+          "linea": 202
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Arquitectura Genérica de los BPMS",
+          "ancla": "3-arquitectura-generica-de-los-bpms",
+          "linea": 213
+        },
+        {
+          "nivel": 3,
+          "seccion": "Definición de BPMS",
+          "ancla": "definicion-de-bpms",
+          "linea": 215
+        },
+        {
+          "nivel": 3,
+          "seccion": "Componentes funcionales (visión general)",
+          "ancla": "componentes-funcionales-vision-general",
+          "linea": 223
+        },
+        {
+          "nivel": 3,
+          "seccion": "Arquitectura de referencia (modelo WfMC)",
+          "ancla": "arquitectura-de-referencia-modelo-wfmc",
+          "linea": 233
+        },
+        {
+          "nivel": 3,
+          "seccion": "Herramientas de Modelado / Implementación",
+          "ancla": "herramientas-de-modelado-implementacion",
+          "linea": 245
+        },
+        {
+          "nivel": 3,
+          "seccion": "Servicio de Ejecución (Enactment) de Proceso",
+          "ancla": "servicio-de-ejecucion-enactment-de-proceso",
+          "linea": 253
+        },
+        {
+          "nivel": 3,
+          "seccion": "Aplicaciones cliente del BPMS — Manejador de la Lista de Trabajos",
+          "ancla": "aplicaciones-cliente-del-bpms-manejador-de-la-lista-de-trabajos",
+          "linea": 263
+        },
+        {
+          "nivel": 3,
+          "seccion": "Herramientas de Administración y Control",
+          "ancla": "herramientas-de-administracion-y-control",
+          "linea": 279
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ventajas de los BPMS",
+          "ancla": "ventajas-de-los-bpms",
+          "linea": 288
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ejercicios",
+          "ancla": "ejercicios-1",
+          "linea": 311
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Gestión de Recursos en la Automatización de Workflows",
+          "ancla": "4-gestion-de-recursos-en-la-automatizacion-de-workflows",
+          "linea": 322
+        },
+        {
+          "nivel": 3,
+          "seccion": "Conceptos: tarea, ítem de trabajo e instancia de tarea",
+          "ancla": "conceptos-tarea-item-de-trabajo-e-instancia-de-tarea",
+          "linea": 324
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ejemplo: proceso de Gestión de Demandas/Reclamos",
+          "ancla": "ejemplo-proceso-de-gestion-de-demandas-reclamos",
+          "linea": 339
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ejemplo: ítems de trabajo, instancias y listas de trabajo",
+          "ancla": "ejemplo-items-de-trabajo-instancias-y-listas-de-trabajo",
+          "linea": 374
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ejercicios (Verdadero/Falso, justificar)",
+          "ancla": "ejercicios-verdadero-falso-justificar-1",
+          "linea": 403
+        },
+        {
+          "nivel": 2,
+          "seccion": "Síntesis del apunte",
+          "ancla": "sintesis-del-apunte",
+          "linea": 414
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-3-introduccion-bpm",
+      "numero_apunte": 3,
+      "unidad": "Unidad 2",
+      "titulo_unidad": "Gestión de Procesos de Negocio",
+      "titulo": "Apunte 3 — Introducción a la Gestión de Procesos de Negocio (BPM)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Agenda de la presentación",
+          "ancla": "agenda-de-la-presentacion",
+          "linea": 16
+        },
+        {
+          "nivel": 2,
+          "seccion": "1. Gestión organizacional tradicional vs. gestión por procesos",
+          "ancla": "1-gestion-organizacional-tradicional-vs-gestion-por-procesos",
+          "linea": 24
+        },
+        {
+          "nivel": 3,
+          "seccion": "Gestión organizacional tradicional",
+          "ancla": "gestion-organizacional-tradicional",
+          "linea": 26
+        },
+        {
+          "nivel": 3,
+          "seccion": "Gestión organizacional por procesos",
+          "ancla": "gestion-organizacional-por-procesos",
+          "linea": 49
+        },
+        {
+          "nivel": 3,
+          "seccion": "Elementos de un proceso de negocio",
+          "ancla": "elementos-de-un-proceso-de-negocio",
+          "linea": 67
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ejemplo de proceso de negocio",
+          "ancla": "ejemplo-de-proceso-de-negocio",
+          "linea": 79
+        },
+        {
+          "nivel": 3,
+          "seccion": "Beneficios de la gestión por procesos",
+          "ancla": "beneficios-de-la-gestion-por-procesos",
+          "linea": 99
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Gestión de Procesos de Negocio (BPM): ciclo de vida",
+          "ancla": "2-gestion-de-procesos-de-negocio-bpm-ciclo-de-vida",
+          "linea": 111
+        },
+        {
+          "nivel": 3,
+          "seccion": "¿Qué es BPM (Business Process Management)?",
+          "ancla": "que-es-bpm-business-process-management",
+          "linea": 113
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ciclo de vida (cuatro fases)",
+          "ancla": "ciclo-de-vida-cuatro-fases",
+          "linea": 121
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ciclo de vida (modelo de seis fases, Dumas et al.)",
+          "ancla": "ciclo-de-vida-modelo-de-seis-fases-dumas-et-al",
+          "linea": 142
+        },
+        {
+          "nivel": 3,
+          "seccion": "Características de la Gestión de Procesos de Negocio",
+          "ancla": "caracteristicas-de-la-gestion-de-procesos-de-negocio",
+          "linea": 177
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ciclo de vida y herramientas de software",
+          "ancla": "ciclo-de-vida-y-herramientas-de-software",
+          "linea": 187
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Enfoque metodológico para implementar BPM",
+          "ancla": "3-enfoque-metodologico-para-implementar-bpm",
+          "linea": 201
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tres niveles de implementación",
+          "ancla": "tres-niveles-de-implementacion",
+          "linea": 203
+        },
+        {
+          "nivel": 3,
+          "seccion": "Indicadores de rendimiento de procesos (KPIs)",
+          "ancla": "indicadores-de-rendimiento-de-procesos-kpis",
+          "linea": 211
+        },
+        {
+          "nivel": 3,
+          "seccion": "Identificación de procesos: definir el mapa o arquitectura de procesos",
+          "ancla": "identificacion-de-procesos-definir-el-mapa-o-arquitectura-de-procesos",
+          "linea": 221
+        },
+        {
+          "nivel": 3,
+          "seccion": "Rediseño o mejora de un proceso (As-Is → To-Be)",
+          "ancla": "rediseno-o-mejora-de-un-proceso-as-is-to-be",
+          "linea": 229
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicios",
+          "ancla": "ejercicios",
+          "linea": 263
+        },
+        {
+          "nivel": 2,
+          "seccion": "Síntesis del apunte",
+          "ancla": "sintesis-del-apunte",
+          "linea": 281
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-4-bpmn",
+      "numero_apunte": 4,
+      "unidad": "Unidad 2",
+      "titulo_unidad": "Gestión de Procesos de Negocio",
+      "titulo": "Apunte 4 — Diseño y Modelado Conceptual de Procesos de Negocio: BPMN",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Agenda de la presentación",
+          "ancla": "agenda-de-la-presentacion",
+          "linea": 18
+        },
+        {
+          "nivel": 2,
+          "seccion": "1. Perspectivas (vistas) de un modelo de proceso",
+          "ancla": "1-perspectivas-vistas-de-un-modelo-de-proceso",
+          "linea": 34
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Business Process Model and Notation (BPMN)",
+          "ancla": "2-business-process-model-and-notation-bpmn",
+          "linea": 50
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tipos de diagramas",
+          "ancla": "tipos-de-diagramas",
+          "linea": 60
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Elementos básicos de BPMN",
+          "ancla": "3-elementos-basicos-de-bpmn",
+          "linea": 73
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.1. Objetos de Flujo (Flow Objects)",
+          "ancla": "3-1-objetos-de-flujo-flow-objects",
+          "linea": 84
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.2. Objetos de Conexión (Connecting Objects)",
+          "ancla": "3-2-objetos-de-conexion-connecting-objects",
+          "linea": 94
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.3. Datos",
+          "ancla": "3-3-datos",
+          "linea": 105
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.4. Swimlanes",
+          "ancla": "3-4-swimlanes",
+          "linea": 141
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.5. Artefactos",
+          "ancla": "3-5-artefactos",
+          "linea": 175
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.6. Convenciones de nombres sugeridas",
+          "ancla": "3-6-convenciones-de-nombres-sugeridas",
+          "linea": 184
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.7. Ejemplo integrador de elementos básicos",
+          "ancla": "3-7-ejemplo-integrador-de-elementos-basicos",
+          "linea": 194
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Semántica de ejecución: el Token",
+          "ancla": "4-semantica-de-ejecucion-el-token",
+          "linea": 220
+        },
+        {
+          "nivel": 3,
+          "seccion": "Semántica de ejecución de actividades (según el token)",
+          "ancla": "semantica-de-ejecucion-de-actividades-segun-el-token",
+          "linea": 231
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. Actividades: Tareas y Subprocesos",
+          "ancla": "5-actividades-tareas-y-subprocesos",
+          "linea": 250
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.1. Tarea (Task)",
+          "ancla": "5-1-tarea-task",
+          "linea": 252
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.2. Subproceso",
+          "ancla": "5-2-subproceso",
+          "linea": 275
+        },
+        {
+          "nivel": 2,
+          "seccion": "6. Gateways",
+          "ancla": "6-gateways",
+          "linea": 287
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.1. Exclusive Gateway (XOR)",
+          "ancla": "6-1-exclusive-gateway-xor",
+          "linea": 300
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.2. Inclusive Gateway (OR)",
+          "ancla": "6-2-inclusive-gateway-or",
+          "linea": 317
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.3. Parallel Gateway (AND)",
+          "ancla": "6-3-parallel-gateway-and",
+          "linea": 344
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.4. Event-Based Gateway",
+          "ancla": "6-4-event-based-gateway",
+          "linea": 358
+        },
+        {
+          "nivel": 2,
+          "seccion": "7. Eventos",
+          "ancla": "7-eventos",
+          "linea": 379
+        },
+        {
+          "nivel": 3,
+          "seccion": "7.1. Evento de Inicio (Start Event)",
+          "ancla": "7-1-evento-de-inicio-start-event",
+          "linea": 392
+        },
+        {
+          "nivel": 3,
+          "seccion": "7.2. Evento de Fin (End Event)",
+          "ancla": "7-2-evento-de-fin-end-event",
+          "linea": 429
+        },
+        {
+          "nivel": 3,
+          "seccion": "7.3. Evento Intermedio (Intermediate Event)",
+          "ancla": "7-3-evento-intermedio-intermediate-event",
+          "linea": 450
+        },
+        {
+          "nivel": 2,
+          "seccion": "8. Marcadores",
+          "ancla": "8-marcadores",
+          "linea": 473
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.1. Marcadores de Tarea",
+          "ancla": "8-1-marcadores-de-tarea",
+          "linea": 475
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.2. Marcadores de Subproceso",
+          "ancla": "8-2-marcadores-de-subproceso",
+          "linea": 511
+        },
+        {
+          "nivel": 2,
+          "seccion": "9. Manejo de excepciones y compensación",
+          "ancla": "9-manejo-de-excepciones-y-compensacion",
+          "linea": 521
+        },
+        {
+          "nivel": 3,
+          "seccion": "9.1. Subproceso de evento (manejo de excepciones)",
+          "ancla": "9-1-subproceso-de-evento-manejo-de-excepciones",
+          "linea": 551
+        },
+        {
+          "nivel": 3,
+          "seccion": "9.2. Compensación",
+          "ancla": "9-2-compensacion",
+          "linea": 574
+        },
+        {
+          "nivel": 2,
+          "seccion": "10. Perspectivas soportadas por BPMN y complemento con UML",
+          "ancla": "10-perspectivas-soportadas-por-bpmn-y-complemento-con-uml",
+          "linea": 607
+        },
+        {
+          "nivel": 2,
+          "seccion": "11. Herramientas de modelado con BPMN (Free / Open Source)",
+          "ancla": "11-herramientas-de-modelado-con-bpmn-free-open-source",
+          "linea": 624
+        },
+        {
+          "nivel": 2,
+          "seccion": "Síntesis del apunte",
+          "ancla": "sintesis-del-apunte",
+          "linea": 637
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-5-ejercicios-bpmn",
+      "numero_apunte": 5,
+      "unidad": "Unidad 2",
+      "titulo_unidad": "Gestión de Procesos de Negocio",
+      "titulo": "Apunte 5 — Ejercicios: Modelado Conceptual de Procesos de Negocio (BPMN)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 1 — Gestión de envío de productos (minorista de hardware)",
+          "ancla": "ejercicio-1-gestion-de-envio-de-productos-minorista-de-hardware",
+          "linea": 13
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 2 — Gestión de órdenes de venta (distribuidora de pinturas)",
+          "ancla": "ejercicio-2-gestion-de-ordenes-de-venta-distribuidora-de-pinturas",
+          "linea": 42
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 3 — Variantes sobre el proceso de órdenes de venta",
+          "ancla": "ejercicio-3-variantes-sobre-el-proceso-de-ordenes-de-venta",
+          "linea": 73
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.1 — Requerimiento 1: múltiples envíos (despacho parcial)",
+          "ancla": "3-1-requerimiento-1-multiples-envios-despacho-parcial",
+          "linea": 86
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.2 — Requerimiento 2: cancelación previa a \"aceptada\"",
+          "ancla": "3-2-requerimiento-2-cancelacion-previa-a-aceptada",
+          "linea": 92
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.3 y 3.4 — Requerimientos 3 y 4: cancelación sin remito y timeout de 30 días",
+          "ancla": "3-3-y-3-4-requerimientos-3-y-4-cancelacion-sin-remito-y-timeout-de-30-dias",
+          "linea": 96
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.5 — Requerimiento 5: notificación a los 15 días (no interruptivo)",
+          "ancla": "3-5-requerimiento-5-notificacion-a-los-15-dias-no-interruptivo",
+          "linea": 102
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.6 — Requerimiento 6: compensaciones",
+          "ancla": "3-6-requerimiento-6-compensaciones",
+          "linea": 108
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 4 — Gestión de órdenes de muebles a medida",
+          "ancla": "ejercicio-4-gestion-de-ordenes-de-muebles-a-medida",
+          "linea": 118
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 5 — Gestión de solicitudes de reembolso de gastos",
+          "ancla": "ejercicio-5-gestion-de-solicitudes-de-reembolso-de-gastos",
+          "linea": 153
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 6 — Gestión de créditos de consumo (entidad financiera)",
+          "ancla": "ejercicio-6-gestion-de-creditos-de-consumo-entidad-financiera",
+          "linea": 167
+        },
+        {
+          "nivel": 2,
+          "seccion": "Notas de resolución (transversales a los ejercicios)",
+          "ancla": "notas-de-resolucion-transversales-a-los-ejercicios",
+          "linea": 181
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-6-patrones-modelado-procesos",
+      "numero_apunte": 6,
+      "unidad": "Unidad 2",
+      "titulo_unidad": "Gestión de Procesos de Negocio",
+      "titulo": "Apunte 6 — Patrones de Modelado de Procesos",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "1. ¿Qué son los patrones de modelado de procesos?",
+          "ancla": "1-que-son-los-patrones-de-modelado-de-procesos",
+          "linea": 9
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Patrones de flujo de control (control-flow)",
+          "ancla": "2-patrones-de-flujo-de-control-control-flow",
+          "linea": 28
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.1. Patrones básicos",
+          "ancla": "2-1-patrones-basicos",
+          "linea": 32
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.2. Ramificación y sincronización avanzada",
+          "ancla": "2-2-ramificacion-y-sincronizacion-avanzada",
+          "linea": 42
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.3. Instancias múltiples (Multiple Instances)",
+          "ancla": "2-3-instancias-multiples-multiple-instances",
+          "linea": 53
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.4. Patrones basados en estado (state-based)",
+          "ancla": "2-4-patrones-basados-en-estado-state-based",
+          "linea": 68
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.5. Iteración y repetición",
+          "ancla": "2-5-iteracion-y-repeticion",
+          "linea": 80
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.6. Terminación y cancelación",
+          "ancla": "2-6-terminacion-y-cancelacion",
+          "linea": 87
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Patrones de datos (data)",
+          "ancla": "3-patrones-de-datos-data",
+          "linea": 99
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Patrones de recursos (resource)",
+          "ancla": "4-patrones-de-recursos-resource",
+          "linea": 112
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. Patrones de manejo de excepciones",
+          "ancla": "5-patrones-de-manejo-de-excepciones",
+          "linea": 125
+        },
+        {
+          "nivel": 2,
+          "seccion": "6. Para qué sirven, en la práctica",
+          "ancla": "6-para-que-sirven-en-la-practica",
+          "linea": 131
+        },
+        {
+          "nivel": 2,
+          "seccion": "Síntesis del apunte",
+          "ancla": "sintesis-del-apunte",
+          "linea": 141
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-7-pronosticos-de-demanda",
+      "numero_apunte": 7,
+      "unidad": "Unidad 3",
+      "titulo_unidad": "Pronósticos de Demanda",
+      "titulo": "Apunte 7 — Gestión de Pronósticos (Forecasting) de Demanda",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Agenda de la presentación",
+          "ancla": "agenda-de-la-presentacion",
+          "linea": 16
+        },
+        {
+          "nivel": 2,
+          "seccion": "1. Introducción",
+          "ancla": "1-introduccion",
+          "linea": 31
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tipos de pronósticos",
+          "ancla": "tipos-de-pronosticos",
+          "linea": 43
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Rol estratégico del pronóstico",
+          "ancla": "2-rol-estrategico-del-pronostico",
+          "linea": 57
+        },
+        {
+          "nivel": 3,
+          "seccion": "Por qué importan los pronósticos precisos",
+          "ancla": "por-que-importan-los-pronosticos-precisos",
+          "linea": 64
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Componentes de un pronóstico de demanda",
+          "ancla": "3-componentes-de-un-pronostico-de-demanda",
+          "linea": 85
+        },
+        {
+          "nivel": 3,
+          "seccion": "a) Horizonte de tiempo (*time frame*)",
+          "ancla": "a-horizonte-de-tiempo-time-frame",
+          "linea": 89
+        },
+        {
+          "nivel": 3,
+          "seccion": "b) Comportamiento de la demanda",
+          "ancla": "b-comportamiento-de-la-demanda",
+          "linea": 94
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Proceso de pronóstico",
+          "ancla": "4-proceso-de-pronostico",
+          "linea": 109
+        },
+        {
+          "nivel": 3,
+          "seccion": "Familias de métodos de pronóstico",
+          "ancla": "familias-de-metodos-de-pronostico",
+          "linea": 136
+        },
+        {
+          "nivel": 2,
+          "seccion": "★ Catálogo de métodos de pronóstico (énfasis del apunte)",
+          "ancla": "catalogo-de-metodos-de-pronostico-enfasis-del-apunte",
+          "linea": 157
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. Métodos de análisis de series de tiempo",
+          "ancla": "5-metodos-de-analisis-de-series-de-tiempo",
+          "linea": 179
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.1. Medias móviles (*moving average*)",
+          "ancla": "5-1-medias-moviles-moving-average",
+          "linea": 200
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.2. Media móvil ponderada (*weighted moving average*)",
+          "ancla": "5-2-media-movil-ponderada-weighted-moving-average",
+          "linea": 230
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.3. Alisado exponencial (*exponential smoothing*)",
+          "ancla": "5-3-alisado-exponencial-exponential-smoothing",
+          "linea": 248
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.4. Alisado exponencial ajustado (con factor de tendencia)",
+          "ancla": "5-4-alisado-exponencial-ajustado-con-factor-de-tendencia",
+          "linea": 292
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.5. Ajuste lineal de tendencia (*linear trend line*)",
+          "ancla": "5-5-ajuste-lineal-de-tendencia-linear-trend-line",
+          "linea": 325
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.6. Ajuste estacional",
+          "ancla": "5-6-ajuste-estacional",
+          "linea": 364
+        },
+        {
+          "nivel": 2,
+          "seccion": "6. Exactitud del pronóstico",
+          "ancla": "6-exactitud-del-pronostico",
+          "linea": 399
+        },
+        {
+          "nivel": 3,
+          "seccion": "Desviación absoluta media — MAD (*Mean Absolute Deviation*)",
+          "ancla": "desviacion-absoluta-media-mad-mean-absolute-deviation",
+          "linea": 409
+        },
+        {
+          "nivel": 3,
+          "seccion": "Otras medidas de error",
+          "ancla": "otras-medidas-de-error",
+          "linea": 434
+        },
+        {
+          "nivel": 3,
+          "seccion": "Comparación de pronósticos",
+          "ancla": "comparacion-de-pronosticos",
+          "linea": 450
+        },
+        {
+          "nivel": 2,
+          "seccion": "7. Control de pronóstico (monitoreo y control)",
+          "ancla": "7-control-de-pronostico-monitoreo-y-control",
+          "linea": 465
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tracking Signal (señal de rastreo)",
+          "ancla": "tracking-signal-senal-de-rastreo",
+          "linea": 471
+        },
+        {
+          "nivel": 3,
+          "seccion": "Monitoreo con gráficos de control estadísticos",
+          "ancla": "monitoreo-con-graficos-de-control-estadisticos",
+          "linea": 497
+        },
+        {
+          "nivel": 2,
+          "seccion": "8. Modelos de relaciones entre variables (métodos causales)",
+          "ancla": "8-modelos-de-relaciones-entre-variables-metodos-causales",
+          "linea": 507
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.1. Regresión lineal (simple)",
+          "ancla": "8-1-regresion-lineal-simple",
+          "linea": 511
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.2. Coeficiente de correlación y coeficiente de determinación",
+          "ancla": "8-2-coeficiente-de-correlacion-y-coeficiente-de-determinacion",
+          "linea": 529
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.3. Regresión múltiple",
+          "ancla": "8-3-regresion-multiple",
+          "linea": 544
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.4. Modelos econométricos",
+          "ancla": "8-4-modelos-econometricos",
+          "linea": 574
+        },
+        {
+          "nivel": 2,
+          "seccion": "9. Implementación de los métodos en sistemas de soporte de pronósticos",
+          "ancla": "9-implementacion-de-los-metodos-en-sistemas-de-soporte-de-pronosticos",
+          "linea": 585
+        },
+        {
+          "nivel": 2,
+          "seccion": "10. Ejercicios (de la presentación)",
+          "ancla": "10-ejercicios-de-la-presentacion",
+          "linea": 596
+        },
+        {
+          "nivel": 2,
+          "seccion": "11. Métodos cualitativos",
+          "ancla": "11-metodos-cualitativos",
+          "linea": 612
+        },
+        {
+          "nivel": 3,
+          "seccion": "1. Encuestas",
+          "ancla": "1-encuestas",
+          "linea": 625
+        },
+        {
+          "nivel": 3,
+          "seccion": "2. Diseño de experimentos",
+          "ancla": "2-diseno-de-experimentos",
+          "linea": 633
+        },
+        {
+          "nivel": 3,
+          "seccion": "3. Simulación en base a modelos",
+          "ancla": "3-simulacion-en-base-a-modelos",
+          "linea": 641
+        },
+        {
+          "nivel": 3,
+          "seccion": "4. Delphi (Delfos) e impactos cruzados",
+          "ancla": "4-delphi-delfos-e-impactos-cruzados",
+          "linea": 650
+        },
+        {
+          "nivel": 2,
+          "seccion": "Síntesis del apunte",
+          "ancla": "sintesis-del-apunte",
+          "linea": 663
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-9-casos-de-estudio-resueltos",
+      "numero_apunte": 9,
+      "unidad": "Unidad 3",
+      "titulo_unidad": "Pronósticos de Demanda",
+      "titulo": "Apunte 9 — Casos de estudio resueltos (Pronósticos de Demanda)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Caso 1 — Concesionaria de autos (demanda con tendencia)",
+          "ancla": "caso-1-concesionaria-de-autos-demanda-con-tendencia",
+          "linea": 13
+        },
+        {
+          "nivel": 3,
+          "seccion": "a) Comportamiento de la serie",
+          "ancla": "a-comportamiento-de-la-serie",
+          "linea": 21
+        },
+        {
+          "nivel": 3,
+          "seccion": "b) Media móvil de 3 meses (pronóstico del mes 10)",
+          "ancla": "b-media-movil-de-3-meses-pronostico-del-mes-10",
+          "linea": 25
+        },
+        {
+          "nivel": 3,
+          "seccion": "c) Media móvil de 5 meses (pronóstico del mes 10)",
+          "ancla": "c-media-movil-de-5-meses-pronostico-del-mes-10",
+          "linea": 29
+        },
+        {
+          "nivel": 3,
+          "seccion": "d) Alisado exponencial simple ($\\alpha = 0.40$)",
+          "ancla": "d-alisado-exponencial-simple-alpha-0-40",
+          "linea": 33
+        },
+        {
+          "nivel": 3,
+          "seccion": "e) Alisado exponencial ajustado ($\\alpha = 0.40$, $\\beta = 0.30$)",
+          "ancla": "e-alisado-exponencial-ajustado-alpha-0-40-beta-0-30",
+          "linea": 37
+        },
+        {
+          "nivel": 3,
+          "seccion": "f) Comparación por medidas de error",
+          "ancla": "f-comparacion-por-medidas-de-error",
+          "linea": 41
+        },
+        {
+          "nivel": 3,
+          "seccion": "g) Tendencia lineal (pronóstico del mes 10)",
+          "ancla": "g-tendencia-lineal-pronostico-del-mes-10",
+          "linea": 54
+        },
+        {
+          "nivel": 3,
+          "seccion": "h) ¿Conviene la tendencia lineal para pronosticar los próximos 5 meses?",
+          "ancla": "h-conviene-la-tendencia-lineal-para-pronosticar-los-proximos-5-meses",
+          "linea": 71
+        },
+        {
+          "nivel": 3,
+          "seccion": "i) Monitoreo (tracking signal): ¿están bajo control?",
+          "ancla": "i-monitoreo-tracking-signal-estan-bajo-control",
+          "linea": 75
+        },
+        {
+          "nivel": 2,
+          "seccion": "Caso 2 — Fastgro Fertilizer (demanda estacional)",
+          "ancla": "caso-2-fastgro-fertilizer-demanda-estacional",
+          "linea": 83
+        },
+        {
+          "nivel": 3,
+          "seccion": "a) Comportamiento de la serie",
+          "ancla": "a-comportamiento-de-la-serie-1",
+          "linea": 94
+        },
+        {
+          "nivel": 3,
+          "seccion": "b) Pronóstico anual y trimestral del año 4",
+          "ancla": "b-pronostico-anual-y-trimestral-del-ano-4",
+          "linea": 98
+        },
+        {
+          "nivel": 2,
+          "seccion": "Caso 3 — ACME Tools (demanda explicada por otra variable)",
+          "ancla": "caso-3-acme-tools-demanda-explicada-por-otra-variable",
+          "linea": 123
+        },
+        {
+          "nivel": 3,
+          "seccion": "a) Fuerza de la relación lineal (coeficiente de correlación)",
+          "ancla": "a-fuerza-de-la-relacion-lineal-coeficiente-de-correlacion",
+          "linea": 142
+        },
+        {
+          "nivel": 3,
+          "seccion": "b) Coeficiente de determinación",
+          "ancla": "b-coeficiente-de-determinacion",
+          "linea": 148
+        },
+        {
+          "nivel": 3,
+          "seccion": "c) Modelo de regresión y pronósticos",
+          "ancla": "c-modelo-de-regresion-y-pronosticos",
+          "linea": 154
+        },
+        {
+          "nivel": 3,
+          "seccion": "d) Modelo de tendencia lineal (ventas en función del tiempo)",
+          "ancla": "d-modelo-de-tendencia-lineal-ventas-en-funcion-del-tiempo",
+          "linea": 161
+        },
+        {
+          "nivel": 3,
+          "seccion": "e) Comparación: regresión (publicidad) vs. tendencia lineal (tiempo)",
+          "ancla": "e-comparacion-regresion-publicidad-vs-tendencia-lineal-tiempo",
+          "linea": 166
+        },
+        {
+          "nivel": 2,
+          "seccion": "Síntesis del apunte",
+          "ancla": "sintesis-del-apunte",
+          "linea": 179
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-10-guia-de-ejercicios-practica",
+      "numero_apunte": 10,
+      "unidad": "Unidad 3",
+      "titulo_unidad": "Pronósticos de Demanda",
+      "titulo": "Apunte 10 — Guía de ejercicios de práctica (Pronósticos de Demanda)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 1 — Distribución de cemento",
+          "ancla": "ejercicio-1-distribucion-de-cemento",
+          "linea": 13
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 2 — Distribución de gaseosas",
+          "ancla": "ejercicio-2-distribucion-de-gaseosas",
+          "linea": 27
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 3 — Heladeras con freezer (vs. pronóstico del gerente)",
+          "ancla": "ejercicio-3-heladeras-con-freezer-vs-pronostico-del-gerente",
+          "linea": 41
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 4 — Infoworks (computadoras)",
+          "ancla": "ejercicio-4-infoworks-computadoras",
+          "linea": 56
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 5 — Aceros del Sur (estacional mensual, multi-año)",
+          "ancla": "ejercicio-5-aceros-del-sur-estacional-mensual-multi-ano",
+          "linea": 68
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 6 — Bazar del Boulevard (parlantes bluetooth + celulares)",
+          "ancla": "ejercicio-6-bazar-del-boulevard-parlantes-bluetooth-celulares",
+          "linea": 83
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 7 — Heladería (kg de helado por día)",
+          "ancla": "ejercicio-7-heladeria-kg-de-helado-por-dia",
+          "linea": 100
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 8 — Mundi (TV FHD 40\" + promociones)",
+          "ancla": "ejercicio-8-mundi-tv-fhd-40-promociones",
+          "linea": 116
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 9 — Wall-Store & Cokee-Cola (pronóstico colaborativo)",
+          "ancla": "ejercicio-9-wall-store-cokee-cola-pronostico-colaborativo",
+          "linea": 132
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 10 — Pincelap (proceso de pronóstico multi-departamento)",
+          "ancla": "ejercicio-10-pincelap-proceso-de-pronostico-multi-departamento",
+          "linea": 152
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 11 — Baterías Mordoni (baterías ↔ asistencias)",
+          "ancla": "ejercicio-11-baterias-mordoni-baterias-asistencias",
+          "linea": 173
+        },
+        {
+          "nivel": 2,
+          "seccion": "Mapa: qué método ejercita cada ejercicio",
+          "ancla": "mapa-que-metodo-ejercita-cada-ejercicio",
+          "linea": 186
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-11-ejemplo-python-arima-cocacola",
+      "numero_apunte": 11,
+      "unidad": "Unidad 3",
+      "titulo_unidad": "Pronósticos de Demanda",
+      "titulo": "Apunte 11 — Ejemplo en Python: pronóstico de una serie real con ARIMA/SARIMAX (Coca-Cola)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "1. Los datos",
+          "ancla": "1-los-datos",
+          "linea": 13
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. De los métodos de la cátedra a ARIMA: el puente conceptual",
+          "ancla": "2-de-los-metodos-de-la-catedra-a-arima-el-puente-conceptual",
+          "linea": 28
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. El flujo de trabajo del notebook",
+          "ancla": "3-el-flujo-de-trabajo-del-notebook",
+          "linea": 44
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Qué aporta este ejemplo (y qué exige)",
+          "ancla": "4-que-aporta-este-ejemplo-y-que-exige",
+          "linea": 79
+        },
+        {
+          "nivel": 2,
+          "seccion": "Síntesis del apunte",
+          "ancla": "sintesis-del-apunte",
+          "linea": 90
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-12-gestion-de-inventarios",
+      "numero_apunte": 12,
+      "unidad": "Unidad 4",
+      "titulo_unidad": "Gestión de Inventarios",
+      "titulo": "Apunte 12 — Gestión de Inventarios",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Agenda de la presentación",
+          "ancla": "agenda-de-la-presentacion",
+          "linea": 18
+        },
+        {
+          "nivel": 2,
+          "seccion": "1. Inventario: conceptos",
+          "ancla": "1-inventario-conceptos",
+          "linea": 33
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tipos de inventarios",
+          "ancla": "tipos-de-inventarios",
+          "linea": 44
+        },
+        {
+          "nivel": 3,
+          "seccion": "Razones para mantener inventarios",
+          "ancla": "razones-para-mantener-inventarios",
+          "linea": 54
+        },
+        {
+          "nivel": 3,
+          "seccion": "Inconveniente de los inventarios",
+          "ancla": "inconveniente-de-los-inventarios",
+          "linea": 62
+        },
+        {
+          "nivel": 3,
+          "seccion": "Información clave: tipos de demanda",
+          "ancla": "informacion-clave-tipos-de-demanda",
+          "linea": 73
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Costos de inventarios",
+          "ancla": "2-costos-de-inventarios",
+          "linea": 86
+        },
+        {
+          "nivel": 3,
+          "seccion": "a) Costos de almacenamiento (*holding / carrying cost*, $C_c$)",
+          "ancla": "a-costos-de-almacenamiento-holding-carrying-cost-c-c",
+          "linea": 90
+        },
+        {
+          "nivel": 3,
+          "seccion": "b) Costos de emisión de orden (*ordering cost*, $C_o$)",
+          "ancla": "b-costos-de-emision-de-orden-ordering-cost-c-o",
+          "linea": 96
+        },
+        {
+          "nivel": 3,
+          "seccion": "c) Costos por faltante (*stockout cost*)",
+          "ancla": "c-costos-por-faltante-stockout-cost",
+          "linea": 102
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Objetivo de la gestión de inventarios",
+          "ancla": "3-objetivo-de-la-gestion-de-inventarios",
+          "linea": 111
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Sistemas de control de inventarios",
+          "ancla": "4-sistemas-de-control-de-inventarios",
+          "linea": 117
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.1. Proceso de revisión continua",
+          "ancla": "4-1-proceso-de-revision-continua",
+          "linea": 134
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.2. Proceso de revisión periódica",
+          "ancla": "4-2-proceso-de-revision-periodica",
+          "linea": 151
+        },
+        {
+          "nivel": 2,
+          "seccion": "★ Catálogo de modelos de inventario (énfasis del apunte)",
+          "ancla": "catalogo-de-modelos-de-inventario-enfasis-del-apunte",
+          "linea": 171
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. Clasificación ABC",
+          "ancla": "5-clasificacion-abc",
+          "linea": 187
+        },
+        {
+          "nivel": 2,
+          "seccion": "6. Modelos para calcular el lote óptimo (EOQ)",
+          "ancla": "6-modelos-para-calcular-el-lote-optimo-eoq",
+          "linea": 210
+        },
+        {
+          "nivel": 3,
+          "seccion": "El ciclo de inventario (Caso 1)",
+          "ancla": "el-ciclo-de-inventario-caso-1",
+          "linea": 214
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.1. Caso 1 — Ingreso instantáneo",
+          "ancla": "6-1-caso-1-ingreso-instantaneo",
+          "linea": 232
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.2. Caso 2 — Ingreso no instantáneo",
+          "ancla": "6-2-caso-2-ingreso-no-instantaneo",
+          "linea": 264
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.3. Caso 3 — Descuento por cantidad",
+          "ancla": "6-3-caso-3-descuento-por-cantidad",
+          "linea": 295
+        },
+        {
+          "nivel": 2,
+          "seccion": "7. Modelos para calcular el punto de pedido",
+          "ancla": "7-modelos-para-calcular-el-punto-de-pedido",
+          "linea": 334
+        },
+        {
+          "nivel": 3,
+          "seccion": "7.1. Punto de pedido básico (demanda determinística)",
+          "ancla": "7-1-punto-de-pedido-basico-demanda-deterministica",
+          "linea": 338
+        },
+        {
+          "nivel": 3,
+          "seccion": "7.2. Inventario / stock de seguridad ($S_s$)",
+          "ancla": "7-2-inventario-stock-de-seguridad-s-s",
+          "linea": 350
+        },
+        {
+          "nivel": 3,
+          "seccion": "7.3. Punto de pedido con demanda variable",
+          "ancla": "7-3-punto-de-pedido-con-demanda-variable",
+          "linea": 361
+        },
+        {
+          "nivel": 2,
+          "seccion": "8. Sistema de revisión periódica: modelo básico de período fijo",
+          "ancla": "8-sistema-de-revision-periodica-modelo-basico-de-periodo-fijo",
+          "linea": 385
+        },
+        {
+          "nivel": 2,
+          "seccion": "9. Implementación de los modelos en un sistema de gestión",
+          "ancla": "9-implementacion-de-los-modelos-en-un-sistema-de-gestion",
+          "linea": 409
+        },
+        {
+          "nivel": 2,
+          "seccion": "Síntesis del apunte",
+          "ancla": "sintesis-del-apunte",
+          "linea": 420
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-13-casos-de-estudio-inventarios",
+      "numero_apunte": 13,
+      "unidad": "Unidad 4",
+      "titulo_unidad": "Gestión de Inventarios",
+      "titulo": "Apunte 13 — Casos de estudio en clase (Gestión de Inventarios)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Mapa de los casos",
+          "ancla": "mapa-de-los-casos",
+          "linea": 13
+        },
+        {
+          "nivel": 2,
+          "seccion": "Caso 1 — Clasificación ABC (partes y materiales)",
+          "ancla": "caso-1-clasificacion-abc-partes-y-materiales",
+          "linea": 26
+        },
+        {
+          "nivel": 2,
+          "seccion": "Caso 2 — Lote óptimo de compra (EOQ Caso 1)",
+          "ancla": "caso-2-lote-optimo-de-compra-eoq-caso-1",
+          "linea": 62
+        },
+        {
+          "nivel": 2,
+          "seccion": "Caso 3 — Lote óptimo de producción (EOQ Caso 2)",
+          "ancla": "caso-3-lote-optimo-de-produccion-eoq-caso-2",
+          "linea": 83
+        },
+        {
+          "nivel": 2,
+          "seccion": "Caso 4 — Descuentos por cantidad (EOQ Caso 3)",
+          "ancla": "caso-4-descuentos-por-cantidad-eoq-caso-3",
+          "linea": 103
+        },
+        {
+          "nivel": 2,
+          "seccion": "Caso 5 — Punto de pedido con demanda variable (Bar \"El Imperio\")",
+          "ancla": "caso-5-punto-de-pedido-con-demanda-variable-bar-el-imperio",
+          "linea": 128
+        },
+        {
+          "nivel": 2,
+          "seccion": "Caso 6 — Modelo de período fijo (supermercado de pizzas)",
+          "ancla": "caso-6-modelo-de-periodo-fijo-supermercado-de-pizzas",
+          "linea": 150
+        },
+        {
+          "nivel": 2,
+          "seccion": "Síntesis del apunte",
+          "ancla": "sintesis-del-apunte",
+          "linea": 167
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-14-planificacion-agregada-produccion",
+      "numero_apunte": 14,
+      "unidad": "Unidad 5",
+      "titulo_unidad": "Planificación Jerárquica de la Producción",
+      "titulo": "Apunte 14 — Planificación Agregada de la Producción (PAP)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Agenda de la presentación",
+          "ancla": "agenda-de-la-presentacion",
+          "linea": 16
+        },
+        {
+          "nivel": 2,
+          "seccion": "1. Planificación de operaciones",
+          "ancla": "1-planificacion-de-operaciones",
+          "linea": 29
+        },
+        {
+          "nivel": 3,
+          "seccion": "1.1. Recursos de producción",
+          "ancla": "1-1-recursos-de-produccion",
+          "linea": 35
+        },
+        {
+          "nivel": 3,
+          "seccion": "1.2. Dinámica de los recursos según el horizonte de tiempo",
+          "ancla": "1-2-dinamica-de-los-recursos-segun-el-horizonte-de-tiempo",
+          "linea": 44
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Niveles de planificación",
+          "ancla": "2-niveles-de-planificacion",
+          "linea": 59
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.1. Planificar implica comparar",
+          "ancla": "2-1-planificar-implica-comparar",
+          "linea": 84
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Planificación Jerárquica de la Producción",
+          "ancla": "3-planificacion-jerarquica-de-la-produccion",
+          "linea": 101
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.1. La matriz de planificación",
+          "ancla": "3-1-la-matriz-de-planificacion",
+          "linea": 113
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Planificación Agregada de la Producción (PAP)",
+          "ancla": "4-planificacion-agregada-de-la-produccion-pap",
+          "linea": 146
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.1. El proceso de PAP (S&OP)",
+          "ancla": "4-1-el-proceso-de-pap-s-op",
+          "linea": 157
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.2. Proceso de actualización mensual del PAP",
+          "ancla": "4-2-proceso-de-actualizacion-mensual-del-pap",
+          "linea": 178
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. Estrategias para satisfacer la demanda",
+          "ancla": "5-estrategias-para-satisfacer-la-demanda",
+          "linea": 193
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.1. Estrategias para gestionar la demanda",
+          "ancla": "5-1-estrategias-para-gestionar-la-demanda",
+          "linea": 202
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.2. Estrategias para ajustar la capacidad",
+          "ancla": "5-2-estrategias-para-ajustar-la-capacidad",
+          "linea": 208
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.3. Variable de decisión ↔ costo asociado",
+          "ancla": "5-3-variable-de-decision-costo-asociado",
+          "linea": 228
+        },
+        {
+          "nivel": 2,
+          "seccion": "6. Proceso de elaboración de un PAP",
+          "ancla": "6-proceso-de-elaboracion-de-un-pap",
+          "linea": 242
+        },
+        {
+          "nivel": 2,
+          "seccion": "7. Técnicas para generar un PAP",
+          "ancla": "7-tecnicas-para-generar-un-pap",
+          "linea": 259
+        },
+        {
+          "nivel": 3,
+          "seccion": "7.1. Intuición gráfica: caza vs. nivelación",
+          "ancla": "7-1-intuicion-grafica-caza-vs-nivelacion",
+          "linea": 280
+        },
+        {
+          "nivel": 2,
+          "seccion": "8. Modelo formal de PAP",
+          "ancla": "8-modelo-formal-de-pap",
+          "linea": 308
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.1. Parámetros de entrada",
+          "ancla": "8-1-parametros-de-entrada",
+          "linea": 312
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.2. Variables",
+          "ancla": "8-2-variables",
+          "linea": 347
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.3. Función objetivo — minimizar costos",
+          "ancla": "8-3-funcion-objetivo-minimizar-costos",
+          "linea": 372
+        },
+        {
+          "nivel": 2,
+          "seccion": "9. Algoritmos de prueba/error",
+          "ancla": "9-algoritmos-de-prueba-error",
+          "linea": 408
+        },
+        {
+          "nivel": 3,
+          "seccion": "9.1. Algoritmo de PAP — Estrategia de **Caza**",
+          "ancla": "9-1-algoritmo-de-pap-estrategia-de-caza",
+          "linea": 410
+        },
+        {
+          "nivel": 3,
+          "seccion": "9.2. Algoritmo de PAP — Estrategia de **Nivelación de Mano de Obra**",
+          "ancla": "9-2-algoritmo-de-pap-estrategia-de-nivelacion-de-mano-de-obra",
+          "linea": 428
+        },
+        {
+          "nivel": 2,
+          "seccion": "10. Cierre y conexión con el resto de la unidad",
+          "ancla": "10-cierre-y-conexion-con-el-resto-de-la-unidad",
+          "linea": 445
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-15-planificacion-maestra-produccion",
+      "numero_apunte": 15,
+      "unidad": "Unidad 5",
+      "titulo_unidad": "Planificación Jerárquica de la Producción",
+      "titulo": "Apunte 15 — Planificación Maestra de la Producción (PMP / MPS)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Agenda de la presentación",
+          "ancla": "agenda-de-la-presentacion",
+          "linea": 18
+        },
+        {
+          "nivel": 2,
+          "seccion": "1. Del Plan Agregado al Plan Maestro",
+          "ancla": "1-del-plan-agregado-al-plan-maestro",
+          "linea": 32
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Qué es el PMP",
+          "ancla": "2-que-es-el-pmp",
+          "linea": 50
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Entornos de producción",
+          "ancla": "3-entornos-de-produccion",
+          "linea": 64
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.1. Lectura geométrica (forma de la estructura de producto)",
+          "ancla": "3-1-lectura-geometrica-forma-de-la-estructura-de-producto",
+          "linea": 74
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. El PMP según el entorno de producción",
+          "ancla": "4-el-pmp-segun-el-entorno-de-produccion",
+          "linea": 95
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. El PMP para entornos combinados",
+          "ancla": "5-el-pmp-para-entornos-combinados",
+          "linea": 130
+        },
+        {
+          "nivel": 2,
+          "seccion": "6. Entradas y salidas del PMP",
+          "ancla": "6-entradas-y-salidas-del-pmp",
+          "linea": 139
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.1. Entradas",
+          "ancla": "6-1-entradas",
+          "linea": 141
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.2. Salidas",
+          "ancla": "6-2-salidas",
+          "linea": 156
+        },
+        {
+          "nivel": 2,
+          "seccion": "7. El PMP y la verificación de capacidad",
+          "ancla": "7-el-pmp-y-la-verificacion-de-capacidad",
+          "linea": 166
+        },
+        {
+          "nivel": 2,
+          "seccion": "8. Disponible a Prometer (ATP)",
+          "ancla": "8-disponible-a-prometer-atp",
+          "linea": 174
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.1. Fórmulas de cálculo",
+          "ancla": "8-1-formulas-de-calculo",
+          "linea": 178
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.2. Proceso de promesa de pedido (ATP / CTP)",
+          "ancla": "8-2-proceso-de-promesa-de-pedido-atp-ctp",
+          "linea": 198
+        },
+        {
+          "nivel": 2,
+          "seccion": "9. Procedimiento de armado del PMP",
+          "ancla": "9-procedimiento-de-armado-del-pmp",
+          "linea": 222
+        },
+        {
+          "nivel": 3,
+          "seccion": "9.1. Paso 1 — Generar el PMP inicial",
+          "ancla": "9-1-paso-1-generar-el-pmp-inicial",
+          "linea": 233
+        },
+        {
+          "nivel": 3,
+          "seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+          "ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+          "linea": 260
+        },
+        {
+          "nivel": 4,
+          "seccion": "Reglas para corregir el PMP",
+          "ancla": "reglas-para-corregir-el-pmp",
+          "linea": 285
+        },
+        {
+          "nivel": 2,
+          "seccion": "10. Cierre y conexión con el resto de la unidad",
+          "ancla": "10-cierre-y-conexion-con-el-resto-de-la-unidad",
+          "linea": 300
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-16-caso-estudio-pap-pmp",
+      "numero_apunte": 16,
+      "unidad": "Unidad 5",
+      "titulo_unidad": "Planificación Jerárquica de la Producción",
+      "titulo": "Apunte 16 — Caso de estudio resuelto: PAP + PMP integrado",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Enunciado general",
+          "ancla": "enunciado-general",
+          "linea": 11
+        },
+        {
+          "nivel": 2,
+          "seccion": "Primera parte — Plan Agregado (PAP)",
+          "ancla": "primera-parte-plan-agregado-pap",
+          "linea": 35
+        },
+        {
+          "nivel": 3,
+          "seccion": "1.1. Estrategia de caza (*chase*)",
+          "ancla": "1-1-estrategia-de-caza-chase",
+          "linea": 39
+        },
+        {
+          "nivel": 3,
+          "seccion": "1.2. Estrategia de nivelación de mano de obra",
+          "ancla": "1-2-estrategia-de-nivelacion-de-mano-de-obra",
+          "linea": 53
+        },
+        {
+          "nivel": 3,
+          "seccion": "1.3. Estrategia mixta",
+          "ancla": "1-3-estrategia-mixta",
+          "linea": 65
+        },
+        {
+          "nivel": 3,
+          "seccion": "1.4. Comparación y decisión",
+          "ancla": "1-4-comparacion-y-decision",
+          "linea": 79
+        },
+        {
+          "nivel": 2,
+          "seccion": "Segunda parte — PMP inicial (desagregación)",
+          "ancla": "segunda-parte-pmp-inicial-desagregacion",
+          "linea": 91
+        },
+        {
+          "nivel": 2,
+          "seccion": "Tercera parte — PMP definitivo (ajuste + ATP)",
+          "ancla": "tercera-parte-pmp-definitivo-ajuste-atp",
+          "linea": 117
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.1. Producto P1 ($Ss=300$)",
+          "ancla": "3-1-producto-p1-ss-300",
+          "linea": 123
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.2. Producto P2 ($Ss=200$)",
+          "ancla": "3-2-producto-p2-ss-200",
+          "linea": 135
+        },
+        {
+          "nivel": 2,
+          "seccion": "Síntesis del caso",
+          "ancla": "sintesis-del-caso",
+          "linea": 151
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-17-guia-ejercicios-pap",
+      "numero_apunte": 17,
+      "unidad": "Unidad 5",
+      "titulo_unidad": "Planificación Jerárquica de la Producción",
+      "titulo": "Apunte 17 — Guía de ejercicios de PAP",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 1 — Estrategia de caza ✅ (resuelto)",
+          "ancla": "ejercicio-1-estrategia-de-caza-resuelto",
+          "linea": 13
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 2 — Estrategia de nivelación de mano de obra",
+          "ancla": "ejercicio-2-estrategia-de-nivelacion-de-mano-de-obra",
+          "linea": 36
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 3 — Estrategia mixta",
+          "ancla": "ejercicio-3-estrategia-mixta",
+          "linea": 51
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 4 — Estrategia por turnos (regular + extra/subcontratación)",
+          "ancla": "ejercicio-4-estrategia-por-turnos-regular-extra-subcontratacion",
+          "linea": 66
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 5 — Regular + subcontratación, decisión de turnos ✅ (resuelto)",
+          "ancla": "ejercicio-5-regular-subcontratacion-decision-de-turnos-resuelto",
+          "linea": 81
+        },
+        {
+          "nivel": 2,
+          "seccion": "Cierre",
+          "ancla": "cierre",
+          "linea": 105
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-18-guia-ejercicios-pmp",
+      "numero_apunte": 18,
+      "unidad": "Unidad 5",
+      "titulo_unidad": "Planificación Jerárquica de la Producción",
+      "titulo": "Apunte 18 — Guía de ejercicios de PMP",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 1 — Familia A-003, artículo A-003-25",
+          "ancla": "ejercicio-1-familia-a-003-articulo-a-003-25",
+          "linea": 17
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 2 — Familia Smart TV, artículo Smart TV 42",
+          "ancla": "ejercicio-2-familia-smart-tv-articulo-smart-tv-42",
+          "linea": 42
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 3 — Producto A (con lote y stock de seguridad)",
+          "ancla": "ejercicio-3-producto-a-con-lote-y-stock-de-seguridad",
+          "linea": 67
+        },
+        {
+          "nivel": 2,
+          "seccion": "Cierre",
+          "ancla": "cierre",
+          "linea": 100
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-19-planificacion-requerimientos-materiales",
+      "numero_apunte": 19,
+      "unidad": "Unidad 6",
+      "titulo_unidad": "Planificación de los Requerimientos de Materiales",
+      "titulo": "Apunte 19 — Planificación de los Requerimientos de Materiales (MRP)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "1. Dónde encaja el MRP: la planificación jerárquica de la producción",
+          "ancla": "1-donde-encaja-el-mrp-la-planificacion-jerarquica-de-la-produccion",
+          "linea": 11
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Qué es un sistema MRP",
+          "ancla": "2-que-es-un-sistema-mrp",
+          "linea": 49
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.1. Objetivos",
+          "ancla": "2-1-objetivos",
+          "linea": 60
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.2. ¿Cuándo conviene usar un MRP?",
+          "ancla": "2-2-cuando-conviene-usar-un-mrp",
+          "linea": 68
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. El problema que resuelve: demanda dependiente y la BOM",
+          "ancla": "3-el-problema-que-resuelve-demanda-dependiente-y-la-bom",
+          "linea": 80
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.1. Lista de materiales (BOM — *Bill of Materials*)",
+          "ancla": "3-1-lista-de-materiales-bom-bill-of-materials",
+          "linea": 91
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.2. Ventajas frente a pronosticar todo",
+          "ancla": "3-2-ventajas-frente-a-pronosticar-todo",
+          "linea": 107
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.3. Una BOM más realista (ejemplo del \"Tablero\")",
+          "ancla": "3-3-una-bom-mas-realista-ejemplo-del-tablero",
+          "linea": 116
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Entradas y salidas del sistema MRP",
+          "ancla": "4-entradas-y-salidas-del-sistema-mrp",
+          "linea": 160
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.1. Entradas",
+          "ancla": "4-1-entradas",
+          "linea": 175
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.2. Salidas",
+          "ancla": "4-2-salidas",
+          "linea": 192
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. La matriz MRP",
+          "ancla": "5-la-matriz-mrp",
+          "linea": 203
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.1. Procedimiento de cálculo (por período)",
+          "ancla": "5-1-procedimiento-de-calculo-por-periodo",
+          "linea": 226
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.2. Ejemplo de matriz (ítem X)",
+          "ancla": "5-2-ejemplo-de-matriz-item-x",
+          "linea": 256
+        },
+        {
+          "nivel": 2,
+          "seccion": "6. El proceso MRP completo: explosión por niveles",
+          "ancla": "6-el-proceso-mrp-completo-explosion-por-niveles",
+          "linea": 273
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.1. Algoritmo",
+          "ancla": "6-1-algoritmo",
+          "linea": 277
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.2. Reglas para el tamaño del lote",
+          "ancla": "6-2-reglas-para-el-tamano-del-lote",
+          "linea": 300
+        },
+        {
+          "nivel": 2,
+          "seccion": "7. Salidas de control: reportes de órdenes y de acción",
+          "ancla": "7-salidas-de-control-reportes-de-ordenes-y-de-accion",
+          "linea": 314
+        },
+        {
+          "nivel": 3,
+          "seccion": "7.1. Reporte de órdenes planificadas",
+          "ancla": "7-1-reporte-de-ordenes-planificadas",
+          "linea": 318
+        },
+        {
+          "nivel": 3,
+          "seccion": "7.2. Reporte de acción",
+          "ancla": "7-2-reporte-de-accion",
+          "linea": 331
+        },
+        {
+          "nivel": 2,
+          "seccion": "8. Síntesis",
+          "ancla": "8-sintesis",
+          "linea": 347
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-20-caso-estudio-mrp",
+      "numero_apunte": 20,
+      "unidad": "Unidad 6",
+      "titulo_unidad": "Planificación de los Requerimientos de Materiales",
+      "titulo": "Apunte 20 — Caso de estudio resuelto (MRP)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "1. Enunciado",
+          "ancla": "1-enunciado",
+          "linea": 11
+        },
+        {
+          "nivel": 3,
+          "seccion": "1.1. Lista de materiales (BOM)",
+          "ancla": "1-1-lista-de-materiales-bom",
+          "linea": 15
+        },
+        {
+          "nivel": 3,
+          "seccion": "1.2. Datos maestros y requerimientos brutos de productos",
+          "ancla": "1-2-datos-maestros-y-requerimientos-brutos-de-productos",
+          "linea": 30
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Resolución — productos de nivel 0 (A y B)",
+          "ancla": "2-resolucion-productos-de-nivel-0-a-y-b",
+          "linea": 53
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ítem A — Nivel 0 · Lote 200 · TS 1 · ($D_0 = 120-50 = 70$)",
+          "ancla": "item-a-nivel-0-lote-200-ts-1-d-0-120-50-70",
+          "linea": 57
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ítem B — Nivel 0 · Lote 300 · TS 2 · ($D_0 = 230-50 = 180$)",
+          "ancla": "item-b-nivel-0-lote-300-ts-2-d-0-230-50-180",
+          "linea": 70
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Resolución — componente y materiales de nivel 1 (C y D)",
+          "ancla": "3-resolucion-componente-y-materiales-de-nivel-1-c-y-d",
+          "linea": 85
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ítem C — Nivel 1 · Lote 500 · TS 2 · ($D_0 = 190-50 = 140$)",
+          "ancla": "item-c-nivel-1-lote-500-ts-2-d-0-190-50-140",
+          "linea": 89
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ítem D — Nivel 1 · Lote 400 · TS 2 · ($D_0 = 450-50 = 400$)",
+          "ancla": "item-d-nivel-1-lote-400-ts-2-d-0-450-50-400",
+          "linea": 110
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Resolución — material de nivel 2 (E) y factibilidad",
+          "ancla": "4-resolucion-material-de-nivel-2-e-y-factibilidad",
+          "linea": 127
+        },
+        {
+          "nivel": 3,
+          "seccion": "Ítem E — Nivel 2 · Lote 500 · TS 2 · ($D_0 = 250-50 = 200$)",
+          "ancla": "item-e-nivel-2-lote-500-ts-2-d-0-250-50-200",
+          "linea": 137
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. Plan de órdenes consolidado",
+          "ancla": "5-plan-de-ordenes-consolidado",
+          "linea": 154
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-21-guia-ejercicios-mrp",
+      "numero_apunte": 21,
+      "unidad": "Unidad 6",
+      "titulo_unidad": "Planificación de los Requerimientos de Materiales",
+      "titulo": "Apunte 21 — Guía de ejercicios de MRP",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 1 — Productos A y B",
+          "ancla": "ejercicio-1-productos-a-y-b",
+          "linea": 17
+        },
+        {
+          "nivel": 3,
+          "seccion": "Listas de materiales",
+          "ancla": "listas-de-materiales",
+          "linea": 21
+        },
+        {
+          "nivel": 3,
+          "seccion": "Programa Maestro de la Producción",
+          "ancla": "programa-maestro-de-la-produccion",
+          "linea": 37
+        },
+        {
+          "nivel": 3,
+          "seccion": "Archivo Maestro de Inventario",
+          "ancla": "archivo-maestro-de-inventario",
+          "linea": 44
+        },
+        {
+          "nivel": 3,
+          "seccion": "Recepciones programadas",
+          "ancla": "recepciones-programadas",
+          "linea": 55
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 3 — Productos X y Z",
+          "ancla": "ejercicio-3-productos-x-y-z",
+          "linea": 71
+        },
+        {
+          "nivel": 3,
+          "seccion": "Listas de materiales",
+          "ancla": "listas-de-materiales-1",
+          "linea": 75
+        },
+        {
+          "nivel": 3,
+          "seccion": "Programa Maestro de la Producción",
+          "ancla": "programa-maestro-de-la-produccion-1",
+          "linea": 95
+        },
+        {
+          "nivel": 3,
+          "seccion": "Archivo Maestro de Inventario",
+          "ancla": "archivo-maestro-de-inventario-1",
+          "linea": 102
+        },
+        {
+          "nivel": 3,
+          "seccion": "Recepciones programadas",
+          "ancla": "recepciones-programadas-1",
+          "linea": 115
+        },
+        {
+          "nivel": 2,
+          "seccion": "Cómo verificar el resultado",
+          "ancla": "como-verificar-el-resultado",
+          "linea": 132
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-22-planificacion-requerimientos-distribucion",
+      "numero_apunte": 22,
+      "unidad": "Unidad 7",
+      "titulo_unidad": "Planificación de los Requerimientos de Distribución",
+      "titulo": "Apunte 22 — Planificación de los Requerimientos de Distribución (DRP)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "1. Dónde encaja el DRP: planificación de la producción y de la distribución",
+          "ancla": "1-donde-encaja-el-drp-planificacion-de-la-produccion-y-de-la-distribucion",
+          "linea": 11
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. La distribución como problema",
+          "ancla": "2-la-distribucion-como-problema",
+          "linea": 33
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.1. Función de distribución y la pregunta central",
+          "ancla": "2-1-funcion-de-distribucion-y-la-pregunta-central",
+          "linea": 35
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.2. Enfoque tradicional y por qué falla",
+          "ancla": "2-2-enfoque-tradicional-y-por-que-falla",
+          "linea": 55
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+          "ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+          "linea": 78
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Qué es el DRP: definición y funciones",
+          "ancla": "4-que-es-el-drp-definicion-y-funciones",
+          "linea": 95
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.1. Funciones principales",
+          "ancla": "4-1-funciones-principales",
+          "linea": 99
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. Entradas del DRP",
+          "ancla": "5-entradas-del-drp",
+          "linea": 109
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.1. Conceptos y términos",
+          "ancla": "5-1-conceptos-y-terminos",
+          "linea": 111
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.2. Lista de distribución",
+          "ancla": "5-2-lista-de-distribucion",
+          "linea": 122
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.3. Fuentes de suministro",
+          "ancla": "5-3-fuentes-de-suministro",
+          "linea": 136
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.4. Datos de entrada",
+          "ancla": "5-4-datos-de-entrada",
+          "linea": 148
+        },
+        {
+          "nivel": 2,
+          "seccion": "6. Salidas del DRP",
+          "ancla": "6-salidas-del-drp",
+          "linea": 163
+        },
+        {
+          "nivel": 2,
+          "seccion": "7. La matriz DRP",
+          "ancla": "7-la-matriz-drp",
+          "linea": 175
+        },
+        {
+          "nivel": 3,
+          "seccion": "7.1. Procedimiento de cálculo (por período)",
+          "ancla": "7-1-procedimiento-de-calculo-por-periodo",
+          "linea": 188
+        },
+        {
+          "nivel": 3,
+          "seccion": "7.2. Dirección del recorrido: de las hojas hacia la raíz",
+          "ancla": "7-2-direccion-del-recorrido-de-las-hojas-hacia-la-raiz",
+          "linea": 208
+        },
+        {
+          "nivel": 2,
+          "seccion": "8. DRP y MRP: misma matriz, direcciones opuestas",
+          "ancla": "8-drp-y-mrp-misma-matriz-direcciones-opuestas",
+          "linea": 223
+        },
+        {
+          "nivel": 2,
+          "seccion": "9. Síntesis",
+          "ancla": "9-sintesis",
+          "linea": 251
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-23-caso-estudio-drp",
+      "numero_apunte": 23,
+      "unidad": "Unidad 7",
+      "titulo_unidad": "Planificación de los Requerimientos de Distribución",
+      "titulo": "Apunte 23 — Caso de estudio resuelto (DRP)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "1. Enunciado",
+          "ancla": "1-enunciado",
+          "linea": 11
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Listas de distribución (inciso a)",
+          "ancla": "2-listas-de-distribucion-inciso-a",
+          "linea": 35
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Pronósticos y tablas DRP (incisos b, c, d)",
+          "ancla": "3-pronosticos-y-tablas-drp-incisos-b-c-d",
+          "linea": 72
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Resolución del DRP de P2 (inciso e)",
+          "ancla": "4-resolucion-del-drp-de-p2-inciso-e",
+          "linea": 98
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.1. Datos",
+          "ancla": "4-1-datos",
+          "linea": 102
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.2. AL1 — dato de entrada (Lote 50 · $Ss$ 10 · TP 1)",
+          "ancla": "4-2-al1-dato-de-entrada-lote-50-ss-10-tp-1",
+          "linea": 123
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.3. AL2 — punto de venta (Lote 50 · $Ss$ 10 · TP 2 · $D_0 = 130-10 = 120$)",
+          "ancla": "4-3-al2-punto-de-venta-lote-50-ss-10-tp-2-d-0-130-10-120",
+          "linea": 131
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.4. AR Bs As — nodo intermedio (Lote 200 · $Ss$ 20 · TP 1 · $D_0 = 80-20 = 60$)",
+          "ancla": "4-4-ar-bs-as-nodo-intermedio-lote-200-ss-20-tp-1-d-0-80-20-60",
+          "linea": 146
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.5. AC — almacén central (Lote 200 · $Ss$ 50 · TP 2 · $D_0 = 550-50 = 500$)",
+          "ancla": "4-5-ac-almacen-central-lote-200-ss-50-tp-2-d-0-550-50-500",
+          "linea": 167
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. Factibilidad y plan consolidado",
+          "ancla": "5-factibilidad-y-plan-consolidado",
+          "linea": 190
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-24-guia-ejercicios-drp",
+      "numero_apunte": 24,
+      "unidad": "Unidad 7",
+      "titulo_unidad": "Planificación de los Requerimientos de Distribución",
+      "titulo": "Apunte 24 — Guía de ejercicios de DRP",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 1 — Empresa minorista (AC + 2 almacenes locales)",
+          "ancla": "ejercicio-1-empresa-minorista-ac-2-almacenes-locales",
+          "linea": 16
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 2 — Red propiedad del productor (DRP + MRP + lotes)",
+          "ancla": "ejercicio-2-red-propiedad-del-productor-drp-mrp-lotes",
+          "linea": 57
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 3 — Dos productos, red de un productor (conceptual + 1 matriz)",
+          "ancla": "ejercicio-3-dos-productos-red-de-un-productor-conceptual-1-matriz",
+          "linea": 104
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 4 — Distribución de fertilizante (red con reexpedición y venta directa)",
+          "ancla": "ejercicio-4-distribucion-de-fertilizante-red-con-reexpedicion-y-venta-directa",
+          "linea": 133
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 5 — Producto + componente que también es repuesto (DRP + MRP cruzados)",
+          "ancla": "ejercicio-5-producto-componente-que-tambien-es-repuesto-drp-mrp-cruzados",
+          "linea": 175
+        },
+        {
+          "nivel": 2,
+          "seccion": "Cómo verificar el resultado",
+          "ancla": "como-verificar-el-resultado",
+          "linea": 213
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-25-scheduling",
+      "numero_apunte": 25,
+      "unidad": "Unidad 8",
+      "titulo_unidad": "Programación de la Producción (Scheduling)",
+      "titulo": "Apunte 25 — Scheduling (Programación de la Producción)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "1. Dónde encaja el scheduling: la última etapa de la planificación jerárquica",
+          "ancla": "1-donde-encaja-el-scheduling-la-ultima-etapa-de-la-planificacion-jerarquica",
+          "linea": 11
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. El proceso de scheduling: tres etapas",
+          "ancla": "2-el-proceso-de-scheduling-tres-etapas",
+          "linea": 39
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Tipos de sistemas de producción",
+          "ancla": "3-tipos-de-sistemas-de-produccion",
+          "linea": 51
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.1. Catálogo de estructuras",
+          "ancla": "3-1-catalogo-de-estructuras",
+          "linea": 55
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.2. Scheduling según el tipo de proceso",
+          "ancla": "3-2-scheduling-segun-el-tipo-de-proceso",
+          "linea": 85
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Estrategias de scheduling",
+          "ancla": "4-estrategias-de-scheduling",
+          "linea": 95
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.1. Forma de asignar el tiempo",
+          "ancla": "4-1-forma-de-asignar-el-tiempo",
+          "linea": 99
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.2. Qué se cronograma primero",
+          "ancla": "4-2-que-se-cronograma-primero",
+          "linea": 104
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.3. Dirección temporal",
+          "ancla": "4-3-direccion-temporal",
+          "linea": 110
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.4. Inteligencia del despacho",
+          "ancla": "4-4-inteligencia-del-despacho",
+          "linea": 117
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.5. Búsqueda de óptimos",
+          "ancla": "4-5-busqueda-de-optimos",
+          "linea": 122
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.6. Restricciones de capacidad y almacenamiento",
+          "ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+          "linea": 126
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. Enfoques de implementación",
+          "ancla": "5-enfoques-de-implementacion",
+          "linea": 137
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.1. Métodos manuales",
+          "ancla": "5-1-metodos-manuales",
+          "linea": 141
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.2. Métodos matemáticos",
+          "ancla": "5-2-metodos-matematicos",
+          "linea": 148
+        },
+        {
+          "nivel": 3,
+          "seccion": "5.3. Métodos mixtos",
+          "ancla": "5-3-metodos-mixtos",
+          "linea": 154
+        },
+        {
+          "nivel": 2,
+          "seccion": "6. Objetivos de scheduling",
+          "ancla": "6-objetivos-de-scheduling",
+          "linea": 160
+        },
+        {
+          "nivel": 2,
+          "seccion": "7. Flow Shop Scheduling",
+          "ancla": "7-flow-shop-scheduling",
+          "linea": 174
+        },
+        {
+          "nivel": 2,
+          "seccion": "8. Job Shop Scheduling",
+          "ancla": "8-job-shop-scheduling",
+          "linea": 206
+        },
+        {
+          "nivel": 2,
+          "seccion": "9. Scheduling en base a reglas (reglas de secuenciamiento)",
+          "ancla": "9-scheduling-en-base-a-reglas-reglas-de-secuenciamiento",
+          "linea": 219
+        },
+        {
+          "nivel": 3,
+          "seccion": "9.1. Ejemplo comparativo (5 trabajos, 1 máquina)",
+          "ancla": "9-1-ejemplo-comparativo-5-trabajos-1-maquina",
+          "linea": 245
+        },
+        {
+          "nivel": 3,
+          "seccion": "9.2. Resumen y lectura",
+          "ancla": "9-2-resumen-y-lectura",
+          "linea": 314
+        },
+        {
+          "nivel": 2,
+          "seccion": "10. Scheduling de trabajos en dos máquinas en serie: regla de Johnson",
+          "ancla": "10-scheduling-de-trabajos-en-dos-maquinas-en-serie-regla-de-johnson",
+          "linea": 328
+        },
+        {
+          "nivel": 2,
+          "seccion": "11. Manufactura sincrónica (OPT)",
+          "ancla": "11-manufactura-sincronica-opt",
+          "linea": 356
+        },
+        {
+          "nivel": 3,
+          "seccion": "11.1. Ejemplo",
+          "ancla": "11-1-ejemplo",
+          "linea": 368
+        },
+        {
+          "nivel": 2,
+          "seccion": "12. Monitoreo de la evolución de un schedule",
+          "ancla": "12-monitoreo-de-la-evolucion-de-un-schedule",
+          "linea": 418
+        },
+        {
+          "nivel": 3,
+          "seccion": "12.1. Diagrama de Gantt",
+          "ancla": "12-1-diagrama-de-gantt",
+          "linea": 422
+        },
+        {
+          "nivel": 3,
+          "seccion": "12.2. Control Input/Output",
+          "ancla": "12-2-control-input-output",
+          "linea": 437
+        },
+        {
+          "nivel": 2,
+          "seccion": "13. Métodos heurísticos: algoritmos genéticos",
+          "ancla": "13-metodos-heuristicos-algoritmos-geneticos",
+          "linea": 455
+        },
+        {
+          "nivel": 3,
+          "seccion": "13.1. Qué es",
+          "ancla": "13-1-que-es",
+          "linea": 457
+        },
+        {
+          "nivel": 3,
+          "seccion": "13.2. Terminología",
+          "ancla": "13-2-terminologia",
+          "linea": 463
+        },
+        {
+          "nivel": 3,
+          "seccion": "13.3. Operadores genéticos",
+          "ancla": "13-3-operadores-geneticos",
+          "linea": 476
+        },
+        {
+          "nivel": 3,
+          "seccion": "13.4. Ejemplo: minimizar la tardanza total",
+          "ancla": "13-4-ejemplo-minimizar-la-tardanza-total",
+          "linea": 495
+        },
+        {
+          "nivel": 2,
+          "seccion": "14. Síntesis",
+          "ancla": "14-sintesis",
+          "linea": 531
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-26-casos-de-estudio-scheduling",
+      "numero_apunte": 26,
+      "unidad": "Unidad 8",
+      "titulo_unidad": "Programación de la Producción (Scheduling)",
+      "titulo": "Apunte 26 — Casos de estudio resueltos (Scheduling)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "0. Convenciones comunes a los casos",
+          "ancla": "0-convenciones-comunes-a-los-casos",
+          "linea": 11
+        },
+        {
+          "nivel": 2,
+          "seccion": "1. Caso 1 — Scheduling Flow Shop (cinco políticas)",
+          "ancla": "1-caso-1-scheduling-flow-shop-cinco-politicas",
+          "linea": 25
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Caso 2 — Scheduling Job Shop",
+          "ancla": "2-caso-2-scheduling-job-shop",
+          "linea": 67
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Caso 3 — Job Shop: OPT vs. despacho por regla",
+          "ancla": "3-caso-3-job-shop-opt-vs-despacho-por-regla",
+          "linea": 97
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.a) Método OPT (cuello de botella)",
+          "ancla": "3-a-metodo-opt-cuello-de-botella",
+          "linea": 110
+        },
+        {
+          "nivel": 3,
+          "seccion": "3.b) Método por regla (menor fecha de entrega)",
+          "ancla": "3-b-metodo-por-regla-menor-fecha-de-entrega",
+          "linea": 137
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Caso 4 — Algoritmo Genético (Flow Shop sin almacén)",
+          "ancla": "4-caso-4-algoritmo-genetico-flow-shop-sin-almacen",
+          "linea": 156
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. Síntesis",
+          "ancla": "5-sintesis",
+          "linea": 213
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-27-guia-ejercicios-scheduling",
+      "numero_apunte": 27,
+      "unidad": "Unidad 8",
+      "titulo_unidad": "Programación de la Producción (Scheduling)",
+      "titulo": "Apunte 27 — Guía de ejercicios (Scheduling)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 1 — Flow Shop (tres políticas)",
+          "ancla": "ejercicio-1-flow-shop-tres-politicas",
+          "linea": 11
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 2 — Job Shop",
+          "ancla": "ejercicio-2-job-shop",
+          "linea": 33
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 3 — Job Shop: OPT vs. regla",
+          "ancla": "ejercicio-3-job-shop-opt-vs-regla",
+          "linea": 53
+        },
+        {
+          "nivel": 2,
+          "seccion": "Ejercicio 4 — Algoritmo Genético (Flow Shop sin almacén)",
+          "ancla": "ejercicio-4-algoritmo-genetico-flow-shop-sin-almacen",
+          "linea": 74
+        },
+        {
+          "nivel": 2,
+          "seccion": "Nota de cobertura",
+          "ancla": "nota-de-cobertura",
+          "linea": 95
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-28-gestion-integrada-cadena-suministro",
+      "numero_apunte": 28,
+      "unidad": "Unidad 9",
+      "titulo_unidad": "Gestión Integrada de la Cadena de Suministro",
+      "titulo": "Apunte 28 — Gestión Integrada de la Cadena de Suministro",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "1. El punto de partida: de la integración interna a la integración de la cadena",
+          "ancla": "1-el-punto-de-partida-de-la-integracion-interna-a-la-integracion-de-la-cadena",
+          "linea": 11
+        },
+        {
+          "nivel": 3,
+          "seccion": "Tres niveles de digitalización",
+          "ancla": "tres-niveles-de-digitalizacion",
+          "linea": 29
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Qué es una cadena de suministro",
+          "ancla": "2-que-es-una-cadena-de-suministro",
+          "linea": 42
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Gestión de la cadena de suministro: definiciones y objetivos",
+          "ancla": "3-gestion-de-la-cadena-de-suministro-definiciones-y-objetivos",
+          "linea": 68
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. El problema central: incertidumbre, inventarios y el efecto bullwhip (látigo)",
+          "ancla": "4-el-problema-central-incertidumbre-inventarios-y-el-efecto-bullwhip-latigo",
+          "linea": 82
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.1. Gestión tradicional",
+          "ancla": "4-1-gestion-tradicional",
+          "linea": 84
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.2. Qué es el efecto bullwhip",
+          "ancla": "4-2-que-es-el-efecto-bullwhip",
+          "linea": 88
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.3. Problemas que causa",
+          "ancla": "4-3-problemas-que-causa",
+          "linea": 106
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.4. Factores que contribuyen al efecto bullwhip",
+          "ancla": "4-4-factores-que-contribuyen-al-efecto-bullwhip",
+          "linea": 114
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.5. Consideraciones sobre el lead time",
+          "ancla": "4-5-consideraciones-sobre-el-lead-time",
+          "linea": 123
+        },
+        {
+          "nivel": 3,
+          "seccion": "4.6. En resumen",
+          "ancla": "4-6-en-resumen",
+          "linea": 128
+        },
+        {
+          "nivel": 2,
+          "seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+          "ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+          "linea": 136
+        },
+        {
+          "nivel": 2,
+          "seccion": "6. Integración y colaboración entre empresas",
+          "ancla": "6-integracion-y-colaboracion-entre-empresas",
+          "linea": 146
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.1. El nivel más alto: colaboración entre empresas",
+          "ancla": "6-1-el-nivel-mas-alto-colaboracion-entre-empresas",
+          "linea": 154
+        },
+        {
+          "nivel": 3,
+          "seccion": "6.2. La cadena de implicaciones",
+          "ancla": "6-2-la-cadena-de-implicaciones",
+          "linea": 167
+        },
+        {
+          "nivel": 2,
+          "seccion": "7. Procesos de negocio colaborativos",
+          "ancla": "7-procesos-de-negocio-colaborativos",
+          "linea": 178
+        },
+        {
+          "nivel": 2,
+          "seccion": "8. Modelos de colaboración de referencia",
+          "ancla": "8-modelos-de-colaboracion-de-referencia",
+          "linea": 206
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.1. VMI (Vendor Managed Inventory)",
+          "ancla": "8-1-vmi-vendor-managed-inventory",
+          "linea": 226
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.2. CPFR (Collaborative Planning, Forecasting and Replenishment)",
+          "ancla": "8-2-cpfr-collaborative-planning-forecasting-and-replenishment",
+          "linea": 250
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.3. SCOR (Supply Chain Operations Reference Model)",
+          "ancla": "8-3-scor-supply-chain-operations-reference-model",
+          "linea": 269
+        },
+        {
+          "nivel": 3,
+          "seccion": "8.4. Centralizados vs. descentralizados",
+          "ancla": "8-4-centralizados-vs-descentralizados",
+          "linea": 286
+        },
+        {
+          "nivel": 2,
+          "seccion": "9. Las TI como facilitadoras: soluciones B2B",
+          "ancla": "9-las-ti-como-facilitadoras-soluciones-b2b",
+          "linea": 298
+        },
+        {
+          "nivel": 3,
+          "seccion": "9.1. Vocabulario del comercio electrónico",
+          "ancla": "9-1-vocabulario-del-comercio-electronico",
+          "linea": 312
+        },
+        {
+          "nivel": 3,
+          "seccion": "9.2. E-Marketplaces (gestión centralizada)",
+          "ancla": "9-2-e-marketplaces-gestion-centralizada",
+          "linea": 323
+        },
+        {
+          "nivel": 3,
+          "seccion": "9.3. Sistemas peer-to-peer (gestión descentralizada)",
+          "ancla": "9-3-sistemas-peer-to-peer-gestion-descentralizada",
+          "linea": 347
+        },
+        {
+          "nivel": 2,
+          "seccion": "10. Tendencias en TI para la integración de la cadena",
+          "ancla": "10-tendencias-en-ti-para-la-integracion-de-la-cadena",
+          "linea": 372
+        },
+        {
+          "nivel": 2,
+          "seccion": "11. Síntesis",
+          "ancla": "11-sintesis",
+          "linea": 394
+        }
+      ]
+    },
+    {
+      "archivo": "apunte-30-tp1-modelado-procesos-seleccion-personal",
+      "numero_apunte": 30,
+      "unidad": "Unidad 2",
+      "titulo_unidad": "Gestión de Procesos de Negocio",
+      "titulo": "Apunte 30 — Trabajo Práctico 1: Modelado Conceptual de Procesos de Negocio (Selección de Personal)",
+      "secciones": [
+        {
+          "nivel": 2,
+          "seccion": "1. Qué es este apunte",
+          "ancla": "1-que-es-este-apunte",
+          "linea": 9
+        },
+        {
+          "nivel": 2,
+          "seccion": "2. Enunciado",
+          "ancla": "2-enunciado",
+          "linea": 17
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.1. Contexto",
+          "ancla": "2-1-contexto",
+          "linea": 19
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.2. Descripción del proceso",
+          "ancla": "2-2-descripcion-del-proceso",
+          "linea": 23
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.3. Clasificaciones y eventos de tiempo (resumen del enunciado)",
+          "ancla": "2-3-clasificaciones-y-eventos-de-tiempo-resumen-del-enunciado",
+          "linea": 55
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.4. Actividades solicitadas",
+          "ancla": "2-4-actividades-solicitadas",
+          "linea": 68
+        },
+        {
+          "nivel": 3,
+          "seccion": "2.5. Condiciones de entrega",
+          "ancla": "2-5-condiciones-de-entrega",
+          "linea": 75
+        },
+        {
+          "nivel": 2,
+          "seccion": "3. Relación con el resto del proyecto",
+          "ancla": "3-relacion-con-el-resto-del-proyecto",
+          "linea": 82
+        },
+        {
+          "nivel": 2,
+          "seccion": "4. Nota de incorporación",
+          "ancla": "4-nota-de-incorporacion",
+          "linea": 101
+        }
+      ]
+    }
+  ],
+  "unidad_a_apuntes": {
+    "Unidad 1": [
+      "apunte-1-introduccion-sistemas-de-gestion"
+    ],
+    "Unidad 2": [
+      "apunte-2-bpms",
+      "apunte-3-introduccion-bpm",
+      "apunte-4-bpmn",
+      "apunte-5-ejercicios-bpmn",
+      "apunte-6-patrones-modelado-procesos",
+      "apunte-30-tp1-modelado-procesos-seleccion-personal"
+    ],
+    "Unidad 3": [
+      "apunte-7-pronosticos-de-demanda",
+      "apunte-9-casos-de-estudio-resueltos",
+      "apunte-10-guia-de-ejercicios-practica",
+      "apunte-11-ejemplo-python-arima-cocacola"
+    ],
+    "Unidad 4": [
+      "apunte-12-gestion-de-inventarios",
+      "apunte-13-casos-de-estudio-inventarios"
+    ],
+    "Unidad 5": [
+      "apunte-14-planificacion-agregada-produccion",
+      "apunte-15-planificacion-maestra-produccion",
+      "apunte-16-caso-estudio-pap-pmp",
+      "apunte-17-guia-ejercicios-pap",
+      "apunte-18-guia-ejercicios-pmp"
+    ],
+    "Unidad 6": [
+      "apunte-19-planificacion-requerimientos-materiales",
+      "apunte-20-caso-estudio-mrp",
+      "apunte-21-guia-ejercicios-mrp"
+    ],
+    "Unidad 7": [
+      "apunte-22-planificacion-requerimientos-distribucion",
+      "apunte-23-caso-estudio-drp",
+      "apunte-24-guia-ejercicios-drp"
+    ],
+    "Unidad 8": [
+      "apunte-25-scheduling",
+      "apunte-26-casos-de-estudio-scheduling",
+      "apunte-27-guia-ejercicios-scheduling"
+    ],
+    "Unidad 9": [
+      "apunte-28-gestion-integrada-cadena-suministro"
+    ]
+  },
+  "colisiones_resueltas": [
+    {
+      "apunte": "apunte-2-bpms",
+      "seccion": "Ejercicios",
+      "ancla": "ejercicios-1"
+    },
+    {
+      "apunte": "apunte-2-bpms",
+      "seccion": "Ejercicios (Verdadero/Falso, justificar)",
+      "ancla": "ejercicios-verdadero-falso-justificar-1"
+    },
+    {
+      "apunte": "apunte-9-casos-de-estudio-resueltos",
+      "seccion": "a) Comportamiento de la serie",
+      "ancla": "a-comportamiento-de-la-serie-1"
+    },
+    {
+      "apunte": "apunte-21-guia-ejercicios-mrp",
+      "seccion": "Listas de materiales",
+      "ancla": "listas-de-materiales-1"
+    },
+    {
+      "apunte": "apunte-21-guia-ejercicios-mrp",
+      "seccion": "Programa Maestro de la Producción",
+      "ancla": "programa-maestro-de-la-produccion-1"
+    },
+    {
+      "apunte": "apunte-21-guia-ejercicios-mrp",
+      "seccion": "Archivo Maestro de Inventario",
+      "ancla": "archivo-maestro-de-inventario-1"
+    },
+    {
+      "apunte": "apunte-21-guia-ejercicios-mrp",
+      "seccion": "Recepciones programadas",
+      "ancla": "recepciones-programadas-1"
+    }
+  ],
+  "obsidian_syntax": {
+    "wikilinks": [
+      {
+        "apunte": "apunte-9-casos-de-estudio-resueltos",
+        "texto": "apunte-7-pronosticos-de-demanda|Apunte 7"
+      },
+      {
+        "apunte": "apunte-9-casos-de-estudio-resueltos",
+        "texto": "apunte-8-comparacion-modelos-pronostico|Apunte 8"
+      },
+      {
+        "apunte": "apunte-9-casos-de-estudio-resueltos",
+        "texto": "apunte-8-comparacion-modelos-pronostico|Apunte 8"
+      },
+      {
+        "apunte": "apunte-10-guia-de-ejercicios-practica",
+        "texto": "apunte-7-pronosticos-de-demanda|Apunte 7"
+      },
+      {
+        "apunte": "apunte-10-guia-de-ejercicios-practica",
+        "texto": "apunte-8-comparacion-modelos-pronostico|Apunte 8"
+      },
+      {
+        "apunte": "apunte-10-guia-de-ejercicios-practica",
+        "texto": "apunte-9-casos-de-estudio-resueltos|casos resueltos del Apunte 9"
+      },
+      {
+        "apunte": "apunte-10-guia-de-ejercicios-practica",
+        "texto": "apunte-8-comparacion-modelos-pronostico|Apunte 8"
+      },
+      {
+        "apunte": "apunte-10-guia-de-ejercicios-practica",
+        "texto": "apunte-7-pronosticos-de-demanda|Apunte 7"
+      },
+      {
+        "apunte": "apunte-10-guia-de-ejercicios-practica",
+        "texto": "apunte-9-casos-de-estudio-resueltos|Caso 3"
+      },
+      {
+        "apunte": "apunte-11-ejemplo-python-arima-cocacola",
+        "texto": "apunte-7-pronosticos-de-demanda|Apunte 7"
+      },
+      {
+        "apunte": "apunte-11-ejemplo-python-arima-cocacola",
+        "texto": "apunte-8-comparacion-modelos-pronostico|Apunte 8"
+      },
+      {
+        "apunte": "apunte-12-gestion-de-inventarios",
+        "texto": "apunte-13-casos-de-estudio-inventarios|Apunte 13"
+      },
+      {
+        "apunte": "apunte-13-casos-de-estudio-inventarios",
+        "texto": "apunte-12-gestion-de-inventarios|Apunte 12"
+      }
+    ],
+    "highlights": [],
+    "embeds": [],
+    "callouts": []
+  }
+}
