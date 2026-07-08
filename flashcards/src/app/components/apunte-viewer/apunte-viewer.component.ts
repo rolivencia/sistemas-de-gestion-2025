@@ -14,6 +14,7 @@ import {
 } from '@angular/core';
 import { MarkdownComponent } from 'ngx-markdown';
 import { ApunteRenderLibsLoader } from './apunte-render-libs.loader';
+import { AnchorIndexService } from '../../services/anchor-index.service';
 import { HeadingSlugger } from '../../util/slug';
 
 /**
@@ -122,6 +123,7 @@ export class ApunteViewerComponent implements OnDestroy {
   private readonly document = inject(DOCUMENT);
   private readonly hostRef = inject(ElementRef<HTMLElement>);
   private readonly libsLoader = inject(ApunteRenderLibsLoader);
+  private readonly anchorIndex = inject(AnchorIndexService);
   private readonly previouslyFocused = this.document.activeElement as HTMLElement | null;
   private readonly highlightClass = 'apunte-target-highlight';
   private destroyed = false;
@@ -136,10 +138,10 @@ export class ApunteViewerComponent implements OnDestroy {
       this.applyBackgroundInert();
       this.closeButton().nativeElement.focus();
     });
-    // Recién con KaTeX/Mermaid listas montamos `<markdown>` (`libsReady`), para
-    // evitar el error "katex not loaded" de ngx-markdown.
-    this.libsLoader
-      .load()
+    // Recién con KaTeX/Mermaid (y el índice de anclas) listos montamos
+    // `<markdown>` (`libsReady`): así evitamos el error "katex not loaded" de
+    // ngx-markdown y garantizamos que `assignHeadingIds` tenga las anclas.
+    Promise.all([this.libsLoader.load(), this.anchorIndex.load()])
       .then(() => {
         if (!this.destroyed) this.libsReady.set(true);
       })
@@ -207,15 +209,32 @@ export class ApunteViewerComponent implements OnDestroy {
   }
 
   /**
-   * Asigna el `id` de cada encabezado con el mismo algoritmo de slug de la
-   * Fase 0. Se hace sobre el DOM ya renderizado porque el sanitizador de
-   * ngx-markdown descarta el `id` si se emite desde `marked`.
+   * Asigna el `id` de cada encabezado. Se hace sobre el DOM renderizado porque
+   * el sanitizador de ngx-markdown descarta el `id` si se emite desde `marked`.
+   *
+   * Estrategia principal: mapear por POSICIÓN contra las anclas del índice
+   * (Fase 0). Los encabezados salen en el mismo orden que el índice (niveles
+   * H2–H4; el H1 de título no está indexado), así que asignar `anclas[i]` al
+   * i-ésimo encabezado es exacto aunque el `textContent` difiera del texto
+   * crudo (p. ej. encabezados con LaTeX como `$S_s$`).
+   *
+   * Fallback: re-sluggear el `textContent` con el algoritmo de la Fase 0 (menos
+   * robusto ante math/enlaces), sólo si el índice no está disponible o el conteo
+   * no cuadra.
    */
   private assignHeadingIds(): void {
-    const slugger = new HeadingSlugger();
+    // H2–H4 (sin H1) para alinear 1:1 con el índice.
     const headings = this.panel().nativeElement.querySelectorAll<HTMLElement>(
-      '.apunte-prose h1, .apunte-prose h2, .apunte-prose h3, .apunte-prose h4',
+      '.apunte-prose h2, .apunte-prose h3, .apunte-prose h4',
     );
+    const anclas = this.anchorIndex.getAnclas(this.apunte());
+    if (anclas && anclas.length === headings.length) {
+      headings.forEach((heading, i) => {
+        heading.id = anclas[i];
+      });
+      return;
+    }
+    const slugger = new HeadingSlugger();
     headings.forEach((heading) => {
       heading.id = slugger.slug((heading.textContent ?? '').trim());
     });
