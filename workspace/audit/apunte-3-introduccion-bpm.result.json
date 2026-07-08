@@ -1,0 +1,12 @@
+{
+ "apunte": "apunte-3-introduccion-bpm",
+ "verdicts": [
+  {
+   "id": 197,
+   "verdict": "OK",
+   "best_ancla": "2-gestion-de-procesos-de-negocio-bpm-ciclo-de-vida",
+   "best_seccion": "2. Gestión de Procesos de Negocio (BPM): ciclo de vida",
+   "reason": "La sección desarrolla el ciclo de vida iterativo de mejora continua (evaluación, rediseño, implementación, ejecución) que sustenta la justificación; su subsección '¿Qué es BPM?' lo refuerza."
+  }
+ ]
+}

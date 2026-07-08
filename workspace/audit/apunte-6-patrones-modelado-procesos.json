@@ -1,0 +1,81 @@
+{
+ "apunte": "apunte-6-patrones-modelado-procesos",
+ "secciones_disponibles": [
+  {
+   "ancla": "1-que-son-los-patrones-de-modelado-de-procesos",
+   "seccion": "1. ¿Qué son los patrones de modelado de procesos?",
+   "nivel": 2
+  },
+  {
+   "ancla": "2-patrones-de-flujo-de-control-control-flow",
+   "seccion": "2. Patrones de flujo de control (control-flow)",
+   "nivel": 2
+  },
+  {
+   "ancla": "2-1-patrones-basicos",
+   "seccion": "2.1. Patrones básicos",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-2-ramificacion-y-sincronizacion-avanzada",
+   "seccion": "2.2. Ramificación y sincronización avanzada",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-3-instancias-multiples-multiple-instances",
+   "seccion": "2.3. Instancias múltiples (Multiple Instances)",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-4-patrones-basados-en-estado-state-based",
+   "seccion": "2.4. Patrones basados en estado (state-based)",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-5-iteracion-y-repeticion",
+   "seccion": "2.5. Iteración y repetición",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-6-terminacion-y-cancelacion",
+   "seccion": "2.6. Terminación y cancelación",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-patrones-de-datos-data",
+   "seccion": "3. Patrones de datos (data)",
+   "nivel": 2
+  },
+  {
+   "ancla": "4-patrones-de-recursos-resource",
+   "seccion": "4. Patrones de recursos (resource)",
+   "nivel": 2
+  },
+  {
+   "ancla": "5-patrones-de-manejo-de-excepciones",
+   "seccion": "5. Patrones de manejo de excepciones",
+   "nivel": 2
+  },
+  {
+   "ancla": "6-para-que-sirven-en-la-practica",
+   "seccion": "6. Para qué sirven, en la práctica",
+   "nivel": 2
+  },
+  {
+   "ancla": "sintesis-del-apunte",
+   "seccion": "Síntesis del apunte",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 205,
+   "afirmacion": "Un proceso que tiene definido todos los posibles caminos de excepción es un proceso débilmente estructurado",
+   "respuesta": false,
+   "justificacion": "Es lo opuesto: un proceso con todos sus posibles caminos (incluidos los de excepción) definidos a priori es fuertemente/bien estructurado; un proceso débilmente estructurado es aquel cuyos caminos no están todos predefinidos y se determinan durante la ejecución.",
+   "ref_ancla": "2-6-terminacion-y-cancelacion",
+   "ref_seccion": "2.6. Terminación y cancelación",
+   "secundarias": []
+  }
+ ]
+}

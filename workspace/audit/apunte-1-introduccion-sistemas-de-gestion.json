@@ -1,0 +1,287 @@
+{
+ "apunte": "apunte-1-introduccion-sistemas-de-gestion",
+ "secciones_disponibles": [
+  {
+   "ancla": "agenda-de-la-presentacion",
+   "seccion": "Agenda de la presentación",
+   "nivel": 2
+  },
+  {
+   "ancla": "objetivos-y-proposito-del-curso",
+   "seccion": "Objetivos y propósito del curso",
+   "nivel": 2
+  },
+  {
+   "ancla": "1-gestion-de-operaciones",
+   "seccion": "1. Gestión de Operaciones",
+   "nivel": 2
+  },
+  {
+   "ancla": "que-es-la-gestion-de-operaciones",
+   "seccion": "¿Qué es la Gestión de Operaciones?",
+   "nivel": 3
+  },
+  {
+   "ancla": "sistemas-productivos-produccion-de-bienes-vs-produccion-de-servicios",
+   "seccion": "Sistemas productivos: producción de bienes vs. producción de servicios",
+   "nivel": 3
+  },
+  {
+   "ancla": "objetivos-principales-de-la-gestion-de-operaciones",
+   "seccion": "Objetivos principales de la Gestión de Operaciones",
+   "nivel": 3
+  },
+  {
+   "ancla": "conceptos-clave-operacion-y-proceso-de-transformacion",
+   "seccion": "Conceptos clave: operación y proceso de transformación",
+   "nivel": 3
+  },
+  {
+   "ancla": "tipos-de-procesos-de-transformacion",
+   "seccion": "Tipos de procesos de transformación",
+   "nivel": 3
+  },
+  {
+   "ancla": "ejemplo-de-gestion-de-operaciones-en-un-sistema-productivo",
+   "seccion": "Ejemplo de gestión de operaciones en un sistema productivo",
+   "nivel": 3
+  },
+  {
+   "ancla": "topicos-principales-de-la-gestion-de-operaciones",
+   "seccion": "Tópicos principales de la Gestión de Operaciones",
+   "nivel": 3
+  },
+  {
+   "ancla": "estrategia-analitica-de-negocio-business-analytics",
+   "seccion": "Estrategia: Analítica de Negocio (*Business Analytics*)",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-gestion-de-cadenas-de-suministro",
+   "seccion": "2. Gestión de Cadenas de Suministro",
+   "nivel": 2
+  },
+  {
+   "ancla": "que-es-una-cadena-de-suministro",
+   "seccion": "¿Qué es una Cadena de Suministro?",
+   "nivel": 3
+  },
+  {
+   "ancla": "gestion-de-la-cadena-de-suministro",
+   "seccion": "Gestión de la Cadena de Suministro",
+   "nivel": 3
+  },
+  {
+   "ancla": "tipos-de-procesos-en-la-cadena-de-suministro-modelo-scor",
+   "seccion": "Tipos de procesos en la Cadena de Suministro (modelo SCOR)",
+   "nivel": 3
+  },
+  {
+   "ancla": "tres-aspectos-a-considerar-en-forma-integrada",
+   "seccion": "Tres aspectos a considerar en forma integrada",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-gestion-de-procesos-de-negocio",
+   "seccion": "3. Gestión de Procesos de Negocio",
+   "nivel": 2
+  },
+  {
+   "ancla": "gestion-de-procesos-de-negocio-ciclo-de-vida",
+   "seccion": "Gestión de Procesos de Negocio: Ciclo de Vida",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-sistemas-de-informacion-sistemas-de-gestion",
+   "seccion": "4. Sistemas de Información (Sistemas de Gestión)",
+   "nivel": 2
+  },
+  {
+   "ancla": "tipos-de-sistemas-de-informacion",
+   "seccion": "Tipos de Sistemas de Información",
+   "nivel": 3
+  },
+  {
+   "ancla": "evolucion-de-los-sistemas-de-gestion-empresariales",
+   "seccion": "Evolución de los Sistemas de Gestión Empresariales",
+   "nivel": 3
+  },
+  {
+   "ancla": "sistema-mrp",
+   "seccion": "Sistema MRP",
+   "nivel": 3
+  },
+  {
+   "ancla": "sistema-erp",
+   "seccion": "Sistema ERP",
+   "nivel": 3
+  },
+  {
+   "ancla": "sistemas-de-gestion-de-procesos-de-negocio-bpms",
+   "seccion": "Sistemas de Gestión de Procesos de Negocio (BPMS)",
+   "nivel": 3
+  },
+  {
+   "ancla": "sistemas-de-gestion-como-herramientas-analiticas",
+   "seccion": "Sistemas de Gestión como herramientas analíticas",
+   "nivel": 3
+  },
+  {
+   "ancla": "sistemas-soporte-de-decision-dss",
+   "seccion": "Sistemas Soporte de Decisión (DSS)",
+   "nivel": 3
+  },
+  {
+   "ancla": "tipos-de-analitica-business-analytics",
+   "seccion": "Tipos de analítica (Business Analytics)",
+   "nivel": 3
+  },
+  {
+   "ancla": "tendencias-de-tecnologias-en-sistemas-de-gestion",
+   "seccion": "Tendencias de tecnologías en Sistemas de Gestión",
+   "nivel": 3
+  },
+  {
+   "ancla": "mapa-conceptual-de-la-unidad-sintesis",
+   "seccion": "Mapa conceptual de la unidad (síntesis)",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 2,
+   "afirmacion": "Desde el punto de vista de gestión, un sistema que produce bienes es considerado productivo, solo si agrega valor.",
+   "respuesta": true,
+   "justificacion": "Correcto: desde la gestión de operaciones un sistema es productivo en tanto transforma entradas en salidas que crean valor; el propósito de la gestión y las operaciones es producir bienes y servicios que aporten valor a los clientes.",
+   "ref_ancla": "conceptos-clave-operacion-y-proceso-de-transformacion",
+   "ref_seccion": "Conceptos clave: operación y proceso de transformación",
+   "secundarias": []
+  },
+  {
+   "id": 12,
+   "afirmacion": "Los sistemas ERP permiten gestionar los distintos recursos de una empresa.",
+   "respuesta": true,
+   "justificacion": "Los ERP gestionan de forma integrada las funcionalidades y procesos de negocio de toda la empresa (comerciales, financieros, RRHH, productivos, etc.), por lo que administran sus distintos recursos.",
+   "ref_ancla": "sistema-erp",
+   "ref_seccion": "Sistema ERP",
+   "secundarias": []
+  },
+  {
+   "id": 41,
+   "afirmacion": "En un sistema que produce bienes, las dimensiones de calidad están asociadas al producto (a los clientes no les interesa la calidad del proceso).",
+   "respuesta": true,
+   "justificacion": "En la producción de bienes las dimensiones de calidad se asocian al producto (performance, confiabilidad, durabilidad, conformidad con especificaciones); es la diferenciación clásica con los servicios, donde la calidad se asocia al proceso.",
+   "ref_ancla": "sistemas-productivos-produccion-de-bienes-vs-produccion-de-servicios",
+   "ref_seccion": "Sistemas productivos: producción de bienes vs. producción de servicios",
+   "secundarias": []
+  },
+  {
+   "id": 54,
+   "afirmacion": "La habilidad para crear, absorber y utilizar conocimiento será una ventaja competitiva de los sistemas productivos futuros.",
+   "respuesta": true,
+   "justificacion": "El conocimiento —la capacidad de crear, absorber y aplicar— es un recurso estratégico; según las tendencias, las organizaciones sustentarán cada vez más su ventaja competitiva en esa habilidad.",
+   "ref_ancla": "tendencias-de-tecnologias-en-sistemas-de-gestion",
+   "ref_seccion": "Tendencias de tecnologías en Sistemas de Gestión",
+   "secundarias": []
+  },
+  {
+   "id": 56,
+   "afirmacion": "En un sistema que produce bienes, las dimensiones de calidad están asociadas al proceso.",
+   "respuesta": false,
+   "justificacion": "Es al revés: en la producción de bienes las dimensiones de calidad se asocian al producto; es en los servicios donde se asocian al proceso (Idem #41).",
+   "ref_ancla": "sistemas-productivos-produccion-de-bienes-vs-produccion-de-servicios",
+   "ref_seccion": "Sistemas productivos: producción de bienes vs. producción de servicios",
+   "secundarias": []
+  },
+  {
+   "id": 63,
+   "afirmacion": "Desde el punto de vista de la gestión, todo sistema que produce bienes o servicios es considerado como un sistema productivo.",
+   "respuesta": false,
+   "justificacion": "Lo definitorio no es solo producir: un sistema se considera productivo en tanto transforma entradas en salidas que crean valor para el cliente. Producir sin agregar valor no basta (Idem #2).",
+   "ref_ancla": "conceptos-clave-operacion-y-proceso-de-transformacion",
+   "ref_seccion": "Conceptos clave: operación y proceso de transformación",
+   "secundarias": []
+  },
+  {
+   "id": 78,
+   "afirmacion": "Los sistemas de gestión del conocimiento de una organización serán sistemas muy requeridos en el futuro próximo.",
+   "respuesta": true,
+   "justificacion": "Vinculado a las competencias y tecnologías del futuro: los sistemas de gestión del conocimiento serán cada vez más requeridos por organizaciones que buscan ser adaptables y competitivas.",
+   "ref_ancla": "tendencias-de-tecnologias-en-sistemas-de-gestion",
+   "ref_seccion": "Tendencias de tecnologías en Sistemas de Gestión",
+   "secundarias": []
+  },
+  {
+   "id": 79,
+   "afirmacion": "El data warehouse y la minería de datos forman parte de los actuales pilares provistos por la tecnología de información para la gestión de los sistemas productivos.",
+   "respuesta": true,
+   "justificacion": "El data warehouse y la minería de datos son herramientas de los Sistemas Soporte de Decisión basados en datos (Data-Driven DSS) y de la analítica de negocio, pilares actuales de la TI para la gestión de los sistemas productivos.",
+   "ref_ancla": "sistemas-soporte-de-decision-dss",
+   "ref_seccion": "Sistemas Soporte de Decisión (DSS)",
+   "secundarias": []
+  },
+  {
+   "id": 84,
+   "afirmacion": "La diferencia entre los sistemas MRP II y los sistemas ERP es que los primeros eran aplicables sólo a la gestión de los recursos de una empresa de manufactura, mientras que los últimos dan soporte a cualquier tipo de empresa.",
+   "respuesta": true,
+   "justificacion": "En la evolución de los sistemas empresariales, el MRP II se orientaba a la gestión de los recursos de una empresa de manufactura, mientras que el ERP integra funcionalidades de negocio aplicables a cualquier tipo de empresa, más allá de la manufactura.",
+   "ref_ancla": "evolucion-de-los-sistemas-de-gestion-empresariales",
+   "ref_seccion": "Evolución de los Sistemas de Gestión Empresariales",
+   "secundarias": []
+  },
+  {
+   "id": 90,
+   "afirmacion": "Las organizaciones cada vez más sustentarán su ventaja competitiva en la habilidad para crear, absorber y utilizar conocimiento.",
+   "respuesta": true,
+   "justificacion": "Las organizaciones sustentarán cada vez más su ventaja competitiva en la habilidad para crear, absorber y utilizar conocimiento, un recurso estratégico (Idem #54).",
+   "ref_ancla": "tendencias-de-tecnologias-en-sistemas-de-gestion",
+   "ref_seccion": "Tendencias de tecnologías en Sistemas de Gestión",
+   "secundarias": []
+  },
+  {
+   "id": 125,
+   "afirmacion": "La gestión de un sistema productivo solo tiene por propósito hacer más eficiente el mismo.",
+   "respuesta": false,
+   "justificacion": "No solo eficiencia: la gestión de operaciones persigue que el sistema sea eficaz y eficiente (mejorar la calidad, la satisfacción del cliente y el uso de recursos), no únicamente hacerlo más eficiente.",
+   "ref_ancla": "objetivos-principales-de-la-gestion-de-operaciones",
+   "ref_seccion": "Objetivos principales de la Gestión de Operaciones",
+   "secundarias": []
+  },
+  {
+   "id": 132,
+   "afirmacion": "Los sistemas ERP brindan funciones para gestionar todos los recursos de una empresa.",
+   "respuesta": true,
+   "justificacion": "Los ERP gestionan de forma integrada las funcionalidades y procesos de negocio internos (comerciales, financieros, RRHH, productivos, etc.) de toda la empresa, brindando funciones para administrar todos sus recursos (Idem #12).",
+   "ref_ancla": "sistema-erp",
+   "ref_seccion": "Sistema ERP",
+   "secundarias": []
+  },
+  {
+   "id": 151,
+   "afirmacion": "Las dimensiones de calidad de un sistema de servicios son aquellas asociadas al producto (bien) y no al proceso.",
+   "respuesta": false,
+   "justificacion": "Es al revés: en los servicios la calidad se asocia al proceso (puntualidad, cortesía, consistencia, capacidad de respuesta); la manera en que se provee es parte del producto, no está asociada al bien.",
+   "ref_ancla": "sistemas-productivos-produccion-de-bienes-vs-produccion-de-servicios",
+   "ref_seccion": "Sistemas productivos: producción de bienes vs. producción de servicios",
+   "secundarias": []
+  },
+  {
+   "id": 162,
+   "afirmacion": "Los sistemas ERP son aplicables a todo tipo de empresas, tanto a empresas de producción de bienes como de servicios.",
+   "respuesta": true,
+   "justificacion": "Los ERP integran funcionalidades transversales (finanzas, RRHH, etc.) aplicables a cualquier organización, tanto de producción de bienes como de servicios.",
+   "ref_ancla": "sistema-erp",
+   "ref_seccion": "Sistema ERP",
+   "secundarias": []
+  },
+  {
+   "id": 166,
+   "afirmacion": "Las dimensiones de calidad de un sistema de producción de bienes son aquellas asociadas al proceso de producción.",
+   "respuesta": false,
+   "justificacion": "Es al revés: en la producción de bienes las dimensiones de calidad se asocian al producto; es en los servicios donde se asocian al proceso (Idem #41).",
+   "ref_ancla": "sistemas-productivos-produccion-de-bienes-vs-produccion-de-servicios",
+   "ref_seccion": "Sistemas productivos: producción de bienes vs. producción de servicios",
+   "secundarias": []
+  }
+ ]
+}

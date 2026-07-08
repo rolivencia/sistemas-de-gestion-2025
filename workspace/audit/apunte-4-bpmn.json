@@ -1,0 +1,205 @@
+{
+ "apunte": "apunte-4-bpmn",
+ "secciones_disponibles": [
+  {
+   "ancla": "agenda-de-la-presentacion",
+   "seccion": "Agenda de la presentación",
+   "nivel": 2
+  },
+  {
+   "ancla": "1-perspectivas-vistas-de-un-modelo-de-proceso",
+   "seccion": "1. Perspectivas (vistas) de un modelo de proceso",
+   "nivel": 2
+  },
+  {
+   "ancla": "2-business-process-model-and-notation-bpmn",
+   "seccion": "2. Business Process Model and Notation (BPMN)",
+   "nivel": 2
+  },
+  {
+   "ancla": "tipos-de-diagramas",
+   "seccion": "Tipos de diagramas",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-elementos-basicos-de-bpmn",
+   "seccion": "3. Elementos básicos de BPMN",
+   "nivel": 2
+  },
+  {
+   "ancla": "3-1-objetos-de-flujo-flow-objects",
+   "seccion": "3.1. Objetos de Flujo (Flow Objects)",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-2-objetos-de-conexion-connecting-objects",
+   "seccion": "3.2. Objetos de Conexión (Connecting Objects)",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-3-datos",
+   "seccion": "3.3. Datos",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-4-swimlanes",
+   "seccion": "3.4. Swimlanes",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-5-artefactos",
+   "seccion": "3.5. Artefactos",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-6-convenciones-de-nombres-sugeridas",
+   "seccion": "3.6. Convenciones de nombres sugeridas",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-7-ejemplo-integrador-de-elementos-basicos",
+   "seccion": "3.7. Ejemplo integrador de elementos básicos",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-semantica-de-ejecucion-el-token",
+   "seccion": "4. Semántica de ejecución: el Token",
+   "nivel": 2
+  },
+  {
+   "ancla": "semantica-de-ejecucion-de-actividades-segun-el-token",
+   "seccion": "Semántica de ejecución de actividades (según el token)",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-actividades-tareas-y-subprocesos",
+   "seccion": "5. Actividades: Tareas y Subprocesos",
+   "nivel": 2
+  },
+  {
+   "ancla": "5-1-tarea-task",
+   "seccion": "5.1. Tarea (Task)",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-2-subproceso",
+   "seccion": "5.2. Subproceso",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-gateways",
+   "seccion": "6. Gateways",
+   "nivel": 2
+  },
+  {
+   "ancla": "6-1-exclusive-gateway-xor",
+   "seccion": "6.1. Exclusive Gateway (XOR)",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-2-inclusive-gateway-or",
+   "seccion": "6.2. Inclusive Gateway (OR)",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-3-parallel-gateway-and",
+   "seccion": "6.3. Parallel Gateway (AND)",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-4-event-based-gateway",
+   "seccion": "6.4. Event-Based Gateway",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-eventos",
+   "seccion": "7. Eventos",
+   "nivel": 2
+  },
+  {
+   "ancla": "7-1-evento-de-inicio-start-event",
+   "seccion": "7.1. Evento de Inicio (Start Event)",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-2-evento-de-fin-end-event",
+   "seccion": "7.2. Evento de Fin (End Event)",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-3-evento-intermedio-intermediate-event",
+   "seccion": "7.3. Evento Intermedio (Intermediate Event)",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-marcadores",
+   "seccion": "8. Marcadores",
+   "nivel": 2
+  },
+  {
+   "ancla": "8-1-marcadores-de-tarea",
+   "seccion": "8.1. Marcadores de Tarea",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-2-marcadores-de-subproceso",
+   "seccion": "8.2. Marcadores de Subproceso",
+   "nivel": 3
+  },
+  {
+   "ancla": "9-manejo-de-excepciones-y-compensacion",
+   "seccion": "9. Manejo de excepciones y compensación",
+   "nivel": 2
+  },
+  {
+   "ancla": "9-1-subproceso-de-evento-manejo-de-excepciones",
+   "seccion": "9.1. Subproceso de evento (manejo de excepciones)",
+   "nivel": 3
+  },
+  {
+   "ancla": "9-2-compensacion",
+   "seccion": "9.2. Compensación",
+   "nivel": 3
+  },
+  {
+   "ancla": "10-perspectivas-soportadas-por-bpmn-y-complemento-con-uml",
+   "seccion": "10. Perspectivas soportadas por BPMN y complemento con UML",
+   "nivel": 2
+  },
+  {
+   "ancla": "11-herramientas-de-modelado-con-bpmn-free-open-source",
+   "seccion": "11. Herramientas de modelado con BPMN (Free / Open Source)",
+   "nivel": 2
+  },
+  {
+   "ancla": "sintesis-del-apunte",
+   "seccion": "Síntesis del apunte",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 198,
+   "afirmacion": "El concepto de token es una abstracción usada en BPMN para expresar la semántica de ejecución de eventos y gateways",
+   "respuesta": true,
+   "justificacion": "El token es la abstracción que define la semántica de ejecución del flujo en BPMN: avanza por el flujo de secuencia consumiéndose o replicándose (en gateways paralelos) para trazar de forma rigurosa los caminos y las bifurcaciones a lo largo del diagrama.",
+   "ref_ancla": "4-semantica-de-ejecucion-el-token",
+   "ref_seccion": "4. Semántica de ejecución: el Token",
+   "secundarias": []
+  },
+  {
+   "id": 199,
+   "afirmacion": "La interrupción o cancelación de una tarea o subproceso se puede modelar definiendo eventos de terminación (Termination)",
+   "respuesta": false,
+   "justificacion": "Un evento de fin de Terminación (Terminate) destruye por completo toda la instancia del proceso; para cancelar solo una tarea/subproceso se le adhiere un evento intermedio de borde (boundary, interruptivo), no un evento de terminación.",
+   "ref_ancla": "5-actividades-tareas-y-subprocesos",
+   "ref_seccion": "5. Actividades: Tareas y Subprocesos",
+   "secundarias": [
+    {
+     "ancla": "2-6-terminacion-y-cancelacion",
+     "seccion": "2.6. Terminación y cancelación"
+    }
+   ]
+  }
+ ]
+}

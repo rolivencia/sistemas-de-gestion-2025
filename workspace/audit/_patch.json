@@ -1,0 +1,308 @@
+[
+ {
+  "id": 103,
+  "apunte": "apunte-12-gestion-de-inventarios",
+  "verdict": "SUSPECT",
+  "from_ancla": "6-1-caso-1-ingreso-instantaneo",
+  "to_ancla": "a-costos-de-almacenamiento-holding-carrying-cost-c-c",
+  "to_seccion": "a) Costos de almacenamiento (*holding / carrying cost*, $C_c$)",
+  "reason": "El nexo precio→EOQ solo se sostiene porque Cc es un 10–40% del valor del producto (sección a); en 6.1 el precio Cp se declara irrelevante para Q*, lo que puede confundir."
+ },
+ {
+  "id": 104,
+  "apunte": "apunte-14-planificacion-agregada-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+  "to_ancla": "5-2-estrategias-para-ajustar-la-capacidad",
+  "to_seccion": "5.2. Estrategias para ajustar la capacidad",
+  "reason": "La sección 5.2 define la caza como contratar/despedir para seguir la demanda y la nivelación como producir a ritmo constante, contradiciendo directamente la afirmación; la sección 4 no distingue ambas estrategias."
+ },
+ {
+  "id": 107,
+  "apunte": "apunte-14-planificacion-agregada-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+  "to_ancla": "1-planificacion-de-operaciones",
+  "to_seccion": "1. Planificación de operaciones",
+  "reason": "La sección 1 define planificar como 'proyectar el futuro deseado y los medios para conseguirlo', que es la esencia proactiva; la sección 4 no aborda el carácter proactivo del sistema."
+ },
+ {
+  "id": 149,
+  "apunte": "apunte-14-planificacion-agregada-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+  "to_ancla": "2-1-planificar-implica-comparar",
+  "to_seccion": "2.1. Planificar implica comparar",
+  "reason": "La sección 2.1 asocia el corto/mediano plazo con ajustes coyunturales (horas extra, tercerización, contratación) frente a los estructurales de largo plazo; la sección 4 no trata esa distinción."
+ },
+ {
+  "id": 164,
+  "apunte": "apunte-14-planificacion-agregada-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+  "to_ancla": "2-1-planificar-implica-comparar",
+  "to_seccion": "2.1. Planificar implica comparar",
+  "reason": "La sección 2.1 asocia el largo plazo con ajustes estructurales (productos, procesos, capacidad de plantas); la sección 4 no aborda los cambios estructurales de la capacidad."
+ },
+ {
+  "id": 174,
+  "apunte": "apunte-14-planificacion-agregada-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+  "to_ancla": "2-1-planificar-implica-comparar",
+  "to_seccion": "2.1. Planificar implica comparar",
+  "reason": "La sección 2.1 plantea literalmente comparar 'Capacidad requerida (PLAN) ↔ Capacidad disponible (RECURSOS)', que es la verificación del plan contra la mano de obra disponible que describe la afirmación."
+ },
+ {
+  "id": 189,
+  "apunte": "apunte-14-planificacion-agregada-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+  "to_ancla": "9-2-algoritmo-de-pap-estrategia-de-nivelacion-de-mano-de-obra",
+  "to_seccion": "9.2. Algoritmo de PAP — Estrategia de **Nivelación de Mano de Obra**",
+  "reason": "La sección 9.2 muestra que la nivelación fija la fuerza de trabajo constante y el inventario fluctúa; el objetivo es nivelar la capacidad, no el inventario. La sección 4 no lo desarrolla (idem 11/70)."
+ },
+ {
+  "id": 27,
+  "apunte": "apunte-15-planificacion-maestra-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "8-disponible-a-prometer-atp",
+  "to_ancla": "8-1-formulas-de-calculo",
+  "to_seccion": "8.1. Fórmulas de cálculo",
+  "reason": "El detalle de que el Ss se descuenta solo en el primer periodo surge de las formulas del ATP, ubicadas en 8.1; el encabezado de 8 solo da la definicion."
+ },
+ {
+  "id": 42,
+  "apunte": "apunte-15-planificacion-maestra-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "8-disponible-a-prometer-atp",
+  "to_ancla": "8-1-formulas-de-calculo",
+  "to_seccion": "8.1. Fórmulas de cálculo",
+  "reason": "El descuento del Ss solo en el primer periodo se justifica con las formulas de 8.1, no con el encabezado de 8."
+ },
+ {
+  "id": 55,
+  "apunte": "apunte-15-planificacion-maestra-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+  "to_ancla": "reglas-para-corregir-el-pmp",
+  "to_seccion": "Reglas para corregir el PMP",
+  "reason": "La distincion entre adelantar (regla 1) y agregar un lote (regla 2, escasez persistente) esta en la subseccion de reglas de correccion."
+ },
+ {
+  "id": 57,
+  "apunte": "apunte-15-planificacion-maestra-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "8-disponible-a-prometer-atp",
+  "to_ancla": "8-1-formulas-de-calculo",
+  "to_seccion": "8.1. Fórmulas de cálculo",
+  "reason": "Que el Ss se descuenta solo en el primer periodo y no en cada periodo con lote se desprende de las formulas de 8.1."
+ },
+ {
+  "id": 61,
+  "apunte": "apunte-15-planificacion-maestra-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "8-disponible-a-prometer-atp",
+  "to_ancla": "8-1-formulas-de-calculo",
+  "to_seccion": "8.1. Fórmulas de cálculo",
+  "reason": "Que el Ss no se resta a cada lote sino solo en el primer periodo se justifica con las formulas de 8.1."
+ },
+ {
+  "id": 69,
+  "apunte": "apunte-15-planificacion-maestra-produccion",
+  "verdict": "SUSPECT",
+  "from_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+  "to_ancla": "reglas-para-corregir-el-pmp",
+  "to_seccion": "Reglas para corregir el PMP",
+  "reason": "La regla 1 exige IF_{t+1} estrictamente mayor que Ss; la tabla de reglas esta en la subseccion de correccion del PMP."
+ },
+ {
+  "id": 129,
+  "apunte": "apunte-22-planificacion-requerimientos-distribucion",
+  "verdict": "WRONG",
+  "from_ancla": "5-3-fuentes-de-suministro",
+  "to_ancla": "5-2-lista-de-distribucion",
+  "to_seccion": "5.2. Lista de distribución",
+  "reason": "§5.3 trata las tres fuentes de suministro (logística/producción/compra), no la reexpedición. El concepto de centro de reexpedición que redistribuye 'sin mantener inventario' está en §5.2."
+ },
+ {
+  "id": 140,
+  "apunte": "apunte-22-planificacion-requerimientos-distribucion",
+  "verdict": "WRONG",
+  "from_ancla": "4-que-es-el-drp-definicion-y-funciones",
+  "to_ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+  "to_seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+  "reason": "§4 no menciona proactivo/reactivo. La afirmación explícita 'Planificación proactiva, no reactiva' (sin puntos de pedido, antes del faltante) está en §3."
+ },
+ {
+  "id": 13,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "WRONG",
+  "from_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+  "to_ancla": "11-manufactura-sincronica-opt",
+  "to_seccion": "11. Manufactura sincrónica (OPT)",
+  "reason": "§4.6 no menciona lote de transferencia; el concepto (lote de transporte ideal = 1) sólo se trata en §11 (OPT)."
+ },
+ {
+  "id": 20,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "WRONG",
+  "from_ancla": "4-estrategias-de-scheduling",
+  "to_ancla": "7-flow-shop-scheduling",
+  "to_seccion": "7. Flow Shop Scheduling",
+  "reason": "§4 no menciona schedule permutativo/no permutativo; ese concepto se define en §7 ('permutativo = misma secuencia en todas las máquinas')."
+ },
+ {
+  "id": 24,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "WRONG",
+  "from_ancla": "11-manufactura-sincronica-opt",
+  "to_ancla": "5-3-metodos-mixtos",
+  "to_seccion": "5.3. Métodos mixtos",
+  "reason": "§11 trata OPT/cuello de botella, no propagación de restricciones; ésta se lista explícitamente en §5.3 (métodos mixtos)."
+ },
+ {
+  "id": 28,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "WRONG",
+  "from_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+  "to_ancla": "11-manufactura-sincronica-opt",
+  "to_seccion": "11. Manufactura sincrónica (OPT)",
+  "reason": "El lote de transferencia = 1 sólo aparece en §11 (OPT); §4.6 no contiene esa teoría."
+ },
+ {
+  "id": 35,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "WRONG",
+  "from_ancla": "4-estrategias-de-scheduling",
+  "to_ancla": "7-flow-shop-scheduling",
+  "to_seccion": "7. Flow Shop Scheduling",
+  "reason": "§4 no define permutativo; §7 lo define (misma secuencia en todas las máquinas), propio del Flow Shop, no del Job Shop."
+ },
+ {
+  "id": 43,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "WRONG",
+  "from_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+  "to_ancla": "11-manufactura-sincronica-opt",
+  "to_seccion": "11. Manufactura sincrónica (OPT)",
+  "reason": "La noción de lote de transferencia (ideal = 1) y su efecto sobre el WIP sólo se expone en §11, no en §4.6."
+ },
+ {
+  "id": 58,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "WRONG",
+  "from_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+  "to_ancla": "11-manufactura-sincronica-opt",
+  "to_seccion": "11. Manufactura sincrónica (OPT)",
+  "reason": "El lote de transferencia y su relación con el WIP se tratan en §11 (OPT), no en §4.6."
+ },
+ {
+  "id": 105,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-4-inteligencia-del-despacho",
+  "to_ancla": "4-1-forma-de-asignar-el-tiempo",
+  "to_seccion": "4.1. Forma de asignar el tiempo",
+  "reason": "La dicotomía agenda (intervalo) vs despacho se introduce en §4.1; §4.4 sólo refina la inteligencia del despacho."
+ },
+ {
+  "id": 106,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "WRONG",
+  "from_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+  "to_ancla": "11-manufactura-sincronica-opt",
+  "to_seccion": "11. Manufactura sincrónica (OPT)",
+  "reason": "El lote de transferencia menor al de producción es un concepto de §11 (OPT); §4.6 no lo menciona."
+ },
+ {
+  "id": 122,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+  "to_ancla": "11-manufactura-sincronica-opt",
+  "to_seccion": "11. Manufactura sincrónica (OPT)",
+  "reason": "El eje de la afirmación es el lote de transporte (definido sólo en §11); §4.6 sólo cubre la ausencia de buffer/ZW."
+ },
+ {
+  "id": 134,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+  "to_ancla": "11-manufactura-sincronica-opt",
+  "to_seccion": "11. Manufactura sincrónica (OPT)",
+  "reason": "El lote de transferencia (crux de la afirmación) se define en §11; §4.6 sólo aporta la noción de inventario intermedio."
+ },
+ {
+  "id": 152,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "WRONG",
+  "from_ancla": "11-manufactura-sincronica-opt",
+  "to_ancla": "5-3-metodos-mixtos",
+  "to_seccion": "5.3. Métodos mixtos",
+  "reason": "La propagación de restricciones se enumera en §5.3, no en §11 (que trata OPT/cuello de botella)."
+ },
+ {
+  "id": 154,
+  "apunte": "apunte-25-scheduling",
+  "verdict": "WRONG",
+  "from_ancla": "4-estrategias-de-scheduling",
+  "to_ancla": "7-flow-shop-scheduling",
+  "to_seccion": "7. Flow Shop Scheduling",
+  "reason": "§4 no aborda el schedule permutativo/no permutativo; su definición está en §7 (permutativo = misma secuencia)."
+ },
+ {
+  "id": 110,
+  "apunte": "apunte-28-gestion-integrada-cadena-suministro",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-3-problemas-que-causa",
+  "to_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+  "to_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+  "reason": "4.3 describe el inventario alto como problema del bullwhip, no que la gestión integrada lo reduzca. La sección 5 (la solución: compartir info amortigua variaciones de inventario) sustenta mejor la reducción."
+ },
+ {
+  "id": 133,
+  "apunte": "apunte-28-gestion-integrada-cadena-suministro",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-3-problemas-que-causa",
+  "to_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+  "to_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+  "reason": "El propósito de reducir inventarios de seguridad se apoya en la solución (compartir info elimina el stock de pánico), que está en la sección 5, no en 4.3 (que lista el problema)."
+ },
+ {
+  "id": 143,
+  "apunte": "apunte-28-gestion-integrada-cadena-suministro",
+  "verdict": "SUSPECT",
+  "from_ancla": "4-3-problemas-que-causa",
+  "to_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+  "to_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+  "reason": "El objetivo de reducir inventarios de materiales corresponde a la solución (compartir información), sección 5; 4.3 solo describe el inventario alto como consecuencia del bullwhip."
+ },
+ {
+  "id": 199,
+  "apunte": "apunte-4-bpmn",
+  "verdict": "WRONG",
+  "from_ancla": "5-actividades-tareas-y-subprocesos",
+  "to_ancla": "9-manejo-de-excepciones-y-compensacion",
+  "to_seccion": "9. Manejo de excepciones y compensación",
+  "reason": "La §5 (tareas y subprocesos) no trata terminación ni cancelación. La §9 es la que dice 'Abortar un proceso → Terminate' y modela la cancelación de una actividad con boundary events interruptivos, exactamente la teoría de la justificación."
+ },
+ {
+  "id": 205,
+  "apunte": "apunte-6-patrones-modelado-procesos",
+  "verdict": "SUSPECT",
+  "from_ancla": "2-6-terminacion-y-cancelacion",
+  "to_ancla": "5-patrones-de-manejo-de-excepciones",
+  "to_seccion": "5. Patrones de manejo de excepciones",
+  "reason": "La §2.6 trata patrones de terminación/cancelación, no la distinción proceso estructurado vs. débilmente estructurado que sostiene la justificación. El enunciado versa sobre 'caminos de excepción', tema de la §5, aunque este apunte no define explícitamente 'débilmente estructurado' (concepto propio del Apunte 2)."
+ },
+ {
+  "id": 93,
+  "apunte": "apunte-7-pronosticos-de-demanda",
+  "verdict": "SUSPECT",
+  "from_ancla": "5-4-alisado-exponencial-ajustado-con-factor-de-tendencia",
+  "to_ancla": "5-3-alisado-exponencial-exponential-smoothing",
+  "to_seccion": "5.3. Alisado exponencial (*exponential smoothing*)",
+  "reason": "La afirmación compara el Alisado Exponencial SIMPLE con el ajuste lineal; el apoyo está en 5.3 (pondera y reacciona a lo reciente) y en la limitación de 5.5 (la recta aplana la historia). El ancla actual apunta a la variante ajustada (5.4), que no es el sujeto; 5.3 es la sección correcta."
+ }
+]

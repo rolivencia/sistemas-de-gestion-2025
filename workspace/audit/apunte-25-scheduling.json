@@ -1,0 +1,492 @@
+{
+ "apunte": "apunte-25-scheduling",
+ "secciones_disponibles": [
+  {
+   "ancla": "1-donde-encaja-el-scheduling-la-ultima-etapa-de-la-planificacion-jerarquica",
+   "seccion": "1. Dónde encaja el scheduling: la última etapa de la planificación jerárquica",
+   "nivel": 2
+  },
+  {
+   "ancla": "2-el-proceso-de-scheduling-tres-etapas",
+   "seccion": "2. El proceso de scheduling: tres etapas",
+   "nivel": 2
+  },
+  {
+   "ancla": "3-tipos-de-sistemas-de-produccion",
+   "seccion": "3. Tipos de sistemas de producción",
+   "nivel": 2
+  },
+  {
+   "ancla": "3-1-catalogo-de-estructuras",
+   "seccion": "3.1. Catálogo de estructuras",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-2-scheduling-segun-el-tipo-de-proceso",
+   "seccion": "3.2. Scheduling según el tipo de proceso",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-estrategias-de-scheduling",
+   "seccion": "4. Estrategias de scheduling",
+   "nivel": 2
+  },
+  {
+   "ancla": "4-1-forma-de-asignar-el-tiempo",
+   "seccion": "4.1. Forma de asignar el tiempo",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-2-que-se-cronograma-primero",
+   "seccion": "4.2. Qué se cronograma primero",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-3-direccion-temporal",
+   "seccion": "4.3. Dirección temporal",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-4-inteligencia-del-despacho",
+   "seccion": "4.4. Inteligencia del despacho",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-5-busqueda-de-optimos",
+   "seccion": "4.5. Búsqueda de óptimos",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-enfoques-de-implementacion",
+   "seccion": "5. Enfoques de implementación",
+   "nivel": 2
+  },
+  {
+   "ancla": "5-1-metodos-manuales",
+   "seccion": "5.1. Métodos manuales",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-2-metodos-matematicos",
+   "seccion": "5.2. Métodos matemáticos",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-3-metodos-mixtos",
+   "seccion": "5.3. Métodos mixtos",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-objetivos-de-scheduling",
+   "seccion": "6. Objetivos de scheduling",
+   "nivel": 2
+  },
+  {
+   "ancla": "7-flow-shop-scheduling",
+   "seccion": "7. Flow Shop Scheduling",
+   "nivel": 2
+  },
+  {
+   "ancla": "8-job-shop-scheduling",
+   "seccion": "8. Job Shop Scheduling",
+   "nivel": 2
+  },
+  {
+   "ancla": "9-scheduling-en-base-a-reglas-reglas-de-secuenciamiento",
+   "seccion": "9. Scheduling en base a reglas (reglas de secuenciamiento)",
+   "nivel": 2
+  },
+  {
+   "ancla": "9-1-ejemplo-comparativo-5-trabajos-1-maquina",
+   "seccion": "9.1. Ejemplo comparativo (5 trabajos, 1 máquina)",
+   "nivel": 3
+  },
+  {
+   "ancla": "9-2-resumen-y-lectura",
+   "seccion": "9.2. Resumen y lectura",
+   "nivel": 3
+  },
+  {
+   "ancla": "10-scheduling-de-trabajos-en-dos-maquinas-en-serie-regla-de-johnson",
+   "seccion": "10. Scheduling de trabajos en dos máquinas en serie: regla de Johnson",
+   "nivel": 2
+  },
+  {
+   "ancla": "11-manufactura-sincronica-opt",
+   "seccion": "11. Manufactura sincrónica (OPT)",
+   "nivel": 2
+  },
+  {
+   "ancla": "11-1-ejemplo",
+   "seccion": "11.1. Ejemplo",
+   "nivel": 3
+  },
+  {
+   "ancla": "12-monitoreo-de-la-evolucion-de-un-schedule",
+   "seccion": "12. Monitoreo de la evolución de un schedule",
+   "nivel": 2
+  },
+  {
+   "ancla": "12-1-diagrama-de-gantt",
+   "seccion": "12.1. Diagrama de Gantt",
+   "nivel": 3
+  },
+  {
+   "ancla": "12-2-control-input-output",
+   "seccion": "12.2. Control Input/Output",
+   "nivel": 3
+  },
+  {
+   "ancla": "13-metodos-heuristicos-algoritmos-geneticos",
+   "seccion": "13. Métodos heurísticos: algoritmos genéticos",
+   "nivel": 2
+  },
+  {
+   "ancla": "13-1-que-es",
+   "seccion": "13.1. Qué es",
+   "nivel": 3
+  },
+  {
+   "ancla": "13-2-terminologia",
+   "seccion": "13.2. Terminología",
+   "nivel": 3
+  },
+  {
+   "ancla": "13-3-operadores-geneticos",
+   "seccion": "13.3. Operadores genéticos",
+   "nivel": 3
+  },
+  {
+   "ancla": "13-4-ejemplo-minimizar-la-tardanza-total",
+   "seccion": "13.4. Ejemplo: minimizar la tardanza total",
+   "nivel": 3
+  },
+  {
+   "ancla": "14-sintesis",
+   "seccion": "14. Síntesis",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 3,
+   "afirmacion": "Un algoritmo evolutivo (genético) permite encontrar un Schedule óptimo (el mejor) desde el punto de vista del objetivo definido.",
+   "respuesta": false,
+   "justificacion": "Los algoritmos genéticos son heurísticos: encuentran BUENAS soluciones a problemas de gran complejidad computacional (NP-completo) en tiempos razonables, pero no garantizan el óptimo matemático.",
+   "ref_ancla": "13-metodos-heuristicos-algoritmos-geneticos",
+   "ref_seccion": "13. Métodos heurísticos: algoritmos genéticos",
+   "secundarias": []
+  },
+  {
+   "id": 5,
+   "afirmacion": "El algoritmo de scheduling OPT toma como base el recurso cuello de botella.",
+   "respuesta": true,
+   "justificacion": "El OPT (manufactura sincrónica, de la Teoría de las Restricciones) fundamenta su programación en concentrarse primero en el recurso cuello de botella y sincronizar el flujo a través de él.",
+   "ref_ancla": "11-manufactura-sincronica-opt",
+   "ref_seccion": "11. Manufactura sincrónica (OPT)",
+   "secundarias": []
+  },
+  {
+   "id": 13,
+   "afirmacion": "Un proceso que utiliza lote de transferencia = lote de producción (siendo este mayor que 1) se caracteriza por un menor tiempo total del material en proceso.",
+   "respuesta": false,
+   "justificacion": "Es al revés: si el lote de transferencia iguala al de producción (>1), hay que esperar a terminar todo el lote antes de moverlo, lo que aumenta los tiempos muertos, los bloqueos y el tiempo total del material en proceso.",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 14,
+   "afirmacion": "Si se requiere operar con política Zero Espera (ZW) la disponibilidad de almacenamiento intermedio facilita la gestión (scheduling).",
+   "respuesta": false,
+   "justificacion": "La política Zero Wait obliga a que el producto pase inmediatamente al equipo siguiente (que debe estar disponible), sin almacenamiento intermedio; por definición ZW no usa buffers, así que su disponibilidad no facilita la gestión.",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 20,
+   "afirmacion": "Un schedule NO permutativo es más apropiado para estructuras de proceso tipo Job Shop.",
+   "respuesta": true,
+   "justificacion": "En Job Shop los trabajos siguen rutas y secuencias distintas, por lo que un schedule no permutativo (secuencia distinta por máquina) amplía el espacio de búsqueda y logra mejores resultados.",
+   "ref_ancla": "4-estrategias-de-scheduling",
+   "ref_seccion": "4. Estrategias de scheduling",
+   "secundarias": []
+  },
+  {
+   "id": 23,
+   "afirmacion": "Los procesos con estructura tipo Job Shop son más fáciles de gestionar que los procesos con estructuras tipo Flow Shop.",
+   "respuesta": false,
+   "justificacion": "Es al revés: el Job Shop es el caso más difícil de programar (variedad de trabajos, rutas distintas, competencia por recursos comunes); el Flow Shop, con ruteo único, es más simple de gestionar.",
+   "ref_ancla": "8-job-shop-scheduling",
+   "ref_seccion": "8. Job Shop Scheduling",
+   "secundarias": []
+  },
+  {
+   "id": 24,
+   "afirmacion": "La estrategia de propagación de restricciones permite podar el árbol de búsqueda de soluciones de manera \"inteligente\".",
+   "respuesta": true,
+   "justificacion": "La propagación de restricciones (constraint programming) poda el árbol de búsqueda descartando tempranamente las asignaciones imposibles.",
+   "ref_ancla": "11-manufactura-sincronica-opt",
+   "ref_seccion": "11. Manufactura sincrónica (OPT)",
+   "secundarias": []
+  },
+  {
+   "id": 28,
+   "afirmacion": "Un proceso que utiliza lote de transferencia = 1 se caracteriza por un menor tiempo total de proceso.",
+   "respuesta": true,
+   "justificacion": "Con lote de transferencia = 1 las piezas avanzan sin esperar al resto del lote, minimizando los tiempos muertos y el tiempo total de proceso.",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 29,
+   "afirmacion": "Si se requiere operar con política Zero Espera (ZW) la disponibilidad de almacenamiento intermedio es totalmente necesaria.",
+   "respuesta": false,
+   "justificacion": "Es falso: ZW implica que el producto pasa de una máquina a otra inmediatamente, sin detenciones ni esperas, por lo que NO utiliza almacenamiento intermedio (no es necesario).",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 35,
+   "afirmacion": "Un schedule permutativo es más apropiado para estructuras de proceso tipo Job Shop.",
+   "respuesta": false,
+   "justificacion": "Es al revés: para Job Shop conviene el schedule no permutativo; el permutativo (misma secuencia en todas las máquinas) es propio del Flow Shop (Idem #20).",
+   "ref_ancla": "4-estrategias-de-scheduling",
+   "ref_seccion": "4. Estrategias de scheduling",
+   "secundarias": []
+  },
+  {
+   "id": 43,
+   "afirmacion": "Un proceso que utiliza lote de transferencia = 1 se caracteriza por un menor inventario en proceso.",
+   "respuesta": true,
+   "justificacion": "Con lote de transferencia = 1 hay menos piezas esperando turno, minimizando el inventario en proceso (Work In Progress, WIP).",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 44,
+   "afirmacion": "La NO disponibilidad de almacenamiento intermedio produce el bloqueo de los recursos.",
+   "respuesta": true,
+   "justificacion": "Sin almacenamiento intermedio (buffer), una máquina que terminó no puede vaciar su pieza si la siguiente está ocupada, y se bloquea.",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 50,
+   "afirmacion": "Un schedule No permutativo es más apropiado para estructuras de proceso tipo Flow Shop.",
+   "respuesta": false,
+   "justificacion": "En Flow Shop el ruteo tecnológico es único y constante, por lo que se usa schedule permutativo; el no permutativo es propio del Job Shop.",
+   "ref_ancla": "7-flow-shop-scheduling",
+   "ref_seccion": "7. Flow Shop Scheduling",
+   "secundarias": []
+  },
+  {
+   "id": 58,
+   "afirmacion": "Un proceso que utiliza lote de transferencia = 1 se caracteriza por un mayor inventario en proceso.",
+   "respuesta": false,
+   "justificacion": "Es al revés: con lote de transferencia = 1 el inventario en proceso (WIP) es menor, no mayor (Idem #43).",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 59,
+   "afirmacion": "La disponibilidad de almacenamiento intermedio evita el bloqueo de los recursos.",
+   "respuesta": true,
+   "justificacion": "Con almacenamiento intermedio disponible, una máquina que terminó puede vaciar su pieza al buffer aunque la siguiente esté ocupada, evitando el bloqueo (Idem #44).",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 66,
+   "afirmacion": "Las estructuras de producción de tipo celdas de manufactura intentan aprovechar la simpleza del Flow Shop y la flexibilidad del Job Shop.",
+   "respuesta": true,
+   "justificacion": "Las celdas de manufactura combinan la simpleza/linealidad del Flow Shop (para familias de piezas) con la flexibilidad del Job Shop (reconfigurabilidad ante cambios).",
+   "ref_ancla": "3-1-catalogo-de-estructuras",
+   "ref_seccion": "3.1. Catálogo de estructuras",
+   "secundarias": []
+  },
+  {
+   "id": 102,
+   "afirmacion": "En un proceso de scheduling, los algoritmos evolutivos (genéticos) permiten en general encontrar la secuencia óptima.",
+   "respuesta": false,
+   "justificacion": "Los algoritmos genéticos son heurísticos: encuentran buenas soluciones, no garantizan en general la secuencia óptima (Idem #3).",
+   "ref_ancla": "13-metodos-heuristicos-algoritmos-geneticos",
+   "ref_seccion": "13. Métodos heurísticos: algoritmos genéticos",
+   "secundarias": []
+  },
+  {
+   "id": 105,
+   "afirmacion": "Una estrategia de despacho en general es menos eficiente que una estrategia de agenda al momento de generar un schedule para un proceso de tipo Job Shop.",
+   "respuesta": true,
+   "justificacion": "Una estrategia de agenda (que genera toda la traza previendo bloqueos) suele ser más eficiente que el despacho on-the-fly (miope), sobre todo en Job Shop.",
+   "ref_ancla": "4-4-inteligencia-del-despacho",
+   "ref_seccion": "4.4. Inteligencia del despacho",
+   "secundarias": []
+  },
+  {
+   "id": 106,
+   "afirmacion": "Un lote de transferencia menor que el lote de producción permite reducir el inventario en proceso, pero aumenta los costos de transporte internos de producción.",
+   "respuesta": true,
+   "justificacion": "Un lote de transferencia menor que el de producción reduce el inventario en proceso, pero aumenta los costos de transporte internos de planta (más traslados entre máquinas).",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 111,
+   "afirmacion": "El modelo de producción Flow Shop es más complejo de gestionar que el modelo Job Shop.",
+   "respuesta": false,
+   "justificacion": "Es al revés: el Job Shop (rutas cruzadas) es más complejo de gestionar; el Flow Shop, con ruteo único, es más simple (Idem #23).",
+   "ref_ancla": "8-job-shop-scheduling",
+   "ref_seccion": "8. Job Shop Scheduling",
+   "secundarias": []
+  },
+  {
+   "id": 115,
+   "afirmacion": "El modelo de scheduling de tiempo continuo es un modelo de programación lineal con todas sus variables enteras.",
+   "respuesta": false,
+   "justificacion": "El scheduling de tiempo continuo usa programación lineal mixta (MILP): las asignaciones son binarias, pero los instantes de inicio/fin son variables continuas, no todas enteras.",
+   "ref_ancla": "5-2-metodos-matematicos",
+   "ref_seccion": "5.2. Métodos matemáticos",
+   "secundarias": []
+  },
+  {
+   "id": 122,
+   "afirmacion": "Sin almacén intermedio el lote de transporte debe ser igual al lote de producción.",
+   "respuesta": false,
+   "justificacion": "Es falso: sin almacén intermedio las piezas se pasan de a una (secuencial), por lo que el lote de transporte debe ser 1, no igual al lote de producción (Idem #29).",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 126,
+   "afirmacion": "El modelo de producción por celdas es menos flexible que el Job Shop pero más organizado.",
+   "respuesta": true,
+   "justificacion": "Las celdas de manufactura son menos flexibles que el Job Shop pero más organizadas: combinan la linealidad para familias de piezas con la reconfigurabilidad ante cambios (Idem #66).",
+   "ref_ancla": "3-1-catalogo-de-estructuras",
+   "ref_seccion": "3.1. Catálogo de estructuras",
+   "secundarias": []
+  },
+  {
+   "id": 130,
+   "afirmacion": "Los sistemas de scheduling basados en reglas permiten encontrar soluciones más eficientes que los modelos de optimización.",
+   "respuesta": false,
+   "justificacion": "Es al revés: las reglas de secuenciamiento (heurísticas, miopes) son rápidas pero rara vez superan a los modelos de optimización, que buscan el óptimo.",
+   "ref_ancla": "9-scheduling-en-base-a-reglas-reglas-de-secuenciamiento",
+   "ref_seccion": "9. Scheduling en base a reglas (reglas de secuenciamiento)",
+   "secundarias": []
+  },
+  {
+   "id": 131,
+   "afirmacion": "Los algoritmos evolutivos (genéticos) son algoritmos de base heurística.",
+   "respuesta": true,
+   "justificacion": "Los algoritmos genéticos son de base heurística: encuentran buenas soluciones en tiempos razonables sin garantizar el óptimo (Idem #3).",
+   "ref_ancla": "13-metodos-heuristicos-algoritmos-geneticos",
+   "ref_seccion": "13. Métodos heurísticos: algoritmos genéticos",
+   "secundarias": []
+  },
+  {
+   "id": 134,
+   "afirmacion": "Un lote de transferencia = lote de producción implica la existencia de inventario intermedio.",
+   "respuesta": true,
+   "justificacion": "Si el lote de transferencia iguala al de producción, las piezas se acumulan antes de moverse, configurando inventario intermedio (WIP).",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 152,
+   "afirmacion": "La estrategia de Propagación de Restricciones ayuda a reducir el espacio de soluciones de un modelo de programación matemática con variables enteras, facilitando así el proceso de búsqueda de solución de los algoritmos de optimización.",
+   "respuesta": true,
+   "justificacion": "La propagación de restricciones reduce el espacio de soluciones de un modelo con variables enteras descartando asignaciones imposibles, facilitando la búsqueda de los algoritmos de optimización (Idem #24).",
+   "ref_ancla": "11-manufactura-sincronica-opt",
+   "ref_seccion": "11. Manufactura sincrónica (OPT)",
+   "secundarias": []
+  },
+  {
+   "id": 154,
+   "afirmacion": "En un proceso tipo Job Shop un scheduling NO permutativo generalmente proporciona mejores resultados que uno permutativo.",
+   "respuesta": true,
+   "justificacion": "En Job Shop, con rutas distintas por trabajo, un schedule no permutativo generalmente da mejores resultados que uno permutativo (Idem #20).",
+   "ref_ancla": "4-estrategias-de-scheduling",
+   "ref_seccion": "4. Estrategias de scheduling",
+   "secundarias": []
+  },
+  {
+   "id": 160,
+   "afirmacion": "El tiempo de cómputo de los modelos matemáticos de problemas de scheduling crece exponencialmente en la medida que aumenta el número de órdenes.",
+   "respuesta": true,
+   "justificacion": "El scheduling es NP-hard: el número de secuencias (n!) explota, por lo que el tiempo de cómputo de los modelos matemáticos crece exponencialmente al aumentar el número de órdenes.",
+   "ref_ancla": "5-2-metodos-matematicos",
+   "ref_seccion": "5.2. Métodos matemáticos",
+   "secundarias": []
+  },
+  {
+   "id": 169,
+   "afirmacion": "En un proceso de producción por órdenes cerradas, los materiales de cada orden mantienen su identidad a lo largo de todo el proceso.",
+   "respuesta": true,
+   "justificacion": "En producción por órdenes (cerradas), cada orden persigue las características del producto de inicio a fin, por lo que sus materiales mantienen su identidad, a diferencia del flujo continuo/masivo.",
+   "ref_ancla": "3-1-catalogo-de-estructuras",
+   "ref_seccion": "3.1. Catálogo de estructuras",
+   "secundarias": []
+  },
+  {
+   "id": 170,
+   "afirmacion": "Una política Cero Espera genera el mismo Schedule (cronograma) que el caso de no tener almacenamiento intermedio.",
+   "respuesta": false,
+   "justificacion": "No siempre: sin almacén el lote puede demorarse bloqueando la máquina previa, mientras que ZW impide que el trabajo se detenga una vez iniciado, obligando a coordinar estrictamente los tiempos de inicio; por eso pueden originar schedules distintos.",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 178,
+   "afirmacion": "En un sistema de scheduling job shop o flow shop, el \"makespan\" representa el tiempo total de procesamiento de todas las órdenes",
+   "respuesta": true,
+   "justificacion": "El makespan es el tiempo total para completar todo el grupo de órdenes: del inicio del primer trabajo a la finalización (completion time) de la última orden de la secuencia.",
+   "ref_ancla": "6-objetivos-de-scheduling",
+   "ref_seccion": "6. Objetivos de scheduling",
+   "secundarias": []
+  },
+  {
+   "id": 180,
+   "afirmacion": "La política ZW (cero espera) no es compatible con una política de almacenamiento intermedio",
+   "respuesta": true,
+   "justificacion": "ZW impone un flujo directo y sin interrupciones entre máquinas, lo que hace inviable/innecesario el almacenamiento intermedio: ambas políticas son incompatibles.",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  },
+  {
+   "id": 193,
+   "afirmacion": "En un sistema de scheduling job shop o flow shop, el \"makespan\" representa la velocidad de procesamiento de todas las órdenes",
+   "respuesta": false,
+   "justificacion": "El makespan no es una tasa ni una velocidad, sino una medida temporal absoluta: el tiempo total que toma completar todo el grupo de trabajos.",
+   "ref_ancla": "6-objetivos-de-scheduling",
+   "ref_seccion": "6. Objetivos de scheduling",
+   "secundarias": []
+  },
+  {
+   "id": 196,
+   "afirmacion": "La política ZW (cero espera) es compatible con una política de NO almacenamiento intermedio",
+   "respuesta": true,
+   "justificacion": "Bajo ZW el trabajo no se detiene entre estaciones, por lo que no genera ni necesita stock en buffers: ZW y la política de NO almacenamiento intermedio son compatibles.",
+   "ref_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "ref_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "secundarias": []
+  }
+ ]
+}

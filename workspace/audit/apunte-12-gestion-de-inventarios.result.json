@@ -1,0 +1,236 @@
+{
+ "apunte": "apunte-12-gestion-de-inventarios",
+ "verdicts": [
+  {
+   "id": 15,
+   "verdict": "OK",
+   "best_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "best_seccion": "7.3. Punto de pedido con demanda variable",
+   "reason": "La sección define Pp = d̄L + zσ√L, mostrando que el buffer cubre la variabilidad de la demanda solo durante el lead time."
+  },
+  {
+   "id": 22,
+   "verdict": "OK",
+   "best_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "best_seccion": "7.3. Punto de pedido con demanda variable",
+   "reason": "La fórmula Pp = d̄L + z σ√L (con el término Ss recuadrado) muestra explícitamente que el punto de pedido incluye el stock de seguridad."
+  },
+  {
+   "id": 25,
+   "verdict": "OK",
+   "best_ancla": "4-sistemas-de-control-de-inventarios",
+   "best_seccion": "4. Sistemas de control de inventarios",
+   "reason": "La tabla de la sección 4 indica que en revisión periódica el momento (T) es fijo y la cantidad Q = NImax − I es variable, no el nivel de inventario."
+  },
+  {
+   "id": 33,
+   "verdict": "OK",
+   "best_ancla": "4-1-proceso-de-revision-continua",
+   "best_seccion": "4.1. Proceso de revisión continua",
+   "reason": "La ventaja anotada en 4.1 es que controla el inventario en cada transacción, por lo que se adapta mejor a las variaciones de la demanda."
+  },
+  {
+   "id": 37,
+   "verdict": "OK",
+   "best_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "best_seccion": "7.3. Punto de pedido con demanda variable",
+   "reason": "La fórmula Pp = d̄L + Ss muestra que el punto de pedido es demanda media más stock de seguridad, no solo el Ss."
+  },
+  {
+   "id": 38,
+   "verdict": "OK",
+   "best_ancla": "4-2-proceso-de-revision-periodica",
+   "best_seccion": "4.2. Proceso de revisión periódica",
+   "reason": "El flujo de 4.2 muestra que se pide Q = NImax − I, una cantidad variable según el inventario observado."
+  },
+  {
+   "id": 40,
+   "verdict": "OK",
+   "best_ancla": "razones-para-mantener-inventarios",
+   "best_seccion": "Razones para mantener inventarios",
+   "reason": "La sección lista la independencia entre etapas y la cobertura ante lo inesperado, fundamentando que los inventarios dan mayor flexibilidad."
+  },
+  {
+   "id": 48,
+   "verdict": "OK",
+   "best_ancla": "4-1-proceso-de-revision-continua",
+   "best_seccion": "4.1. Proceso de revisión continua",
+   "reason": "La ventaja explícita de 4.1 es menor probabilidad de faltante ante un aumento inesperado de la demanda."
+  },
+  {
+   "id": 49,
+   "verdict": "OK",
+   "best_ancla": "5-clasificacion-abc",
+   "best_seccion": "5. Clasificación ABC",
+   "reason": "La sección indica que la ABC sirve para decidir qué sistema de control aplicar a cada clase (continua a los A, esquemas livianos a los C)."
+  },
+  {
+   "id": 52,
+   "verdict": "OK",
+   "best_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "best_seccion": "7.3. Punto de pedido con demanda variable",
+   "reason": "La fórmula Pp = d̄L + zσ√L confirma que se suma el stock de seguridad a la demanda media durante el lead time."
+  },
+  {
+   "id": 53,
+   "verdict": "OK",
+   "best_ancla": "4-2-proceso-de-revision-periodica",
+   "best_seccion": "4.2. Proceso de revisión periódica",
+   "reason": "El proceso pide Q = NImax − I, cantidad variable; lo fijo es el período, por lo que la afirmación es falsa."
+  },
+  {
+   "id": 67,
+   "verdict": "OK",
+   "best_ancla": "8-sistema-de-revision-periodica-modelo-basico-de-periodo-fijo",
+   "best_seccion": "8. Sistema de revisión periódica: modelo básico de período fijo",
+   "reason": "NImax = d̄(T+L) + zσ√(T+L) muestra que a mayor lead time L crece el inventario objetivo y el lote necesario."
+  },
+  {
+   "id": 92,
+   "verdict": "OK",
+   "best_ancla": "3-objetivo-de-la-gestion-de-inventarios",
+   "best_seccion": "3. Objetivo de la gestión de inventarios",
+   "reason": "El objetivo declarado es minimizar el costo total de inventarios, coherente con trabajar con el mínimo stock necesario."
+  },
+  {
+   "id": 95,
+   "verdict": "OK",
+   "best_ancla": "7-2-inventario-stock-de-seguridad-s-s",
+   "best_seccion": "7.2. Inventario / stock de seguridad ($S_s$)",
+   "reason": "La sección presenta el Ss como buffer contra la variabilidad y define el nivel de servicio como probabilidad de no incurrir en faltante."
+  },
+  {
+   "id": 99,
+   "verdict": "OK",
+   "best_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "best_seccion": "7.3. Punto de pedido con demanda variable",
+   "reason": "Con Ss = zσ√L, mayor σ implica mayor stock de seguridad, contradiciendo la afirmación."
+  },
+  {
+   "id": 101,
+   "verdict": "OK",
+   "best_ancla": "4-sistemas-de-control-de-inventarios",
+   "best_seccion": "4. Sistemas de control de inventarios",
+   "reason": "La sección 4 muestra que en revisión continua la orden se detona cuando I < Pp; el punto de pedido es el parámetro de control, no el lote."
+  },
+  {
+   "id": 103,
+   "verdict": "SUSPECT",
+   "best_ancla": "a-costos-de-almacenamiento-holding-carrying-cost-c-c",
+   "best_seccion": "a) Costos de almacenamiento (*holding / carrying cost*, $C_c$)",
+   "reason": "El nexo precio→EOQ solo se sostiene porque Cc es un 10–40% del valor del producto (sección a); en 6.1 el precio Cp se declara irrelevante para Q*, lo que puede confundir."
+  },
+  {
+   "id": 117,
+   "verdict": "OK",
+   "best_ancla": "4-sistemas-de-control-de-inventarios",
+   "best_seccion": "4. Sistemas de control de inventarios",
+   "reason": "La tabla indica que en período fijo lo fijo es el momento/período T, no el lead time, por lo que la afirmación es falsa."
+  },
+  {
+   "id": 121,
+   "verdict": "OK",
+   "best_ancla": "6-1-caso-1-ingreso-instantaneo",
+   "best_seccion": "6.1. Caso 1 — Ingreso instantáneo",
+   "reason": "La fórmula Q* = √(2CoD/Cc) muestra directamente que a mayor costo fijo (Co/set-up) mayor lote, sin contradicción con el texto."
+  },
+  {
+   "id": 123,
+   "verdict": "OK",
+   "best_ancla": "4-sistemas-de-control-de-inventarios",
+   "best_seccion": "4. Sistemas de control de inventarios",
+   "reason": "La sección 4 establece que en revisión continua la orden se emite cuando I < Pp, siendo el punto de pedido el parámetro de control."
+  },
+  {
+   "id": 127,
+   "verdict": "OK",
+   "best_ancla": "7-2-inventario-stock-de-seguridad-s-s",
+   "best_seccion": "7.2. Inventario / stock de seguridad ($S_s$)",
+   "reason": "El nivel de servicio se define como una probabilidad de suficiencia, por lo que el Ss reduce pero no elimina la posibilidad de faltante."
+  },
+  {
+   "id": 128,
+   "verdict": "OK",
+   "best_ancla": "4-2-proceso-de-revision-periodica",
+   "best_seccion": "4.2. Proceso de revisión periódica",
+   "reason": "El proceso pide Q = NImax − I (variable); lo fijo es el período, por lo que la afirmación de lote fijo es falsa."
+  },
+  {
+   "id": 139,
+   "verdict": "OK",
+   "best_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "best_seccion": "7.3. Punto de pedido con demanda variable",
+   "reason": "Con Ss = zσ√L fijo, un mayor σ implica menor z cubierto y por ende menor nivel de servicio garantizado."
+  },
+  {
+   "id": 142,
+   "verdict": "OK",
+   "best_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "best_seccion": "7.3. Punto de pedido con demanda variable",
+   "reason": "Con Ss = zσ√L para un nivel de servicio dado (z fijo), un mayor desvío σ exige mayor stock de seguridad."
+  },
+  {
+   "id": 148,
+   "verdict": "OK",
+   "best_ancla": "8-sistema-de-revision-periodica-modelo-basico-de-periodo-fijo",
+   "best_seccion": "8. Sistema de revisión periódica: modelo básico de período fijo",
+   "reason": "La sección indica expresamente que hay que protegerse contra la variabilidad durante todo el intervalo T + L."
+  },
+  {
+   "id": 150,
+   "verdict": "OK",
+   "best_ancla": "6-1-caso-1-ingreso-instantaneo",
+   "best_seccion": "6.1. Caso 1 — Ingreso instantáneo",
+   "reason": "Con Q* = √(2CoD/Cc), si Co = 0 entonces Q* → 0, fundamentando que sin costos fijos no se justifican lotes mínimos."
+  },
+  {
+   "id": 157,
+   "verdict": "OK",
+   "best_ancla": "4-1-proceso-de-revision-continua",
+   "best_seccion": "4.1. Proceso de revisión continua",
+   "reason": "El control en cada transacción de 4.1 fundamenta que la revisión continua se ajusta mejor a los cambios de demanda."
+  },
+  {
+   "id": 158,
+   "verdict": "OK",
+   "best_ancla": "3-objetivo-de-la-gestion-de-inventarios",
+   "best_seccion": "3. Objetivo de la gestión de inventarios",
+   "reason": "El objetivo de minimizar el costo total respalda mantener el mínimo stock necesario sin llegar a un cero absoluto."
+  },
+  {
+   "id": 163,
+   "verdict": "OK",
+   "best_ancla": "8-sistema-de-revision-periodica-modelo-basico-de-periodo-fijo",
+   "best_seccion": "8. Sistema de revisión periódica: modelo básico de período fijo",
+   "reason": "El recuadro comparativo muestra Ss=zσ√(T+L) en período fijo vs zσ√L en continua, es decir mayor en período fijo, no menor."
+  },
+  {
+   "id": 165,
+   "verdict": "OK",
+   "best_ancla": "6-1-caso-1-ingreso-instantaneo",
+   "best_seccion": "6.1. Caso 1 — Ingreso instantáneo",
+   "reason": "La fórmula del EOQ fundamenta que son los costos fijos (Co) los que justifican comprar/producir en lotes mínimos Q*."
+  },
+  {
+   "id": 173,
+   "verdict": "OK",
+   "best_ancla": "7-2-inventario-stock-de-seguridad-s-s",
+   "best_seccion": "7.2. Inventario / stock de seguridad ($S_s$)",
+   "reason": "La sección define el Ss como buffer para la variabilidad exclusivamente durante el tiempo de provisión (lead time)."
+  },
+  {
+   "id": 185,
+   "verdict": "OK",
+   "best_ancla": "6-1-caso-1-ingreso-instantaneo",
+   "best_seccion": "6.1. Caso 1 — Ingreso instantáneo",
+   "reason": "Q* = √(2CoD/Cc) no contiene el lead time, confirmando que el lote no depende del plazo de provisión."
+  },
+  {
+   "id": 187,
+   "verdict": "OK",
+   "best_ancla": "4-1-proceso-de-revision-continua",
+   "best_seccion": "4.1. Proceso de revisión continua",
+   "reason": "El flujo de 4.1 es reactivo, disparado por eventos (ordena solo cuando I < Pp), no planifica proactivamente un horizonte futuro."
+  }
+ ]
+}

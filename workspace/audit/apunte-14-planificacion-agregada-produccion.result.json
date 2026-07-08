@@ -1,0 +1,166 @@
+{
+ "apunte": "apunte-14-planificacion-agregada-produccion",
+ "verdicts": [
+  {
+   "id": 1,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "La sección 4 define que 'agregado' es planificar por familias en horizonte de mediano plazo, lo que sustenta que no se requiere pronóstico de corto plazo por producto."
+  },
+  {
+   "id": 11,
+   "verdict": "OK",
+   "best_ancla": "9-2-algoritmo-de-pap-estrategia-de-nivelacion-de-mano-de-obra",
+   "best_seccion": "9.2. Algoritmo de PAP — Estrategia de **Nivelación de Mano de Obra**",
+   "reason": "La sección 9.2 indica que con fuerza de trabajo constante el inventario absorbe las diferencias, por lo que genera stock ante demanda estacional."
+  },
+  {
+   "id": 26,
+   "verdict": "OK",
+   "best_ancla": "7-1-intuicion-grafica-caza-vs-nivelacion",
+   "best_seccion": "7.1. Intuición gráfica: caza vs. nivelación",
+   "reason": "La sección 7.1 señala que la caza minimiza inventario pero asume costos de contratación/despido y variabilidad de la fuerza laboral, sustentando que no da el menor costo incremental."
+  },
+  {
+   "id": 70,
+   "verdict": "OK",
+   "best_ancla": "9-2-algoritmo-de-pap-estrategia-de-nivelacion-de-mano-de-obra",
+   "best_seccion": "9.2. Algoritmo de PAP — Estrategia de **Nivelación de Mano de Obra**",
+   "reason": "La sección 9.2 muestra que la nivelación fija la MO constante y el inventario fluctúa; su propósito es nivelar la mano de obra, no el inventario mínimo."
+  },
+  {
+   "id": 87,
+   "verdict": "OK",
+   "best_ancla": "7-1-intuicion-grafica-caza-vs-nivelacion",
+   "best_seccion": "7.1. Intuición gráfica: caza vs. nivelación",
+   "reason": "La sección 7.1 describe que en la caza la producción persigue a la demanda período a período, lo que confirma la afirmación."
+  },
+  {
+   "id": 89,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "El ATP no se desarrolla en este apunte (se remite al de PMP, ver sección 10); la sección 4 es el contenedor de PAP más cercano y ninguna sección justifica mejor la afirmación."
+  },
+  {
+   "id": 104,
+   "verdict": "SUSPECT",
+   "best_ancla": "5-2-estrategias-para-ajustar-la-capacidad",
+   "best_seccion": "5.2. Estrategias para ajustar la capacidad",
+   "reason": "La sección 5.2 define la caza como contratar/despedir para seguir la demanda y la nivelación como producir a ritmo constante, contradiciendo directamente la afirmación; la sección 4 no distingue ambas estrategias."
+  },
+  {
+   "id": 107,
+   "verdict": "SUSPECT",
+   "best_ancla": "1-planificacion-de-operaciones",
+   "best_seccion": "1. Planificación de operaciones",
+   "reason": "La sección 1 define planificar como 'proyectar el futuro deseado y los medios para conseguirlo', que es la esencia proactiva; la sección 4 no aborda el carácter proactivo del sistema."
+  },
+  {
+   "id": 113,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "El ATP y los entornos de producción no se tratan en este apunte (diferidos al de PMP); la sección 4 es el contenedor más próximo y ninguna sección lo justifica mejor."
+  },
+  {
+   "id": 114,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "La sección 4 establece que 'agregado' significa planificar por líneas o familias de productos, sustentando el núcleo de la afirmación."
+  },
+  {
+   "id": 124,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "La sección 4 fija el PAP en el horizonte de mediano plazo, lo que respalda que el rango de 12–18 meses corresponde al plan agregado y no al PMP."
+  },
+  {
+   "id": 137,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "El ATP no se desarrolla en este apunte (se remite al de PMP); la sección 4 es el contenedor más cercano y ninguna sección lo justifica mejor."
+  },
+  {
+   "id": 147,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "El ATP no se desarrolla en este apunte (se remite al de PMP); la sección 4 es el contenedor más cercano y ninguna sección lo justifica mejor."
+  },
+  {
+   "id": 149,
+   "verdict": "SUSPECT",
+   "best_ancla": "2-1-planificar-implica-comparar",
+   "best_seccion": "2.1. Planificar implica comparar",
+   "reason": "La sección 2.1 asocia el corto/mediano plazo con ajustes coyunturales (horas extra, tercerización, contratación) frente a los estructurales de largo plazo; la sección 4 no trata esa distinción."
+  },
+  {
+   "id": 153,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "El apunte no desarrolla el argumento de factores subjetivos/decisión humana (solo el consenso del proceso S&OP en 4.2); la sección 4 es el contenedor más cercano y ninguna sección lo justifica mejor."
+  },
+  {
+   "id": 164,
+   "verdict": "SUSPECT",
+   "best_ancla": "2-1-planificar-implica-comparar",
+   "best_seccion": "2.1. Planificar implica comparar",
+   "reason": "La sección 2.1 asocia el largo plazo con ajustes estructurales (productos, procesos, capacidad de plantas); la sección 4 no aborda los cambios estructurales de la capacidad."
+  },
+  {
+   "id": 167,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "El ATP no se desarrolla en este apunte (se remite al de PMP); la sección 4 es el contenedor más cercano y ninguna sección lo justifica mejor."
+  },
+  {
+   "id": 168,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "El apunte presenta la programación lineal como técnica válida (§7 y §8) pero no argumenta que la decisión humana sea imprescindible; la sección 4 es el contenedor más cercano y ninguna sección justifica mejor la respuesta."
+  },
+  {
+   "id": 174,
+   "verdict": "SUSPECT",
+   "best_ancla": "2-1-planificar-implica-comparar",
+   "best_seccion": "2.1. Planificar implica comparar",
+   "reason": "La sección 2.1 plantea literalmente comparar 'Capacidad requerida (PLAN) ↔ Capacidad disponible (RECURSOS)', que es la verificación del plan contra la mano de obra disponible que describe la afirmación."
+  },
+  {
+   "id": 175,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "El stock de seguridad y la corrección del PMP no se tratan en este apunte (tema de PMP); la sección 4 es el contenedor más cercano y ninguna sección lo justifica mejor."
+  },
+  {
+   "id": 182,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "El ATP no se desarrolla en este apunte (se remite al de PMP); la sección 4 es el contenedor más cercano y ninguna sección lo justifica mejor."
+  },
+  {
+   "id": 184,
+   "verdict": "OK",
+   "best_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "best_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "reason": "Los entornos make-to-stock/make-to-order y el PMP se difieren al apunte de PMP (sección 10 solo los nombra); la sección 4 es el contenedor más cercano y ninguna sección los justifica mejor."
+  },
+  {
+   "id": 189,
+   "verdict": "SUSPECT",
+   "best_ancla": "9-2-algoritmo-de-pap-estrategia-de-nivelacion-de-mano-de-obra",
+   "best_seccion": "9.2. Algoritmo de PAP — Estrategia de **Nivelación de Mano de Obra**",
+   "reason": "La sección 9.2 muestra que la nivelación fija la fuerza de trabajo constante y el inventario fluctúa; el objetivo es nivelar la capacidad, no el inventario. La sección 4 no lo desarrolla (idem 11/70)."
+  }
+ ]
+}

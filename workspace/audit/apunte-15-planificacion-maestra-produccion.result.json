@@ -1,0 +1,89 @@
+{
+ "apunte": "apunte-15-planificacion-maestra-produccion",
+ "verdicts": [
+  {
+   "id": 7,
+   "verdict": "OK",
+   "best_ancla": "8-disponible-a-prometer-atp",
+   "best_seccion": "8. Disponible a Prometer (ATP)",
+   "reason": "El concepto de ATP como produccion planificada no comprometida y proyeccion de inventario futuro esta en el encabezado de la seccion 8."
+  },
+  {
+   "id": 27,
+   "verdict": "SUSPECT",
+   "best_ancla": "8-1-formulas-de-calculo",
+   "best_seccion": "8.1. Fórmulas de cálculo",
+   "reason": "El detalle de que el Ss se descuenta solo en el primer periodo surge de las formulas del ATP, ubicadas en 8.1; el encabezado de 8 solo da la definicion."
+  },
+  {
+   "id": 30,
+   "verdict": "OK",
+   "best_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+   "best_seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+   "reason": "El ajuste del PMP inicial con datos de corto plazo (PVCP, PCC, PPE, inventario) y verificacion contra Ss se describe en 9.2."
+  },
+  {
+   "id": 42,
+   "verdict": "SUSPECT",
+   "best_ancla": "8-1-formulas-de-calculo",
+   "best_seccion": "8.1. Fórmulas de cálculo",
+   "reason": "El descuento del Ss solo en el primer periodo se justifica con las formulas de 8.1, no con el encabezado de 8."
+  },
+  {
+   "id": 45,
+   "verdict": "OK",
+   "best_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+   "best_seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+   "reason": "La regla del mayor entre pronostico y pedidos (demanda consumida) esta en el cuerpo de 9.2."
+  },
+  {
+   "id": 55,
+   "verdict": "SUSPECT",
+   "best_ancla": "reglas-para-corregir-el-pmp",
+   "best_seccion": "Reglas para corregir el PMP",
+   "reason": "La distincion entre adelantar (regla 1) y agregar un lote (regla 2, escasez persistente) esta en la subseccion de reglas de correccion."
+  },
+  {
+   "id": 57,
+   "verdict": "SUSPECT",
+   "best_ancla": "8-1-formulas-de-calculo",
+   "best_seccion": "8.1. Fórmulas de cálculo",
+   "reason": "Que el Ss se descuenta solo en el primer periodo y no en cada periodo con lote se desprende de las formulas de 8.1."
+  },
+  {
+   "id": 60,
+   "verdict": "OK",
+   "best_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+   "best_seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+   "reason": "La regla del mayor (no siempre se priorizan las ordenes) esta en la formula de demanda consumida de 9.2."
+  },
+  {
+   "id": 61,
+   "verdict": "SUSPECT",
+   "best_ancla": "8-1-formulas-de-calculo",
+   "best_seccion": "8.1. Fórmulas de cálculo",
+   "reason": "Que el Ss no se resta a cada lote sino solo en el primer periodo se justifica con las formulas de 8.1."
+  },
+  {
+   "id": 69,
+   "verdict": "SUSPECT",
+   "best_ancla": "reglas-para-corregir-el-pmp",
+   "best_seccion": "Reglas para corregir el PMP",
+   "reason": "La regla 1 exige IF_{t+1} estrictamente mayor que Ss; la tabla de reglas esta en la subseccion de correccion del PMP."
+  },
+  {
+   "id": 71,
+   "verdict": "OK",
+   "best_ancla": "8-disponible-a-prometer-atp",
+   "best_seccion": "8. Disponible a Prometer (ATP)",
+   "reason": "Que el ATP permite al vendedor comprometer pedidos con seguridad esta en el concepto de la seccion 8 y su proceso de promesa."
+  },
+  {
+   "id": 74,
+   "verdict": "OK",
+   "best_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+   "best_seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+   "reason": "La regla del mayor (priorizar ordenes cuando superan al pronostico) esta en la formula de demanda consumida de 9.2."
+  }
+ ]
+}

@@ -1,0 +1,344 @@
+{
+ "apunte": "apunte-14-planificacion-agregada-produccion",
+ "secciones_disponibles": [
+  {
+   "ancla": "agenda-de-la-presentacion",
+   "seccion": "Agenda de la presentación",
+   "nivel": 2
+  },
+  {
+   "ancla": "1-planificacion-de-operaciones",
+   "seccion": "1. Planificación de operaciones",
+   "nivel": 2
+  },
+  {
+   "ancla": "1-1-recursos-de-produccion",
+   "seccion": "1.1. Recursos de producción",
+   "nivel": 3
+  },
+  {
+   "ancla": "1-2-dinamica-de-los-recursos-segun-el-horizonte-de-tiempo",
+   "seccion": "1.2. Dinámica de los recursos según el horizonte de tiempo",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-niveles-de-planificacion",
+   "seccion": "2. Niveles de planificación",
+   "nivel": 2
+  },
+  {
+   "ancla": "2-1-planificar-implica-comparar",
+   "seccion": "2.1. Planificar implica comparar",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-planificacion-jerarquica-de-la-produccion",
+   "seccion": "3. Planificación Jerárquica de la Producción",
+   "nivel": 2
+  },
+  {
+   "ancla": "3-1-la-matriz-de-planificacion",
+   "seccion": "3.1. La matriz de planificación",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "nivel": 2
+  },
+  {
+   "ancla": "4-1-el-proceso-de-pap-s-op",
+   "seccion": "4.1. El proceso de PAP (S&OP)",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-2-proceso-de-actualizacion-mensual-del-pap",
+   "seccion": "4.2. Proceso de actualización mensual del PAP",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-estrategias-para-satisfacer-la-demanda",
+   "seccion": "5. Estrategias para satisfacer la demanda",
+   "nivel": 2
+  },
+  {
+   "ancla": "5-1-estrategias-para-gestionar-la-demanda",
+   "seccion": "5.1. Estrategias para gestionar la demanda",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-2-estrategias-para-ajustar-la-capacidad",
+   "seccion": "5.2. Estrategias para ajustar la capacidad",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-3-variable-de-decision-costo-asociado",
+   "seccion": "5.3. Variable de decisión ↔ costo asociado",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-proceso-de-elaboracion-de-un-pap",
+   "seccion": "6. Proceso de elaboración de un PAP",
+   "nivel": 2
+  },
+  {
+   "ancla": "7-tecnicas-para-generar-un-pap",
+   "seccion": "7. Técnicas para generar un PAP",
+   "nivel": 2
+  },
+  {
+   "ancla": "7-1-intuicion-grafica-caza-vs-nivelacion",
+   "seccion": "7.1. Intuición gráfica: caza vs. nivelación",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-modelo-formal-de-pap",
+   "seccion": "8. Modelo formal de PAP",
+   "nivel": 2
+  },
+  {
+   "ancla": "8-1-parametros-de-entrada",
+   "seccion": "8.1. Parámetros de entrada",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-2-variables",
+   "seccion": "8.2. Variables",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-3-funcion-objetivo-minimizar-costos",
+   "seccion": "8.3. Función objetivo — minimizar costos",
+   "nivel": 3
+  },
+  {
+   "ancla": "9-algoritmos-de-prueba-error",
+   "seccion": "9. Algoritmos de prueba/error",
+   "nivel": 2
+  },
+  {
+   "ancla": "9-1-algoritmo-de-pap-estrategia-de-caza",
+   "seccion": "9.1. Algoritmo de PAP — Estrategia de **Caza**",
+   "nivel": 3
+  },
+  {
+   "ancla": "9-2-algoritmo-de-pap-estrategia-de-nivelacion-de-mano-de-obra",
+   "seccion": "9.2. Algoritmo de PAP — Estrategia de **Nivelación de Mano de Obra**",
+   "nivel": 3
+  },
+  {
+   "ancla": "10-cierre-y-conexion-con-el-resto-de-la-unidad",
+   "seccion": "10. Cierre y conexión con el resto de la unidad",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 1,
+   "afirmacion": "Para calcular el plan agregado de producción es necesario disponer de un pronóstico de ventas de corto plazo para cada producto.",
+   "respuesta": false,
+   "justificacion": "El PAP se arma agrupando productos en familias y se alimenta de pronósticos a mediano plazo; no requiere un pronóstico de ventas de corto plazo por producto individual (eso es entrada del PMP).",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 11,
+   "afirmacion": "La política de nivelación de mano de obra genera planes de producción sin stock en el caso de demandas estacionales.",
+   "respuesta": false,
+   "justificacion": "La nivelación de mano de obra mantiene la producción a ritmo constante; ante demanda estacional, el inventario absorbe las diferencias, acumulándose en los períodos bajos. Genera stock, no planes sin stock.",
+   "ref_ancla": "9-2-algoritmo-de-pap-estrategia-de-nivelacion-de-mano-de-obra",
+   "ref_seccion": "9.2. Algoritmo de PAP — Estrategia de **Nivelación de Mano de Obra**",
+   "secundarias": []
+  },
+  {
+   "id": 26,
+   "afirmacion": "La Política de Caza generalmente permite obtener los mejores Planes Agregados de Producción desde el punto de vista de los costos incrementales.",
+   "respuesta": false,
+   "justificacion": "La caza minimiza el inventario, pero dispara los costos de contratación y despido (fuerza laboral inestable); no suele dar el menor costo incremental total.",
+   "ref_ancla": "7-1-intuicion-grafica-caza-vs-nivelacion",
+   "ref_seccion": "7.1. Intuición gráfica: caza vs. nivelación",
+   "secundarias": []
+  },
+  {
+   "id": 70,
+   "afirmacion": "La estrategia de nivelación de mano de obra tiene por propósito trabajar con inventario mínimo.",
+   "respuesta": false,
+   "justificacion": "La nivelación de mano de obra busca mantener constante la fuerza de trabajo/producción; el inventario fluctúa (se acumula en los períodos bajos). Su propósito es nivelar la MO, no trabajar con inventario mínimo (Idem #11).",
+   "ref_ancla": "9-2-algoritmo-de-pap-estrategia-de-nivelacion-de-mano-de-obra",
+   "ref_seccion": "9.2. Algoritmo de PAP — Estrategia de **Nivelación de Mano de Obra**",
+   "secundarias": []
+  },
+  {
+   "id": 87,
+   "afirmacion": "La estrategia de caza tiene por propósito generar un plan agregado de producción que se ajuste a la demanda.",
+   "respuesta": true,
+   "justificacion": "La estrategia de caza hace que la producción persiga a la demanda período a período, contratando y despidiendo para que producción ≈ demanda en cada período.",
+   "ref_ancla": "7-1-intuicion-grafica-caza-vs-nivelacion",
+   "ref_seccion": "7.1. Intuición gráfica: caza vs. nivelación",
+   "secundarias": []
+  },
+  {
+   "id": 89,
+   "afirmacion": "El disponible a prometer permite a los vendedores no comprometer pedidos que excedan el plan de producción.",
+   "respuesta": true,
+   "justificacion": "El ATP fija un límite: el vendedor no debe comprometer pedidos que excedan la producción planificada no comprometida, para no incumplir lo ya prometido.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 104,
+   "afirmacion": "La estrategia de caza consiste en nivelar el uso de mano de obra.",
+   "respuesta": false,
+   "justificacion": "Es al revés: nivelar el uso de mano de obra es la estrategia de nivelación; la caza consiste en ajustar la fuerza de trabajo (contratar/despedir) para seguir la demanda.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 107,
+   "afirmacion": "Un sistema de planificación es pro-activo.",
+   "respuesta": true,
+   "justificacion": "La planificación (PAP/PMP/MRP/DRP) es proactiva: se funda en pronósticos a futuro para anticipar la provisión, antes de que ocurra el faltante.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 113,
+   "afirmacion": "El disponible a prometer es información útil para empresas que venden con entrega a futuro. Para empresas que venden contra entrega del producto no es de utilidad.",
+   "respuesta": true,
+   "justificacion": "El ATP es útil para ventas con entrega a futuro (make/assemble-to-order); si la venta consume el stock y se cierra en el momento (contra entrega, ej. un kiosco), un ATP temporal no aporta.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 114,
+   "afirmacion": "Un plan agregado de producción se realiza por familias de productos. Dichas familias se definen agrupando productos que comparten el mismo segmento de mercado.",
+   "respuesta": true,
+   "justificacion": "El PAP se hace por familias de productos, agrupando productos que comparten segmento de mercado (y recursos), para trabajar con unidades agregadas en la macro-planificación.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 124,
+   "afirmacion": "Se recomienda trabajar con un horizonte de 12 a 18 meses para el Plan Maestro de Producción.",
+   "respuesta": false,
+   "justificacion": "El horizonte de 12–18 meses corresponde al Plan Agregado (mediano plazo); el PMP es de corto plazo, con horizonte en semanas.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 137,
+   "afirmacion": "El disponible a prometer permite a los vendedores comprometer pedidos acordes al plan maestro de producción definido.",
+   "respuesta": true,
+   "justificacion": "El ATP permite al vendedor comprometer pedidos acordes al PMP definido, sobre la producción planificada aún no comprometida (Idem #7).",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 147,
+   "afirmacion": "El disponible a prometer proporciona información respecto a la producción aún no comprometida (no vendida), de modo que sirve a los vendedores para comprometer nuevas entregas a clientes.",
+   "respuesta": true,
+   "justificacion": "El ATP informa la producción aún no comprometida (no vendida), de modo que el vendedor puede comprometer nuevas entregas a clientes (Idem #7).",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 149,
+   "afirmacion": "En el proceso de planificación operativa (corto plazo) solo se puede recurrir a cambios coyunturales para ajustar la capacidad de producción a la demanda.",
+   "respuesta": true,
+   "justificacion": "En la planificación operativa (corto plazo) solo caben ajustes coyunturales de la capacidad: horas extra, contrataciones temporales, subcontratación.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 153,
+   "afirmacion": "En el proceso de generación de un plan agregado de producción interviene la decisión humana, de modo que no puede ser generado automáticamente.",
+   "respuesta": true,
+   "justificacion": "En la generación del PAP intervienen factores subjetivos no modelables puramente (políticas gremiales, cultura), por lo que requiere decisión humana; se apoya en Sistemas Soporte de Decisión y no se genera de forma totalmente automática.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 164,
+   "afirmacion": "En el proceso de planificación estratégica (largo plazo) se puede recurrir a cambios estructurales para ajustar la capacidad de producción.",
+   "respuesta": true,
+   "justificacion": "En la planificación estratégica (largo plazo) caben cambios estructurales de la capacidad: comprar/cerrar plantas, incorporar maquinaria base, a diferencia de los ajustes coyunturales del corto plazo.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 167,
+   "afirmacion": "El disponible a prometer proporciona información respecto a cómo será la proyección de los inventarios en los próximos periodos.",
+   "respuesta": true,
+   "justificacion": "El ATP proporciona la proyección de los inventarios en los próximos períodos (la producción planificada aún no comprometida) (Idem #7).",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 168,
+   "afirmacion": "Las diferentes estrategias asociadas a la generación de un plan agregado de producción pueden ser generadas de modo automático con un modelo conveniente de programación matemática lineal.",
+   "respuesta": false,
+   "justificacion": "Las estrategias del PAP no se generan de modo puramente automático con programación lineal: intervienen factores subjetivos no modelables, por lo que requiere decisión humana (Idem #153).",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 174,
+   "afirmacion": "Desarrollar un Plan de Producción Agregado implica verificar el plan respecto a la capacidad de mano de obra disponible",
+   "respuesta": true,
+   "justificacion": "Elaborar un PAP implica cotejar la mano de obra requerida con la disponible para luego decidir contrataciones, despidos u horas extras.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 175,
+   "afirmacion": "Cuando se genera un plan maestro de producción, el mismo debe ser corregido si el nivel del inventario de algún período resulta inferior al stock de seguridad",
+   "respuesta": true,
+   "justificacion": "Correcto: si en algún período el inventario proyectado cae por debajo del stock de seguridad (IF_t < Ss), el PMP debe corregirse (adelantar o agregar lotes).",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 182,
+   "afirmacion": "El disponible a prometer permite conocer la cantidad de órdenes de producción planificadas para hacer frente a la demanda proveniente de las ordenes firmes de los clientes",
+   "respuesta": false,
+   "justificacion": "Es al revés: el ATP indica la producción planificada aún NO comprometida (el remanente tras descontar las órdenes firmes), para poder prometerla a nuevos clientes; no la cantidad destinada a cubrir las órdenes firmes.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 184,
+   "afirmacion": "El Programa Maestro de la Producción permite combinar una política de producción make-to-stock con una política de producción make-to-order",
+   "respuesta": true,
+   "justificacion": "El PMP combina de forma híbrida la fabricación contra pronósticos (make-to-stock) y la satisfacción de pedidos ya en firme del cliente (make-to-order), propio de entornos de producción combinados.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  },
+  {
+   "id": 189,
+   "afirmacion": "La estrategia de nivelación de mano de obra genera Planes Agregados cuyo objetivo es nivelar el inventario de cada período",
+   "respuesta": false,
+   "justificacion": "La nivelación de mano de obra busca nivelar la capacidad (fuerza de trabajo constante), no el inventario: como resultado colateral, el inventario fluctúa período a período.",
+   "ref_ancla": "4-planificacion-agregada-de-la-produccion-pap",
+   "ref_seccion": "4. Planificación Agregada de la Producción (PAP)",
+   "secundarias": []
+  }
+ ]
+}

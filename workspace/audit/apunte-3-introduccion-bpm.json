@@ -1,0 +1,121 @@
+{
+ "apunte": "apunte-3-introduccion-bpm",
+ "secciones_disponibles": [
+  {
+   "ancla": "agenda-de-la-presentacion",
+   "seccion": "Agenda de la presentación",
+   "nivel": 2
+  },
+  {
+   "ancla": "1-gestion-organizacional-tradicional-vs-gestion-por-procesos",
+   "seccion": "1. Gestión organizacional tradicional vs. gestión por procesos",
+   "nivel": 2
+  },
+  {
+   "ancla": "gestion-organizacional-tradicional",
+   "seccion": "Gestión organizacional tradicional",
+   "nivel": 3
+  },
+  {
+   "ancla": "gestion-organizacional-por-procesos",
+   "seccion": "Gestión organizacional por procesos",
+   "nivel": 3
+  },
+  {
+   "ancla": "elementos-de-un-proceso-de-negocio",
+   "seccion": "Elementos de un proceso de negocio",
+   "nivel": 3
+  },
+  {
+   "ancla": "ejemplo-de-proceso-de-negocio",
+   "seccion": "Ejemplo de proceso de negocio",
+   "nivel": 3
+  },
+  {
+   "ancla": "beneficios-de-la-gestion-por-procesos",
+   "seccion": "Beneficios de la gestión por procesos",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-gestion-de-procesos-de-negocio-bpm-ciclo-de-vida",
+   "seccion": "2. Gestión de Procesos de Negocio (BPM): ciclo de vida",
+   "nivel": 2
+  },
+  {
+   "ancla": "que-es-bpm-business-process-management",
+   "seccion": "¿Qué es BPM (Business Process Management)?",
+   "nivel": 3
+  },
+  {
+   "ancla": "ciclo-de-vida-cuatro-fases",
+   "seccion": "Ciclo de vida (cuatro fases)",
+   "nivel": 3
+  },
+  {
+   "ancla": "ciclo-de-vida-modelo-de-seis-fases-dumas-et-al",
+   "seccion": "Ciclo de vida (modelo de seis fases, Dumas et al.)",
+   "nivel": 3
+  },
+  {
+   "ancla": "caracteristicas-de-la-gestion-de-procesos-de-negocio",
+   "seccion": "Características de la Gestión de Procesos de Negocio",
+   "nivel": 3
+  },
+  {
+   "ancla": "ciclo-de-vida-y-herramientas-de-software",
+   "seccion": "Ciclo de vida y herramientas de software",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-enfoque-metodologico-para-implementar-bpm",
+   "seccion": "3. Enfoque metodológico para implementar BPM",
+   "nivel": 2
+  },
+  {
+   "ancla": "tres-niveles-de-implementacion",
+   "seccion": "Tres niveles de implementación",
+   "nivel": 3
+  },
+  {
+   "ancla": "indicadores-de-rendimiento-de-procesos-kpis",
+   "seccion": "Indicadores de rendimiento de procesos (KPIs)",
+   "nivel": 3
+  },
+  {
+   "ancla": "identificacion-de-procesos-definir-el-mapa-o-arquitectura-de-procesos",
+   "seccion": "Identificación de procesos: definir el mapa o arquitectura de procesos",
+   "nivel": 3
+  },
+  {
+   "ancla": "rediseno-o-mejora-de-un-proceso-as-is-to-be",
+   "seccion": "Rediseño o mejora de un proceso (As-Is → To-Be)",
+   "nivel": 3
+  },
+  {
+   "ancla": "ejercicios",
+   "seccion": "Ejercicios",
+   "nivel": 2
+  },
+  {
+   "ancla": "sintesis-del-apunte",
+   "seccion": "Síntesis del apunte",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 197,
+   "afirmacion": "La Gestión de Procesos de Negocio consiste en la aplicación de un ciclo de mejora continua a los procesos de la organización",
+   "respuesta": true,
+   "justificacion": "El BPM (Business Process Management) es una disciplina que aplica un ciclo de vida iterativo —evaluación, (re)diseño, implementación y ejecución— de mejora continua a los procesos de la organización (modelado, ejecución, medición y optimización).",
+   "ref_ancla": "2-gestion-de-procesos-de-negocio-bpm-ciclo-de-vida",
+   "ref_seccion": "2. Gestión de Procesos de Negocio (BPM): ciclo de vida",
+   "secundarias": [
+    {
+     "ancla": "que-es-bpm-business-process-management",
+     "seccion": "¿Qué es BPM (Business Process Management)?"
+    }
+   ]
+  }
+ ]
+}

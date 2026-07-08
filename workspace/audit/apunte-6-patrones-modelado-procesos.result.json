@@ -1,0 +1,12 @@
+{
+ "apunte": "apunte-6-patrones-modelado-procesos",
+ "verdicts": [
+  {
+   "id": 205,
+   "verdict": "SUSPECT",
+   "best_ancla": "5-patrones-de-manejo-de-excepciones",
+   "best_seccion": "5. Patrones de manejo de excepciones",
+   "reason": "La §2.6 trata patrones de terminación/cancelación, no la distinción proceso estructurado vs. débilmente estructurado que sostiene la justificación. El enunciado versa sobre 'caminos de excepción', tema de la §5, aunque este apunte no define explícitamente 'débilmente estructurado' (concepto propio del Apunte 2)."
+  }
+ ]
+}

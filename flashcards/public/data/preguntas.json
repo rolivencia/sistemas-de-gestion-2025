@@ -306,8 +306,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "4.6. Restricciones de capacidad y almacenamiento",
-        "ancla": "4-6-restricciones-de-capacidad-y-almacenamiento"
+        "seccion": "11. Manufactura sincrónica (OPT)",
+        "ancla": "11-manufactura-sincronica-opt"
       }
     ],
     "concepto": "c-13",
@@ -470,8 +470,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "4. Estrategias de scheduling",
-        "ancla": "4-estrategias-de-scheduling"
+        "seccion": "7. Flow Shop Scheduling",
+        "ancla": "7-flow-shop-scheduling"
       }
     ],
     "concepto": "c-20",
@@ -574,8 +574,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "11. Manufactura sincrónica (OPT)",
-        "ancla": "11-manufactura-sincronica-opt"
+        "seccion": "5.3. Métodos mixtos",
+        "ancla": "5-3-metodos-mixtos"
       }
     ],
     "concepto": "c-24",
@@ -651,8 +651,8 @@
     "referencias": [
       {
         "apunte": "apunte-15-planificacion-maestra-produccion",
-        "seccion": "8. Disponible a Prometer (ATP)",
-        "ancla": "8-disponible-a-prometer-atp"
+        "seccion": "8.1. Fórmulas de cálculo",
+        "ancla": "8-1-formulas-de-calculo"
       }
     ],
     "concepto": "c-27",
@@ -675,8 +675,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "4.6. Restricciones de capacidad y almacenamiento",
-        "ancla": "4-6-restricciones-de-capacidad-y-almacenamiento"
+        "seccion": "11. Manufactura sincrónica (OPT)",
+        "ancla": "11-manufactura-sincronica-opt"
       }
     ],
     "concepto": "c-28",
@@ -795,8 +795,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "4. Estrategias de scheduling",
-        "ancla": "4-estrategias-de-scheduling"
+        "seccion": "7. Flow Shop Scheduling",
+        "ancla": "7-flow-shop-scheduling"
       }
     ],
     "concepto": "c-20",
@@ -949,8 +949,8 @@
     "referencias": [
       {
         "apunte": "apunte-15-planificacion-maestra-produccion",
-        "seccion": "8. Disponible a Prometer (ATP)",
-        "ancla": "8-disponible-a-prometer-atp"
+        "seccion": "8.1. Fórmulas de cálculo",
+        "ancla": "8-1-formulas-de-calculo"
       }
     ],
     "concepto": "c-27",
@@ -973,8 +973,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "4.6. Restricciones de capacidad y almacenamiento",
-        "ancla": "4-6-restricciones-de-capacidad-y-almacenamiento"
+        "seccion": "11. Manufactura sincrónica (OPT)",
+        "ancla": "11-manufactura-sincronica-opt"
       }
     ],
     "concepto": "c-43",
@@ -1243,8 +1243,8 @@
     "referencias": [
       {
         "apunte": "apunte-15-planificacion-maestra-produccion",
-        "seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
-        "ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo"
+        "seccion": "Reglas para corregir el PMP",
+        "ancla": "reglas-para-corregir-el-pmp"
       }
     ],
     "concepto": "c-55",
@@ -1291,8 +1291,8 @@
     "referencias": [
       {
         "apunte": "apunte-15-planificacion-maestra-produccion",
-        "seccion": "8. Disponible a Prometer (ATP)",
-        "ancla": "8-disponible-a-prometer-atp"
+        "seccion": "8.1. Fórmulas de cálculo",
+        "ancla": "8-1-formulas-de-calculo"
       }
     ],
     "concepto": "c-27",
@@ -1315,8 +1315,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "4.6. Restricciones de capacidad y almacenamiento",
-        "ancla": "4-6-restricciones-de-capacidad-y-almacenamiento"
+        "seccion": "11. Manufactura sincrónica (OPT)",
+        "ancla": "11-manufactura-sincronica-opt"
       }
     ],
     "concepto": "c-43",
@@ -1388,8 +1388,8 @@
     "referencias": [
       {
         "apunte": "apunte-15-planificacion-maestra-produccion",
-        "seccion": "8. Disponible a Prometer (ATP)",
-        "ancla": "8-disponible-a-prometer-atp"
+        "seccion": "8.1. Fórmulas de cálculo",
+        "ancla": "8-1-formulas-de-calculo"
       }
     ],
     "concepto": "c-27",
@@ -1559,8 +1559,8 @@
     "referencias": [
       {
         "apunte": "apunte-15-planificacion-maestra-produccion",
-        "seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
-        "ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo"
+        "seccion": "Reglas para corregir el PMP",
+        "ancla": "reglas-para-corregir-el-pmp"
       }
     ],
     "concepto": "c-69",
@@ -2019,8 +2019,8 @@
     "referencias": [
       {
         "apunte": "apunte-7-pronosticos-de-demanda",
-        "seccion": "5.4. Alisado exponencial ajustado (con factor de tendencia)",
-        "ancla": "5-4-alisado-exponencial-ajustado-con-factor-de-tendencia"
+        "seccion": "5.3. Alisado exponencial (*exponential smoothing*)",
+        "ancla": "5-3-alisado-exponencial-exponential-smoothing"
       }
     ],
     "concepto": "c-93",
@@ -2264,11 +2264,6 @@
     "referencias": [
       {
         "apunte": "apunte-12-gestion-de-inventarios",
-        "seccion": "6.1. Caso 1 — Ingreso instantáneo",
-        "ancla": "6-1-caso-1-ingreso-instantaneo"
-      },
-      {
-        "apunte": "apunte-12-gestion-de-inventarios",
         "seccion": "a) Costos de almacenamiento (*holding / carrying cost*, $C_c$)",
         "ancla": "a-costos-de-almacenamiento-holding-carrying-cost-c-c"
       }
@@ -2293,8 +2288,8 @@
     "referencias": [
       {
         "apunte": "apunte-14-planificacion-agregada-produccion",
-        "seccion": "4. Planificación Agregada de la Producción (PAP)",
-        "ancla": "4-planificacion-agregada-de-la-produccion-pap"
+        "seccion": "5.2. Estrategias para ajustar la capacidad",
+        "ancla": "5-2-estrategias-para-ajustar-la-capacidad"
       }
     ],
     "concepto": "c-104",
@@ -2317,8 +2312,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "4.4. Inteligencia del despacho",
-        "ancla": "4-4-inteligencia-del-despacho"
+        "seccion": "4.1. Forma de asignar el tiempo",
+        "ancla": "4-1-forma-de-asignar-el-tiempo"
       }
     ],
     "concepto": "c-105",
@@ -2341,8 +2336,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "4.6. Restricciones de capacidad y almacenamiento",
-        "ancla": "4-6-restricciones-de-capacidad-y-almacenamiento"
+        "seccion": "11. Manufactura sincrónica (OPT)",
+        "ancla": "11-manufactura-sincronica-opt"
       }
     ],
     "concepto": "c-106",
@@ -2365,8 +2360,8 @@
     "referencias": [
       {
         "apunte": "apunte-14-planificacion-agregada-produccion",
-        "seccion": "4. Planificación Agregada de la Producción (PAP)",
-        "ancla": "4-planificacion-agregada-de-la-produccion-pap"
+        "seccion": "1. Planificación de operaciones",
+        "ancla": "1-planificacion-de-operaciones"
       }
     ],
     "concepto": "c-107",
@@ -2437,8 +2432,8 @@
     "referencias": [
       {
         "apunte": "apunte-28-gestion-integrada-cadena-suministro",
-        "seccion": "4.3. Problemas que causa",
-        "ancla": "4-3-problemas-que-causa"
+        "seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+        "ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro"
       }
     ],
     "concepto": "c-110",
@@ -2746,8 +2741,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "4.6. Restricciones de capacidad y almacenamiento",
-        "ancla": "4-6-restricciones-de-capacidad-y-almacenamiento"
+        "seccion": "11. Manufactura sincrónica (OPT)",
+        "ancla": "11-manufactura-sincronica-opt"
       }
     ],
     "concepto": "c-29",
@@ -2924,8 +2919,8 @@
     "referencias": [
       {
         "apunte": "apunte-22-planificacion-requerimientos-distribucion",
-        "seccion": "5.3. Fuentes de suministro",
-        "ancla": "5-3-fuentes-de-suministro"
+        "seccion": "5.2. Lista de distribución",
+        "ancla": "5-2-lista-de-distribucion"
       }
     ],
     "concepto": "c-129",
@@ -3020,8 +3015,8 @@
     "referencias": [
       {
         "apunte": "apunte-28-gestion-integrada-cadena-suministro",
-        "seccion": "4.3. Problemas que causa",
-        "ancla": "4-3-problemas-que-causa"
+        "seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+        "ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro"
       }
     ],
     "concepto": "c-110",
@@ -3044,8 +3039,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "4.6. Restricciones de capacidad y almacenamiento",
-        "ancla": "4-6-restricciones-de-capacidad-y-almacenamiento"
+        "seccion": "11. Manufactura sincrónica (OPT)",
+        "ancla": "11-manufactura-sincronica-opt"
       }
     ],
     "concepto": "c-134",
@@ -3188,8 +3183,8 @@
     "referencias": [
       {
         "apunte": "apunte-22-planificacion-requerimientos-distribucion",
-        "seccion": "4. Qué es el DRP: definición y funciones",
-        "ancla": "4-que-es-el-drp-definicion-y-funciones"
+        "seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+        "ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion"
       }
     ],
     "concepto": "c-112",
@@ -3260,8 +3255,8 @@
     "referencias": [
       {
         "apunte": "apunte-28-gestion-integrada-cadena-suministro",
-        "seccion": "4.3. Problemas que causa",
-        "ancla": "4-3-problemas-que-causa"
+        "seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+        "ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro"
       }
     ],
     "concepto": "c-110",
@@ -3409,8 +3404,8 @@
     "referencias": [
       {
         "apunte": "apunte-14-planificacion-agregada-produccion",
-        "seccion": "4. Planificación Agregada de la Producción (PAP)",
-        "ancla": "4-planificacion-agregada-de-la-produccion-pap"
+        "seccion": "2.1. Planificar implica comparar",
+        "ancla": "2-1-planificar-implica-comparar"
       }
     ],
     "concepto": "c-149",
@@ -3486,8 +3481,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "11. Manufactura sincrónica (OPT)",
-        "ancla": "11-manufactura-sincronica-opt"
+        "seccion": "5.3. Métodos mixtos",
+        "ancla": "5-3-metodos-mixtos"
       }
     ],
     "concepto": "c-24",
@@ -3534,8 +3529,8 @@
     "referencias": [
       {
         "apunte": "apunte-25-scheduling",
-        "seccion": "4. Estrategias de scheduling",
-        "ancla": "4-estrategias-de-scheduling"
+        "seccion": "7. Flow Shop Scheduling",
+        "ancla": "7-flow-shop-scheduling"
       }
     ],
     "concepto": "c-20",
@@ -3789,8 +3784,8 @@
     "referencias": [
       {
         "apunte": "apunte-14-planificacion-agregada-produccion",
-        "seccion": "4. Planificación Agregada de la Producción (PAP)",
-        "ancla": "4-planificacion-agregada-de-la-produccion-pap"
+        "seccion": "2.1. Planificar implica comparar",
+        "ancla": "2-1-planificar-implica-comparar"
       }
     ],
     "concepto": "c-164",
@@ -4040,8 +4035,8 @@
     "referencias": [
       {
         "apunte": "apunte-14-planificacion-agregada-produccion",
-        "seccion": "4. Planificación Agregada de la Producción (PAP)",
-        "ancla": "4-planificacion-agregada-de-la-produccion-pap"
+        "seccion": "2.1. Planificar implica comparar",
+        "ancla": "2-1-planificar-implica-comparar"
       }
     ],
     "concepto": "c-174",
@@ -4407,8 +4402,8 @@
     "referencias": [
       {
         "apunte": "apunte-14-planificacion-agregada-produccion",
-        "seccion": "4. Planificación Agregada de la Producción (PAP)",
-        "ancla": "4-planificacion-agregada-de-la-produccion-pap"
+        "seccion": "9.2. Algoritmo de PAP — Estrategia de **Nivelación de Mano de Obra**",
+        "ancla": "9-2-algoritmo-de-pap-estrategia-de-nivelacion-de-mano-de-obra"
       }
     ],
     "concepto": "c-189",
@@ -4633,8 +4628,8 @@
     "referencias": [
       {
         "apunte": "apunte-4-bpmn",
-        "seccion": "5. Actividades: Tareas y Subprocesos",
-        "ancla": "5-actividades-tareas-y-subprocesos"
+        "seccion": "9. Manejo de excepciones y compensación",
+        "ancla": "9-manejo-de-excepciones-y-compensacion"
       },
       {
         "apunte": "apunte-6-patrones-modelado-procesos",
@@ -4782,8 +4777,8 @@
     "referencias": [
       {
         "apunte": "apunte-6-patrones-modelado-procesos",
-        "seccion": "2.6. Terminación y cancelación",
-        "ancla": "2-6-terminacion-y-cancelacion"
+        "seccion": "5. Patrones de manejo de excepciones",
+        "ancla": "5-patrones-de-manejo-de-excepciones"
       }
     ],
     "concepto": "c-205",

@@ -1,0 +1,250 @@
+{
+ "apunte": "apunte-25-scheduling",
+ "verdicts": [
+  {
+   "id": 3,
+   "verdict": "OK",
+   "best_ancla": "13-metodos-heuristicos-algoritmos-geneticos",
+   "best_seccion": "13. Métodos heurísticos: algoritmos genéticos",
+   "reason": "§13.1 define el algoritmo genético como método para 'BUENAS soluciones' que 'no garantiza el óptimo'."
+  },
+  {
+   "id": 5,
+   "verdict": "OK",
+   "best_ancla": "11-manufactura-sincronica-opt",
+   "best_seccion": "11. Manufactura sincrónica (OPT)",
+   "reason": "§11 fundamenta el OPT en concentrarse en el cuello de botella y sincronizar el flujo a través de él."
+  },
+  {
+   "id": 13,
+   "verdict": "WRONG",
+   "best_ancla": "11-manufactura-sincronica-opt",
+   "best_seccion": "11. Manufactura sincrónica (OPT)",
+   "reason": "§4.6 no menciona lote de transferencia; el concepto (lote de transporte ideal = 1) sólo se trata en §11 (OPT)."
+  },
+  {
+   "id": 14,
+   "verdict": "OK",
+   "best_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "best_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "reason": "§4.6 define la política ZW: no admite almacenamiento intermedio, de modo que su disponibilidad no facilita la gestión."
+  },
+  {
+   "id": 20,
+   "verdict": "WRONG",
+   "best_ancla": "7-flow-shop-scheduling",
+   "best_seccion": "7. Flow Shop Scheduling",
+   "reason": "§4 no menciona schedule permutativo/no permutativo; ese concepto se define en §7 ('permutativo = misma secuencia en todas las máquinas')."
+  },
+  {
+   "id": 23,
+   "verdict": "OK",
+   "best_ancla": "8-job-shop-scheduling",
+   "best_seccion": "8. Job Shop Scheduling",
+   "reason": "§8 afirma que el Job Shop es 'el caso más difícil de programar', desmintiendo que sea más fácil que el Flow Shop."
+  },
+  {
+   "id": 24,
+   "verdict": "WRONG",
+   "best_ancla": "5-3-metodos-mixtos",
+   "best_seccion": "5.3. Métodos mixtos",
+   "reason": "§11 trata OPT/cuello de botella, no propagación de restricciones; ésta se lista explícitamente en §5.3 (métodos mixtos)."
+  },
+  {
+   "id": 28,
+   "verdict": "WRONG",
+   "best_ancla": "11-manufactura-sincronica-opt",
+   "best_seccion": "11. Manufactura sincrónica (OPT)",
+   "reason": "El lote de transferencia = 1 sólo aparece en §11 (OPT); §4.6 no contiene esa teoría."
+  },
+  {
+   "id": 29,
+   "verdict": "OK",
+   "best_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "best_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "reason": "§4.6 establece que ZW 'no admite almacenamiento intermedio', por lo que éste no es necesario."
+  },
+  {
+   "id": 35,
+   "verdict": "WRONG",
+   "best_ancla": "7-flow-shop-scheduling",
+   "best_seccion": "7. Flow Shop Scheduling",
+   "reason": "§4 no define permutativo; §7 lo define (misma secuencia en todas las máquinas), propio del Flow Shop, no del Job Shop."
+  },
+  {
+   "id": 43,
+   "verdict": "WRONG",
+   "best_ancla": "11-manufactura-sincronica-opt",
+   "best_seccion": "11. Manufactura sincrónica (OPT)",
+   "reason": "La noción de lote de transferencia (ideal = 1) y su efecto sobre el WIP sólo se expone en §11, no en §4.6."
+  },
+  {
+   "id": 44,
+   "verdict": "OK",
+   "best_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "best_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "reason": "§4.6 es la sección de almacenamiento intermedio/buffer, que fundamenta el bloqueo por ausencia de buffer."
+  },
+  {
+   "id": 50,
+   "verdict": "OK",
+   "best_ancla": "7-flow-shop-scheduling",
+   "best_seccion": "7. Flow Shop Scheduling",
+   "reason": "§7 define el scheduling permutativo (misma secuencia en todas las máquinas), propio del Flow Shop."
+  },
+  {
+   "id": 58,
+   "verdict": "WRONG",
+   "best_ancla": "11-manufactura-sincronica-opt",
+   "best_seccion": "11. Manufactura sincrónica (OPT)",
+   "reason": "El lote de transferencia y su relación con el WIP se tratan en §11 (OPT), no en §4.6."
+  },
+  {
+   "id": 59,
+   "verdict": "OK",
+   "best_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "best_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "reason": "§4.6 trata el almacenamiento intermedio (buffer), cuya disponibilidad evita el bloqueo de recursos."
+  },
+  {
+   "id": 66,
+   "verdict": "OK",
+   "best_ancla": "3-1-catalogo-de-estructuras",
+   "best_seccion": "3.1. Catálogo de estructuras",
+   "reason": "§3.1 describe la celda de manufactura como combinación de la flexibilidad del job shop y la simpleza del flow shop."
+  },
+  {
+   "id": 102,
+   "verdict": "OK",
+   "best_ancla": "13-metodos-heuristicos-algoritmos-geneticos",
+   "best_seccion": "13. Métodos heurísticos: algoritmos genéticos",
+   "reason": "§13.1 aclara que el algoritmo genético da buenas soluciones y no garantiza el óptimo (la secuencia óptima)."
+  },
+  {
+   "id": 105,
+   "verdict": "SUSPECT",
+   "best_ancla": "4-1-forma-de-asignar-el-tiempo",
+   "best_seccion": "4.1. Forma de asignar el tiempo",
+   "reason": "La dicotomía agenda (intervalo) vs despacho se introduce en §4.1; §4.4 sólo refina la inteligencia del despacho."
+  },
+  {
+   "id": 106,
+   "verdict": "WRONG",
+   "best_ancla": "11-manufactura-sincronica-opt",
+   "best_seccion": "11. Manufactura sincrónica (OPT)",
+   "reason": "El lote de transferencia menor al de producción es un concepto de §11 (OPT); §4.6 no lo menciona."
+  },
+  {
+   "id": 111,
+   "verdict": "OK",
+   "best_ancla": "8-job-shop-scheduling",
+   "best_seccion": "8. Job Shop Scheduling",
+   "reason": "§8 señala que el Job Shop es el caso más difícil de programar, desmintiendo que el Flow Shop sea más complejo."
+  },
+  {
+   "id": 115,
+   "verdict": "OK",
+   "best_ancla": "5-2-metodos-matematicos",
+   "best_seccion": "5.2. Métodos matemáticos",
+   "reason": "§5.2 es la sección de modelos matemáticos (programación entera), el marco donde se ubica el modelo de tiempo continuo."
+  },
+  {
+   "id": 122,
+   "verdict": "SUSPECT",
+   "best_ancla": "11-manufactura-sincronica-opt",
+   "best_seccion": "11. Manufactura sincrónica (OPT)",
+   "reason": "El eje de la afirmación es el lote de transporte (definido sólo en §11); §4.6 sólo cubre la ausencia de buffer/ZW."
+  },
+  {
+   "id": 126,
+   "verdict": "OK",
+   "best_ancla": "3-1-catalogo-de-estructuras",
+   "best_seccion": "3.1. Catálogo de estructuras",
+   "reason": "§3.1 describe la celda de manufactura como menos flexible que el job shop pero más organizada por familias."
+  },
+  {
+   "id": 130,
+   "verdict": "OK",
+   "best_ancla": "9-scheduling-en-base-a-reglas-reglas-de-secuenciamiento",
+   "best_seccion": "9. Scheduling en base a reglas (reglas de secuenciamiento)",
+   "reason": "§9 y §9.2 muestran que las reglas son heurísticas simples que no dominan a los modelos de optimización."
+  },
+  {
+   "id": 131,
+   "verdict": "OK",
+   "best_ancla": "13-metodos-heuristicos-algoritmos-geneticos",
+   "best_seccion": "13. Métodos heurísticos: algoritmos genéticos",
+   "reason": "El propio título de §13 clasifica a los algoritmos genéticos como métodos heurísticos."
+  },
+  {
+   "id": 134,
+   "verdict": "SUSPECT",
+   "best_ancla": "11-manufactura-sincronica-opt",
+   "best_seccion": "11. Manufactura sincrónica (OPT)",
+   "reason": "El lote de transferencia (crux de la afirmación) se define en §11; §4.6 sólo aporta la noción de inventario intermedio."
+  },
+  {
+   "id": 152,
+   "verdict": "WRONG",
+   "best_ancla": "5-3-metodos-mixtos",
+   "best_seccion": "5.3. Métodos mixtos",
+   "reason": "La propagación de restricciones se enumera en §5.3, no en §11 (que trata OPT/cuello de botella)."
+  },
+  {
+   "id": 154,
+   "verdict": "WRONG",
+   "best_ancla": "7-flow-shop-scheduling",
+   "best_seccion": "7. Flow Shop Scheduling",
+   "reason": "§4 no aborda el schedule permutativo/no permutativo; su definición está en §7 (permutativo = misma secuencia)."
+  },
+  {
+   "id": 160,
+   "verdict": "OK",
+   "best_ancla": "5-2-metodos-matematicos",
+   "best_seccion": "5.2. Métodos matemáticos",
+   "reason": "§5.2 explica la explosión combinatoria (n!, NP-completo) y el crecimiento exponencial del tiempo de cómputo."
+  },
+  {
+   "id": 169,
+   "verdict": "OK",
+   "best_ancla": "3-1-catalogo-de-estructuras",
+   "best_seccion": "3.1. Catálogo de estructuras",
+   "reason": "§3.1 (Órdenes Cerradas) describe que las partes de una orden se mueven juntas y no se mezclan con otras, manteniendo su identidad."
+  },
+  {
+   "id": 170,
+   "verdict": "OK",
+   "best_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "best_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "reason": "§4.6 define la política ZW y la restricción de almacenamiento, base para comparar ambos escenarios de schedule."
+  },
+  {
+   "id": 178,
+   "verdict": "OK",
+   "best_ancla": "6-objetivos-de-scheduling",
+   "best_seccion": "6. Objetivos de scheduling",
+   "reason": "§6 define makespan como el tiempo para que un grupo de órdenes sea completado en su totalidad."
+  },
+  {
+   "id": 180,
+   "verdict": "OK",
+   "best_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "best_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "reason": "§4.6 establece que ZW no admite almacenamiento intermedio, evidenciando la incompatibilidad."
+  },
+  {
+   "id": 193,
+   "verdict": "OK",
+   "best_ancla": "6-objetivos-de-scheduling",
+   "best_seccion": "6. Objetivos de scheduling",
+   "reason": "§6 define el makespan como medida temporal (tiempo total), no como velocidad/tasa."
+  },
+  {
+   "id": 196,
+   "verdict": "OK",
+   "best_ancla": "4-6-restricciones-de-capacidad-y-almacenamiento",
+   "best_seccion": "4.6. Restricciones de capacidad y almacenamiento",
+   "reason": "§4.6 define ZW como flujo sin almacenamiento intermedio, compatible con la política de NO almacenamiento."
+  }
+ ]
+}

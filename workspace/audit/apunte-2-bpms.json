@@ -1,0 +1,227 @@
+{
+ "apunte": "apunte-2-bpms",
+ "secciones_disponibles": [
+  {
+   "ancla": "agenda-de-la-presentacion",
+   "seccion": "Agenda de la presentación",
+   "nivel": 2
+  },
+  {
+   "ancla": "1-sistemas-de-informacion-orientados-a-procesos-siop",
+   "seccion": "1. Sistemas de Información Orientados a Procesos (SIOP)",
+   "nivel": 2
+  },
+  {
+   "ancla": "dos-tendencias-previas-en-los-sistemas-de-informacion",
+   "seccion": "Dos tendencias previas en los Sistemas de Información",
+   "nivel": 3
+  },
+  {
+   "ancla": "la-idea-principal-de-un-siop",
+   "seccion": "La idea principal de un SIOP",
+   "nivel": 3
+  },
+  {
+   "ancla": "definicion-de-siop",
+   "seccion": "Definición de SIOP",
+   "nivel": 3
+  },
+  {
+   "ancla": "modelo-de-proceso-instancia-y-siop",
+   "seccion": "Modelo de proceso, instancia y SIOP",
+   "nivel": 3
+  },
+  {
+   "ancla": "beneficios-de-los-siop",
+   "seccion": "Beneficios de los SIOP",
+   "nivel": 3
+  },
+  {
+   "ancla": "tipos-de-siop",
+   "seccion": "Tipos de SIOP",
+   "nivel": 3
+  },
+  {
+   "ancla": "tecnologia-a-estudiar-en-el-curso",
+   "seccion": "Tecnología a estudiar en el curso",
+   "nivel": 3
+  },
+  {
+   "ancla": "ejercicios-verdadero-falso-justificar",
+   "seccion": "Ejercicios (Verdadero/Falso, justificar)",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-automatizacion-de-procesos-y-workflows",
+   "seccion": "2. Automatización de Procesos y Workflows",
+   "nivel": 2
+  },
+  {
+   "ancla": "del-modelo-a-la-ejecucion",
+   "seccion": "Del modelo a la ejecución",
+   "nivel": 3
+  },
+  {
+   "ancla": "especificacion-de-proceso-modelo-ejecutable",
+   "seccion": "Especificación de proceso (modelo ejecutable)",
+   "nivel": 3
+  },
+  {
+   "ancla": "caso-instancia-de-proceso",
+   "seccion": "Caso / Instancia de proceso",
+   "nivel": 3
+  },
+  {
+   "ancla": "ciclo-de-vida-de-la-instancia-de-un-proceso-workflow",
+   "seccion": "Ciclo de vida de la instancia de un proceso/workflow",
+   "nivel": 3
+  },
+  {
+   "ancla": "ciclo-de-vida-de-la-instancia-de-una-actividad",
+   "seccion": "Ciclo de vida de la instancia de una actividad",
+   "nivel": 3
+  },
+  {
+   "ancla": "item-de-trabajo-work-item-y-lista-de-trabajos-worklist",
+   "seccion": "Ítem de Trabajo (Work Item) y Lista de Trabajos (Worklist)",
+   "nivel": 3
+  },
+  {
+   "ancla": "relaciones-entre-los-conceptos-de-workflows",
+   "seccion": "Relaciones entre los conceptos de workflows",
+   "nivel": 3
+  },
+  {
+   "ancla": "ejercicios",
+   "seccion": "Ejercicios",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-arquitectura-generica-de-los-bpms",
+   "seccion": "3. Arquitectura Genérica de los BPMS",
+   "nivel": 2
+  },
+  {
+   "ancla": "definicion-de-bpms",
+   "seccion": "Definición de BPMS",
+   "nivel": 3
+  },
+  {
+   "ancla": "componentes-funcionales-vision-general",
+   "seccion": "Componentes funcionales (visión general)",
+   "nivel": 3
+  },
+  {
+   "ancla": "arquitectura-de-referencia-modelo-wfmc",
+   "seccion": "Arquitectura de referencia (modelo WfMC)",
+   "nivel": 3
+  },
+  {
+   "ancla": "herramientas-de-modelado-implementacion",
+   "seccion": "Herramientas de Modelado / Implementación",
+   "nivel": 3
+  },
+  {
+   "ancla": "servicio-de-ejecucion-enactment-de-proceso",
+   "seccion": "Servicio de Ejecución (Enactment) de Proceso",
+   "nivel": 3
+  },
+  {
+   "ancla": "aplicaciones-cliente-del-bpms-manejador-de-la-lista-de-trabajos",
+   "seccion": "Aplicaciones cliente del BPMS — Manejador de la Lista de Trabajos",
+   "nivel": 3
+  },
+  {
+   "ancla": "herramientas-de-administracion-y-control",
+   "seccion": "Herramientas de Administración y Control",
+   "nivel": 3
+  },
+  {
+   "ancla": "ventajas-de-los-bpms",
+   "seccion": "Ventajas de los BPMS",
+   "nivel": 3
+  },
+  {
+   "ancla": "ejercicios-1",
+   "seccion": "Ejercicios",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-gestion-de-recursos-en-la-automatizacion-de-workflows",
+   "seccion": "4. Gestión de Recursos en la Automatización de Workflows",
+   "nivel": 2
+  },
+  {
+   "ancla": "conceptos-tarea-item-de-trabajo-e-instancia-de-tarea",
+   "seccion": "Conceptos: tarea, ítem de trabajo e instancia de tarea",
+   "nivel": 3
+  },
+  {
+   "ancla": "ejemplo-proceso-de-gestion-de-demandas-reclamos",
+   "seccion": "Ejemplo: proceso de Gestión de Demandas/Reclamos",
+   "nivel": 3
+  },
+  {
+   "ancla": "ejemplo-items-de-trabajo-instancias-y-listas-de-trabajo",
+   "seccion": "Ejemplo: ítems de trabajo, instancias y listas de trabajo",
+   "nivel": 3
+  },
+  {
+   "ancla": "ejercicios-verdadero-falso-justificar-1",
+   "seccion": "Ejercicios (Verdadero/Falso, justificar)",
+   "nivel": 3
+  },
+  {
+   "ancla": "sintesis-del-apunte",
+   "seccion": "Síntesis del apunte",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 200,
+   "afirmacion": "Un ítem de trabajo en una instancia de un proceso o workflow representa la habilitación de una tarea por parte de varias personas",
+   "respuesta": false,
+   "justificacion": "Un ítem de trabajo representa la habilitación de una actividad para ser ejecutada por un participante específico (uno), no por varias personas.",
+   "ref_ancla": "item-de-trabajo-work-item-y-lista-de-trabajos-worklist",
+   "ref_seccion": "Ítem de Trabajo (Work Item) y Lista de Trabajos (Worklist)",
+   "secundarias": []
+  },
+  {
+   "id": 201,
+   "afirmacion": "Un sistema desarrollado para gestionar el procesamiento de expedientes puede ser considerado un SIOP",
+   "respuesta": true,
+   "justificacion": "El procesamiento de expedientes es un proceso estructurado (personas, aplicaciones y fuentes de información) ejecutado siguiendo un modelo de proceso, por lo que encaja en la definición de SIOP: un software que gestiona y ejecuta procesos sobre la base de modelos de procesos.",
+   "ref_ancla": "definicion-de-siop",
+   "ref_seccion": "Definición de SIOP",
+   "secundarias": []
+  },
+  {
+   "id": 202,
+   "afirmacion": "Un Sistema ERP es un SIOP",
+   "respuesta": true,
+   "justificacion": "Un ERP es un SIOP específico del dominio: gestiona y ejecuta procesos de negocio (compras, ventas, inventario) involucrando personas, aplicaciones y datos; se distingue del BPMS (genérico/agnóstico del dominio) por ser específico, pero sigue siendo un SIOP.",
+   "ref_ancla": "tipos-de-siop",
+   "ref_seccion": "Tipos de SIOP",
+   "secundarias": []
+  },
+  {
+   "id": 203,
+   "afirmacion": "La implementación de un SIOP requiere codificar de manera integrada (en un mismo código) la lógica del flujo de control de las actividades junto con la lógica interna de las actividades",
+   "respuesta": false,
+   "justificacion": "Es exactamente lo contrario: la idea principal del SIOP es separar la lógica de las aplicaciones de la lógica de los procesos y gestionar esta última de forma explícita; codificar ambas lógicas integradas en un mismo código corresponde al enfoque orientado a datos, que es precisamente lo que el SIOP busca evitar.",
+   "ref_ancla": "la-idea-principal-de-un-siop",
+   "ref_seccion": "La idea principal de un SIOP",
+   "secundarias": []
+  },
+  {
+   "id": 204,
+   "afirmacion": "Un sistema de gestión de proyectos basado en la técnica PERT/CPM puede ser considerado un SIOP",
+   "respuesta": false,
+   "justificacion": "PERT/CPM es una técnica de planificación y control de proyectos (ruta crítica, duraciones, dependencias temporales), pero no gestiona ni ejecuta el proceso sobre la base de un modelo ejecutable que el sistema interpreta para crear y controlar instancias, involucrando personas, aplicaciones y fuentes de información; no cumple la definición de SIOP.",
+   "ref_ancla": "definicion-de-siop",
+   "ref_seccion": "Definición de SIOP",
+   "secundarias": []
+  }
+ ]
+}

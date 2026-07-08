@@ -1,0 +1,82 @@
+{
+ "apunte": "apunte-19-planificacion-requerimientos-materiales",
+ "verdicts": [
+  {
+   "id": 6,
+   "verdict": "OK",
+   "best_ancla": "3-1-lista-de-materiales-bom-bill-of-materials",
+   "best_seccion": "3.1. Lista de materiales (BOM — *Bill of Materials*)",
+   "reason": "§3.1 define la BOM como documento de ingeniería de la estructura interna de ensamblaje (componentes, sub-ensamblajes y materiales), lo que respalda que la BOM no gestiona el flujo por la red de distribución."
+  },
+  {
+   "id": 10,
+   "verdict": "OK",
+   "best_ancla": "2-que-es-un-sistema-mrp",
+   "best_seccion": "2. Qué es un sistema MRP",
+   "reason": "§2 define el MRP como sistema de información para planificar la producción y los requerimientos de materiales y controlar inventarios; no describe gestión del flujo a lo largo de la cadena de suministro."
+  },
+  {
+   "id": 85,
+   "verdict": "OK",
+   "best_ancla": "2-que-es-un-sistema-mrp",
+   "best_seccion": "2. Qué es un sistema MRP",
+   "reason": "§2 dice explícitamente que el MRP integra datos de inventario, materiales, producción y demanda en una única base de datos centralizada, respaldando la integración materias primas–productos."
+  },
+  {
+   "id": 98,
+   "verdict": "OK",
+   "best_ancla": "3-1-lista-de-materiales-bom-bill-of-materials",
+   "best_seccion": "3.1. Lista de materiales (BOM — *Bill of Materials*)",
+   "reason": "§3.1 describe la BOM como documento de ingeniería que mapea la relación interna materia prima → componentes → producto final por niveles."
+  },
+  {
+   "id": 112,
+   "verdict": "OK",
+   "best_ancla": "2-que-es-un-sistema-mrp",
+   "best_seccion": "2. Qué es un sistema MRP",
+   "reason": "El apunte no contiene sección propia de DRP (la secundaria referida no está en secciones_disponibles); para la parte del MRP, §2 (junto con la lógica de planificar a partir del PMP/pronóstico) es el mejor anclaje disponible sobre el carácter planificador/anticipado del MRP."
+  },
+  {
+   "id": 118,
+   "verdict": "OK",
+   "best_ancla": "6-1-algoritmo",
+   "best_seccion": "6.1. Algoritmo",
+   "reason": "§6.1 describe la explosión por niveles: para i>0 los RB de cada componente se derivan de la emisión de pedidos de los padres, generando las órdenes de producción de componentes/sub-ensamblajes."
+  },
+  {
+   "id": 136,
+   "verdict": "OK",
+   "best_ancla": "2-que-es-un-sistema-mrp",
+   "best_seccion": "2. Qué es un sistema MRP",
+   "reason": "§2 define el MRP como sistema para la planificación de la producción y de los requerimientos de materiales, respaldando que planifica los procesos de producción."
+  },
+  {
+   "id": 156,
+   "verdict": "OK",
+   "best_ancla": "2-2-cuando-conviene-usar-un-mrp",
+   "best_seccion": "2.2. ¿Cuándo conviene usar un MRP?",
+   "reason": "§2.2 enumera las condiciones de uso (demanda dependiente, BOM, producción job shop/por lotes, assemble-to-order); un minorista sin transformación no cumple, respaldando que el MRP no aplica al supermercado."
+  },
+  {
+   "id": 176,
+   "verdict": "OK",
+   "best_ancla": "4-1-entradas",
+   "best_seccion": "4.1. Entradas",
+   "reason": "§4.1 identifica el PMP como la entrada que define el programa de requerimientos de los productos (demanda independiente), lo que respalda que los RB de nivel 0 se inicializan con el PMP y no con el Plan Agregado."
+  },
+  {
+   "id": 183,
+   "verdict": "OK",
+   "best_ancla": "4-1-entradas",
+   "best_seccion": "4.1. Entradas",
+   "reason": "§4.1 separa la BOM (estructura y multiplicidades) del Archivo Maestro de Inventario (estado: disponibles, ordenadas, reservadas), respaldando que el inventario no se obtiene de la BOM."
+  },
+  {
+   "id": 191,
+   "verdict": "OK",
+   "best_ancla": "1-donde-encaja-el-mrp-la-planificacion-jerarquica-de-la-produccion",
+   "best_seccion": "1. Dónde encaja el MRP: la planificación jerárquica de la producción",
+   "reason": "§1 muestra el flujo MRP → CRP con chequeo de factibilidad, evidenciando que el MRP no verifica la capacidad de origen (la valida el CRP); la parte de reglas de lote heurísticas (no optimización) queda cubierta por la secundaria §6.2."
+  }
+ ]
+}
