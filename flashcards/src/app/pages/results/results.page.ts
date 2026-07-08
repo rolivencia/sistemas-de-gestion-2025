@@ -2,10 +2,12 @@ import { Component, inject, OnInit, computed, signal } from '@angular/core';
 import { Router } from '@angular/router';
 import { FlashcardStore } from '../../store/flashcard.store';
 import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle.component';
+import { ApunteViewerComponent } from '../../components/apunte-viewer/apunte-viewer.component';
+import type { Referencia } from '../../models/question.model';
 
 @Component({
   selector: 'app-results',
-  imports: [ThemeToggleComponent],
+  imports: [ThemeToggleComponent, ApunteViewerComponent],
   template: `
     <div class="min-h-dvh flex flex-col bg-background">
       <!-- Header -->
@@ -134,6 +136,20 @@ import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle
                               Respondiste: {{ item.userAnswer ? 'Verdadero' : 'Falso' }}
                             </span>
                           }
+                          @if (item.question.referencias.length) {
+                            <button
+                              type="button"
+                              (click)="openApunte(item.question.referencias[0])"
+                              class="inline-flex items-center gap-1.5 text-xs font-medium text-primary
+                                     hover:underline underline-offset-2"
+                            >
+                              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                              </svg>
+                              Ver en el apunte
+                            </button>
+                          }
                         </div>
                       </div>
                     </div>
@@ -175,6 +191,18 @@ import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle
           </div>
         </div>
       </main>
+
+      <!-- Apunte drawer (lazy) -->
+      @defer (when apunteViewer() !== null) {
+        @if (apunteViewer(); as viewer) {
+          <app-apunte-viewer
+            [apunte]="viewer.apunte"
+            [ancla]="viewer.ancla"
+            [seccion]="viewer.seccion"
+            (close)="apunteViewer.set(null)"
+          />
+        }
+      }
     </div>
   `,
 })
@@ -182,6 +210,11 @@ export default class ResultsPage implements OnInit {
   protected readonly store = inject(FlashcardStore);
   private readonly router = inject(Router);
   protected readonly showFilter = signal<'all' | 'correct' | 'incorrect'>('all');
+  protected readonly apunteViewer = signal<Referencia | null>(null);
+
+  protected openApunte(ref: Referencia): void {
+    this.apunteViewer.set(ref);
+  }
 
   protected readonly filteredAnswers = computed(() => {
     const all = this.store.answeredQuestions();
