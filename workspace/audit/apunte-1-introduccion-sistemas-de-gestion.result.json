@@ -1,0 +1,110 @@
+{
+ "apunte": "apunte-1-introduccion-sistemas-de-gestion",
+ "verdicts": [
+  {
+   "id": 2,
+   "verdict": "OK",
+   "best_ancla": "conceptos-clave-operacion-y-proceso-de-transformacion",
+   "best_seccion": "Conceptos clave: operación y proceso de transformación",
+   "reason": "La sección define operación como función que transforma entradas en salidas que crean valor y el proceso a lo largo de una cadena de valor; sustenta directamente que lo productivo implica agregar valor."
+  },
+  {
+   "id": 12,
+   "verdict": "OK",
+   "best_ancla": "sistema-erp",
+   "best_seccion": "Sistema ERP",
+   "reason": "La sección ERP describe la integración de funcionalidades y procesos de negocio internos (comerciales, financieros, RRHH, productivos) y la optimización de recursos de la empresa."
+  },
+  {
+   "id": 41,
+   "verdict": "OK",
+   "best_ancla": "sistemas-productivos-produccion-de-bienes-vs-produccion-de-servicios",
+   "best_seccion": "Sistemas productivos: producción de bienes vs. producción de servicios",
+   "reason": "La tabla asigna a bienes las dimensiones de calidad del producto (performance, confiabilidad, durabilidad, cumplimiento de especificaciones) frente al proceso en servicios."
+  },
+  {
+   "id": 54,
+   "verdict": "SUSPECT",
+   "best_ancla": "tendencias-de-tecnologias-en-sistemas-de-gestion",
+   "best_seccion": "Tendencias de tecnologías en Sistemas de Gestión",
+   "reason": "El contenido real de Tendencias trata Industria 4.0, Nube y Blockchain; no menciona el conocimiento como ventaja competitiva. Es la sección más cercana (temática futura), pero el apunte no desarrolla esta afirmación."
+  },
+  {
+   "id": 56,
+   "verdict": "OK",
+   "best_ancla": "sistemas-productivos-produccion-de-bienes-vs-produccion-de-servicios",
+   "best_seccion": "Sistemas productivos: producción de bienes vs. producción de servicios",
+   "reason": "La tabla muestra que en bienes la calidad se asocia al producto y en servicios al proceso, sustentando que la afirmación (bienes al proceso) es falsa."
+  },
+  {
+   "id": 63,
+   "verdict": "OK",
+   "best_ancla": "conceptos-clave-operacion-y-proceso-de-transformacion",
+   "best_seccion": "Conceptos clave: operación y proceso de transformación",
+   "reason": "La sección liga lo productivo a transformar entradas en salidas que crean valor, base para refutar que baste con producir sin agregar valor."
+  },
+  {
+   "id": 78,
+   "verdict": "SUSPECT",
+   "best_ancla": "tendencias-de-tecnologias-en-sistemas-de-gestion",
+   "best_seccion": "Tendencias de tecnologías en Sistemas de Gestión",
+   "reason": "Tendencias enumera IA, IoT, Nube y Blockchain, pero no menciona sistemas de gestión del conocimiento ni su demanda futura. Es la sección más próxima temáticamente, aunque el apunte no la respalda literalmente."
+  },
+  {
+   "id": 79,
+   "verdict": "OK",
+   "best_ancla": "sistemas-soporte-de-decision-dss",
+   "best_seccion": "Sistemas Soporte de Decisión (DSS)",
+   "reason": "La sección DSS incluye Data Warehouse en la gestión de datos y data mining (Knowledge-Driven DSS), pilares de TI para decidir en la gestión."
+  },
+  {
+   "id": 84,
+   "verdict": "OK",
+   "best_ancla": "evolucion-de-los-sistemas-de-gestion-empresariales",
+   "best_seccion": "Evolución de los Sistemas de Gestión Empresariales",
+   "reason": "La tabla de evolución identifica MRP II como Manufacturing Resource Planning frente al ERP (Enterprise Resource Planning), sustentando el contraste manufactura vs. cualquier empresa."
+  },
+  {
+   "id": 90,
+   "verdict": "SUSPECT",
+   "best_ancla": "tendencias-de-tecnologias-en-sistemas-de-gestion",
+   "best_seccion": "Tendencias de tecnologías en Sistemas de Gestión",
+   "reason": "El contenido de Tendencias (Industria 4.0, Nube, Blockchain) no menciona la ventaja competitiva basada en crear, absorber y utilizar conocimiento. Sección más cercana disponible pero tema ausente en el apunte."
+  },
+  {
+   "id": 125,
+   "verdict": "OK",
+   "best_ancla": "objetivos-principales-de-la-gestion-de-operaciones",
+   "best_seccion": "Objetivos principales de la Gestión de Operaciones",
+   "reason": "La sección lista múltiples objetivos (calidad, satisfacción del cliente, uso de recursos, no solo eficiencia), refutando que el único propósito sea la eficiencia."
+  },
+  {
+   "id": 132,
+   "verdict": "OK",
+   "best_ancla": "sistema-erp",
+   "best_seccion": "Sistema ERP",
+   "reason": "La sección ERP describe la integración de procesos de negocio y la optimización de los recursos de la empresa mediante módulos por unidad funcional."
+  },
+  {
+   "id": 151,
+   "verdict": "OK",
+   "best_ancla": "sistemas-productivos-produccion-de-bienes-vs-produccion-de-servicios",
+   "best_seccion": "Sistemas productivos: producción de bienes vs. producción de servicios",
+   "reason": "La tabla asocia la calidad de servicios al proceso (puntualidad, cortesía, capacidad de respuesta), sustentando que asociarla al producto es falso."
+  },
+  {
+   "id": 162,
+   "verdict": "OK",
+   "best_ancla": "sistema-erp",
+   "best_seccion": "Sistema ERP",
+   "reason": "La sección ERP menciona procesos productivos para la producción de bienes y servicios y funcionalidades transversales aplicables a cualquier empresa."
+  },
+  {
+   "id": 166,
+   "verdict": "OK",
+   "best_ancla": "sistemas-productivos-produccion-de-bienes-vs-produccion-de-servicios",
+   "best_seccion": "Sistemas productivos: producción de bienes vs. producción de servicios",
+   "reason": "La tabla asigna a bienes las dimensiones de calidad del producto y al proceso las de servicios, refutando la afirmación."
+  }
+ ]
+}

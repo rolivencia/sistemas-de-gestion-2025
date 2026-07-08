@@ -1,0 +1,19 @@
+{
+ "apunte": "apunte-4-bpmn",
+ "verdicts": [
+  {
+   "id": 198,
+   "verdict": "OK",
+   "best_ancla": "4-semantica-de-ejecucion-el-token",
+   "best_seccion": "4. Semántica de ejecución: el Token",
+   "reason": "La sección define el token como la abstracción que expresa la semántica de ejecución del flujo (consumo y división en gateways), justo lo que afirma la justificación."
+  },
+  {
+   "id": 199,
+   "verdict": "WRONG",
+   "best_ancla": "9-manejo-de-excepciones-y-compensacion",
+   "best_seccion": "9. Manejo de excepciones y compensación",
+   "reason": "La §5 (tareas y subprocesos) no trata terminación ni cancelación. La §9 es la que dice 'Abortar un proceso → Terminate' y modela la cancelación de una actividad con boundary events interruptivos, exactamente la teoría de la justificación."
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "apunte": "apunte-28-gestion-integrada-cadena-suministro",
+ "verdicts": [
+  {
+   "id": 16,
+   "verdict": "OK",
+   "best_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "best_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "reason": "La sección 5 establece que el requerimiento es COMPARTIR la información relevante (demanda, inventarios, capacidades), no abrir todos los sistemas; sustenta la respuesta falsa."
+  },
+  {
+   "id": 18,
+   "verdict": "OK",
+   "best_ancla": "9-las-ti-como-facilitadoras-soluciones-b2b",
+   "best_seccion": "9. Las TI como facilitadoras: soluciones B2B",
+   "reason": "La sección 9 presenta al B2B como la base tecnológica facilitadora de los modelos de colaboración; coincide con la afirmación."
+  },
+  {
+   "id": 31,
+   "verdict": "OK",
+   "best_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "best_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "reason": "La sección 5 define la gestión integrada como compartir información entre participantes; respalda directamente la afirmación verdadera."
+  },
+  {
+   "id": 39,
+   "verdict": "OK",
+   "best_ancla": "9-1-vocabulario-del-comercio-electronico",
+   "best_seccion": "9.1. Vocabulario del comercio electrónico",
+   "reason": "El dato del 90% no figura textualmente en el apunte, pero 9.1 (B2B/comercio electrónico) es la sección temáticamente más pertinente disponible."
+  },
+  {
+   "id": 46,
+   "verdict": "OK",
+   "best_ancla": "9-1-vocabulario-del-comercio-electronico",
+   "best_seccion": "9.1. Vocabulario del comercio electrónico",
+   "reason": "El porcentaje del 90% no está explícito en el texto, pero 9.1 define B2B como transacciones entre empresas y es el mejor anclaje disponible."
+  },
+  {
+   "id": 81,
+   "verdict": "OK",
+   "best_ancla": "9-1-vocabulario-del-comercio-electronico",
+   "best_seccion": "9.1. Vocabulario del comercio electrónico",
+   "reason": "9.1 define B2B como transacciones entre empresas por medios electrónicos y ubica la integración de la cadena dentro del comercio electrónico; sustenta la afirmación."
+  },
+  {
+   "id": 82,
+   "verdict": "OK",
+   "best_ancla": "8-modelos-de-colaboracion-de-referencia",
+   "best_seccion": "8. Modelos de colaboración de referencia",
+   "reason": "La sección 8 enumera los modelos de referencia (VMI, CPFR, DAMA, SCOR y p2p); respalda que existen varios modelos propuestos."
+  },
+  {
+   "id": 96,
+   "verdict": "OK",
+   "best_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "best_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "reason": "La sección 5 plantea que compartir información amortigua el bullwhip, mejorando costos y respuesta; sustenta la mejora de competitividad."
+  },
+  {
+   "id": 108,
+   "verdict": "OK",
+   "best_ancla": "6-integracion-y-colaboracion-entre-empresas",
+   "best_seccion": "6. Integración y colaboración entre empresas",
+   "reason": "La sección 6 (y 6.1) trata los niveles de integración: el nivel más alto exige comunicación bidireccional, contrastando con el nivel elemental unidireccional."
+  },
+  {
+   "id": 109,
+   "verdict": "OK",
+   "best_ancla": "4-2-que-es-el-efecto-bullwhip",
+   "best_seccion": "4.2. Qué es el efecto bullwhip",
+   "reason": "4.2 define el efecto bullwhip como amplificación de la variabilidad aguas arriba; refuta que la incertidumbre se mantenga constante."
+  },
+  {
+   "id": 110,
+   "verdict": "SUSPECT",
+   "best_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "best_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "reason": "4.3 describe el inventario alto como problema del bullwhip, no que la gestión integrada lo reduzca. La sección 5 (la solución: compartir info amortigua variaciones de inventario) sustenta mejor la reducción."
+  },
+  {
+   "id": 116,
+   "verdict": "OK",
+   "best_ancla": "6-integracion-y-colaboracion-entre-empresas",
+   "best_seccion": "6. Integración y colaboración entre empresas",
+   "reason": "6.1 establece la comunicación bidireccional como rasgo del nivel de colaboración; sustenta el flujo de información en ambas direcciones."
+  },
+  {
+   "id": 133,
+   "verdict": "SUSPECT",
+   "best_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "best_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "reason": "El propósito de reducir inventarios de seguridad se apoya en la solución (compartir info elimina el stock de pánico), que está en la sección 5, no en 4.3 (que lista el problema)."
+  },
+  {
+   "id": 141,
+   "verdict": "OK",
+   "best_ancla": "9-las-ti-como-facilitadoras-soluciones-b2b",
+   "best_seccion": "9. Las TI como facilitadoras: soluciones B2B",
+   "reason": "La sección 9 presenta las soluciones B2B como tecnología diseñada para implementar la colaboración entre empresas; coincide con la afirmación."
+  },
+  {
+   "id": 143,
+   "verdict": "SUSPECT",
+   "best_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "best_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "reason": "El objetivo de reducir inventarios de materiales corresponde a la solución (compartir información), sección 5; 4.3 solo describe el inventario alto como consecuencia del bullwhip."
+  },
+  {
+   "id": 179,
+   "verdict": "OK",
+   "best_ancla": "4-5-consideraciones-sobre-el-lead-time",
+   "best_seccion": "4.5. Consideraciones sobre el lead time",
+   "reason": "4.5 dice que menores lead times mejoran el desempeño aunque el bullwhip ocurre con independencia de su tamaño; sustenta el matiz de la justificación."
+  },
+  {
+   "id": 192,
+   "verdict": "OK",
+   "best_ancla": "4-2-que-es-el-efecto-bullwhip",
+   "best_seccion": "4.2. Qué es el efecto bullwhip",
+   "reason": "4.2 define el bullwhip como amplificación de la variabilidad de la demanda; el aumento de costos es consecuencia, no la definición, refutando la afirmación."
+  },
+  {
+   "id": 195,
+   "verdict": "OK",
+   "best_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "best_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "reason": "La sección 5 enumera exactamente la información a compartir (demanda, inventarios, capacidades) para reducir la incertidumbre (bullwhip); sustenta la afirmación."
+  }
+ ]
+}

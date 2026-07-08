@@ -1,0 +1,152 @@
+{
+ "apunte": "apunte-22-planificacion-requerimientos-distribucion",
+ "verdicts": [
+  {
+   "id": 4,
+   "verdict": "OK",
+   "best_ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+   "best_seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+   "reason": "§3 establece que en el punto de venta la demanda es independiente y se obtiene por pronóstico; sostiene el 'tirar' aguas arriba."
+  },
+  {
+   "id": 9,
+   "verdict": "OK",
+   "best_ancla": "4-que-es-el-drp-definicion-y-funciones",
+   "best_seccion": "4. Qué es el DRP: definición y funciones",
+   "reason": "§4 define el DRP como proceso que planifica y controla el flujo de materiales a lo largo de la red de distribución."
+  },
+  {
+   "id": 19,
+   "verdict": "OK",
+   "best_ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+   "best_seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+   "reason": "§3 aclara que en nodos intermedios (ISL) la demanda no se pronostica sino que se calcula agregando lo de aguas abajo."
+  },
+  {
+   "id": 21,
+   "verdict": "OK",
+   "best_ancla": "5-2-lista-de-distribucion",
+   "best_seccion": "5.2. Lista de distribución",
+   "reason": "§5.2 define la lista de distribución como estructura en árbol para cada producto (SKU); es distinta por artículo."
+  },
+  {
+   "id": 62,
+   "verdict": "OK",
+   "best_ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+   "best_seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+   "reason": "§3 fundamenta el pronóstico solo en los puntos de venta para tirar de la demanda aguas arriba."
+  },
+  {
+   "id": 65,
+   "verdict": "OK",
+   "best_ancla": "5-2-lista-de-distribucion",
+   "best_seccion": "5.2. Lista de distribución",
+   "reason": "§5.2 muestra que la lista de distribución es análoga a la BOM y específica por producto; refuta la unicidad."
+  },
+  {
+   "id": 68,
+   "verdict": "OK",
+   "best_ancla": "2-la-distribucion-como-problema",
+   "best_seccion": "2. La distribución como problema",
+   "reason": "El apunte no desarrolla la tipología canal industrial/comercial ni minoristas; §2 es la sección más cercana disponible sobre canales de distribución."
+  },
+  {
+   "id": 86,
+   "verdict": "OK",
+   "best_ancla": "6-salidas-del-drp",
+   "best_seccion": "6. Salidas del DRP",
+   "reason": "§6 indica que la salida principal es qué/cuánto/cuándo/dónde despachar."
+  },
+  {
+   "id": 88,
+   "verdict": "OK",
+   "best_ancla": "2-la-distribucion-como-problema",
+   "best_seccion": "2. La distribución como problema",
+   "reason": "No hay sección específica de canales industriales/minoristas; §2 es la más pertinente disponible."
+  },
+  {
+   "id": 91,
+   "verdict": "OK",
+   "best_ancla": "2-la-distribucion-como-problema",
+   "best_seccion": "2. La distribución como problema",
+   "reason": "El apunte no cubre canales de nivel cero; §2 es el mejor contenedor disponible sobre distribución/canales."
+  },
+  {
+   "id": 97,
+   "verdict": "OK",
+   "best_ancla": "4-que-es-el-drp-definicion-y-funciones",
+   "best_seccion": "4. Qué es el DRP: definición y funciones",
+   "reason": "§4 define que el DRP planifica el flujo de materiales en la red de distribución."
+  },
+  {
+   "id": 100,
+   "verdict": "OK",
+   "best_ancla": "2-la-distribucion-como-problema",
+   "best_seccion": "2. La distribución como problema",
+   "reason": "No hay sección de roles minorista/canal industrial; §2 es la más cercana disponible."
+  },
+  {
+   "id": 119,
+   "verdict": "OK",
+   "best_ancla": "5-2-lista-de-distribucion",
+   "best_seccion": "5.2. Lista de distribución",
+   "reason": "§5.2 (dentro de Entradas del DRP) describe la lista de distribución como dato de entrada análogo a la BOM."
+  },
+  {
+   "id": 120,
+   "verdict": "OK",
+   "best_ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+   "best_seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+   "reason": "§3 justifica el pronóstico por producto en cada punto de venta."
+  },
+  {
+   "id": 129,
+   "verdict": "WRONG",
+   "best_ancla": "5-2-lista-de-distribucion",
+   "best_seccion": "5.2. Lista de distribución",
+   "reason": "§5.3 trata las tres fuentes de suministro (logística/producción/compra), no la reexpedición. El concepto de centro de reexpedición que redistribuye 'sin mantener inventario' está en §5.2."
+  },
+  {
+   "id": 140,
+   "verdict": "WRONG",
+   "best_ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+   "best_seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+   "reason": "§4 no menciona proactivo/reactivo. La afirmación explícita 'Planificación proactiva, no reactiva' (sin puntos de pedido, antes del faltante) está en §3."
+  },
+  {
+   "id": 144,
+   "verdict": "OK",
+   "best_ancla": "2-la-distribucion-como-problema",
+   "best_seccion": "2. La distribución como problema",
+   "reason": "No hay sección específica sobre canal industrial vs minoristas; §2 es la más pertinente disponible."
+  },
+  {
+   "id": 145,
+   "verdict": "OK",
+   "best_ancla": "5-2-lista-de-distribucion",
+   "best_seccion": "5.2. Lista de distribución",
+   "reason": "§5.2 aclara que el DRP usa la lista de distribución (análoga a la BOM), no la BOM; la secundaria a BOM del MRP refuerza el contraste."
+  },
+  {
+   "id": 159,
+   "verdict": "OK",
+   "best_ancla": "4-que-es-el-drp-definicion-y-funciones",
+   "best_seccion": "4. Qué es el DRP: definición y funciones",
+   "reason": "§4 define el DRP como proceso que planifica la distribución de productos por la red."
+  },
+  {
+   "id": 177,
+   "verdict": "OK",
+   "best_ancla": "7-la-matriz-drp",
+   "best_seccion": "7. La matriz DRP",
+   "reason": "§7 (fila Disponibilidades y recorrido de hojas a raíz) proyecta inventario en todos los nodos, agregando requerimientos netos aguas abajo en los dependientes."
+  },
+  {
+   "id": 190,
+   "verdict": "OK",
+   "best_ancla": "7-la-matriz-drp",
+   "best_seccion": "7. La matriz DRP",
+   "reason": "§7 y §7.1 muestran un cálculo determinístico con reglas de lote (igual que MRP), no una optimización que minimice costos."
+  }
+ ]
+}

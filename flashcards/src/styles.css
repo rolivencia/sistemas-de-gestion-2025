@@ -98,3 +98,138 @@ body {
 .animate-bounce-in {
   animation: bounceIn 0.6s ease-out;
 }
+
+/* Apunte drawer (Etapa 3) --------------------------------------------------- */
+
+@keyframes drawerIn {
+  from { transform: translateX(24px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.apunte-drawer {
+  animation: drawerIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Resaltado temporal de la sección a la que se hace scroll */
+@keyframes anclaFlash {
+  0% { background-color: color-mix(in srgb, var(--color-primary) 32%, transparent); }
+  100% { background-color: transparent; }
+}
+
+.apunte-target-highlight {
+  animation: anclaFlash 2.4s ease-out;
+  border-radius: var(--radius-md);
+  scroll-margin-top: 1rem;
+}
+
+/* Tipografía de los apuntes renderizados desde markdown */
+.apunte-prose {
+  color: var(--color-foreground);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.apunte-prose h1,
+.apunte-prose h2,
+.apunte-prose h3,
+.apunte-prose h4 {
+  font-weight: 700;
+  line-height: 1.3;
+  scroll-margin-top: 1rem;
+  color: var(--color-foreground);
+}
+
+.apunte-prose h1 { font-size: 1.6rem; margin: 1.4em 0 0.6em; }
+.apunte-prose h2 {
+  font-size: 1.3rem;
+  margin: 1.4em 0 0.6em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--color-border);
+}
+.apunte-prose h3 { font-size: 1.1rem; margin: 1.2em 0 0.5em; }
+.apunte-prose h4 { font-size: 1rem; margin: 1em 0 0.4em; }
+
+.apunte-prose p { margin: 0.8em 0; }
+
+.apunte-prose ul,
+.apunte-prose ol { margin: 0.8em 0; padding-left: 1.4em; }
+.apunte-prose ul { list-style: disc; }
+.apunte-prose ol { list-style: decimal; }
+.apunte-prose li { margin: 0.3em 0; }
+
+.apunte-prose a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.apunte-prose strong { font-weight: 700; color: var(--color-foreground); }
+
+.apunte-prose blockquote {
+  margin: 1em 0;
+  padding: 0.2em 1em;
+  border-left: 3px solid var(--color-primary);
+  color: var(--color-muted-foreground);
+}
+
+.apunte-prose code {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+  background-color: var(--color-secondary);
+  padding: 0.15em 0.4em;
+  border-radius: var(--radius-sm);
+}
+
+.apunte-prose pre {
+  margin: 1em 0;
+  padding: 1em;
+  background-color: var(--color-secondary);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+}
+
+.apunte-prose pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.apunte-prose table {
+  width: 100%;
+  margin: 1em 0;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  display: block;
+  overflow-x: auto;
+}
+
+.apunte-prose th,
+.apunte-prose td {
+  border: 1px solid var(--color-border);
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+
+.apunte-prose th {
+  background-color: var(--color-secondary);
+  font-weight: 600;
+}
+
+.apunte-prose hr {
+  margin: 1.5em 0;
+  border: 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.apunte-prose img { max-width: 100%; height: auto; }
+
+.apunte-prose .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5em 0;
+}
+
+.apunte-prose pre.mermaid,
+.apunte-prose .mermaid {
+  background: transparent;
+  text-align: center;
+}

@@ -1,0 +1,291 @@
+{
+ "apunte": "apunte-22-planificacion-requerimientos-distribucion",
+ "secciones_disponibles": [
+  {
+   "ancla": "1-donde-encaja-el-drp-planificacion-de-la-produccion-y-de-la-distribucion",
+   "seccion": "1. Dónde encaja el DRP: planificación de la producción y de la distribución",
+   "nivel": 2
+  },
+  {
+   "ancla": "2-la-distribucion-como-problema",
+   "seccion": "2. La distribución como problema",
+   "nivel": 2
+  },
+  {
+   "ancla": "2-1-funcion-de-distribucion-y-la-pregunta-central",
+   "seccion": "2.1. Función de distribución y la pregunta central",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-2-enfoque-tradicional-y-por-que-falla",
+   "seccion": "2.2. Enfoque tradicional y por qué falla",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+   "seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+   "nivel": 2
+  },
+  {
+   "ancla": "4-que-es-el-drp-definicion-y-funciones",
+   "seccion": "4. Qué es el DRP: definición y funciones",
+   "nivel": 2
+  },
+  {
+   "ancla": "4-1-funciones-principales",
+   "seccion": "4.1. Funciones principales",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-entradas-del-drp",
+   "seccion": "5. Entradas del DRP",
+   "nivel": 2
+  },
+  {
+   "ancla": "5-1-conceptos-y-terminos",
+   "seccion": "5.1. Conceptos y términos",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-2-lista-de-distribucion",
+   "seccion": "5.2. Lista de distribución",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-3-fuentes-de-suministro",
+   "seccion": "5.3. Fuentes de suministro",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-4-datos-de-entrada",
+   "seccion": "5.4. Datos de entrada",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-salidas-del-drp",
+   "seccion": "6. Salidas del DRP",
+   "nivel": 2
+  },
+  {
+   "ancla": "7-la-matriz-drp",
+   "seccion": "7. La matriz DRP",
+   "nivel": 2
+  },
+  {
+   "ancla": "7-1-procedimiento-de-calculo-por-periodo",
+   "seccion": "7.1. Procedimiento de cálculo (por período)",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-2-direccion-del-recorrido-de-las-hojas-hacia-la-raiz",
+   "seccion": "7.2. Dirección del recorrido: de las hojas hacia la raíz",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-drp-y-mrp-misma-matriz-direcciones-opuestas",
+   "seccion": "8. DRP y MRP: misma matriz, direcciones opuestas",
+   "nivel": 2
+  },
+  {
+   "ancla": "9-sintesis",
+   "seccion": "9. Síntesis",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 4,
+   "afirmacion": "Los pronósticos deben ser calculados para cada artículo en cada punto de venta de la cadena de suministros.",
+   "respuesta": true,
+   "justificacion": "El DRP se alimenta de un pronóstico de ventas por cada producto en cada punto de venta de la red: la demanda es dependiente de la ubicación y desde los puntos de venta se 'tira' de ella aguas arriba.",
+   "ref_ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+   "ref_seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+   "secundarias": []
+  },
+  {
+   "id": 9,
+   "afirmacion": "Los sistemas DRP se utilizan para planificar la distribución de materiales desde almacenes de fábrica hasta los locales de venta.",
+   "respuesta": true,
+   "justificacion": "El DRP planifica el flujo de materiales a lo largo de los canales de distribución, desde las instalaciones centrales (almacén de fábrica) hasta las ventas locales.",
+   "ref_ancla": "4-que-es-el-drp-definicion-y-funciones",
+   "ref_seccion": "4. Qué es el DRP: definición y funciones",
+   "secundarias": []
+  },
+  {
+   "id": 19,
+   "afirmacion": "Los pronósticos deben ser calculados para cada artículo en cada ISL (punto de almacenamiento) de la cadena de suministros.",
+   "respuesta": false,
+   "justificacion": "El DRP requiere pronósticos a nivel de cada Punto de Venta, no de cada punto de almacenamiento (ISL): en los nodos intermedios la demanda no se pronostica, se calcula agregando los requerimientos aguas abajo.",
+   "ref_ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+   "ref_seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+   "secundarias": []
+  },
+  {
+   "id": 21,
+   "afirmacion": "La Lista de Distribución es única (es la misma para todos los tipos de productos que distribuye la empresa).",
+   "respuesta": false,
+   "justificacion": "La Lista de Distribución es distinta para cada tipo de producto: la red lógica por la que fluye cambia según el artículo y su demanda.",
+   "ref_ancla": "5-2-lista-de-distribucion",
+   "ref_seccion": "5.2. Lista de distribución",
+   "secundarias": []
+  },
+  {
+   "id": 62,
+   "afirmacion": "Los pronósticos deben ser calculados para cada artículo en cada punto de venta del mismo.",
+   "respuesta": true,
+   "justificacion": "Los pronósticos se calculan a nivel de cada Punto de Venta para 'tirar' de la demanda aguas arriba en el DRP (Idem #19).",
+   "ref_ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+   "ref_seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+   "secundarias": []
+  },
+  {
+   "id": 65,
+   "afirmacion": "A diferencia de la BOM, la cual es distinta para cada tipo de producto, la Lista de Distribución es única (es la misma para todos los tipos de productos que distribuye la empresa).",
+   "respuesta": false,
+   "justificacion": "Es al revés: la Lista de Distribución es distinta para cada tipo de producto; la red de distribución cambia según el artículo y la demanda (Idem #21).",
+   "ref_ancla": "5-2-lista-de-distribucion",
+   "ref_seccion": "5.2. Lista de distribución",
+   "secundarias": []
+  },
+  {
+   "id": 68,
+   "afirmacion": "Una cadena de distribución industrial involucra a dos industrias (una en el rol de proveedor y otra en el rol de cliente).",
+   "respuesta": true,
+   "justificacion": "En un canal (cadena de distribución) industrial ambos extremos son industrias —una en rol de proveedor y otra de cliente—, a diferencia del canal comercial/de consumo, donde operan mayoristas y minoristas.",
+   "ref_ancla": "2-la-distribucion-como-problema",
+   "ref_seccion": "2. La distribución como problema",
+   "secundarias": []
+  },
+  {
+   "id": 86,
+   "afirmacion": "Los datos principales de salida de un DRP son: producto requerido, cantidad, lugar y momento (fecha).",
+   "respuesta": true,
+   "justificacion": "Las salidas del DRP son las órdenes planificadas a través de la red: qué producto, en qué cantidad, a qué lugar y en qué momento (fecha).",
+   "ref_ancla": "6-salidas-del-drp",
+   "ref_seccion": "6. Salidas del DRP",
+   "secundarias": []
+  },
+  {
+   "id": 88,
+   "afirmacion": "Un canal industrial no involucra minoristas.",
+   "respuesta": true,
+   "justificacion": "Los minoristas son propios del canal de consumo/comercial; un canal industrial vincula industrias entre sí, sin minoristas.",
+   "ref_ancla": "2-la-distribucion-como-problema",
+   "ref_seccion": "2. La distribución como problema",
+   "secundarias": []
+  },
+  {
+   "id": 91,
+   "afirmacion": "Un canal comercial siempre involucra minoristas.",
+   "respuesta": false,
+   "justificacion": "No siempre: existen canales comerciales de nivel cero (venta directa productor → consumidor), sin minorista intermedio.",
+   "ref_ancla": "2-la-distribucion-como-problema",
+   "ref_seccion": "2. La distribución como problema",
+   "secundarias": []
+  },
+  {
+   "id": 97,
+   "afirmacion": "Los sistemas de información DRP son usables para planificar el flujo de materiales en una red de distribución.",
+   "respuesta": true,
+   "justificacion": "El DRP planifica el flujo de materiales a lo largo de la red o canales de distribución, desde las instalaciones centrales hasta las ventas locales (Idem #9).",
+   "ref_ancla": "4-que-es-el-drp-definicion-y-funciones",
+   "ref_seccion": "4. Qué es el DRP: definición y funciones",
+   "secundarias": []
+  },
+  {
+   "id": 100,
+   "afirmacion": "Un supermercado cumple el rol de minorista en un canal de distribución industrial.",
+   "respuesta": false,
+   "justificacion": "Un supermercado cumple el rol de minorista en un canal de distribución de consumo/comercial, no en un canal industrial (que vincula industrias) (Idem #68, #88).",
+   "ref_ancla": "2-la-distribucion-como-problema",
+   "ref_seccion": "2. La distribución como problema",
+   "secundarias": []
+  },
+  {
+   "id": 119,
+   "afirmacion": "La lista de distribución es uno de los datos necesarios para los sistemas DRP.",
+   "respuesta": true,
+   "justificacion": "La Lista de Distribución es una entrada del DRP (análoga a la BOM en el MRP): describe la topología de la red por la que fluye cada producto.",
+   "ref_ancla": "5-2-lista-de-distribucion",
+   "ref_seccion": "5.2. Lista de distribución",
+   "secundarias": []
+  },
+  {
+   "id": 120,
+   "afirmacion": "Los sistemas DRP requieren realizar un pronóstico de venta por cada producto en cada punto de venta.",
+   "respuesta": true,
+   "justificacion": "El DRP requiere un pronóstico de venta por cada producto en cada punto de venta, para 'tirar' de la demanda aguas arriba (Idem #19).",
+   "ref_ancla": "3-el-enfoque-drp-demanda-dependiente-por-ubicacion",
+   "ref_seccion": "3. El enfoque DRP: demanda dependiente por ubicación",
+   "secundarias": []
+  },
+  {
+   "id": 129,
+   "afirmacion": "Un centro de reexpedición se diferencia de un almacén central en la cadena de distribución por no tener inventarios.",
+   "respuesta": true,
+   "justificacion": "Un centro de reexpedición opera por cross-docking: transfiere la carga rápidamente sin almacenarla, a diferencia del almacén central, que sí mantiene inventario.",
+   "ref_ancla": "5-3-fuentes-de-suministro",
+   "ref_seccion": "5.3. Fuentes de suministro",
+   "secundarias": []
+  },
+  {
+   "id": 140,
+   "afirmacion": "Los sistemas DRP son sistemas reactivos, no proactivos.",
+   "respuesta": false,
+   "justificacion": "Es falso: el DRP es proactivo, planifica la distribución por anticipado a partir de proyecciones de demanda, antes del faltante (Idem #112).",
+   "ref_ancla": "4-que-es-el-drp-definicion-y-funciones",
+   "ref_seccion": "4. Qué es el DRP: definición y funciones",
+   "secundarias": []
+  },
+  {
+   "id": 144,
+   "afirmacion": "Los Canales Industriales relacionan una empresa de producción con los minoristas.",
+   "respuesta": false,
+   "justificacion": "Los minoristas son propios del canal de consumo/comercial; el canal industrial relaciona empresas de producción (industrias) entre sí, no con minoristas (Idem #88).",
+   "ref_ancla": "2-la-distribucion-como-problema",
+   "ref_seccion": "2. La distribución como problema",
+   "secundarias": []
+  },
+  {
+   "id": 145,
+   "afirmacion": "Los sistemas DRP utilizan la información de la Lista de Materiales (BOM) para planificar el flujo de materiales en la cadena de distribución.",
+   "respuesta": false,
+   "justificacion": "El DRP usa la Lista de Distribución, no la BOM: la BOM describe la estructura interna del producto (MRP), mientras que la red de distribución la describe la lista de distribución (Idem #6, #65).",
+   "ref_ancla": "5-2-lista-de-distribucion",
+   "ref_seccion": "5.2. Lista de distribución",
+   "secundarias": [
+    {
+     "ancla": "3-1-lista-de-materiales-bom-bill-of-materials",
+     "seccion": "3.1. Lista de materiales (BOM — *Bill of Materials*)"
+    }
+   ]
+  },
+  {
+   "id": 159,
+   "afirmacion": "Los sistemas DRP ayudan a planificar la distribución de productos.",
+   "respuesta": true,
+   "justificacion": "El DRP planifica la distribución de productos a lo largo de la red o canales, desde las instalaciones centrales hasta las ventas locales (Idem #9).",
+   "ref_ancla": "4-que-es-el-drp-definicion-y-funciones",
+   "ref_seccion": "4. Qué es el DRP: definición y funciones",
+   "secundarias": []
+  },
+  {
+   "id": 177,
+   "afirmacion": "Un sistema DRP permite hacer una proyección del inventario de los productos sólo en los nodos de la red de distribución en donde hay pronósticos",
+   "respuesta": false,
+   "justificacion": "Es falso: el DRP proyecta el inventario en toda la red. En los nodos dependientes (p. ej. el almacén central) no se usa un pronóstico directo, sino que se agregan los requerimientos netos provenientes de los nodos aguas abajo.",
+   "ref_ancla": "7-la-matriz-drp",
+   "ref_seccion": "7. La matriz DRP",
+   "secundarias": []
+  },
+  {
+   "id": 190,
+   "afirmacion": "Un sistema DRP genera un plan óptimo de distribución de productos minimizando los costos de transporte e inventarios",
+   "respuesta": false,
+   "justificacion": "El DRP tradicional no es un optimizador matemático que minimice costos: calcula los requerimientos y emite sugerencias de pedido determinísticas con reglas de lote, en forma análoga al MRP.",
+   "ref_ancla": "7-la-matriz-drp",
+   "ref_seccion": "7. La matriz DRP",
+   "secundarias": []
+  }
+ ]
+}

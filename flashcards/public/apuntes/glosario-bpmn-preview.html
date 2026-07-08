@@ -1,0 +1,693 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glosario de elementos BPMN — Sistemas de Gestión (UTN FRSF)</title>
+<style>
+:root{--ink:#1f2937;--bg:#ffffff;--muted:#6b7280;--rule:#e5e7eb;--accent:#b04a39;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#16181c;--muted:#9aa0a6;--rule:#2c3036;--accent:#d98b6a;}}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font-family:"Iowan Old Style","Palatino Linotype",Georgia,serif;line-height:1.5;}
+.wrap{max-width:1040px;margin:0 auto;padding:56px 28px 96px;}
+header{border-bottom:2px solid var(--ink);padding-bottom:20px;margin-bottom:8px;}
+.eyebrow{font-family:ui-monospace,"SFMono-Regular",Menlo,monospace;font-size:.72rem;letter-spacing:.18em;
+ text-transform:uppercase;color:var(--accent);margin:0 0 10px;}
+h1{font-size:2.1rem;line-height:1.1;margin:0 0 6px;font-weight:600;}
+.sub{color:var(--muted);font-size:.95rem;max-width:60ch;}
+.note{font-family:ui-monospace,Menlo,monospace;font-size:.74rem;color:var(--muted);
+ border:1px solid var(--rule);border-radius:8px;padding:10px 14px;margin:22px 0 0;}
+section{margin-top:44px;}
+h2{font-size:1.02rem;font-weight:600;margin:0 0 4px;padding-bottom:10px;border-bottom:1px solid var(--rule);
+ display:flex;align-items:baseline;gap:10px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px 10px;margin-top:14px;}
+figure{margin:0;padding:14px 8px 12px;border:1px solid transparent;border-radius:10px;text-align:center;}
+figure:hover{border-color:var(--rule);}
+.ic{height:54px;display:flex;align-items:center;justify-content:center;}
+.ic svg{height:42px;width:auto;max-width:100%;}
+figcaption{margin-top:10px;font-family:ui-monospace,Menlo,monospace;font-size:.66rem;color:var(--muted);word-break:break-word;}
+footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--rule);color:var(--muted);font-size:.8rem;}
+</style></head><body><div class="wrap">
+<header>
+<p class="eyebrow">Sistemas de Gestión · UTN FRSF · Unidad 2 · Apunte 4</p>
+<h1>Glosario de elementos BPMN</h1>
+<p class="sub">Catálogo visual de la notación BPMN 2.0 usada en el Apunte 4. Cada glifo es un archivo SVG independiente, pensado para incrustarse en los apuntes Markdown. El nombre bajo cada símbolo es su nombre de archivo (sin la extensión <code>.svg</code>).</p>
+<p class="note">Los íconos se adaptan al tema del sistema (claro/oscuro). Esta página sigue tu preferencia de sistema operativo, de modo que el color de los símbolos siempre contrasta con el fondo.</p>
+</header>
+<section><h2>Eventos de inicio (proceso)</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/></svg></div><figcaption>evento-inicio-none</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><rect class="s" stroke-width="1.5" x="14.00" y="17.00" width="20.00" height="14.00"/><polyline class="s" fill="none" stroke-width="1.5" points="14.00,17.00 24.00,24.05 34.00,17.00"/></svg></div><figcaption>evento-inicio-mensaje</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.5" cx="24.00" cy="24.00" r="10.00"/><line class="s" stroke-width="1.0" x1="32.20" y1="24.00" x2="34.00" y2="24.00"/><line class="s" stroke-width="1.0" x1="31.10" y1="28.10" x2="32.66" y2="29.00"/><line class="s" stroke-width="1.0" x1="28.10" y1="31.10" x2="29.00" y2="32.66"/><line class="s" stroke-width="1.0" x1="24.00" y1="32.20" x2="24.00" y2="34.00"/><line class="s" stroke-width="1.0" x1="19.90" y1="31.10" x2="19.00" y2="32.66"/><line class="s" stroke-width="1.0" x1="16.90" y1="28.10" x2="15.34" y2="29.00"/><line class="s" stroke-width="1.0" x1="15.80" y1="24.00" x2="14.00" y2="24.00"/><line class="s" stroke-width="1.0" x1="16.90" y1="19.90" x2="15.34" y2="19.00"/><line class="s" stroke-width="1.0" x1="19.90" y1="16.90" x2="19.00" y2="15.34"/><line class="s" stroke-width="1.0" x1="24.00" y1="15.80" x2="24.00" y2="14.00"/><line class="s" stroke-width="1.0" x1="28.10" y1="16.90" x2="29.00" y2="15.34"/><line class="s" stroke-width="1.0" x1="31.10" y1="19.90" x2="32.66" y2="19.00"/><line class="s" stroke-width="1.4" x1="24.00" y1="24.00" x2="24.00" y2="17.80"/><line class="s" stroke-width="1.4" x1="24.00" y1="24.00" x2="29.00" y2="27.00"/></svg></div><figcaption>evento-inicio-temporizador</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><rect class="s" stroke-width="1.5" x="16.80" y="14.50" width="14.40" height="19.00"/><line class="s" stroke-width="1.2" x1="19.32" y1="19.25" x2="28.68" y2="19.25"/><line class="s" stroke-width="1.2" x1="19.32" y1="24.00" x2="28.68" y2="24.00"/><line class="s" stroke-width="1.2" x1="19.32" y1="28.75" x2="28.68" y2="28.75"/></svg></div><figcaption>evento-inicio-condicional</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><polygon class="s" stroke-width="1.5" points="24.00,14.00 32.80,30.20 15.20,30.20"/></svg></div><figcaption>evento-inicio-senial</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><polygon class="s" stroke-width="1.5" points="24.00,14.00 33.51,20.91 29.88,32.09 18.12,32.09 14.49,20.91"/></svg></div><figcaption>evento-inicio-multiple</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><line class="s" stroke-width="2.2" x1="24.00" y1="14.00" x2="24.00" y2="34.00"/><line class="s" stroke-width="2.2" x1="14.00" y1="24.00" x2="34.00" y2="24.00"/></svg></div><figcaption>evento-inicio-multiple-paralelo</figcaption></figure></div></section><section><h2>Eventos de inicio — subprocesos de evento (interrumpe / no interrumpe)</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><rect class="s" stroke-width="1.5" x="14.00" y="17.00" width="20.00" height="14.00"/><polyline class="s" fill="none" stroke-width="1.5" points="14.00,17.00 24.00,24.05 34.00,17.00"/></svg></div><figcaption>evento-subproceso-mensaje-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00" stroke-dasharray="3 3"/><rect class="s" stroke-width="1.5" x="14.00" y="17.00" width="20.00" height="14.00"/><polyline class="s" fill="none" stroke-width="1.5" points="14.00,17.00 24.00,24.05 34.00,17.00"/></svg></div><figcaption>evento-subproceso-mensaje-no-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.5" cx="24.00" cy="24.00" r="10.00"/><line class="s" stroke-width="1.0" x1="32.20" y1="24.00" x2="34.00" y2="24.00"/><line class="s" stroke-width="1.0" x1="31.10" y1="28.10" x2="32.66" y2="29.00"/><line class="s" stroke-width="1.0" x1="28.10" y1="31.10" x2="29.00" y2="32.66"/><line class="s" stroke-width="1.0" x1="24.00" y1="32.20" x2="24.00" y2="34.00"/><line class="s" stroke-width="1.0" x1="19.90" y1="31.10" x2="19.00" y2="32.66"/><line class="s" stroke-width="1.0" x1="16.90" y1="28.10" x2="15.34" y2="29.00"/><line class="s" stroke-width="1.0" x1="15.80" y1="24.00" x2="14.00" y2="24.00"/><line class="s" stroke-width="1.0" x1="16.90" y1="19.90" x2="15.34" y2="19.00"/><line class="s" stroke-width="1.0" x1="19.90" y1="16.90" x2="19.00" y2="15.34"/><line class="s" stroke-width="1.0" x1="24.00" y1="15.80" x2="24.00" y2="14.00"/><line class="s" stroke-width="1.0" x1="28.10" y1="16.90" x2="29.00" y2="15.34"/><line class="s" stroke-width="1.0" x1="31.10" y1="19.90" x2="32.66" y2="19.00"/><line class="s" stroke-width="1.4" x1="24.00" y1="24.00" x2="24.00" y2="17.80"/><line class="s" stroke-width="1.4" x1="24.00" y1="24.00" x2="29.00" y2="27.00"/></svg></div><figcaption>evento-subproceso-temporizador-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00" stroke-dasharray="3 3"/><circle class="s" stroke-width="1.5" cx="24.00" cy="24.00" r="10.00"/><line class="s" stroke-width="1.0" x1="32.20" y1="24.00" x2="34.00" y2="24.00"/><line class="s" stroke-width="1.0" x1="31.10" y1="28.10" x2="32.66" y2="29.00"/><line class="s" stroke-width="1.0" x1="28.10" y1="31.10" x2="29.00" y2="32.66"/><line class="s" stroke-width="1.0" x1="24.00" y1="32.20" x2="24.00" y2="34.00"/><line class="s" stroke-width="1.0" x1="19.90" y1="31.10" x2="19.00" y2="32.66"/><line class="s" stroke-width="1.0" x1="16.90" y1="28.10" x2="15.34" y2="29.00"/><line class="s" stroke-width="1.0" x1="15.80" y1="24.00" x2="14.00" y2="24.00"/><line class="s" stroke-width="1.0" x1="16.90" y1="19.90" x2="15.34" y2="19.00"/><line class="s" stroke-width="1.0" x1="19.90" y1="16.90" x2="19.00" y2="15.34"/><line class="s" stroke-width="1.0" x1="24.00" y1="15.80" x2="24.00" y2="14.00"/><line class="s" stroke-width="1.0" x1="28.10" y1="16.90" x2="29.00" y2="15.34"/><line class="s" stroke-width="1.0" x1="31.10" y1="19.90" x2="32.66" y2="19.00"/><line class="s" stroke-width="1.4" x1="24.00" y1="24.00" x2="24.00" y2="17.80"/><line class="s" stroke-width="1.4" x1="24.00" y1="24.00" x2="29.00" y2="27.00"/></svg></div><figcaption>evento-subproceso-temporizador-no-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><polygon class="s" stroke-width="1.5" points="24.00,14.00 30.20,31.20 24.00,25.80 17.80,31.20"/></svg></div><figcaption>evento-subproceso-escalada-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00" stroke-dasharray="3 3"/><polygon class="s" stroke-width="1.5" points="24.00,14.00 30.20,31.20 24.00,25.80 17.80,31.20"/></svg></div><figcaption>evento-subproceso-escalada-no-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><polygon class="s" stroke-width="1.5" points="21.00,14.00 28.50,22.00 24.50,22.00 28.00,34.00 19.50,25.20 23.50,25.20"/></svg></div><figcaption>evento-subproceso-error-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00" stroke-dasharray="3 3"/><polygon class="f" points="23.50,15.50 23.50,32.50 14.50,24.00"/><polygon class="f" points="32.50,15.50 32.50,32.50 23.50,24.00"/></svg></div><figcaption>evento-subproceso-compensacion-no-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><rect class="s" stroke-width="1.5" x="16.80" y="14.50" width="14.40" height="19.00"/><line class="s" stroke-width="1.2" x1="19.32" y1="19.25" x2="28.68" y2="19.25"/><line class="s" stroke-width="1.2" x1="19.32" y1="24.00" x2="28.68" y2="24.00"/><line class="s" stroke-width="1.2" x1="19.32" y1="28.75" x2="28.68" y2="28.75"/></svg></div><figcaption>evento-subproceso-condicional-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00" stroke-dasharray="3 3"/><rect class="s" stroke-width="1.5" x="16.80" y="14.50" width="14.40" height="19.00"/><line class="s" stroke-width="1.2" x1="19.32" y1="19.25" x2="28.68" y2="19.25"/><line class="s" stroke-width="1.2" x1="19.32" y1="24.00" x2="28.68" y2="24.00"/><line class="s" stroke-width="1.2" x1="19.32" y1="28.75" x2="28.68" y2="28.75"/></svg></div><figcaption>evento-subproceso-condicional-no-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><polygon class="s" stroke-width="1.5" points="24.00,14.00 32.80,30.20 15.20,30.20"/></svg></div><figcaption>evento-subproceso-senial-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00" stroke-dasharray="3 3"/><polygon class="s" stroke-width="1.5" points="24.00,14.00 32.80,30.20 15.20,30.20"/></svg></div><figcaption>evento-subproceso-senial-no-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><polygon class="s" stroke-width="1.5" points="24.00,14.00 33.51,20.91 29.88,32.09 18.12,32.09 14.49,20.91"/></svg></div><figcaption>evento-subproceso-multiple-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00" stroke-dasharray="3 3"/><polygon class="s" stroke-width="1.5" points="24.00,14.00 33.51,20.91 29.88,32.09 18.12,32.09 14.49,20.91"/></svg></div><figcaption>evento-subproceso-multiple-no-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00"/><line class="s" stroke-width="2.2" x1="24.00" y1="14.00" x2="24.00" y2="34.00"/><line class="s" stroke-width="2.2" x1="14.00" y1="24.00" x2="34.00" y2="24.00"/></svg></div><figcaption>evento-subproceso-multiple-paralelo-interrumpe</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="2" cx="24.00" cy="24.00" r="18.00" stroke-dasharray="3 3"/><line class="s" stroke-width="2.2" x1="24.00" y1="14.00" x2="24.00" y2="34.00"/><line class="s" stroke-width="2.2" x1="14.00" y1="24.00" x2="34.00" y2="24.00"/></svg></div><figcaption>evento-subproceso-multiple-paralelo-no-interrumpe</figcaption></figure></div></section><section><h2>Eventos intermedios — captura</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/></svg></div><figcaption>evento-intermedio-captura-none</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><rect class="s" stroke-width="1.5" x="14.00" y="17.00" width="20.00" height="14.00"/><polyline class="s" fill="none" stroke-width="1.5" points="14.00,17.00 24.00,24.05 34.00,17.00"/></svg></div><figcaption>evento-intermedio-captura-mensaje</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><circle class="s" stroke-width="1.5" cx="24.00" cy="24.00" r="10.00"/><line class="s" stroke-width="1.0" x1="32.20" y1="24.00" x2="34.00" y2="24.00"/><line class="s" stroke-width="1.0" x1="31.10" y1="28.10" x2="32.66" y2="29.00"/><line class="s" stroke-width="1.0" x1="28.10" y1="31.10" x2="29.00" y2="32.66"/><line class="s" stroke-width="1.0" x1="24.00" y1="32.20" x2="24.00" y2="34.00"/><line class="s" stroke-width="1.0" x1="19.90" y1="31.10" x2="19.00" y2="32.66"/><line class="s" stroke-width="1.0" x1="16.90" y1="28.10" x2="15.34" y2="29.00"/><line class="s" stroke-width="1.0" x1="15.80" y1="24.00" x2="14.00" y2="24.00"/><line class="s" stroke-width="1.0" x1="16.90" y1="19.90" x2="15.34" y2="19.00"/><line class="s" stroke-width="1.0" x1="19.90" y1="16.90" x2="19.00" y2="15.34"/><line class="s" stroke-width="1.0" x1="24.00" y1="15.80" x2="24.00" y2="14.00"/><line class="s" stroke-width="1.0" x1="28.10" y1="16.90" x2="29.00" y2="15.34"/><line class="s" stroke-width="1.0" x1="31.10" y1="19.90" x2="32.66" y2="19.00"/><line class="s" stroke-width="1.4" x1="24.00" y1="24.00" x2="24.00" y2="17.80"/><line class="s" stroke-width="1.4" x1="24.00" y1="24.00" x2="29.00" y2="27.00"/></svg></div><figcaption>evento-intermedio-captura-temporizador</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><polygon class="s" stroke-width="1.5" points="24.00,14.00 30.20,31.20 24.00,25.80 17.80,31.20"/></svg></div><figcaption>evento-intermedio-captura-escalada</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><polygon class="f" points="23.50,15.50 23.50,32.50 14.50,24.00"/><polygon class="f" points="32.50,15.50 32.50,32.50 23.50,24.00"/></svg></div><figcaption>evento-intermedio-captura-compensacion</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><rect class="s" stroke-width="1.5" x="16.80" y="14.50" width="14.40" height="19.00"/><line class="s" stroke-width="1.2" x1="19.32" y1="19.25" x2="28.68" y2="19.25"/><line class="s" stroke-width="1.2" x1="19.32" y1="24.00" x2="28.68" y2="24.00"/><line class="s" stroke-width="1.2" x1="19.32" y1="28.75" x2="28.68" y2="28.75"/></svg></div><figcaption>evento-intermedio-captura-condicional</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><polygon class="s" stroke-width="1.5" points="15.00,20.80 25.50,20.80 25.50,17.80 33.00,24.00 25.50,30.20 25.50,27.20 15.00,27.20"/></svg></div><figcaption>evento-intermedio-captura-link</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><polygon class="s" stroke-width="1.5" points="24.00,14.00 32.80,30.20 15.20,30.20"/></svg></div><figcaption>evento-intermedio-captura-senial</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><polygon class="s" stroke-width="1.5" points="24.00,14.00 33.51,20.91 29.88,32.09 18.12,32.09 14.49,20.91"/></svg></div><figcaption>evento-intermedio-captura-multiple</figcaption></figure></div></section><section><h2>Eventos intermedios — lanza</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><rect class="f" x="14.00" y="17.00" width="20.00" height="14.00"/><polyline class="sg" fill="none" stroke-width="1.4" points="14.00,17.00 24.00,24.05 34.00,17.00"/></svg></div><figcaption>evento-intermedio-lanza-mensaje</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><polygon class="f" points="24.00,14.00 30.20,31.20 24.00,25.80 17.80,31.20"/></svg></div><figcaption>evento-intermedio-lanza-escalada</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><polygon class="f" points="23.50,15.50 23.50,32.50 14.50,24.00"/><polygon class="f" points="32.50,15.50 32.50,32.50 23.50,24.00"/></svg></div><figcaption>evento-intermedio-lanza-compensacion</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><polygon class="f" points="15.00,20.80 25.50,20.80 25.50,17.80 33.00,24.00 25.50,30.20 25.50,27.20 15.00,27.20"/></svg></div><figcaption>evento-intermedio-lanza-link</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><polygon class="f" points="24.00,14.00 32.80,30.20 15.20,30.20"/></svg></div><figcaption>evento-intermedio-lanza-senial</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="24.00" cy="24.00" r="18.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="14.00"/><polygon class="f" points="24.00,14.00 33.51,20.91 29.88,32.09 18.12,32.09 14.49,20.91"/></svg></div><figcaption>evento-intermedio-lanza-multiple</figcaption></figure></div></section><section><h2>Eventos de fin</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="3.4" cx="24.00" cy="24.00" r="18.00"/></svg></div><figcaption>evento-fin-none</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="3.4" cx="24.00" cy="24.00" r="18.00"/><rect class="f" x="14.00" y="17.00" width="20.00" height="14.00"/><polyline class="sg" fill="none" stroke-width="1.4" points="14.00,17.00 24.00,24.05 34.00,17.00"/></svg></div><figcaption>evento-fin-mensaje</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="3.4" cx="24.00" cy="24.00" r="18.00"/><polygon class="f" points="21.00,14.00 28.50,22.00 24.50,22.00 28.00,34.00 19.50,25.20 23.50,25.20"/></svg></div><figcaption>evento-fin-error</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="3.4" cx="24.00" cy="24.00" r="18.00"/><polygon class="f" points="24.00,14.00 30.20,31.20 24.00,25.80 17.80,31.20"/></svg></div><figcaption>evento-fin-escalada</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="3.4" cx="24.00" cy="24.00" r="18.00"/><line class="s" stroke-width="2.4" x1="16.20" y1="16.20" x2="31.80" y2="31.80"/><line class="s" stroke-width="2.4" x1="16.20" y1="31.80" x2="31.80" y2="16.20"/></svg></div><figcaption>evento-fin-cancelar</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="3.4" cx="24.00" cy="24.00" r="18.00"/><polygon class="f" points="23.50,15.50 23.50,32.50 14.50,24.00"/><polygon class="f" points="32.50,15.50 32.50,32.50 23.50,24.00"/></svg></div><figcaption>evento-fin-compensacion</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="3.4" cx="24.00" cy="24.00" r="18.00"/><polygon class="f" points="24.00,14.00 32.80,30.20 15.20,30.20"/></svg></div><figcaption>evento-fin-senial</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="3.4" cx="24.00" cy="24.00" r="18.00"/><circle class="f" cx="24.00" cy="24.00" r="10.00"/></svg></div><figcaption>evento-fin-terminacion</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="3.4" cx="24.00" cy="24.00" r="18.00"/><polygon class="f" points="24.00,14.00 33.51,20.91 29.88,32.09 18.12,32.09 14.49,20.91"/></svg></div><figcaption>evento-fin-multiple</figcaption></figure></div></section><section><h2>Gateways</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><polygon class="sb" stroke-width="2" points="24.00,5.00 43.00,24.00 24.00,43.00 5.00,24.00"/><line class="s" stroke-width="3" x1="17.00" y1="17.00" x2="31.00" y2="31.00"/><line class="s" stroke-width="3" x1="17.00" y1="31.00" x2="31.00" y2="17.00"/></svg></div><figcaption>gateway-exclusivo</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><polygon class="sb" stroke-width="2" points="24.00,5.00 43.00,24.00 24.00,43.00 5.00,24.00"/><circle class="s" stroke-width="2.6" cx="24.00" cy="24.00" r="8.00"/></svg></div><figcaption>gateway-inclusivo</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><polygon class="sb" stroke-width="2" points="24.00,5.00 43.00,24.00 24.00,43.00 5.00,24.00"/><line class="s" stroke-width="3" x1="24.00" y1="13.00" x2="24.00" y2="35.00"/><line class="s" stroke-width="3" x1="13.00" y1="24.00" x2="35.00" y2="24.00"/></svg></div><figcaption>gateway-paralelo</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><polygon class="sb" stroke-width="2" points="24.00,5.00 43.00,24.00 24.00,43.00 5.00,24.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="10.00"/><circle class="s" stroke-width="1.4" cx="24.00" cy="24.00" r="7.50"/><polygon class="s" stroke-width="1.4" points="24.00,19.00 28.76,22.45 26.94,28.05 21.06,28.05 19.24,22.45"/></svg></div><figcaption>gateway-basado-en-eventos</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><polygon class="sb" stroke-width="2" points="24.00,5.00 43.00,24.00 24.00,43.00 5.00,24.00"/><circle class="s" stroke-width="1.6" cx="24.00" cy="24.00" r="9.00"/><line class="s" stroke-width="2" x1="24.00" y1="18.00" x2="24.00" y2="30.00"/><line class="s" stroke-width="2" x1="18.00" y1="24.00" x2="30.00" y2="24.00"/></svg></div><figcaption>gateway-basado-en-eventos-paralelo</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><polygon class="sb" stroke-width="2" points="24.00,5.00 43.00,24.00 24.00,43.00 5.00,24.00"/><line class="s" stroke-width="2.6" x1="15.00" y1="24.00" x2="33.00" y2="24.00"/><line class="s" stroke-width="2.6" x1="17.64" y1="17.64" x2="30.36" y2="30.36"/><line class="s" stroke-width="2.6" x1="24.00" y1="15.00" x2="24.00" y2="33.00"/><line class="s" stroke-width="2.6" x1="30.36" y1="17.64" x2="17.64" y2="30.36"/></svg></div><figcaption>gateway-complejo</figcaption></figure></div></section><section><h2>Tareas</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.8" x="3.00" y="3.00" width="58.00" height="38.00" rx="8"/></svg></div><figcaption>tarea</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.8" x="3.00" y="3.00" width="58.00" height="38.00" rx="8"/><circle class="s" stroke-width="1.4" cx="14.00" cy="13.00" r="5.00"/><circle class="s" stroke-width="1.2" cx="14.00" cy="13.00" r="2.00"/><line class="s" stroke-width="1.4" x1="19.00" y1="13.00" x2="21.00" y2="13.00"/><line class="s" stroke-width="1.4" x1="17.54" y1="16.54" x2="18.95" y2="17.95"/><line class="s" stroke-width="1.4" x1="14.00" y1="18.00" x2="14.00" y2="20.00"/><line class="s" stroke-width="1.4" x1="10.46" y1="16.54" x2="9.05" y2="17.95"/><line class="s" stroke-width="1.4" x1="9.00" y1="13.00" x2="7.00" y2="13.00"/><line class="s" stroke-width="1.4" x1="10.46" y1="9.46" x2="9.05" y2="8.05"/><line class="s" stroke-width="1.4" x1="14.00" y1="8.00" x2="14.00" y2="6.00"/><line class="s" stroke-width="1.4" x1="17.54" y1="9.46" x2="18.95" y2="8.05"/></svg></div><figcaption>tarea-servicio</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.8" x="3.00" y="3.00" width="58.00" height="38.00" rx="8"/><circle class="s" stroke-width="1.3" cx="14.00" cy="11.00" r="2.60"/><path class="s" stroke-width="1.3" d="M 9.0 19.0 a 5 5 0 0 1 10 0" /></svg></div><figcaption>tarea-usuario</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.8" x="3.00" y="3.00" width="58.00" height="38.00" rx="8"/><rect class="f" x="8.80" y="6.60" width="1.8" height="7.60" rx="0.9"/><rect class="f" x="10.90" y="5.40" width="1.8" height="8.80" rx="0.9"/><rect class="f" x="13.00" y="5.90" width="1.8" height="8.30" rx="0.9"/><rect class="f" x="15.10" y="7.00" width="1.8" height="7.20" rx="0.9"/><rect class="f" x="6.0" y="12.0" width="1.9" height="5.6" rx="0.95" transform="rotate(40 6.95 14.8)"/><rect class="f" x="8.4" y="11" width="8.6" height="8.0" rx="2.4"/><line class="sg" stroke-width="0.9" x1="10.75" y1="6.6" x2="10.75" y2="12.2"/><line class="sg" stroke-width="0.9" x1="12.85" y1="6.6" x2="12.85" y2="12.2"/><line class="sg" stroke-width="0.9" x1="14.95" y1="6.6" x2="14.95" y2="12.2"/></svg></div><figcaption>tarea-manual</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.8" x="3.00" y="3.00" width="58.00" height="38.00" rx="8"/><rect class="f" x="10.00" y="8.50" width="10.00" height="7.00"/><polyline class="sg" fill="none" stroke-width="1.4" points="10.00,8.50 15.00,12.05 20.00,8.50"/></svg></div><figcaption>tarea-envio</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.8" x="3.00" y="3.00" width="58.00" height="38.00" rx="8"/><rect class="s" stroke-width="1.5" x="10.00" y="8.50" width="10.00" height="7.00"/><polyline class="s" fill="none" stroke-width="1.5" points="10.00,8.50 15.00,12.05 20.00,8.50"/></svg></div><figcaption>tarea-recepcion</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.8" x="3.00" y="3.00" width="58.00" height="38.00" rx="8"/><rect class="s" stroke-width="1.3" x="9" y="8" width="11" height="9"/><line class="s" stroke-width="1.2" x1="9.00" y1="11.00" x2="20.00" y2="11.00"/><line class="s" stroke-width="1.2" x1="13.00" y1="11.00" x2="13.00" y2="17.00"/></svg></div><figcaption>tarea-regla-negocio</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.8" x="3.00" y="3.00" width="58.00" height="38.00" rx="8"/><path class="s" stroke-width="1.3" d="M 11 8 q 3 0 3 2 l 0 5 q 0 2 3 2 l -8 0 q -3 0 -3 -2 l 0 -5 q 0 -2 2 -2 Z"/><line class="s" stroke-width="1.0" x1="11.00" y1="11.00" x2="16.00" y2="11.00"/><line class="s" stroke-width="1.0" x1="11.00" y1="13.50" x2="16.00" y2="13.50"/></svg></div><figcaption>tarea-script</figcaption></figure></div></section><section><h2>Subprocesos y actividades</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.8" x="3.00" y="3.00" width="58.00" height="38.00" rx="8"/><rect class="s" stroke-width="1.6" x="27" y="33" width="10" height="8"/><line class="s" stroke-width="1.6" x1="32.00" y1="34.50" x2="32.00" y2="39.50"/><line class="s" stroke-width="1.6" x1="29.50" y1="37.00" x2="34.50" y2="37.00"/></svg></div><figcaption>subproceso-colapsado</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="3.4" x="3.00" y="3.00" width="58.00" height="38.00" rx="8"/></svg></div><figcaption>call-activity</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.6" x="3.00" y="3.00" width="58.00" height="38.00" rx="8" stroke-dasharray="4 3"/></svg></div><figcaption>subproceso-evento</figcaption></figure></div></section><section><h2>Marcadores</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><path class="s" stroke-width="1.8" d="M 18 12 a 6 6 0 1 1 -2.2 -4.6"/><polygon class="f" points="15.00,4.50 17.00,8.00 13.20,8.20"/></svg></div><figcaption>marcador-loop</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><line class="s" stroke-width="2.2" x1="8.00" y1="6.00" x2="8.00" y2="18.00"/><line class="s" stroke-width="2.2" x1="12.00" y1="6.00" x2="12.00" y2="18.00"/><line class="s" stroke-width="2.2" x1="16.00" y1="6.00" x2="16.00" y2="18.00"/></svg></div><figcaption>marcador-multiple-instancia</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><polygon class="f" points="11.65,6.05 11.65,17.95 5.35,12.00"/><polygon class="f" points="17.95,6.05 17.95,17.95 11.65,12.00"/></svg></div><figcaption>marcador-compensacion</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><path class="s" stroke-width="2.2" d="M 5 13 q 3 -5 7 0 q 4 5 7 0"/></svg></div><figcaption>marcador-adhoc</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="s" stroke-width="1.6" x="6" y="8" width="12" height="9"/><line class="s" stroke-width="1.6" x1="12.00" y1="10.00" x2="12.00" y2="15.00"/><line class="s" stroke-width="1.6" x1="9.50" y1="12.50" x2="14.50" y2="12.50"/></svg></div><figcaption>marcador-subproceso</figcaption></figure></div></section><section><h2>Conexiones</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><line class="s" stroke-width="2" x1="6.00" y1="14.00" x2="100.00" y2="14.00"/><polygon class="f" points="100.00,9.00 114.00,14.00 100.00,19.00"/></svg></div><figcaption>conexion-flujo-secuencia</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><circle class="sb" stroke-width="1.6" cx="8.00" cy="14.00" r="3.00"/><line class="s" stroke-width="1.8" x1="11.00" y1="14.00" x2="100.00" y2="14.00" stroke-dasharray="5 4"/><polygon class="sb" stroke-width="1.6" points="100.00,9.00 114.00,14.00 100.00,19.00"/></svg></div><figcaption>conexion-flujo-mensaje</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><line class="s" stroke-width="1.8" x1="6.00" y1="14.00" x2="114.00" y2="14.00" stroke-dasharray="1.5 4"/></svg></div><figcaption>conexion-asociacion</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><line class="s" stroke-width="1.8" x1="6.00" y1="14.00" x2="102.00" y2="14.00" stroke-dasharray="1.5 4"/><polyline class="s" fill="none" stroke-width="1.8" points="102.00,9.00 114.00,14.00 102.00,19.00"/></svg></div><figcaption>conexion-asociacion-dato</figcaption></figure></div></section><section><h2>Datos</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><path class="sb" stroke-width="1.8" d="M 9 6 L 25 6 L 33 14 L 33 42 L 9 42 Z"/><path class="s" stroke-width="1.6" d="M 25 6 L 25 14 L 33 14"/></svg></div><figcaption>dato-objeto</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><path class="sb" stroke-width="1.8" d="M 9 6 L 25 6 L 33 14 L 33 42 L 9 42 Z"/><path class="s" stroke-width="1.6" d="M 25 6 L 25 14 L 33 14"/><line class="s" stroke-width="1.8" x1="17.00" y1="36.00" x2="17.00" y2="40.00"/><line class="s" stroke-width="1.8" x1="21.00" y1="36.00" x2="21.00" y2="40.00"/><line class="s" stroke-width="1.8" x1="25.00" y1="36.00" x2="25.00" y2="40.00"/></svg></div><figcaption>dato-coleccion</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><path class="sb" stroke-width="1.8" d="M 9 6 L 25 6 L 33 14 L 33 42 L 9 42 Z"/><path class="s" stroke-width="1.6" d="M 25 6 L 25 14 L 33 14"/><polygon class="s" stroke-width="1.4" points="13.00,12.00 19.00,12.00 19.00,10.00 23.00,14.00 19.00,18.00 19.00,16.00 13.00,16.00"/></svg></div><figcaption>dato-entrada</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><path class="sb" stroke-width="1.8" d="M 9 6 L 25 6 L 33 14 L 33 42 L 9 42 Z"/><path class="s" stroke-width="1.6" d="M 25 6 L 25 14 L 33 14"/><polygon class="f" points="13.00,12.00 19.00,12.00 19.00,10.00 23.00,14.00 19.00,18.00 19.00,16.00 13.00,16.00"/></svg></div><figcaption>dato-salida</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 48" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><path class="sb" stroke-width="1.8" d="M 9 12 L 9 36 q 12 7 24 0 L 33 12"/><ellipse class="sb" stroke-width="1.8" cx="21" cy="12" rx="12" ry="4.5"/><path class="s" stroke-width="1.2" d="M 9 17 q 12 7 24 0"/><path class="s" stroke-width="1.2" d="M 9 22 q 12 7 24 0"/></svg></div><figcaption>dato-almacen</figcaption></figure></div></section><section><h2>Swimlanes</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 56" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.8" x="4" y="6" width="112" height="44"/><line class="s" stroke-width="1.8" x1="20.00" y1="6.00" x2="20.00" y2="50.00"/></svg></div><figcaption>pool</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 56" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="sb" stroke-width="1.8" x="4" y="6" width="112" height="44"/><line class="s" stroke-width="1.6" x1="20.00" y1="6.00" x2="20.00" y2="50.00"/><line class="s" stroke-width="1.2" x1="4.00" y1="28.00" x2="116.00" y2="28.00"/></svg></div><figcaption>lane</figcaption></figure></div></section><section><h2>Artefactos</h2><div class="grid"><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><rect class="s" stroke-width="1.8" x="4.00" y="4.00" width="56.00" height="36.00" rx="6" stroke-dasharray="4 3"/></svg></div><figcaption>artefacto-grupo</figcaption></figure><figure><div class="ic"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 40" role="img" preserveAspectRatio="xMidYMid meet"><style>
+:root{--ink:#1f2937;--bg:#ffffff;}
+@media (prefers-color-scheme:dark){:root{--ink:#e6e7e9;--bg:#1e1e1e;}}
+.s{stroke:var(--ink);fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.f{fill:var(--ink);stroke:none;}
+.b{fill:var(--bg);stroke:none;}
+.sb{stroke:var(--ink);fill:var(--bg);stroke-linejoin:round;}
+.sg{stroke:var(--bg);fill:none;stroke-linecap:round;stroke-linejoin:round;}
+</style><path class="s" stroke-width="1.8" d="M 14 8 L 8 8 L 8 32 L 14 32"/><line class="s" stroke-width="1.4" x1="18.00" y1="16.00" x2="46.00" y2="16.00"/><line class="s" stroke-width="1.4" x1="18.00" y1="22.00" x2="40.00" y2="22.00"/></svg></div><figcaption>artefacto-anotacion</figcaption></figure></div></section>
+<footer>Generado para el proyecto de la asignatura. La notación sigue la especificación BPMN 2.0.2 (OMG). Los glifos son reconstrucciones para estudio, no extracciones del estándar.</footer>
+</div></body></html>

@@ -1,18 +1,27 @@
 import {
   Component,
+  computed,
   HostListener,
   inject,
   OnInit,
+  signal,
 } from '@angular/core';
 import { Router } from '@angular/router';
 import { FlashcardStore } from '../../store/flashcard.store';
 import { FlashcardComponent } from '../../components/flashcard/flashcard.component';
 import { ProgressBarComponent } from '../../components/progress-bar/progress-bar.component';
 import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle.component';
+import { ApunteViewerComponent } from '../../components/apunte-viewer/apunte-viewer.component';
+import type { Referencia } from '../../models/question.model';
 
 @Component({
   selector: 'app-session',
-  imports: [FlashcardComponent, ProgressBarComponent, ThemeToggleComponent],
+  imports: [
+    FlashcardComponent,
+    ProgressBarComponent,
+    ThemeToggleComponent,
+    ApunteViewerComponent,
+  ],
   template: `
     <div class="min-h-dvh flex flex-col bg-background">
       <!-- Header -->
@@ -143,14 +152,38 @@ import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle
                         </p>
                       </div>
                     }
-                    @if (question.verificacion) {
-                      <div>
-                        <p class="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
-                          Verificaci&oacute;n
-                        </p>
-                        <p class="text-sm text-foreground/90 leading-relaxed">
-                          {{ question.verificacion }}
-                        </p>
+
+                    <!-- References -->
+                    @if (question.referencias.length) {
+                      <div class="pt-1 space-y-3">
+                        <button
+                          type="button"
+                          (click)="openApunte(question.referencias[0])"
+                          class="inline-flex items-center gap-2 py-2.5 px-4 rounded-xl font-semibold text-sm
+                                 bg-primary/10 text-primary border border-primary/30
+                                 hover:bg-primary/20 transition-colors active:scale-[0.98]"
+                        >
+                          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                          </svg>
+                          Ver en el apunte
+                        </button>
+
+                        @if (question.referencias.length > 1) {
+                          <div class="flex flex-col gap-1.5">
+                            <p class="text-xs text-muted-foreground">Otras secciones:</p>
+                            @for (ref of secondaryRefs(); track ref.ancla) {
+                              <button
+                                type="button"
+                                (click)="openApunte(ref)"
+                                class="text-left text-sm text-primary hover:underline underline-offset-2"
+                              >
+                                {{ ref.seccion }}
+                              </button>
+                            }
+                          </div>
+                        }
                       </div>
                     }
                   </div>
@@ -191,12 +224,32 @@ import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle
           </span>
         </div>
       </main>
+
+      <!-- Apunte drawer (lazy) -->
+      @defer (when apunteViewer() !== null) {
+        @if (apunteViewer(); as viewer) {
+          <app-apunte-viewer
+            [apunte]="viewer.apunte"
+            [ancla]="viewer.ancla"
+            [seccion]="viewer.seccion"
+            (close)="apunteViewer.set(null)"
+          />
+        }
+      }
     </div>
   `,
 })
 export default class SessionPage implements OnInit {
   protected readonly store = inject(FlashcardStore);
   private readonly router = inject(Router);
+  protected readonly apunteViewer = signal<Referencia | null>(null);
+  protected readonly secondaryRefs = computed<readonly Referencia[]>(
+    () => this.store.currentQuestion()?.referencias.slice(1) ?? [],
+  );
+
+  protected openApunte(ref: Referencia): void {
+    this.apunteViewer.set(ref);
+  }
 
   ngOnInit(): void {
     if (!this.store.sessionActive()) {
@@ -212,6 +265,8 @@ export default class SessionPage implements OnInit {
 
   @HostListener('window:keydown', ['$event'])
   protected handleKeydown(event: KeyboardEvent): void {
+    // Con el apunte abierto, el drawer captura el teclado (Esc, Tab).
+    if (this.apunteViewer()) return;
     if (event.key === ' ' || event.key === 'Spacebar') {
       event.preventDefault();
       if (!this.store.currentQuestionAnswered()) {

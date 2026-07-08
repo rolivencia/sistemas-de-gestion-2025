@@ -1,0 +1,251 @@
+{
+ "apunte": "apunte-19-planificacion-requerimientos-materiales",
+ "secciones_disponibles": [
+  {
+   "ancla": "1-donde-encaja-el-mrp-la-planificacion-jerarquica-de-la-produccion",
+   "seccion": "1. Dónde encaja el MRP: la planificación jerárquica de la producción",
+   "nivel": 2
+  },
+  {
+   "ancla": "2-que-es-un-sistema-mrp",
+   "seccion": "2. Qué es un sistema MRP",
+   "nivel": 2
+  },
+  {
+   "ancla": "2-1-objetivos",
+   "seccion": "2.1. Objetivos",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-2-cuando-conviene-usar-un-mrp",
+   "seccion": "2.2. ¿Cuándo conviene usar un MRP?",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-el-problema-que-resuelve-demanda-dependiente-y-la-bom",
+   "seccion": "3. El problema que resuelve: demanda dependiente y la BOM",
+   "nivel": 2
+  },
+  {
+   "ancla": "3-1-lista-de-materiales-bom-bill-of-materials",
+   "seccion": "3.1. Lista de materiales (BOM — *Bill of Materials*)",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-2-ventajas-frente-a-pronosticar-todo",
+   "seccion": "3.2. Ventajas frente a pronosticar todo",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-3-una-bom-mas-realista-ejemplo-del-tablero",
+   "seccion": "3.3. Una BOM más realista (ejemplo del \"Tablero\")",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-entradas-y-salidas-del-sistema-mrp",
+   "seccion": "4. Entradas y salidas del sistema MRP",
+   "nivel": 2
+  },
+  {
+   "ancla": "4-1-entradas",
+   "seccion": "4.1. Entradas",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-2-salidas",
+   "seccion": "4.2. Salidas",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-la-matriz-mrp",
+   "seccion": "5. La matriz MRP",
+   "nivel": 2
+  },
+  {
+   "ancla": "5-1-procedimiento-de-calculo-por-periodo",
+   "seccion": "5.1. Procedimiento de cálculo (por período)",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-2-ejemplo-de-matriz-item-x",
+   "seccion": "5.2. Ejemplo de matriz (ítem X)",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-el-proceso-mrp-completo-explosion-por-niveles",
+   "seccion": "6. El proceso MRP completo: explosión por niveles",
+   "nivel": 2
+  },
+  {
+   "ancla": "6-1-algoritmo",
+   "seccion": "6.1. Algoritmo",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-2-reglas-para-el-tamano-del-lote",
+   "seccion": "6.2. Reglas para el tamaño del lote",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-salidas-de-control-reportes-de-ordenes-y-de-accion",
+   "seccion": "7. Salidas de control: reportes de órdenes y de acción",
+   "nivel": 2
+  },
+  {
+   "ancla": "7-1-reporte-de-ordenes-planificadas",
+   "seccion": "7.1. Reporte de órdenes planificadas",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-2-reporte-de-accion",
+   "seccion": "7.2. Reporte de acción",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-sintesis",
+   "seccion": "8. Síntesis",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 6,
+   "afirmacion": "La Lista de Materiales permite a los sistemas MRP determinar el flujo de materiales a lo largo de la red de distribución.",
+   "respuesta": false,
+   "justificacion": "La Lista de Materiales (BOM) describe la estructura interna de ensamblaje del producto (qué componentes, subensamblajes y materiales lo forman) y le permite al MRP conocer los materiales que se necesitan; en cambio, el flujo de materiales a lo largo de la cadena de suministro hacia los puntos de venta lo gestiona el DRP mediante la Lista de Distribución, no el MRP.",
+   "ref_ancla": "3-1-lista-de-materiales-bom-bill-of-materials",
+   "ref_seccion": "3.1. Lista de materiales (BOM — *Bill of Materials*)",
+   "secundarias": []
+  },
+  {
+   "id": 10,
+   "afirmacion": "Los sistemas MRP se utilizan para planificar el flujo de materiales desde los proveedores (planes de compra) hasta el almacén de fábrica (productos terminados).",
+   "respuesta": false,
+   "justificacion": "El MRP planifica los requerimientos de materiales para la producción y el control de inventarios —especifica qué materiales se requieren, en qué cantidad y en qué fecha, y cuándo emitir las órdenes de compra y producción—, pero no gestiona el 'flujo de materiales' a lo largo de la cadena de suministro como tal.",
+   "ref_ancla": "2-que-es-un-sistema-mrp",
+   "ref_seccion": "2. Qué es un sistema MRP",
+   "secundarias": [
+    {
+     "ancla": "4-2-salidas",
+     "seccion": "4.2. Salidas"
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "afirmacion": "Los sistemas MRP permiten integrar la gestión del flujo de materias primas con los productos.",
+   "respuesta": true,
+   "justificacion": "El MRP integra en una única base de datos centralizada la gestión de materias primas, componentes y productos: mediante la BOM y la demanda dependiente, vincula los requerimientos de materiales con los productos que los consumen (qué material se necesita, cuánto y cuándo). Lo que queda fuera del MRP es el flujo a lo largo de la cadena de distribución, que corresponde al DRP.",
+   "ref_ancla": "2-que-es-un-sistema-mrp",
+   "ref_seccion": "2. Qué es un sistema MRP",
+   "secundarias": [
+    {
+     "ancla": "3-1-lista-de-materiales-bom-bill-of-materials",
+     "seccion": "3.1. Lista de materiales (BOM — *Bill of Materials*)"
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "afirmacion": "La Lista de Materiales (BOM) refleja la estructura de la cadena interna de producción (relación materia prima – producto) de una empresa.",
+   "respuesta": true,
+   "justificacion": "La BOM es el documento de ingeniería que mapea las dependencias internas de producción —materia prima → componentes → producto final—; a diferencia de la Lista de Distribución, que es externa (la red hacia los puntos de venta).",
+   "ref_ancla": "3-1-lista-de-materiales-bom-bill-of-materials",
+   "ref_seccion": "3.1. Lista de materiales (BOM — *Bill of Materials*)",
+   "secundarias": []
+  },
+  {
+   "id": 112,
+   "afirmacion": "Los sistemas de información MRP y DRP son pro-activos (planifican la producción o la distribución en base a pronósticos de demanda).",
+   "respuesta": true,
+   "justificacion": "Ambos son proactivos: generan planes anticipados a partir de proyecciones de demanda, antes de que ocurran los faltantes —el MRP explotando el PMP; el DRP desde los pronósticos por punto de venta— en lugar de reaccionar al quiebre de stock.",
+   "ref_ancla": "2-que-es-un-sistema-mrp",
+   "ref_seccion": "2. Qué es un sistema MRP",
+   "secundarias": [
+    {
+     "ancla": "4-que-es-el-drp-definicion-y-funciones",
+     "seccion": "4. Qué es el DRP: definición y funciones"
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "afirmacion": "Los sistemas MRP permiten planificar la producción de componentes de un producto.",
+   "respuesta": true,
+   "justificacion": "Mediante la explosión de la BOM por niveles, el MRP determina cuánto producir internamente de cada componente y subensamblaje (demanda dependiente) y las órdenes de producción correspondientes.",
+   "ref_ancla": "6-1-algoritmo",
+   "ref_seccion": "6.1. Algoritmo",
+   "secundarias": [
+    {
+     "ancla": "3-1-lista-de-materiales-bom-bill-of-materials",
+     "seccion": "3.1. Lista de materiales (BOM — *Bill of Materials*)"
+    }
+   ]
+  },
+  {
+   "id": 136,
+   "afirmacion": "Los sistemas MRP permiten planificar los procesos de producción.",
+   "respuesta": true,
+   "justificacion": "El MRP planifica la producción y los requerimientos de materiales —y controla los inventarios— explotando el Programa Maestro de la Producción (PMP) a través de la BOM.",
+   "ref_ancla": "2-que-es-un-sistema-mrp",
+   "ref_seccion": "2. Qué es un sistema MRP",
+   "secundarias": []
+  },
+  {
+   "id": 156,
+   "afirmacion": "El sistema MRP es aplicable para gestionar el flujo de materiales en una empresa minorista (dedicada a la comercialización de productos, ej.: supermercado).",
+   "respuesta": false,
+   "justificacion": "El MRP sirve para planificar requerimientos de materiales y controlar inventarios en producción por lotes / job shop, con demanda dependiente y BOM (transformación de materiales). Un minorista sin transformación (reposición de stock hacia puntos de venta, ej. un supermercado) se gestiona con DRP u otra técnica, no con MRP.",
+   "ref_ancla": "2-2-cuando-conviene-usar-un-mrp",
+   "ref_seccion": "2.2. ¿Cuándo conviene usar un MRP?",
+   "secundarias": [
+    {
+     "ancla": "4-que-es-el-drp-definicion-y-funciones",
+     "seccion": "4. Qué es el DRP: definición y funciones"
+    }
+   ]
+  },
+  {
+   "id": 176,
+   "afirmacion": "Para realizar la corrida de un MRP, los requerimientos brutos de los productos finales pueden ser inicializados con información de los planes agregados de productos",
+   "respuesta": false,
+   "justificacion": "Los requerimientos brutos de nivel 0 (productos finales) se inicializan directamente a partir del Programa Maestro de la Producción (PMP), no del nivel superior agrupado por familias (Plan Agregado).",
+   "ref_ancla": "4-1-entradas",
+   "ref_seccion": "4.1. Entradas",
+   "secundarias": [
+    {
+     "ancla": "6-1-algoritmo",
+     "seccion": "6.1. Algoritmo"
+    }
+   ]
+  },
+  {
+   "id": 183,
+   "afirmacion": "La Lista de Materiales (BOMs) es utilizada por el MRP para obtener el inventario de cada ítem de la lista y realizar la proyección del mismo",
+   "respuesta": false,
+   "justificacion": "La BOM aporta únicamente la estructura jerárquica y las cantidades necesarias (qué se usa para hacer qué); el estado del inventario y las recepciones de cada ítem se consultan en el Archivo Maestro de Inventario, no en la BOM.",
+   "ref_ancla": "4-1-entradas",
+   "ref_seccion": "4.1. Entradas",
+   "secundarias": [
+    {
+     "ancla": "3-1-lista-de-materiales-bom-bill-of-materials",
+     "seccion": "3.1. Lista de materiales (BOM — *Bill of Materials*)"
+    }
+   ]
+  },
+  {
+   "id": 191,
+   "afirmacion": "Un sistema MRP permite generar un plan óptimo de órdenes de producción y de materiales de acuerdo con las restricciones del entorno de producción y a una función objetivo",
+   "respuesta": false,
+   "justificacion": "El MRP no optimiza una función objetivo ni considera de origen la viabilidad de la capacidad instalada (asume capacidad infinita; la factibilidad de capacidad se verifica aparte con el CRP): sus cálculos son aritmética de requerimientos basada en reglas de lote heurísticas.",
+   "ref_ancla": "1-donde-encaja-el-mrp-la-planificacion-jerarquica-de-la-produccion",
+   "ref_seccion": "1. Dónde encaja el MRP: la planificación jerárquica de la producción",
+   "secundarias": [
+    {
+     "ancla": "6-2-reglas-para-el-tamano-del-lote",
+     "seccion": "6.2. Reglas para el tamaño del lote"
+    }
+   ]
+  }
+ ]
+}

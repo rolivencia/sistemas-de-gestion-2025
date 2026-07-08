@@ -1,0 +1,210 @@
+{
+ "apunte": "apunte-15-planificacion-maestra-produccion",
+ "secciones_disponibles": [
+  {
+   "ancla": "agenda-de-la-presentacion",
+   "seccion": "Agenda de la presentación",
+   "nivel": 2
+  },
+  {
+   "ancla": "1-del-plan-agregado-al-plan-maestro",
+   "seccion": "1. Del Plan Agregado al Plan Maestro",
+   "nivel": 2
+  },
+  {
+   "ancla": "2-que-es-el-pmp",
+   "seccion": "2. Qué es el PMP",
+   "nivel": 2
+  },
+  {
+   "ancla": "3-entornos-de-produccion",
+   "seccion": "3. Entornos de producción",
+   "nivel": 2
+  },
+  {
+   "ancla": "3-1-lectura-geometrica-forma-de-la-estructura-de-producto",
+   "seccion": "3.1. Lectura geométrica (forma de la estructura de producto)",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-el-pmp-segun-el-entorno-de-produccion",
+   "seccion": "4. El PMP según el entorno de producción",
+   "nivel": 2
+  },
+  {
+   "ancla": "5-el-pmp-para-entornos-combinados",
+   "seccion": "5. El PMP para entornos combinados",
+   "nivel": 2
+  },
+  {
+   "ancla": "6-entradas-y-salidas-del-pmp",
+   "seccion": "6. Entradas y salidas del PMP",
+   "nivel": 2
+  },
+  {
+   "ancla": "6-1-entradas",
+   "seccion": "6.1. Entradas",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-2-salidas",
+   "seccion": "6.2. Salidas",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-el-pmp-y-la-verificacion-de-capacidad",
+   "seccion": "7. El PMP y la verificación de capacidad",
+   "nivel": 2
+  },
+  {
+   "ancla": "8-disponible-a-prometer-atp",
+   "seccion": "8. Disponible a Prometer (ATP)",
+   "nivel": 2
+  },
+  {
+   "ancla": "8-1-formulas-de-calculo",
+   "seccion": "8.1. Fórmulas de cálculo",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-2-proceso-de-promesa-de-pedido-atp-ctp",
+   "seccion": "8.2. Proceso de promesa de pedido (ATP / CTP)",
+   "nivel": 3
+  },
+  {
+   "ancla": "9-procedimiento-de-armado-del-pmp",
+   "seccion": "9. Procedimiento de armado del PMP",
+   "nivel": 2
+  },
+  {
+   "ancla": "9-1-paso-1-generar-el-pmp-inicial",
+   "seccion": "9.1. Paso 1 — Generar el PMP inicial",
+   "nivel": 3
+  },
+  {
+   "ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+   "seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+   "nivel": 3
+  },
+  {
+   "ancla": "reglas-para-corregir-el-pmp",
+   "seccion": "Reglas para corregir el PMP",
+   "nivel": 4
+  },
+  {
+   "ancla": "10-cierre-y-conexion-con-el-resto-de-la-unidad",
+   "seccion": "10. Cierre y conexión con el resto de la unidad",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 7,
+   "afirmacion": "El disponible a prometer proporciona una estimación a futuro de los inventarios de productos en el almacén de fábrica.",
+   "respuesta": true,
+   "justificacion": "El ATP (Disponible a Prometer) es la producción planificada aún no comprometida; funciona como proyección del inventario en el almacén de fábrica para períodos futuros, que el vendedor usa para comprometer entregas a clientes.",
+   "ref_ancla": "8-disponible-a-prometer-atp",
+   "ref_seccion": "8. Disponible a Prometer (ATP)",
+   "secundarias": []
+  },
+  {
+   "id": 27,
+   "afirmacion": "El cálculo del disponible a prometer requiere descontar el stock de seguridad en cada período.",
+   "respuesta": false,
+   "justificacion": "En el cálculo del ATP el stock de seguridad se descuenta únicamente en la disponibilidad del primer período, no en cada período.",
+   "ref_ancla": "8-disponible-a-prometer-atp",
+   "ref_seccion": "8. Disponible a Prometer (ATP)",
+   "secundarias": []
+  },
+  {
+   "id": 30,
+   "afirmacion": "El PMP inicial se corrige en función de datos de pronósticos de corto plazo para cada producto, datos de las órdenes comprometidas a clientes, órdenes pendientes de entrega e inventario actual, los cuales proporcionan un escenario más confiable.",
+   "respuesta": true,
+   "justificacion": "El PMP inicial se ajusta con los datos de corto plazo —pronóstico de corto plazo por producto, órdenes comprometidas, pendientes de entrega e inventario actual— para verificar la factibilidad y que el inventario no caiga por debajo del stock de seguridad, dando un escenario más confiable.",
+   "ref_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+   "ref_seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+   "secundarias": []
+  },
+  {
+   "id": 42,
+   "afirmacion": "El cálculo del disponible a prometer requiere descontar el stock de seguridad solo en el cálculo para el primer período.",
+   "respuesta": true,
+   "justificacion": "Correcto: en el cálculo del ATP el stock de seguridad se descuenta solo en el primer período (Idem #27).",
+   "ref_ancla": "8-disponible-a-prometer-atp",
+   "ref_seccion": "8. Disponible a Prometer (ATP)",
+   "secundarias": []
+  },
+  {
+   "id": 45,
+   "afirmacion": "En el cálculo del PMP se prioriza el pronóstico de ventas respecto a las órdenes comprometidas cuando el mismo es superior en valor.",
+   "respuesta": true,
+   "justificacion": "En el ajuste del PMP la demanda consumida sigue la regla del mayor entre pronóstico y órdenes comprometidas; cuando el pronóstico supera a las órdenes, se prioriza el pronóstico para no subestimar la demanda.",
+   "ref_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+   "ref_seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+   "secundarias": []
+  },
+  {
+   "id": 55,
+   "afirmacion": "En el cálculo del PMP, un valor de inventario menor que el stock de seguridad que se mantiene hasta el final del horizonte de planificación, indica la necesidad de adelantar el lote de producción planificado para el próximo periodo.",
+   "respuesta": false,
+   "justificacion": "La regla de adelanto aplica cuando el inventario cae por debajo del Ss en t pero se recupera en t+1 (IF_t < Ss y IF_{t+1} > Ss); si la escasez persiste hasta el final del horizonte, la regla es agregar un lote, no adelantar. Y es al próximo período, no hasta el horizonte final.",
+   "ref_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+   "ref_seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+   "secundarias": []
+  },
+  {
+   "id": 57,
+   "afirmacion": "El cálculo del disponible a prometer requiere descontar el stock de seguridad en todos los períodos en que hay planificado un lote de producción.",
+   "respuesta": false,
+   "justificacion": "El stock de seguridad se descuenta solo en el primer período del cálculo del ATP, no en todos los períodos con lote planificado (Idem #27).",
+   "ref_ancla": "8-disponible-a-prometer-atp",
+   "ref_seccion": "8. Disponible a Prometer (ATP)",
+   "secundarias": []
+  },
+  {
+   "id": 60,
+   "afirmacion": "En el cálculo del PMP siempre se priorizan las órdenes comprometidas al pronóstico de ventas aún cuando las mismas no lo superan en valor.",
+   "respuesta": false,
+   "justificacion": "No siempre: por la regla del mayor entre pronóstico y órdenes, si las órdenes comprometidas no superan al pronóstico, se prioriza el pronóstico (Idem #45).",
+   "ref_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+   "ref_seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+   "secundarias": []
+  },
+  {
+   "id": 61,
+   "afirmacion": "En el cálculo del disponible a prometer el stock de seguridad debe restarse a cada lote de producción planificado.",
+   "respuesta": false,
+   "justificacion": "El stock de seguridad se descuenta solo en la disponibilidad del primer período del ATP, no en cada lote de producción planificado (Idem #27).",
+   "ref_ancla": "8-disponible-a-prometer-atp",
+   "ref_seccion": "8. Disponible a Prometer (ATP)",
+   "secundarias": []
+  },
+  {
+   "id": 69,
+   "afirmacion": "En el cálculo del PMP, un valor de inventario menor que el stock de seguridad, seguido por un valor mayor o igual al stock de seguridad en el periodo siguiente, indica la necesidad de adelantar el lote de producción planificado para dicho periodo siguiente.",
+   "respuesta": false,
+   "justificacion": "La regla de adelanto exige IF_t < Ss y IF_{t+1} estrictamente mayor que Ss (>), no mayor o igual (≥).",
+   "ref_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+   "ref_seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+   "secundarias": []
+  },
+  {
+   "id": 71,
+   "afirmacion": "El disponible a prometer permite a los vendedores comprometer pedidos asegurando el cumplimiento de las entregas.",
+   "respuesta": true,
+   "justificacion": "El ATP le permite al vendedor comprometer pedidos sobre la producción planificada no comprometida, asegurando el cumplimiento de las entregas.",
+   "ref_ancla": "8-disponible-a-prometer-atp",
+   "ref_seccion": "8. Disponible a Prometer (ATP)",
+   "secundarias": []
+  },
+  {
+   "id": 74,
+   "afirmacion": "En el cálculo del PMP se priorizan las órdenes comprometidas al pronóstico de ventas cuando las mismas lo superan en valor.",
+   "respuesta": true,
+   "justificacion": "Por la regla del mayor entre pronóstico y órdenes: cuando las órdenes comprometidas superan al pronóstico, se priorizan las órdenes (Idem #45).",
+   "ref_ancla": "9-2-paso-2-ajustar-el-pmp-inicial-y-generar-el-pmp-definitivo",
+   "ref_seccion": "9.2. Paso 2 — Ajustar el PMP inicial y generar el PMP definitivo",
+   "secundarias": []
+  }
+ ]
+}

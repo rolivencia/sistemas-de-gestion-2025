@@ -1,0 +1,324 @@
+{
+ "apunte": "apunte-7-pronosticos-de-demanda",
+ "secciones_disponibles": [
+  {
+   "ancla": "agenda-de-la-presentacion",
+   "seccion": "Agenda de la presentación",
+   "nivel": 2
+  },
+  {
+   "ancla": "1-introduccion",
+   "seccion": "1. Introducción",
+   "nivel": 2
+  },
+  {
+   "ancla": "tipos-de-pronosticos",
+   "seccion": "Tipos de pronósticos",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-rol-estrategico-del-pronostico",
+   "seccion": "2. Rol estratégico del pronóstico",
+   "nivel": 2
+  },
+  {
+   "ancla": "por-que-importan-los-pronosticos-precisos",
+   "seccion": "Por qué importan los pronósticos precisos",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-componentes-de-un-pronostico-de-demanda",
+   "seccion": "3. Componentes de un pronóstico de demanda",
+   "nivel": 2
+  },
+  {
+   "ancla": "a-horizonte-de-tiempo-time-frame",
+   "seccion": "a) Horizonte de tiempo (*time frame*)",
+   "nivel": 3
+  },
+  {
+   "ancla": "b-comportamiento-de-la-demanda",
+   "seccion": "b) Comportamiento de la demanda",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-proceso-de-pronostico",
+   "seccion": "4. Proceso de pronóstico",
+   "nivel": 2
+  },
+  {
+   "ancla": "familias-de-metodos-de-pronostico",
+   "seccion": "Familias de métodos de pronóstico",
+   "nivel": 3
+  },
+  {
+   "ancla": "catalogo-de-metodos-de-pronostico-enfasis-del-apunte",
+   "seccion": "★ Catálogo de métodos de pronóstico (énfasis del apunte)",
+   "nivel": 2
+  },
+  {
+   "ancla": "5-metodos-de-analisis-de-series-de-tiempo",
+   "seccion": "5. Métodos de análisis de series de tiempo",
+   "nivel": 2
+  },
+  {
+   "ancla": "5-1-medias-moviles-moving-average",
+   "seccion": "5.1. Medias móviles (*moving average*)",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-2-media-movil-ponderada-weighted-moving-average",
+   "seccion": "5.2. Media móvil ponderada (*weighted moving average*)",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-3-alisado-exponencial-exponential-smoothing",
+   "seccion": "5.3. Alisado exponencial (*exponential smoothing*)",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-4-alisado-exponencial-ajustado-con-factor-de-tendencia",
+   "seccion": "5.4. Alisado exponencial ajustado (con factor de tendencia)",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-5-ajuste-lineal-de-tendencia-linear-trend-line",
+   "seccion": "5.5. Ajuste lineal de tendencia (*linear trend line*)",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-6-ajuste-estacional",
+   "seccion": "5.6. Ajuste estacional",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-exactitud-del-pronostico",
+   "seccion": "6. Exactitud del pronóstico",
+   "nivel": 2
+  },
+  {
+   "ancla": "desviacion-absoluta-media-mad-mean-absolute-deviation",
+   "seccion": "Desviación absoluta media — MAD (*Mean Absolute Deviation*)",
+   "nivel": 3
+  },
+  {
+   "ancla": "otras-medidas-de-error",
+   "seccion": "Otras medidas de error",
+   "nivel": 3
+  },
+  {
+   "ancla": "comparacion-de-pronosticos",
+   "seccion": "Comparación de pronósticos",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-control-de-pronostico-monitoreo-y-control",
+   "seccion": "7. Control de pronóstico (monitoreo y control)",
+   "nivel": 2
+  },
+  {
+   "ancla": "tracking-signal-senal-de-rastreo",
+   "seccion": "Tracking Signal (señal de rastreo)",
+   "nivel": 3
+  },
+  {
+   "ancla": "monitoreo-con-graficos-de-control-estadisticos",
+   "seccion": "Monitoreo con gráficos de control estadísticos",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-modelos-de-relaciones-entre-variables-metodos-causales",
+   "seccion": "8. Modelos de relaciones entre variables (métodos causales)",
+   "nivel": 2
+  },
+  {
+   "ancla": "8-1-regresion-lineal-simple",
+   "seccion": "8.1. Regresión lineal (simple)",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-2-coeficiente-de-correlacion-y-coeficiente-de-determinacion",
+   "seccion": "8.2. Coeficiente de correlación y coeficiente de determinación",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-3-regresion-multiple",
+   "seccion": "8.3. Regresión múltiple",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-4-modelos-econometricos",
+   "seccion": "8.4. Modelos econométricos",
+   "nivel": 3
+  },
+  {
+   "ancla": "9-implementacion-de-los-metodos-en-sistemas-de-soporte-de-pronosticos",
+   "seccion": "9. Implementación de los métodos en sistemas de soporte de pronósticos",
+   "nivel": 2
+  },
+  {
+   "ancla": "10-ejercicios-de-la-presentacion",
+   "seccion": "10. Ejercicios (de la presentación)",
+   "nivel": 2
+  },
+  {
+   "ancla": "11-metodos-cualitativos",
+   "seccion": "11. Métodos cualitativos",
+   "nivel": 2
+  },
+  {
+   "ancla": "1-encuestas",
+   "seccion": "1. Encuestas",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-diseno-de-experimentos",
+   "seccion": "2. Diseño de experimentos",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-simulacion-en-base-a-modelos",
+   "seccion": "3. Simulación en base a modelos",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-delphi-delfos-e-impactos-cruzados",
+   "seccion": "4. Delphi (Delfos) e impactos cruzados",
+   "nivel": 3
+  },
+  {
+   "ancla": "sintesis-del-apunte",
+   "seccion": "Síntesis del apunte",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 8,
+   "afirmacion": "Un modelo de pronóstico de demanda tiene por propósito encontrar un patrón de comportamiento de la misma.",
+   "respuesta": true,
+   "justificacion": "Los modelos de series de tiempo estudian los datos históricos para identificar y predecir patrones de comportamiento de la demanda (tendencia, estacionalidad, ciclos), asumiendo que el pasado seguirá ocurriendo.",
+   "ref_ancla": "5-metodos-de-analisis-de-series-de-tiempo",
+   "ref_seccion": "5. Métodos de análisis de series de tiempo",
+   "secundarias": []
+  },
+  {
+   "id": 80,
+   "afirmacion": "El proceso de pronóstico involucra varias tareas (actividades), algunas automatizables y otras que requieren de la intervención humana.",
+   "respuesta": true,
+   "justificacion": "El proceso de pronóstico combina cálculo numérico con juicio razonable: pasos como ajustar los parámetros del modelo o el ajuste cualitativo final (experiencia de management) requieren intervención humana, mientras otros se automatizan.",
+   "ref_ancla": "4-proceso-de-pronostico",
+   "ref_seccion": "4. Proceso de pronóstico",
+   "secundarias": []
+  },
+  {
+   "id": 93,
+   "afirmacion": "Se puede decir que el modelo de Alisado Exponencial captura mejor la tendencia de \"corto plazo\" (período a período) que un modelo de ajuste lineal de tendencia.",
+   "respuesta": true,
+   "justificacion": "El alisado exponencial pondera más lo reciente y reacciona ante el último quiebre período a período, mientras el ajuste lineal de tendencia aplana toda la historia; por eso capta mejor la tendencia de corto plazo.",
+   "ref_ancla": "5-4-alisado-exponencial-ajustado-con-factor-de-tendencia",
+   "ref_seccion": "5.4. Alisado exponencial ajustado (con factor de tendencia)",
+   "secundarias": []
+  },
+  {
+   "id": 94,
+   "afirmacion": "Una variable podrá ser utilizada para predecir el valor de otra si el coeficiente de correlación de ambas es próximo a cero.",
+   "respuesta": false,
+   "justificacion": "Es al revés: para que una variable prediga a otra el coeficiente de correlación debe acercarse a 1 (positiva) o −1 (negativa); un valor próximo a cero indica ausencia de relación lineal, sin capacidad explicativa.",
+   "ref_ancla": "8-2-coeficiente-de-correlacion-y-coeficiente-de-determinacion",
+   "ref_seccion": "8.2. Coeficiente de correlación y coeficiente de determinación",
+   "secundarias": []
+  },
+  {
+   "id": 135,
+   "afirmacion": "El modelo de pronóstico \"Alisado Exponencial\" es apropiado para series de tiempo con pocos elementos (datos de 3 o 4 períodos).",
+   "respuesta": false,
+   "justificacion": "El alisado exponencial requiere suficiente historial para que se diluyan los pesos iniciales; no es apropiado para series con apenas 3 o 4 períodos.",
+   "ref_ancla": "5-3-alisado-exponencial-exponential-smoothing",
+   "ref_seccion": "5.3. Alisado exponencial (*exponential smoothing*)",
+   "secundarias": []
+  },
+  {
+   "id": 138,
+   "afirmacion": "Los modelos de regresión lineal son útiles para explicar el comportamiento de una variable en base a otras, cuando el coeficiente de correlación entre dichas variables es próximo a cero.",
+   "respuesta": false,
+   "justificacion": "Es al revés: la regresión lineal explica una variable a partir de otra cuando el coeficiente de correlación se acerca a 1 o −1; próximo a cero no hay relación lineal (Idem #94).",
+   "ref_ancla": "8-2-coeficiente-de-correlacion-y-coeficiente-de-determinacion",
+   "ref_seccion": "8.2. Coeficiente de correlación y coeficiente de determinación",
+   "secundarias": []
+  },
+  {
+   "id": 146,
+   "afirmacion": "Una variable puede explicar el comportamiento de otra cuando su coeficiente de correlación toma valores próximos a cero.",
+   "respuesta": false,
+   "justificacion": "Es al revés: una variable explica a otra cuando su coeficiente de correlación se acerca a 1 o −1; valores próximos a cero indican ausencia de relación (Idem #94).",
+   "ref_ancla": "8-2-coeficiente-de-correlacion-y-coeficiente-de-determinacion",
+   "ref_seccion": "8.2. Coeficiente de correlación y coeficiente de determinación",
+   "secundarias": []
+  },
+  {
+   "id": 155,
+   "afirmacion": "Los métodos de Medias Móviles y Alisado Exponencial pronostican en base a datos históricos más recientes (prestan mayor atención a lo que sucedió en los últimos meses).",
+   "respuesta": true,
+   "justificacion": "El alisado exponencial asigna pesos ponderados decrecientes a lo reciente y las medias móviles promedian una ventana finita de los últimos n períodos (mientras n no sea muy grande), por lo que ambos prestan mayor atención a los datos más recientes.",
+   "ref_ancla": "5-1-medias-moviles-moving-average",
+   "ref_seccion": "5.1. Medias móviles (*moving average*)",
+   "secundarias": []
+  },
+  {
+   "id": 161,
+   "afirmacion": "Una variable puede explicar el comportamiento de otra cuando su coeficiente de correlación toma valores próximos a uno.",
+   "respuesta": true,
+   "justificacion": "Correcto: una correlación próxima a 1 (y un r² cercano a 1) revela una fuerte asociación lineal, positiva si es +1, por lo que la variable tiene capacidad explicativa.",
+   "ref_ancla": "8-2-coeficiente-de-correlacion-y-coeficiente-de-determinacion",
+   "ref_seccion": "8.2. Coeficiente de correlación y coeficiente de determinación",
+   "secundarias": []
+  },
+  {
+   "id": 171,
+   "afirmacion": "Un modelo de Alisado Exponencial captura el patrón de tendencia en el comportamiento de una serie de tiempo",
+   "respuesta": false,
+   "justificacion": "El alisado exponencial básico no capta el patrón de tendencia: se retrasa de forma persistente ante una tendencia fuerte. Para capturarla se necesita el alisado exponencial ajustado (método de Holt).",
+   "ref_ancla": "5-4-alisado-exponencial-ajustado-con-factor-de-tendencia",
+   "ref_seccion": "5.4. Alisado exponencial ajustado (con factor de tendencia)",
+   "secundarias": []
+  },
+  {
+   "id": 172,
+   "afirmacion": "Un modelo de Alisado Exponencial Ajustado captura dos patrones de comportamiento de una serie de tiempo: tendencia y estacionalidad",
+   "respuesta": false,
+   "justificacion": "El alisado exponencial ajustado (Holt) solo modela el nivel (media) y la tendencia; para capturar además la estacionalidad se requiere un ajuste estacional específico o métodos más avanzados.",
+   "ref_ancla": "5-4-alisado-exponencial-ajustado-con-factor-de-tendencia",
+   "ref_seccion": "5.4. Alisado exponencial ajustado (con factor de tendencia)",
+   "secundarias": []
+  },
+  {
+   "id": 181,
+   "afirmacion": "El coeficiente de correlación permite determinar la precisión o exactitud de los modelos de pronósticos basados en regresión",
+   "respuesta": false,
+   "justificacion": "El coeficiente de correlación (r) indica la fuerza y la dirección de la relación lineal entre variables, no la precisión del pronóstico; la exactitud del modelo se evalúa con medidas de error (MAD, MAPD, MSE).",
+   "ref_ancla": "6-exactitud-del-pronostico",
+   "ref_seccion": "6. Exactitud del pronóstico",
+   "secundarias": [
+    {
+     "ancla": "8-2-coeficiente-de-correlacion-y-coeficiente-de-determinacion",
+     "seccion": "8.2. Coeficiente de correlación y coeficiente de determinación"
+    }
+   ]
+  },
+  {
+   "id": 188,
+   "afirmacion": "El MAPD es una medida o indicador de errores de pronósticos que por sí sola permite determinar para una serie de datos y sus pronósticos, si los mismos se ajustan de manera precisa a los datos de la demanda",
+   "respuesta": false,
+   "justificacion": "El MAPD mide la magnitud media del error porcentual, pero por sí solo no permite afirmar un buen ajuste: hace falta además una medida de sesgo (señal de rastreo / Tracking Signal) para saber si el modelo sobrestima o subestima sistemáticamente.",
+   "ref_ancla": "6-exactitud-del-pronostico",
+   "ref_seccion": "6. Exactitud del pronóstico",
+   "secundarias": [
+    {
+     "ancla": "tracking-signal-senal-de-rastreo",
+     "seccion": "Tracking Signal (señal de rastreo)"
+    }
+   ]
+  }
+ ]
+}

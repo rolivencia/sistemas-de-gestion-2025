@@ -1,0 +1,304 @@
+{
+ "apunte": "apunte-28-gestion-integrada-cadena-suministro",
+ "secciones_disponibles": [
+  {
+   "ancla": "1-el-punto-de-partida-de-la-integracion-interna-a-la-integracion-de-la-cadena",
+   "seccion": "1. El punto de partida: de la integración interna a la integración de la cadena",
+   "nivel": 2
+  },
+  {
+   "ancla": "tres-niveles-de-digitalizacion",
+   "seccion": "Tres niveles de digitalización",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-que-es-una-cadena-de-suministro",
+   "seccion": "2. Qué es una cadena de suministro",
+   "nivel": 2
+  },
+  {
+   "ancla": "3-gestion-de-la-cadena-de-suministro-definiciones-y-objetivos",
+   "seccion": "3. Gestión de la cadena de suministro: definiciones y objetivos",
+   "nivel": 2
+  },
+  {
+   "ancla": "4-el-problema-central-incertidumbre-inventarios-y-el-efecto-bullwhip-latigo",
+   "seccion": "4. El problema central: incertidumbre, inventarios y el efecto bullwhip (látigo)",
+   "nivel": 2
+  },
+  {
+   "ancla": "4-1-gestion-tradicional",
+   "seccion": "4.1. Gestión tradicional",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-2-que-es-el-efecto-bullwhip",
+   "seccion": "4.2. Qué es el efecto bullwhip",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-3-problemas-que-causa",
+   "seccion": "4.3. Problemas que causa",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-4-factores-que-contribuyen-al-efecto-bullwhip",
+   "seccion": "4.4. Factores que contribuyen al efecto bullwhip",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-5-consideraciones-sobre-el-lead-time",
+   "seccion": "4.5. Consideraciones sobre el lead time",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-6-en-resumen",
+   "seccion": "4.6. En resumen",
+   "nivel": 3
+  },
+  {
+   "ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "nivel": 2
+  },
+  {
+   "ancla": "6-integracion-y-colaboracion-entre-empresas",
+   "seccion": "6. Integración y colaboración entre empresas",
+   "nivel": 2
+  },
+  {
+   "ancla": "6-1-el-nivel-mas-alto-colaboracion-entre-empresas",
+   "seccion": "6.1. El nivel más alto: colaboración entre empresas",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-2-la-cadena-de-implicaciones",
+   "seccion": "6.2. La cadena de implicaciones",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-procesos-de-negocio-colaborativos",
+   "seccion": "7. Procesos de negocio colaborativos",
+   "nivel": 2
+  },
+  {
+   "ancla": "8-modelos-de-colaboracion-de-referencia",
+   "seccion": "8. Modelos de colaboración de referencia",
+   "nivel": 2
+  },
+  {
+   "ancla": "8-1-vmi-vendor-managed-inventory",
+   "seccion": "8.1. VMI (Vendor Managed Inventory)",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-2-cpfr-collaborative-planning-forecasting-and-replenishment",
+   "seccion": "8.2. CPFR (Collaborative Planning, Forecasting and Replenishment)",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-3-scor-supply-chain-operations-reference-model",
+   "seccion": "8.3. SCOR (Supply Chain Operations Reference Model)",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-4-centralizados-vs-descentralizados",
+   "seccion": "8.4. Centralizados vs. descentralizados",
+   "nivel": 3
+  },
+  {
+   "ancla": "9-las-ti-como-facilitadoras-soluciones-b2b",
+   "seccion": "9. Las TI como facilitadoras: soluciones B2B",
+   "nivel": 2
+  },
+  {
+   "ancla": "9-1-vocabulario-del-comercio-electronico",
+   "seccion": "9.1. Vocabulario del comercio electrónico",
+   "nivel": 3
+  },
+  {
+   "ancla": "9-2-e-marketplaces-gestion-centralizada",
+   "seccion": "9.2. E-Marketplaces (gestión centralizada)",
+   "nivel": 3
+  },
+  {
+   "ancla": "9-3-sistemas-peer-to-peer-gestion-descentralizada",
+   "seccion": "9.3. Sistemas peer-to-peer (gestión descentralizada)",
+   "nivel": 3
+  },
+  {
+   "ancla": "10-tendencias-en-ti-para-la-integracion-de-la-cadena",
+   "seccion": "10. Tendencias en TI para la integración de la cadena",
+   "nivel": 2
+  },
+  {
+   "ancla": "11-sintesis",
+   "seccion": "11. Síntesis",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 16,
+   "afirmacion": "Los modelos de gestión integrada de la cadena de suministros implican que cada empresa debe hacer públicos sus sistemas de información, de modo que cada empresa debe poder acceder a cualquiera de los sistemas de información de sus empresas socios.",
+   "respuesta": false,
+   "justificacion": "La integración requiere compartir la información relevante (demanda, inventarios, capacidades, etc.), no hacer públicos todos los sistemas ni dar acceso irrestricto a cualquier sistema del socio: solo se comparten los datos de incumbencia.",
+   "ref_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "ref_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "secundarias": []
+  },
+  {
+   "id": 18,
+   "afirmacion": "Los sistemas de información B2B forman parte de la base de TI necesaria para implementar modelos de colaboración entre empresas.",
+   "respuesta": true,
+   "justificacion": "Los sistemas B2B (comercio electrónico entre empresas) forman parte de la base tecnológica habilitadora para implementar los modelos de colaboración entre empresas de la cadena.",
+   "ref_ancla": "9-las-ti-como-facilitadoras-soluciones-b2b",
+   "ref_seccion": "9. Las TI como facilitadoras: soluciones B2B",
+   "secundarias": []
+  },
+  {
+   "id": 31,
+   "afirmacion": "Los modelos de gestión integrada de la cadena de suministros implican el intercambio de información entre las empresas que la integran.",
+   "respuesta": true,
+   "justificacion": "La gestión integrada se sustenta en compartir información (demanda, inventarios, planificación, capacidades) entre las empresas que integran la cadena (Idem #16).",
+   "ref_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "ref_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "secundarias": []
+  },
+  {
+   "id": 39,
+   "afirmacion": "Solo el 10% del comercio electrónico corresponde a relaciones B2B.",
+   "respuesta": false,
+   "justificacion": "Es al revés: el grueso del comercio electrónico —aproximadamente el 90 %— corresponde a relaciones B2B.",
+   "ref_ancla": "9-1-vocabulario-del-comercio-electronico",
+   "ref_seccion": "9.1. Vocabulario del comercio electrónico",
+   "secundarias": []
+  },
+  {
+   "id": 46,
+   "afirmacion": "Aproximadamente el 90% del comercio electrónico corresponde a relaciones B2B.",
+   "respuesta": true,
+   "justificacion": "Correcto: el mayor volumen del comercio electrónico (~90 %) se da entre empresas (Business-to-Business).",
+   "ref_ancla": "9-1-vocabulario-del-comercio-electronico",
+   "ref_seccion": "9.1. Vocabulario del comercio electrónico",
+   "secundarias": []
+  },
+  {
+   "id": 81,
+   "afirmacion": "Los sistemas de información B2B permiten implementar procesos de negocio entre empresas, de modo que quedan comprendidos en el área de comercio electrónico.",
+   "respuesta": true,
+   "justificacion": "Los sistemas B2B soportan procesos de negocio entre empresas por medios electrónicos, por lo que quedan comprendidos dentro del ámbito del comercio electrónico.",
+   "ref_ancla": "9-1-vocabulario-del-comercio-electronico",
+   "ref_seccion": "9.1. Vocabulario del comercio electrónico",
+   "secundarias": []
+  },
+  {
+   "id": 82,
+   "afirmacion": "Varios modelos han sido propuestos para la gestión integrada de la cadena de suministro entre empresas (VMI, CPFR, p2p, etc.).",
+   "respuesta": true,
+   "justificacion": "La cátedra presenta varios modelos de colaboración de referencia para la cadena integrada: VMI, CPFR, SCOR y esquemas peer-to-peer (p2p), entre otros.",
+   "ref_ancla": "8-modelos-de-colaboracion-de-referencia",
+   "ref_seccion": "8. Modelos de colaboración de referencia",
+   "secundarias": []
+  },
+  {
+   "id": 96,
+   "afirmacion": "Se puede mejorar la competitividad mediante un modelo de gestión integrada de la cadena de suministro, el cual permite entre otros reducir costos y mejorar la velocidad de respuesta a los cambios de mercado.",
+   "respuesta": true,
+   "justificacion": "La gestión integrada reduce costos e inventarios y mejora la velocidad de respuesta a los cambios del mercado al atacar el efecto látigo (bullwhip), mejorando la competitividad.",
+   "ref_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "ref_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "secundarias": []
+  },
+  {
+   "id": 108,
+   "afirmacion": "El nivel de integración entre empresas más elemental plantea el intercambio de información en una sola dirección.",
+   "respuesta": true,
+   "justificacion": "El nivel de integración más elemental es unidireccional (por ejemplo, el cliente enviando datos de ventas/POS u órdenes al eslabón previo); la colaboración plena, en cambio, exige comunicación bidireccional.",
+   "ref_ancla": "6-integracion-y-colaboracion-entre-empresas",
+   "ref_seccion": "6. Integración y colaboración entre empresas",
+   "secundarias": []
+  },
+  {
+   "id": 109,
+   "afirmacion": "Cuando cada empresa de una cadena de suministro es gestionada como un sistema cerrado (sin intercambio de información con proveedores ni clientes) la incertidumbre de la demanda se mantiene constante aguas arriba de la cadena de suministro.",
+   "respuesta": false,
+   "justificacion": "Es falso: cuando no se comparte información aparece el efecto látigo (bullwhip), donde la variabilidad de la demanda se amplifica fuertemente aguas arriba (hacia el proveedor); no se mantiene constante.",
+   "ref_ancla": "4-2-que-es-el-efecto-bullwhip",
+   "ref_seccion": "4.2. Qué es el efecto bullwhip",
+   "secundarias": []
+  },
+  {
+   "id": 110,
+   "afirmacion": "Una gestión integrada de la cadena de suministros permite reducir los inventarios en toda la cadena.",
+   "respuesta": true,
+   "justificacion": "Al compartir información de demanda y pronósticos se elimina el stock de seguridad 'de pánico' que cada eslabón acumula por el efecto látigo, reduciendo los inventarios en toda la cadena.",
+   "ref_ancla": "4-3-problemas-que-causa",
+   "ref_seccion": "4.3. Problemas que causa",
+   "secundarias": []
+  },
+  {
+   "id": 116,
+   "afirmacion": "Los procesos de colaboración entre empresas requieren gestionar un flujo de información en ambas direcciones (intercambio de información).",
+   "respuesta": true,
+   "justificacion": "Los procesos de colaboración (como VMI o CPFR) requieren un flujo de información bidireccional: la información fluye del minorista al fabricante y la respuesta de vuelta desde fábrica.",
+   "ref_ancla": "6-integracion-y-colaboracion-entre-empresas",
+   "ref_seccion": "6. Integración y colaboración entre empresas",
+   "secundarias": []
+  },
+  {
+   "id": 133,
+   "afirmacion": "Los modelos de gestión integrada de la cadena de suministro tienen por propósito reducir los inventarios de seguridad a lo largo de la misma.",
+   "respuesta": true,
+   "justificacion": "Reducir los inventarios de seguridad a lo largo de la cadena es uno de los propósitos de la gestión integrada, al compartir pronósticos y quitar el buffer 'de pánico' por eslabón (Idem #110).",
+   "ref_ancla": "4-3-problemas-que-causa",
+   "ref_seccion": "4.3. Problemas que causa",
+   "secundarias": []
+  },
+  {
+   "id": 141,
+   "afirmacion": "Los sistemas de información B2B están diseñados para implementar relaciones de colaboración entre empresas.",
+   "respuesta": true,
+   "justificacion": "Los sistemas B2B son la tecnología habilitadora, diseñada para implementar relaciones de colaboración entre empresas en la cadena de suministro (Idem #18).",
+   "ref_ancla": "9-las-ti-como-facilitadoras-soluciones-b2b",
+   "ref_seccion": "9. Las TI como facilitadoras: soluciones B2B",
+   "secundarias": []
+  },
+  {
+   "id": 143,
+   "afirmacion": "Uno de los objetivos de la gestión integrada de la cadena de suministro es reducir los inventarios de materiales a lo largo de la misma.",
+   "respuesta": true,
+   "justificacion": "Reducir los inventarios de materiales a lo largo de la cadena es uno de los objetivos de la gestión integrada, al compartir información de demanda (Idem #110).",
+   "ref_ancla": "4-3-problemas-que-causa",
+   "ref_seccion": "4.3. Problemas que causa",
+   "secundarias": []
+  },
+  {
+   "id": 179,
+   "afirmacion": "El efecto \"látigo\" en la gestión de cadenas de suministro puede ser reducido o eliminado a través de la reducción de los tiempos de suministros (lead time) entre las organizaciones que conforman la cadena de suministro",
+   "respuesta": true,
+   "justificacion": "La reducción de los lead times mejora el desempeño de la cadena (menos tiempo en el sistema, menores costos de inventario y transporte), atenuando el efecto látigo; no obstante, el látigo ocurre con independencia del tamaño de los lead times, por lo que acortarlos no lo elimina por completo.",
+   "ref_ancla": "4-5-consideraciones-sobre-el-lead-time",
+   "ref_seccion": "4.5. Consideraciones sobre el lead time",
+   "secundarias": []
+  },
+  {
+   "id": 192,
+   "afirmacion": "El efecto látigo en gestión de cadenas de suministro se refiere al aumento de los costos de gestión de inventarios desde las organizaciones de aguas abajo en la cadena hacia aquellas que están aguas arriba",
+   "respuesta": false,
+   "justificacion": "El efecto látigo se define primariamente como la amplificación/distorsión de la variabilidad (varianza) de la demanda a medida que la información sube aguas arriba; el aumento de inventarios y costos es una consecuencia de ese problema, no su definición.",
+   "ref_ancla": "4-2-que-es-el-efecto-bullwhip",
+   "ref_seccion": "4.2. Qué es el efecto bullwhip",
+   "secundarias": []
+  },
+  {
+   "id": 195,
+   "afirmacion": "La gestión integrada de la cadena de suministro requiere de la implementación tecnologías de la información que posibiliten intercambiar información de demanda, inventario, capacidades, etc, para disminuir las incertidumbres a lo largo de la cadena",
+   "respuesta": true,
+   "justificacion": "La gestión integrada requiere TI (plataformas B2B) que permitan intercambiar información de demanda, inventario, capacidades, etc., para disminuir las incertidumbres (el efecto látigo) a lo largo de la cadena; es la base de iniciativas como VMI o CPFR.",
+   "ref_ancla": "5-la-solucion-compartir-informacion-gestion-integrada-de-la-cadena-de-suministro",
+   "ref_seccion": "5. La solución: compartir información → Gestión Integrada de la Cadena de Suministro",
+   "secundarias": []
+  }
+ ]
+}

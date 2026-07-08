@@ -1,0 +1,544 @@
+{
+ "apunte": "apunte-12-gestion-de-inventarios",
+ "secciones_disponibles": [
+  {
+   "ancla": "agenda-de-la-presentacion",
+   "seccion": "Agenda de la presentación",
+   "nivel": 2
+  },
+  {
+   "ancla": "1-inventario-conceptos",
+   "seccion": "1. Inventario: conceptos",
+   "nivel": 2
+  },
+  {
+   "ancla": "tipos-de-inventarios",
+   "seccion": "Tipos de inventarios",
+   "nivel": 3
+  },
+  {
+   "ancla": "razones-para-mantener-inventarios",
+   "seccion": "Razones para mantener inventarios",
+   "nivel": 3
+  },
+  {
+   "ancla": "inconveniente-de-los-inventarios",
+   "seccion": "Inconveniente de los inventarios",
+   "nivel": 3
+  },
+  {
+   "ancla": "informacion-clave-tipos-de-demanda",
+   "seccion": "Información clave: tipos de demanda",
+   "nivel": 3
+  },
+  {
+   "ancla": "2-costos-de-inventarios",
+   "seccion": "2. Costos de inventarios",
+   "nivel": 2
+  },
+  {
+   "ancla": "a-costos-de-almacenamiento-holding-carrying-cost-c-c",
+   "seccion": "a) Costos de almacenamiento (*holding / carrying cost*, $C_c$)",
+   "nivel": 3
+  },
+  {
+   "ancla": "b-costos-de-emision-de-orden-ordering-cost-c-o",
+   "seccion": "b) Costos de emisión de orden (*ordering cost*, $C_o$)",
+   "nivel": 3
+  },
+  {
+   "ancla": "c-costos-por-faltante-stockout-cost",
+   "seccion": "c) Costos por faltante (*stockout cost*)",
+   "nivel": 3
+  },
+  {
+   "ancla": "3-objetivo-de-la-gestion-de-inventarios",
+   "seccion": "3. Objetivo de la gestión de inventarios",
+   "nivel": 2
+  },
+  {
+   "ancla": "4-sistemas-de-control-de-inventarios",
+   "seccion": "4. Sistemas de control de inventarios",
+   "nivel": 2
+  },
+  {
+   "ancla": "4-1-proceso-de-revision-continua",
+   "seccion": "4.1. Proceso de revisión continua",
+   "nivel": 3
+  },
+  {
+   "ancla": "4-2-proceso-de-revision-periodica",
+   "seccion": "4.2. Proceso de revisión periódica",
+   "nivel": 3
+  },
+  {
+   "ancla": "catalogo-de-modelos-de-inventario-enfasis-del-apunte",
+   "seccion": "★ Catálogo de modelos de inventario (énfasis del apunte)",
+   "nivel": 2
+  },
+  {
+   "ancla": "5-clasificacion-abc",
+   "seccion": "5. Clasificación ABC",
+   "nivel": 2
+  },
+  {
+   "ancla": "6-modelos-para-calcular-el-lote-optimo-eoq",
+   "seccion": "6. Modelos para calcular el lote óptimo (EOQ)",
+   "nivel": 2
+  },
+  {
+   "ancla": "el-ciclo-de-inventario-caso-1",
+   "seccion": "El ciclo de inventario (Caso 1)",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-1-caso-1-ingreso-instantaneo",
+   "seccion": "6.1. Caso 1 — Ingreso instantáneo",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-2-caso-2-ingreso-no-instantaneo",
+   "seccion": "6.2. Caso 2 — Ingreso no instantáneo",
+   "nivel": 3
+  },
+  {
+   "ancla": "6-3-caso-3-descuento-por-cantidad",
+   "seccion": "6.3. Caso 3 — Descuento por cantidad",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-modelos-para-calcular-el-punto-de-pedido",
+   "seccion": "7. Modelos para calcular el punto de pedido",
+   "nivel": 2
+  },
+  {
+   "ancla": "7-1-punto-de-pedido-basico-demanda-deterministica",
+   "seccion": "7.1. Punto de pedido básico (demanda determinística)",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-2-inventario-stock-de-seguridad-s-s",
+   "seccion": "7.2. Inventario / stock de seguridad ($S_s$)",
+   "nivel": 3
+  },
+  {
+   "ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "seccion": "7.3. Punto de pedido con demanda variable",
+   "nivel": 3
+  },
+  {
+   "ancla": "8-sistema-de-revision-periodica-modelo-basico-de-periodo-fijo",
+   "seccion": "8. Sistema de revisión periódica: modelo básico de período fijo",
+   "nivel": 2
+  },
+  {
+   "ancla": "9-implementacion-de-los-modelos-en-un-sistema-de-gestion",
+   "seccion": "9. Implementación de los modelos en un sistema de gestión",
+   "nivel": 2
+  },
+  {
+   "ancla": "sintesis-del-apunte",
+   "seccion": "Síntesis del apunte",
+   "nivel": 2
+  }
+ ],
+ "preguntas": [
+  {
+   "id": 15,
+   "afirmacion": "En los sistemas de gestión de inventarios de revisión continua solo interesa la variabilidad de la demanda durante el plazo de provisión.",
+   "respuesta": true,
+   "justificacion": "En revisión continua, el stock de seguridad se dimensiona matemáticamente para absorber la variabilidad (desvío estándar) de la demanda únicamente durante el tiempo de abastecimiento (lead time o plazo de provisión), que es el intervalo de riesgo del modelo.",
+   "ref_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "ref_seccion": "7.3. Punto de pedido con demanda variable",
+   "secundarias": []
+  },
+  {
+   "id": 22,
+   "afirmacion": "El punto de pedido de un sistema de gestión de inventarios de revisión continua incluye el stock de seguridad.",
+   "respuesta": true,
+   "justificacion": "Sí lo incluye: el punto de pedido formaliza la demanda media esperada durante el plazo de provisión más un nivel de protección, el stock de seguridad. Pp = d·L + Ss.",
+   "ref_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "ref_seccion": "7.3. Punto de pedido con demanda variable",
+   "secundarias": [
+    {
+     "ancla": "7-2-inventario-stock-de-seguridad-s-s",
+     "seccion": "7.2. Inventario / stock de seguridad ($S_s$)"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "afirmacion": "En un sistema de gestión de inventarios de revisión periódica el parámetro de control es el Nivel de Inventario Actual.",
+   "respuesta": false,
+   "justificacion": "No: en el modelo de período fijo el parámetro de control es el tiempo de revisión T (constante), mientras que el nivel de inventario se observa al revisar y la cantidad pedida es variable, Q = NImax − I.",
+   "ref_ancla": "4-sistemas-de-control-de-inventarios",
+   "ref_seccion": "4. Sistemas de control de inventarios",
+   "secundarias": [
+    {
+     "ancla": "4-2-proceso-de-revision-periodica",
+     "seccion": "4.2. Proceso de revisión periódica"
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "afirmacion": "Los sistemas de gestión de inventarios de revisión continua se ajustan mejor a las variaciones de la demanda que uno de revisión periódica.",
+   "respuesta": true,
+   "justificacion": "Al monitorear el inventario en cada transacción, la revisión continua dispara el pedido apenas se cruza la línea crítica del punto de pedido (PP), por lo que se adapta mejor a las variaciones de la demanda que la periódica.",
+   "ref_ancla": "4-1-proceso-de-revision-continua",
+   "ref_seccion": "4.1. Proceso de revisión continua",
+   "secundarias": []
+  },
+  {
+   "id": 37,
+   "afirmacion": "El punto de pedido de un sistema de gestión de inventarios de revisión continua es definido solo por el stock de seguridad.",
+   "respuesta": false,
+   "justificacion": "El punto de pedido no está definido solo por el stock de seguridad: formaliza la demanda media esperada durante el lead time más ese nivel de protección (Ss). Pp = d·L + Ss.",
+   "ref_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "ref_seccion": "7.3. Punto de pedido con demanda variable",
+   "secundarias": []
+  },
+  {
+   "id": 38,
+   "afirmacion": "En un sistema de gestión de inventarios de revisión periódica el lote de provisión es variable.",
+   "respuesta": true,
+   "justificacion": "Sí es variable: la cantidad Q depende de lo necesario para restituir el inventario hasta el nivel máximo objetivo en el momento de revisión T. Q = NImax − I (el período T es lo fijo).",
+   "ref_ancla": "4-2-proceso-de-revision-periodica",
+   "ref_seccion": "4.2. Proceso de revisión periódica",
+   "secundarias": [
+    {
+     "ancla": "8-sistema-de-revision-periodica-modelo-basico-de-periodo-fijo",
+     "seccion": "8. Sistema de revisión periódica: modelo básico de período fijo"
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "afirmacion": "Los inventarios reducen la flexibilidad del proceso y aumentan los costos.",
+   "respuesta": false,
+   "justificacion": "Es al revés: aunque los inventarios aumentan los costos de mantenimiento, proveen independencia entre las etapas de producción y suministro y protección contra la incertidumbre, dando mayor flexibilidad al proceso y al negocio, no menor.",
+   "ref_ancla": "razones-para-mantener-inventarios",
+   "ref_seccion": "Razones para mantener inventarios",
+   "secundarias": [
+    {
+     "ancla": "inconveniente-de-los-inventarios",
+     "seccion": "Inconveniente de los inventarios"
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "afirmacion": "En los sistemas de inventarios de revisión continua es menor la probabilidad de faltante por aumento inesperado de la demanda.",
+   "respuesta": true,
+   "justificacion": "La revisión continua controla el inventario en cada transacción y dispara el pedido en cuanto se cruza el punto de pedido, por lo que ante un aumento inesperado de la demanda tiene menor probabilidad de faltante que la periódica.",
+   "ref_ancla": "4-1-proceso-de-revision-continua",
+   "ref_seccion": "4.1. Proceso de revisión continua",
+   "secundarias": []
+  },
+  {
+   "id": 49,
+   "afirmacion": "La clasificación ABC se utiliza para decidir el sistema de gestión de inventarios a utilizar para distintos grupos de productos.",
+   "respuesta": true,
+   "justificacion": "La clasificación ABC prioriza los ítems por su participación en el valor total para enfocar el esfuerzo de gestión y decidir qué sistema de control aplicar a cada grupo: revisión continua a los A, esquemas más livianos (periódica) a los C.",
+   "ref_ancla": "5-clasificacion-abc",
+   "ref_seccion": "5. Clasificación ABC",
+   "secundarias": []
+  },
+  {
+   "id": 52,
+   "afirmacion": "El punto de pedido de un sistema de gestión de inventarios de revisión continua se obtiene sumando, a la demanda media durante el plazo de provisión, el stock de seguridad.",
+   "respuesta": true,
+   "justificacion": "Correcto: el punto de pedido se obtiene sumando el stock de seguridad a la demanda media esperada durante el plazo de provisión. Pp = d·L + Ss.",
+   "ref_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "ref_seccion": "7.3. Punto de pedido con demanda variable",
+   "secundarias": [
+    {
+     "ancla": "7-2-inventario-stock-de-seguridad-s-s",
+     "seccion": "7.2. Inventario / stock de seguridad ($S_s$)"
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "afirmacion": "En un sistema de gestión de inventarios de revisión periódica el lote de provisión es fijo.",
+   "respuesta": false,
+   "justificacion": "Es falso: en revisión periódica lo fijo es el período T; el lote Q = NImax − I es variable, ya que depende del inventario existente al momento de revisar.",
+   "ref_ancla": "4-2-proceso-de-revision-periodica",
+   "ref_seccion": "4.2. Proceso de revisión periódica",
+   "secundarias": [
+    {
+     "ancla": "8-sistema-de-revision-periodica-modelo-basico-de-periodo-fijo",
+     "seccion": "8. Sistema de revisión periódica: modelo básico de período fijo"
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "afirmacion": "En un sistema de gestión de inventarios de revisión periódica, el mayor tamaño del lote de provisión es directamente proporcional al tiempo de provisión.",
+   "respuesta": true,
+   "justificacion": "En período fijo la cantidad pedida debe cubrir la demanda durante todo el ciclo T + L; por eso, a mayor plazo de provisión, mayor el inventario objetivo (NImax) y mayor el lote necesario para soportar el ciclo. La relación es creciente.",
+   "ref_ancla": "8-sistema-de-revision-periodica-modelo-basico-de-periodo-fijo",
+   "ref_seccion": "8. Sistema de revisión periódica: modelo básico de período fijo",
+   "secundarias": []
+  },
+  {
+   "id": 92,
+   "afirmacion": "Los inventarios generan costos, por ello es objetivo trabajar con el mínimo necesario.",
+   "respuesta": true,
+   "justificacion": "Los inventarios generan costos, por lo que la gestión busca el equilibrio entre un nivel de servicio adecuado y el costo de mantenimiento mínimo tolerado: el mínimo stock necesario para sostener ese balance.",
+   "ref_ancla": "3-objetivo-de-la-gestion-de-inventarios",
+   "ref_seccion": "3. Objetivo de la gestión de inventarios",
+   "secundarias": [
+    {
+     "ancla": "inconveniente-de-los-inventarios",
+     "seccion": "Inconveniente de los inventarios"
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "afirmacion": "El stock de seguridad tiene por objetivo reducir la probabilidad de faltantes.",
+   "respuesta": true,
+   "justificacion": "El stock de seguridad actúa como amortiguador de la varianza del lead time y/o de la demanda media, reduciendo la probabilidad de faltante (aunque no la elimina).",
+   "ref_ancla": "7-2-inventario-stock-de-seguridad-s-s",
+   "ref_seccion": "7.2. Inventario / stock de seguridad ($S_s$)",
+   "secundarias": []
+  },
+  {
+   "id": 99,
+   "afirmacion": "Cuanto mayor sea la varianza de la demanda menor será el stock de seguridad requerido.",
+   "respuesta": false,
+   "justificacion": "Es al revés: si la dispersión estadística de la demanda (σ) crece, también crece Z·σ, requiriendo más buffer para el mismo nivel de servicio. A mayor varianza, mayor stock de seguridad (Ss = z·σ).",
+   "ref_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "ref_seccion": "7.3. Punto de pedido con demanda variable",
+   "secundarias": []
+  },
+  {
+   "id": 101,
+   "afirmacion": "El parámetro de control de un sistema de gestión de inventarios de revisión continua es el lote óptimo.",
+   "respuesta": false,
+   "justificacion": "No: el parámetro de control de la revisión continua es el punto de pedido (PP): la revisión detona el pedido cuando la cantidad en stock cruza esa barrera de reposición (I < PP). El lote óptimo Q* es cuánto se pide, no el parámetro de control.",
+   "ref_ancla": "4-sistemas-de-control-de-inventarios",
+   "ref_seccion": "4. Sistemas de control de inventarios",
+   "secundarias": [
+    {
+     "ancla": "4-1-proceso-de-revision-continua",
+     "seccion": "4.1. Proceso de revisión continua"
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "afirmacion": "Cuanto mayor es el precio unitario de compra de un material, menor será el lote económico de compra (EOQ).",
+   "respuesta": true,
+   "justificacion": "El precio impacta en el costo de mantener inventario (Cc, habitualmente un porcentaje del valor del ítem): a mayor precio, mayor Cc, y como Q* = √(2·Co·D/Cc), el lote económico de compra disminuye.",
+   "ref_ancla": "6-1-caso-1-ingreso-instantaneo",
+   "ref_seccion": "6.1. Caso 1 — Ingreso instantáneo",
+   "secundarias": [
+    {
+     "ancla": "a-costos-de-almacenamiento-holding-carrying-cost-c-c",
+     "seccion": "a) Costos de almacenamiento (*holding / carrying cost*, $C_c$)"
+    }
+   ]
+  },
+  {
+   "id": 117,
+   "afirmacion": "El Lead Time (tiempo de abastecimiento) es el parámetro de control de los sistemas de gestión de inventario de período fijo.",
+   "respuesta": false,
+   "justificacion": "No: en el modelo de período fijo el parámetro de control es el tiempo entre revisiones T (constante), no el lead time; las cantidades pedidas varían.",
+   "ref_ancla": "4-sistemas-de-control-de-inventarios",
+   "ref_seccion": "4. Sistemas de control de inventarios",
+   "secundarias": [
+    {
+     "ancla": "4-2-proceso-de-revision-periodica",
+     "seccion": "4.2. Proceso de revisión periódica"
+    }
+   ]
+  },
+  {
+   "id": 121,
+   "afirmacion": "Cuanto mayor es el costo fijo de set-up (limpieza, ajustes, etc.) de máquinas, menor es el tamaño requerido del lote de producción de un producto.",
+   "respuesta": false,
+   "justificacion": "Es al revés: el set-up es el costo de emisión/preparación Co; como Q* = √(2·Co·D/Cc), a mayor costo de set-up, mayor el lote óptimo de producción (para prorratear ese costo en menos corridas), no menor.",
+   "ref_ancla": "6-1-caso-1-ingreso-instantaneo",
+   "ref_seccion": "6.1. Caso 1 — Ingreso instantáneo",
+   "secundarias": [
+    {
+     "ancla": "6-2-caso-2-ingreso-no-instantaneo",
+     "seccion": "6.2. Caso 2 — Ingreso no instantáneo"
+    }
+   ]
+  },
+  {
+   "id": 123,
+   "afirmacion": "En un modelo de revisión continua de inventarios el parámetro de control es el punto de pedidos.",
+   "respuesta": true,
+   "justificacion": "Correcto: el parámetro de control de la revisión continua es el punto de pedido; la revisión detona el pedido cuando el inventario cae por debajo de esa barrera de reposición (PP).",
+   "ref_ancla": "4-sistemas-de-control-de-inventarios",
+   "ref_seccion": "4. Sistemas de control de inventarios",
+   "secundarias": [
+    {
+     "ancla": "4-1-proceso-de-revision-continua",
+     "seccion": "4.1. Proceso de revisión continua"
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "afirmacion": "El stock de seguridad permite asegurar que no ocurrirán faltantes de inventario.",
+   "respuesta": false,
+   "justificacion": "El stock de seguridad reduce la probabilidad de faltante para un nivel de servicio dado, pero no garantiza que no ocurran: absorbe la varianza del lead time y/o de la demanda, y cubrir el 100 % exigiría stock infinito.",
+   "ref_ancla": "7-2-inventario-stock-de-seguridad-s-s",
+   "ref_seccion": "7.2. Inventario / stock de seguridad ($S_s$)",
+   "secundarias": []
+  },
+  {
+   "id": 128,
+   "afirmacion": "El lote de provisión de un sistema de revisión periódico es fijo.",
+   "respuesta": false,
+   "justificacion": "Es falso: en revisión periódica el tiempo (T) es fijo, pero la cantidad/lote Q = NImax − I es variable.",
+   "ref_ancla": "4-2-proceso-de-revision-periodica",
+   "ref_seccion": "4.2. Proceso de revisión periódica",
+   "secundarias": [
+    {
+     "ancla": "8-sistema-de-revision-periodica-modelo-basico-de-periodo-fijo",
+     "seccion": "8. Sistema de revisión periódica: modelo básico de período fijo"
+    }
+   ]
+  },
+  {
+   "id": 139,
+   "afirmacion": "Cuanto mayor es la varianza de la demanda menor es el nivel de servicio proporcionado por un dado stock de seguridad.",
+   "respuesta": true,
+   "justificacion": "Para un stock de seguridad fijo, si crece la dispersión (σ) de la demanda, cae el nivel de servicio que ese buffer garantiza: como Ss = z·σ, a mayor σ menor es el z (y el nivel de servicio) cubierto por el mismo buffer.",
+   "ref_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "ref_seccion": "7.3. Punto de pedido con demanda variable",
+   "secundarias": []
+  },
+  {
+   "id": 142,
+   "afirmacion": "El stock de seguridad requerido para un Nivel de Servicio dado (por ejemplo del 95%) es mayor cuanto mayor es el desvío de la demanda.",
+   "respuesta": true,
+   "justificacion": "Correcto: para un nivel de servicio dado (p. ej. 95 %), como Ss = z·σ, cuanto mayor es el desvío σ de la demanda, mayor es el stock de seguridad requerido.",
+   "ref_ancla": "7-3-punto-de-pedido-con-demanda-variable",
+   "ref_seccion": "7.3. Punto de pedido con demanda variable",
+   "secundarias": []
+  },
+  {
+   "id": 148,
+   "afirmacion": "En un sistema de control de inventarios de período fijo se tiene en cuenta la variabilidad de la demanda (varianza) durante el periodo T+L (plazo de provisión + período de revisión).",
+   "respuesta": true,
+   "justificacion": "En el modelo de período fijo el intervalo de riesgo incluye el lapso entre revisión (T) y la llegada del envío (L): T + L. Por eso el stock de seguridad debe cubrir la variabilidad de la demanda durante todo ese período T + L.",
+   "ref_ancla": "8-sistema-de-revision-periodica-modelo-basico-de-periodo-fijo",
+   "ref_seccion": "8. Sistema de revisión periódica: modelo básico de período fijo",
+   "secundarias": []
+  },
+  {
+   "id": 150,
+   "afirmacion": "Si no hubiese costos fijos, entre ellos de transporte para el caso de compras y de set-up de máquinas en el caso de producción, no sería necesario comprar o producir cantidades mínimas (lote Q*).",
+   "respuesta": true,
+   "justificacion": "Los costos fijos (emisión/transporte en compras, set-up en producción) son el principal disparador de pedir en lotes: si esos costos fueran nulos (Co = 0), Q* = √(2·Co·D/Cc) → 0 y convendría reponer de a una unidad (lote a lote), sin inventario cíclico.",
+   "ref_ancla": "6-1-caso-1-ingreso-instantaneo",
+   "ref_seccion": "6.1. Caso 1 — Ingreso instantáneo",
+   "secundarias": [
+    {
+     "ancla": "b-costos-de-emision-de-orden-ordering-cost-c-o",
+     "seccion": "b) Costos de emisión de orden (*ordering cost*, $C_o$)"
+    }
+   ]
+  },
+  {
+   "id": 157,
+   "afirmacion": "Los sistemas de control de inventarios de revisión continua se ajustan mejor a los cambios de demanda.",
+   "respuesta": true,
+   "justificacion": "Al monitorear el inventario en cada transacción, la revisión continua dispara el pedido apenas se cruza el punto de pedido (PP), por lo que se ajusta mejor a los cambios de demanda que la periódica.",
+   "ref_ancla": "4-1-proceso-de-revision-continua",
+   "ref_seccion": "4.1. Proceso de revisión continua",
+   "secundarias": []
+  },
+  {
+   "id": 158,
+   "afirmacion": "Los inventarios agregan costos y por lo tanto deben ser reducidos al menor valor posible.",
+   "respuesta": true,
+   "justificacion": "Los inventarios generan costos, por lo que se busca mantener el mínimo necesario: la gestión persigue el equilibrio entre un nivel de servicio adecuado y el costo de mantenimiento mínimo tolerado (no un cero absoluto).",
+   "ref_ancla": "3-objetivo-de-la-gestion-de-inventarios",
+   "ref_seccion": "3. Objetivo de la gestión de inventarios",
+   "secundarias": [
+    {
+     "ancla": "inconveniente-de-los-inventarios",
+     "seccion": "Inconveniente de los inventarios"
+    }
+   ]
+  },
+  {
+   "id": 163,
+   "afirmacion": "El stock de seguridad de un sistema de control de inventarios de período fijo es menor que el de un sistema de control de inventarios de lote fijo.",
+   "respuesta": false,
+   "justificacion": "Es al revés: al tener que cubrir un intervalo de riesgo más largo (tiempo de revisión + lead time, T + L) que la revisión continua (solo L), el stock de seguridad del período fijo es estadísticamente mayor, no menor.",
+   "ref_ancla": "8-sistema-de-revision-periodica-modelo-basico-de-periodo-fijo",
+   "ref_seccion": "8. Sistema de revisión periódica: modelo básico de período fijo",
+   "secundarias": [
+    {
+     "ancla": "7-3-punto-de-pedido-con-demanda-variable",
+     "seccion": "7.3. Punto de pedido con demanda variable"
+    }
+   ]
+  },
+  {
+   "id": 165,
+   "afirmacion": "La necesidad de comprar cantidades mínimas (lote Q*) es debido a los costos fijos, entre ellos el de transporte para el caso de compras y el de set-up de máquinas en el caso de producción.",
+   "respuesta": true,
+   "justificacion": "Correcto: los costos fijos (transporte en compras, set-up de máquinas en producción) son los que justifican comprar/producir en lotes mínimos (Q*); sin ellos convendría reponer de a una unidad.",
+   "ref_ancla": "6-1-caso-1-ingreso-instantaneo",
+   "ref_seccion": "6.1. Caso 1 — Ingreso instantáneo",
+   "secundarias": [
+    {
+     "ancla": "b-costos-de-emision-de-orden-ordering-cost-c-o",
+     "seccion": "b) Costos de emisión de orden (*ordering cost*, $C_o$)"
+    }
+   ]
+  },
+  {
+   "id": 173,
+   "afirmacion": "El stock de seguridad tiene como propósito hacer frente a una demanda inesperada para el período desde la fecha de emisión de la orden hasta la fecha que arriban todos los productos de la orden",
+   "respuesta": true,
+   "justificacion": "El propósito del stock de seguridad es amortiguar la demanda inesperada por variabilidad exclusivamente durante el tiempo de provisión o lead time (desde que se emite la orden hasta que arriban todos los productos), que es el intervalo de riesgo en revisión continua.",
+   "ref_ancla": "7-2-inventario-stock-de-seguridad-s-s",
+   "ref_seccion": "7.2. Inventario / stock de seguridad ($S_s$)",
+   "secundarias": [
+    {
+     "ancla": "7-3-punto-de-pedido-con-demanda-variable",
+     "seccion": "7.3. Punto de pedido con demanda variable"
+    }
+   ]
+  },
+  {
+   "id": 185,
+   "afirmacion": "En un modelo de gestión de stock de revisión continua, el tamaño del lote de compra depende del plazo de provisión. Cuanto mayor es el plazo de provisión, mayor es el lote de compra",
+   "respuesta": false,
+   "justificacion": "Es falso: en revisión continua el tamaño de lote (EOQ, Q* = √(2·Co·D/Cc)) está determinado por los costos de orden y almacenamiento y por la tasa de demanda anual, no por el plazo de provisión. El lead time afecta el tamaño del punto de pedido, no el del lote.",
+   "ref_ancla": "6-1-caso-1-ingreso-instantaneo",
+   "ref_seccion": "6.1. Caso 1 — Ingreso instantáneo",
+   "secundarias": [
+    {
+     "ancla": "7-1-punto-de-pedido-basico-demanda-deterministica",
+     "seccion": "7.1. Punto de pedido básico (demanda determinística)"
+    }
+   ]
+  },
+  {
+   "id": 187,
+   "afirmacion": "Un modelo de gestión de inventario de revisión continua es un sistema de gestión proactivo, se determina cuándo y cuánto comprar (cuántas ordenes) de un producto para un horizonte de tiempo futuro",
+   "respuesta": false,
+   "justificacion": "Es falso: la revisión continua es un modelo reactivo, desencadenado por eventos: ordena reposición únicamente cuando las existencias cruzan el nivel del punto de pedido, no planifica compras para un horizonte futuro de forma proactiva (eso es propio del MRP).",
+   "ref_ancla": "4-1-proceso-de-revision-continua",
+   "ref_seccion": "4.1. Proceso de revisión continua",
+   "secundarias": [
+    {
+     "ancla": "4-sistemas-de-control-de-inventarios",
+     "seccion": "4. Sistemas de control de inventarios"
+    }
+   ]
+  }
+ ]
+}

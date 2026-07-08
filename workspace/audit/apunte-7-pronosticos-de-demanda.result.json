@@ -1,0 +1,96 @@
+{
+ "apunte": "apunte-7-pronosticos-de-demanda",
+ "verdicts": [
+  {
+   "id": 8,
+   "verdict": "OK",
+   "best_ancla": "5-metodos-de-analisis-de-series-de-tiempo",
+   "best_seccion": "5. Métodos de análisis de series de tiempo",
+   "reason": "La sección 5 explica que las series de tiempo asumen que el pasado seguirá ocurriendo y descomponen la demanda en tendencia, estacionalidad, ciclos e irregular; sustenta que el modelo busca un patrón de comportamiento."
+  },
+  {
+   "id": 80,
+   "verdict": "OK",
+   "best_ancla": "4-proceso-de-pronostico",
+   "best_seccion": "4. Proceso de pronóstico",
+   "reason": "La sección 4 describe el proceso iterativo con pasos automatizables (cálculo) y pasos con intervención humana (ajuste de parámetros, ajuste cualitativo), justamente lo que afirma la pregunta."
+  },
+  {
+   "id": 93,
+   "verdict": "SUSPECT",
+   "best_ancla": "5-3-alisado-exponencial-exponential-smoothing",
+   "best_seccion": "5.3. Alisado exponencial (*exponential smoothing*)",
+   "reason": "La afirmación compara el Alisado Exponencial SIMPLE con el ajuste lineal; el apoyo está en 5.3 (pondera y reacciona a lo reciente) y en la limitación de 5.5 (la recta aplana la historia). El ancla actual apunta a la variante ajustada (5.4), que no es el sujeto; 5.3 es la sección correcta."
+  },
+  {
+   "id": 94,
+   "verdict": "OK",
+   "best_ancla": "8-2-coeficiente-de-correlacion-y-coeficiente-de-determinacion",
+   "best_seccion": "8.2. Coeficiente de correlación y coeficiente de determinación",
+   "reason": "8.2 establece que r=0 indica ausencia de relación y que la asociación fuerte es cercana a ±1; sustenta que un r próximo a cero no permite predecir."
+  },
+  {
+   "id": 135,
+   "verdict": "OK",
+   "best_ancla": "5-3-alisado-exponencial-exponential-smoothing",
+   "best_seccion": "5.3. Alisado exponencial (*exponential smoothing*)",
+   "reason": "5.3 es la sección propia del alisado exponencial y su comportamiento con los datos; es el mejor destino disponible para una pregunta sobre la cantidad de períodos necesarios del método."
+  },
+  {
+   "id": 138,
+   "verdict": "OK",
+   "best_ancla": "8-2-coeficiente-de-correlacion-y-coeficiente-de-determinacion",
+   "best_seccion": "8.2. Coeficiente de correlación y coeficiente de determinación",
+   "reason": "8.2 define que la relación explicativa exige r cercano a ±1 y que r próximo a cero implica ausencia de relación lineal; sustenta el 'falso'."
+  },
+  {
+   "id": 146,
+   "verdict": "OK",
+   "best_ancla": "8-2-coeficiente-de-correlacion-y-coeficiente-de-determinacion",
+   "best_seccion": "8.2. Coeficiente de correlación y coeficiente de determinación",
+   "reason": "Idéntico a #94/#138: 8.2 muestra que r≈0 no da capacidad explicativa; la sección sustenta el 'falso'."
+  },
+  {
+   "id": 155,
+   "verdict": "OK",
+   "best_ancla": "5-1-medias-moviles-moving-average",
+   "best_seccion": "5.1. Medias móviles (*moving average*)",
+   "reason": "5.1 muestra que la media móvil promedia la ventana de los últimos n períodos; junto con 5.3 (pesos decrecientes) sustenta que ambos priorizan lo reciente. El ancla a 5.1 es adecuada como sección primaria."
+  },
+  {
+   "id": 161,
+   "verdict": "OK",
+   "best_ancla": "8-2-coeficiente-de-correlacion-y-coeficiente-de-determinacion",
+   "best_seccion": "8.2. Coeficiente de correlación y coeficiente de determinación",
+   "reason": "8.2 indica que valores de r cercanos a ±1 revelan asociación lineal fuerte y capacidad explicativa (r²≈1); sustenta el 'verdadero'."
+  },
+  {
+   "id": 171,
+   "verdict": "OK",
+   "best_ancla": "5-4-alisado-exponencial-ajustado-con-factor-de-tendencia",
+   "best_seccion": "5.4. Alisado exponencial ajustado (con factor de tendencia)",
+   "reason": "La justificación se apoya en que el AE simple no capta la tendencia y en que hace falta el AE ajustado (Holt); 5.4 es la sección que introduce el factor de tendencia y sustenta esa necesidad. Aceptable (la limitación del AE simple también figura en 5.3)."
+  },
+  {
+   "id": 172,
+   "verdict": "OK",
+   "best_ancla": "5-4-alisado-exponencial-ajustado-con-factor-de-tendencia",
+   "best_seccion": "5.4. Alisado exponencial ajustado (con factor de tendencia)",
+   "reason": "5.4 muestra que el AE ajustado modela nivel y tendencia (F y T), sin estacionalidad; sustenta que la afirmación de que capta también estacionalidad es falsa."
+  },
+  {
+   "id": 181,
+   "verdict": "OK",
+   "best_ancla": "6-exactitud-del-pronostico",
+   "best_seccion": "6. Exactitud del pronóstico",
+   "reason": "La sección 6 establece que la exactitud se evalúa con medidas de error (MAD, MAPD, E, Ē), no con r; sustenta que el coeficiente de correlación no determina la precisión. La secundaria 8.2 aclara qué mide r."
+  },
+  {
+   "id": 188,
+   "verdict": "OK",
+   "best_ancla": "6-exactitud-del-pronostico",
+   "best_seccion": "6. Exactitud del pronóstico",
+   "reason": "6 define el MAPD como medida de magnitud y distingue que E/Ē (y la señal de rastreo) detectan el sesgo; sustenta que el MAPD por sí solo no acredita buen ajuste. La secundaria a Tracking Signal complementa."
+  }
+ ]
+}

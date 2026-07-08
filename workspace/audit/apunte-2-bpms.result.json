@@ -1,0 +1,40 @@
+{
+ "apunte": "apunte-2-bpms",
+ "verdicts": [
+  {
+   "id": 200,
+   "verdict": "OK",
+   "best_ancla": "item-de-trabajo-work-item-y-lista-de-trabajos-worklist",
+   "best_seccion": "Ítem de Trabajo (Work Item) y Lista de Trabajos (Worklist)",
+   "reason": "La sección define el ítem de trabajo como la habilitación de una actividad para un participante específico, justo lo que sostiene la justificación."
+  },
+  {
+   "id": 201,
+   "verdict": "OK",
+   "best_ancla": "definicion-de-siop",
+   "best_seccion": "Definición de SIOP",
+   "reason": "La justificación invoca la definición de SIOP (software que gestiona y ejecuta procesos sobre la base de modelos), contenida exactamente en esta sección."
+  },
+  {
+   "id": 202,
+   "verdict": "OK",
+   "best_ancla": "tipos-de-siop",
+   "best_seccion": "Tipos de SIOP",
+   "reason": "Tipos de SIOP clasifica al ERP como SIOP específico del dominio y distingue el BPMS genérico, base de la justificación."
+  },
+  {
+   "id": 203,
+   "verdict": "OK",
+   "best_ancla": "la-idea-principal-de-un-siop",
+   "best_seccion": "La idea principal de un SIOP",
+   "reason": "Esta sección plantea separar la lógica de aplicaciones de la de procesos y gestionarla explícita, contradiciendo la afirmación como indica la justificación."
+  },
+  {
+   "id": 204,
+   "verdict": "OK",
+   "best_ancla": "definicion-de-siop",
+   "best_seccion": "Definición de SIOP",
+   "reason": "La justificación evalúa PERT/CPM contra la definición de SIOP (ejecución sobre modelo de proceso), contenida en esta sección."
+  }
+ ]
+}
