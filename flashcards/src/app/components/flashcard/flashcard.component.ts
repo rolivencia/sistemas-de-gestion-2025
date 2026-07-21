@@ -34,21 +34,23 @@ import type { Question, SessionAnswer } from '../../models/question.model';
                  rounded-2xl p-8 sm:p-10 flex flex-col items-center justify-center
                  shadow-lg shadow-black/20"
         >
-          <div class="text-center">
-            <div
-              class="inline-flex items-center justify-center w-20 h-20 rounded-full mb-5"
-              [class]="question().respuesta
-                ? 'bg-success/15 text-success'
-                : 'bg-destructive/15 text-destructive'"
-            >
-              <span class="text-3xl font-bold">
-                {{ question().respuesta ? 'V' : 'F' }}
-              </span>
+          @if (isFlipped()) {
+            <div class="text-center">
+              <div
+                class="inline-flex items-center justify-center w-20 h-20 rounded-full mb-5"
+                [class]="question().respuesta
+                  ? 'bg-success/15 text-success'
+                  : 'bg-destructive/15 text-destructive'"
+              >
+                <span class="text-3xl font-bold">
+                  {{ question().respuesta ? 'V' : 'F' }}
+                </span>
+              </div>
+              <p class="text-xl sm:text-2xl font-semibold text-foreground">
+                {{ question().respuesta ? 'Verdadero' : 'Falso' }}
+              </p>
             </div>
-            <p class="text-xl sm:text-2xl font-semibold text-foreground">
-              {{ question().respuesta ? 'Verdadero' : 'Falso' }}
-            </p>
-          </div>
+          }
         </div>
       </div>
     </div>
