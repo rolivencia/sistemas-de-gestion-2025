@@ -8,6 +8,7 @@ import {
 import { provideMarkdown } from 'ngx-markdown';
 import SessionPage from './session.page';
 import { FlashcardStore } from '../../store/flashcard.store';
+import { provideMemoryStudyStorage } from '../../storage/study-storage.token';
 import type { Question } from '../../models/question.model';
 
 function baseQuestion(overrides: Partial<Question>): Question {
@@ -70,6 +71,7 @@ describe('SessionPage · referencias', () => {
         provideHttpClient(),
         provideHttpClientTesting(),
         provideMarkdown(),
+        provideMemoryStudyStorage(),
       ],
     }).compileComponents();
   });
@@ -94,5 +96,12 @@ describe('SessionPage · referencias', () => {
 
     const text = (fixture.nativeElement as HTMLElement).textContent ?? '';
     expect(text).not.toContain('Ver en el apunte');
+  });
+
+  it('muestra el id de la tarjeta junto a los metadatos de la pregunta', async () => {
+    const fixture = await renderAnswered([baseQuestion({ id: 137 })]);
+
+    const text = (fixture.nativeElement as HTMLElement).textContent ?? '';
+    expect(text).toContain('#137');
   });
 });

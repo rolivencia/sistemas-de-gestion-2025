@@ -1,17 +1,11 @@
-import {
-  Component,
-  computed,
-  HostListener,
-  inject,
-  OnInit,
-  signal,
-} from '@angular/core';
+import { Component, computed, inject, OnInit, signal } from '@angular/core';
 import { Router } from '@angular/router';
 import { FlashcardStore } from '../../store/flashcard.store';
 import { FlashcardComponent } from '../../components/flashcard/flashcard.component';
 import { ProgressBarComponent } from '../../components/progress-bar/progress-bar.component';
 import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle.component';
 import { ApunteViewerComponent } from '../../components/apunte-viewer/apunte-viewer.component';
+import { QuestionIdBadgeComponent } from '../../components/question-id-badge/question-id-badge.component';
 import type { Referencia } from '../../models/question.model';
 
 @Component({
@@ -21,7 +15,9 @@ import type { Referencia } from '../../models/question.model';
     ProgressBarComponent,
     ThemeToggleComponent,
     ApunteViewerComponent,
+    QuestionIdBadgeComponent,
   ],
+  host: { '(window:keydown)': 'handleKeydown($event)' },
   template: `
     <div class="min-h-dvh flex flex-col bg-background">
       <!-- Header -->
@@ -81,6 +77,7 @@ import type { Referencia } from '../../models/question.model';
           <div class="w-full max-w-2xl animate-slide-in">
             <!-- Unit badges -->
             <div class="flex flex-wrap gap-2 mb-5 justify-center">
+              <app-question-id-badge [questionId]="question.id" />
               @for (unidad of question.unidades; track unidad) {
                 <span
                   class="text-xs font-medium px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20"
@@ -263,7 +260,6 @@ export default class SessionPage implements OnInit {
     );
   }
 
-  @HostListener('window:keydown', ['$event'])
   protected handleKeydown(event: KeyboardEvent): void {
     // Con el apunte abierto, el drawer captura el teclado (Esc, Tab).
     if (this.apunteViewer()) return;
@@ -297,15 +293,16 @@ export default class SessionPage implements OnInit {
   }
 
   protected handleNext(): void {
-    if (this.isLastQuestion) {
-      this.store.nextQuestion();
+    this.store.nextQuestion();
+    if (this.store.sessionComplete()) {
+      void this.store.finishSession();
       this.router.navigate(['/results']);
-    } else {
-      this.store.nextQuestion();
     }
   }
 
   protected goHome(): void {
+    // Abandonar también cuenta: la sesión parcial queda registrada.
+    void this.store.finishSession();
     this.store.endSession();
     this.router.navigate(['/']);
   }

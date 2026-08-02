@@ -14,6 +14,10 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/results/results.page'),
   },
   {
+    path: 'diagnostico',
+    loadComponent: () => import('./pages/diagnostico/diagnostico.page'),
+  },
+  {
     path: '**',
     redirectTo: '',
   },

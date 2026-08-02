@@ -6,6 +6,7 @@ import {
   provideHttpClientTesting,
 } from '@angular/common/http/testing';
 import { App } from './app';
+import { provideMemoryStudyStorage } from './storage/study-storage.token';
 
 describe('App', () => {
   beforeEach(async () => {
@@ -15,6 +16,7 @@ describe('App', () => {
         provideRouter([]),
         provideHttpClient(),
         provideHttpClientTesting(),
+        provideMemoryStudyStorage(),
       ],
     }).compileComponents();
   });

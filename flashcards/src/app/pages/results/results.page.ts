@@ -3,11 +3,12 @@ import { Router } from '@angular/router';
 import { FlashcardStore } from '../../store/flashcard.store';
 import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle.component';
 import { ApunteViewerComponent } from '../../components/apunte-viewer/apunte-viewer.component';
+import { AnswerRowComponent } from '../../components/answer-row/answer-row.component';
 import type { Referencia } from '../../models/question.model';
 
 @Component({
   selector: 'app-results',
-  imports: [ThemeToggleComponent, ApunteViewerComponent],
+  imports: [ThemeToggleComponent, ApunteViewerComponent, AnswerRowComponent],
   template: `
     <div class="min-h-dvh flex flex-col bg-background">
       <!-- Header -->
@@ -65,98 +66,65 @@ import type { Referencia } from '../../models/question.model';
             </div>
           </div>
 
-          <!-- Review list -->
-          @if (store.answeredQuestions().length > 0) {
-            <div class="mb-10">
-              <div class="flex items-center justify-between mb-5">
-                <h2 class="text-lg font-semibold text-foreground">
-                  Detalle de respuestas
+          <!-- Errores: bloque propio y destacado -->
+          @if (mistakes().length > 0) {
+            <section class="mb-10">
+              <div class="flex items-center gap-3 mb-5">
+                <h2 class="text-lg font-semibold text-destructive">
+                  Para repasar ({{ mistakes().length }})
                 </h2>
-                <div class="flex gap-2">
-                  <button
-                    (click)="showFilter.set('all')"
-                    [class]="filterBtnClass('all')"
-                  >
-                    Todas
-                  </button>
-                  <button
-                    (click)="showFilter.set('incorrect')"
-                    [class]="filterBtnClass('incorrect')"
-                  >
-                    Incorrectas
-                  </button>
-                  <button
-                    (click)="showFilter.set('correct')"
-                    [class]="filterBtnClass('correct')"
-                  >
-                    Correctas
-                  </button>
-                </div>
               </div>
-
               <div class="space-y-3">
-                @for (item of filteredAnswers(); track item.questionId) {
-                  <div
-                    class="bg-card border rounded-2xl p-5 transition-colors"
-                    [class.border-success/30]="item.answeredCorrectly"
-                    [class.border-destructive/30]="!item.answeredCorrectly"
-                  >
-                    <div class="flex items-start gap-4">
-                      <div
-                        class="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center mt-0.5"
-                        [class]="item.answeredCorrectly
-                          ? 'bg-success/20 text-success'
-                          : 'bg-destructive/20 text-destructive'"
-                      >
-                        @if (item.answeredCorrectly) {
-                          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
-                          </svg>
-                        } @else {
-                          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/>
-                          </svg>
-                        }
-                      </div>
-                      <div class="flex-1 min-w-0">
-                        <p class="text-sm text-foreground leading-relaxed">
-                          {{ item.question.afirmacion }}
-                        </p>
-                        <div class="flex flex-wrap items-center gap-2 mt-3">
-                          <span
-                            class="text-xs font-medium px-2.5 py-1 rounded-full"
-                            [class]="item.question.respuesta
-                              ? 'bg-success/10 text-success'
-                              : 'bg-destructive/10 text-destructive'"
-                          >
-                            Respuesta: {{ item.question.respuesta ? 'Verdadero' : 'Falso' }}
-                          </span>
-                          @if (!item.answeredCorrectly) {
-                            <span class="text-xs text-muted-foreground">
-                              Respondiste: {{ item.userAnswer ? 'Verdadero' : 'Falso' }}
-                            </span>
-                          }
-                          @if (item.question.referencias.length) {
-                            <button
-                              type="button"
-                              (click)="openApunte(item.question.referencias[0])"
-                              class="inline-flex items-center gap-1.5 text-xs font-medium text-primary
-                                     hover:underline underline-offset-2"
-                            >
-                              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                              </svg>
-                              Ver en el apunte
-                            </button>
-                          }
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                @for (item of mistakes(); track item.questionId) {
+                  <app-answer-row [item]="item" (openApunte)="openApunte($event)" />
                 }
               </div>
-            </div>
+            </section>
+          } @else if (store.answeredQuestions().length > 0) {
+            <section class="mb-10">
+              <div class="bg-success/10 border-2 border-success/30 rounded-2xl p-6 text-center">
+                <p class="text-base font-semibold text-success">
+                  Sin errores en esta sesi&oacute;n.
+                </p>
+                <p class="text-sm text-muted-foreground mt-2">
+                  No hay nada pendiente de repaso.
+                </p>
+              </div>
+            </section>
+          }
+
+          <!-- Correctas: colapsadas, secundarias -->
+          @if (correctAnswers().length > 0) {
+            <section class="mb-10">
+              <button
+                type="button"
+                (click)="correctExpanded.set(!correctExpanded())"
+                [attr.aria-expanded]="correctExpanded()"
+                aria-controls="correct-answers-list"
+                class="w-full flex items-center gap-2 py-3 px-4 rounded-2xl text-left
+                       bg-card border border-border text-muted-foreground
+                       hover:text-foreground hover:bg-secondary transition-colors"
+              >
+                <svg
+                  class="w-4 h-4 transition-transform"
+                  [class.rotate-90]="correctExpanded()"
+                  fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+                <span class="text-sm font-medium">
+                  Respondidas correctamente ({{ correctAnswers().length }})
+                </span>
+              </button>
+
+              @if (correctExpanded()) {
+                <div id="correct-answers-list" class="space-y-3 mt-3">
+                  @for (item of correctAnswers(); track item.questionId) {
+                    <app-answer-row [item]="item" (openApunte)="openApunte($event)" />
+                  }
+                </div>
+              }
+            </section>
           }
 
           <!-- Action buttons -->
@@ -209,20 +177,20 @@ import type { Referencia } from '../../models/question.model';
 export default class ResultsPage implements OnInit {
   protected readonly store = inject(FlashcardStore);
   private readonly router = inject(Router);
-  protected readonly showFilter = signal<'all' | 'correct' | 'incorrect'>('all');
   protected readonly apunteViewer = signal<Referencia | null>(null);
+  protected readonly correctExpanded = signal(false);
 
   protected openApunte(ref: Referencia): void {
     this.apunteViewer.set(ref);
   }
 
-  protected readonly filteredAnswers = computed(() => {
-    const all = this.store.answeredQuestions();
-    const filter = this.showFilter();
-    if (filter === 'correct') return all.filter((a) => a.answeredCorrectly);
-    if (filter === 'incorrect') return all.filter((a) => !a.answeredCorrectly);
-    return all;
-  });
+  protected readonly mistakes = computed(() =>
+    this.store.answeredQuestions().filter((a) => !a.answeredCorrectly),
+  );
+
+  protected readonly correctAnswers = computed(() =>
+    this.store.answeredQuestions().filter((a) => a.answeredCorrectly),
+  );
 
   ngOnInit(): void {
     if (!this.store.sessionComplete() && !this.store.sessionActive()) {
@@ -256,25 +224,20 @@ export default class ResultsPage implements OnInit {
     return this.store.stats().incorrect;
   }
 
-  protected filterBtnClass(filter: string): string {
-    const base = 'text-xs font-medium px-3 py-1.5 rounded-xl transition-colors';
-    if (this.showFilter() === filter) {
-      return `${base} bg-primary/20 text-primary border border-primary/30`;
-    }
-    return `${base} text-muted-foreground hover:text-foreground border border-transparent`;
-  }
-
   protected reviewMistakes(): void {
-    this.store.reviewMistakes();
+    void this.store.reviewMistakes();
     this.router.navigate(['/session']);
   }
 
   protected restart(): void {
-    this.store.restartSession();
+    void this.store.restartSession();
     this.router.navigate(['/session']);
   }
 
   protected goHome(): void {
+    // Redundante en el camino normal (ya se guardó al terminar), pero cubre la
+    // vuelta atrás desde el navegador; es idempotente.
+    void this.store.finishSession();
     this.store.endSession();
     this.router.navigate(['/']);
   }

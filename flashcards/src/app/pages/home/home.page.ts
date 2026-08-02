@@ -1,6 +1,9 @@
-import { Component, inject } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { FlashcardStore } from '../../store/flashcard.store';
+import { StudyHistoryStore } from '../../store/study-history.store';
+import { CLOCK } from '../../core/clock';
+import { dueQuestions } from '../../util/diagnostics';
 import { UnitSelectorComponent } from '../../components/unit-selector/unit-selector.component';
 import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle.component';
 
@@ -70,6 +73,33 @@ import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle
               </div>
             </div>
 
+            <!-- Diagnóstico -->
+            <button
+              (click)="goToDiagnostico()"
+              class="w-full flex items-center gap-4 mb-10 p-5 rounded-2xl text-left
+                     bg-card border border-border hover:bg-secondary transition-colors"
+            >
+              <span class="text-2xl">🎯</span>
+              <span class="flex-1">
+                <span class="block text-sm font-semibold text-foreground">
+                  Diagn&oacute;stico
+                </span>
+                <span class="block text-xs text-muted-foreground mt-0.5">
+                  Qu&eacute; preguntas te cuestan m&aacute;s y cu&aacute;les toca repasar
+                </span>
+              </span>
+              @if (dueCount() > 0) {
+                <span
+                  class="text-xs font-semibold px-3 py-1 rounded-full bg-destructive/10 text-destructive border border-destructive/20"
+                >
+                  {{ dueCount() }} por repasar
+                </span>
+              }
+              <svg class="w-5 h-5 text-muted-foreground shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+
             <!-- Unit selector -->
             <div class="mb-10">
               <h2 class="text-lg font-semibold mb-5 text-foreground">
@@ -100,7 +130,18 @@ import { ThemeToggleComponent } from '../../components/theme-toggle/theme-toggle
 })
 export default class HomePage {
   protected readonly store = inject(FlashcardStore);
+  private readonly history = inject(StudyHistoryStore);
   private readonly router = inject(Router);
+  private readonly clock = inject(CLOCK);
+
+  protected readonly dueCount = computed(
+    () =>
+      dueQuestions(
+        this.store.allQuestions(),
+        this.history.progress(),
+        this.clock(),
+      ).length,
+  );
 
   protected get filteredCount(): number {
     const selected = this.store.selectedUnidades();
@@ -111,7 +152,11 @@ export default class HomePage {
   }
 
   protected startSession(): void {
-    this.store.startSession();
+    void this.store.startSession();
     this.router.navigate(['/session']);
+  }
+
+  protected goToDiagnostico(): void {
+    this.router.navigate(['/diagnostico']);
   }
 }
