@@ -86,11 +86,13 @@ export const FlashcardStore = signalStore(
     }),
     answeredQuestions: computed(() => {
       const answers = store.answers();
-      const questions = store.filteredQuestions();
-      return answers.map((a) => ({
-        ...a,
-        question: questions.find((q) => q.id === a.questionId)!,
-      }));
+      const byId = new Map(store.filteredQuestions().map((q) => [q.id, q]));
+      // Descarta respuestas huérfanas: el pool puede cambiar (repaso de errores,
+      // sesión dirigida) sin que las respuestas previas sigan en él.
+      return answers.flatMap((a) => {
+        const question = byId.get(a.questionId);
+        return question ? [{ ...a, question }] : [];
+      });
     }),
   })),
   withMethods((store) => {

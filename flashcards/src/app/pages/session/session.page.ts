@@ -1,11 +1,4 @@
-import {
-  Component,
-  computed,
-  HostListener,
-  inject,
-  OnInit,
-  signal,
-} from '@angular/core';
+import { Component, computed, inject, OnInit, signal } from '@angular/core';
 import { Router } from '@angular/router';
 import { FlashcardStore } from '../../store/flashcard.store';
 import { FlashcardComponent } from '../../components/flashcard/flashcard.component';
@@ -22,6 +15,7 @@ import type { Referencia } from '../../models/question.model';
     ThemeToggleComponent,
     ApunteViewerComponent,
   ],
+  host: { '(window:keydown)': 'handleKeydown($event)' },
   template: `
     <div class="min-h-dvh flex flex-col bg-background">
       <!-- Header -->
@@ -263,7 +257,6 @@ export default class SessionPage implements OnInit {
     );
   }
 
-  @HostListener('window:keydown', ['$event'])
   protected handleKeydown(event: KeyboardEvent): void {
     // Con el apunte abierto, el drawer captura el teclado (Esc, Tab).
     if (this.apunteViewer()) return;
