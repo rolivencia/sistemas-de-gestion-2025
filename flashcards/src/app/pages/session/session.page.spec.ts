@@ -8,6 +8,7 @@ import {
 import { provideMarkdown } from 'ngx-markdown';
 import SessionPage from './session.page';
 import { FlashcardStore } from '../../store/flashcard.store';
+import { provideMemoryStudyStorage } from '../../storage/study-storage.token';
 import type { Question } from '../../models/question.model';
 
 function baseQuestion(overrides: Partial<Question>): Question {
@@ -70,6 +71,7 @@ describe('SessionPage · referencias', () => {
         provideHttpClient(),
         provideHttpClientTesting(),
         provideMarkdown(),
+        provideMemoryStudyStorage(),
       ],
     }).compileComponents();
   });

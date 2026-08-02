@@ -8,6 +8,7 @@ import {
 import { provideMarkdown } from 'ngx-markdown';
 import ResultsPage from './results.page';
 import { FlashcardStore } from '../../store/flashcard.store';
+import { provideMemoryStudyStorage } from '../../storage/study-storage.token';
 import type { Question } from '../../models/question.model';
 
 function baseQuestion(overrides: Partial<Question>): Question {
@@ -49,6 +50,7 @@ async function configureTestBed(): Promise<void> {
       provideHttpClient(),
       provideHttpClientTesting(),
       provideMarkdown(),
+      provideMemoryStudyStorage(),
     ],
   }).compileComponents();
 }

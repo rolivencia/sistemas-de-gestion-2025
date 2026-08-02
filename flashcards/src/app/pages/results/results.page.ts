@@ -225,16 +225,19 @@ export default class ResultsPage implements OnInit {
   }
 
   protected reviewMistakes(): void {
-    this.store.reviewMistakes();
+    void this.store.reviewMistakes();
     this.router.navigate(['/session']);
   }
 
   protected restart(): void {
-    this.store.restartSession();
+    void this.store.restartSession();
     this.router.navigate(['/session']);
   }
 
   protected goHome(): void {
+    // Redundante en el camino normal (ya se guardó al terminar), pero cubre la
+    // vuelta atrás desde el navegador; es idempotente.
+    void this.store.finishSession();
     this.store.endSession();
     this.router.navigate(['/']);
   }

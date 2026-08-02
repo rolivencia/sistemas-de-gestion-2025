@@ -31,6 +31,8 @@ export interface SessionAnswer {
   readonly questionId: number;
   readonly answeredCorrectly: boolean;
   readonly userAnswer: boolean;
+  /** Epoch en ms; ordena las respuestas al proyectar el historial. */
+  readonly answeredAt: number;
 }
 
 /** Una respuesta de la sesión junto a la pregunta a la que corresponde. */

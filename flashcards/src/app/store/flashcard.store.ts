@@ -7,7 +7,15 @@ import {
   patchState,
 } from '@ngrx/signals';
 import type { Question, SessionAnswer } from '../models/question.model';
+import {
+  SESSION_KINDS,
+  type SessionKind,
+  type SessionRecord,
+} from '../models/study-history.model';
 import { QuestionService } from '../services/question.service';
+import { StudyHistoryStore } from './study-history.store';
+import { CLOCK } from '../core/clock';
+import { newId } from '../util/id';
 import { firstValueFrom } from 'rxjs';
 
 interface FlashcardState {
@@ -22,6 +30,11 @@ interface FlashcardState {
   readonly sessionActive: boolean;
   readonly sessionComplete: boolean;
   readonly showJustification: boolean;
+  readonly sessionId: string | null;
+  readonly sessionStartedAt: number | null;
+  readonly sessionKind: SessionKind;
+  /** Evita que una misma sesión se guarde dos veces. */
+  readonly sessionRecorded: boolean;
 }
 
 const initialState: FlashcardState = {
@@ -36,6 +49,10 @@ const initialState: FlashcardState = {
   sessionActive: false,
   sessionComplete: false,
   showJustification: false,
+  sessionId: null,
+  sessionStartedAt: null,
+  sessionKind: SESSION_KINDS.free,
+  sessionRecorded: false,
 };
 
 function shuffle<T>(array: readonly T[]): T[] {
@@ -97,6 +114,66 @@ export const FlashcardStore = signalStore(
   })),
   withMethods((store) => {
     const questionService = inject(QuestionService);
+    const historyStore = inject(StudyHistoryStore);
+    const clock = inject(CLOCK);
+
+    function buildRecord(endedAt: number): SessionRecord {
+      return {
+        id: store.sessionId() ?? newId(),
+        kind: store.sessionKind(),
+        startedAt: store.sessionStartedAt() ?? endedAt,
+        endedAt,
+        unidades: [...store.selectedUnidades()],
+        plannedCount: store.filteredQuestions().length,
+        answers: store.answers().map((a) => ({
+          questionId: a.questionId,
+          correct: a.answeredCorrectly,
+          userAnswer: a.userAnswer,
+          at: a.answeredAt,
+        })),
+      };
+    }
+
+    /**
+     * Persiste la sesión en curso. Es idempotente: puede llamarse de más sin
+     * duplicar, lo que permite invocarla desde todos los caminos de salida.
+     * No toca `sessionActive`/`sessionComplete`, de los que dependen las
+     * guardas de las páginas.
+     */
+    function flushPendingSession(): Promise<void> {
+      if (store.sessionRecorded() || store.answers().length === 0) {
+        return Promise.resolve();
+      }
+      const record = buildRecord(clock());
+      patchState(store, { sessionRecorded: true });
+      return historyStore.recordSession(record);
+    }
+
+    /**
+     * Único punto por el que se arranca una sesión. Guarda lo anterior antes
+     * de limpiar `answers`: si no, cada "Repasar errores" perdería la sesión
+     * que acaba de terminar.
+     */
+    function beginSession(
+      questions: readonly Question[],
+      kind: SessionKind,
+    ): Promise<void> {
+      const flushed = flushPendingSession();
+      patchState(store, {
+        filteredQuestions: shuffle(questions),
+        currentIndex: 0,
+        isFlipped: false,
+        answers: [],
+        sessionActive: true,
+        sessionComplete: false,
+        showJustification: false,
+        sessionId: newId(),
+        sessionStartedAt: clock(),
+        sessionKind: kind,
+        sessionRecorded: false,
+      });
+      return flushed;
+    }
 
     return {
       async loadQuestions(): Promise<void> {
@@ -112,22 +189,33 @@ export const FlashcardStore = signalStore(
         });
       },
 
-      startSession(): void {
+      /**
+       * Las operaciones de sesión devuelven la promesa del guardado de la
+       * sesión anterior. La interfaz no la espera —el estado ya se actualizó de
+       * forma síncrona— pero permite a los tests sincronizarse con el disco.
+       */
+      startSession(): Promise<void> {
         const selected = store.selectedUnidades();
         const all = store.allQuestions();
         const filtered =
           selected.length === 0
             ? all
             : all.filter((q) => q.unidades.some((u) => selected.includes(u)));
-        patchState(store, {
-          filteredQuestions: shuffle(filtered),
-          currentIndex: 0,
-          isFlipped: false,
-          answers: [],
-          sessionActive: true,
-          sessionComplete: false,
-          showJustification: false,
-        });
+        return beginSession(filtered, SESSION_KINDS.free);
+      },
+
+      /** Sesión sobre un conjunto elegido a mano, p. ej. desde el diagnóstico. */
+      startTargetedSession(questions: readonly Question[]): Promise<void> {
+        if (questions.length === 0) return Promise.resolve();
+        return beginSession(questions, SESSION_KINDS.targeted);
+      },
+
+      /**
+       * Guarda la sesión en curso sin cerrarla. La llaman todos los caminos de
+       * salida (terminar, abandonar, volver al home).
+       */
+      finishSession(): Promise<void> {
+        return flushPendingSession();
       },
 
       toggleUnidad(unidad: string): void {
@@ -160,6 +248,7 @@ export const FlashcardStore = signalStore(
           questionId: question.id,
           answeredCorrectly: userAnswer === question.respuesta,
           userAnswer,
+          answeredAt: clock(),
         };
 
         patchState(store, {
@@ -201,36 +290,23 @@ export const FlashcardStore = signalStore(
         });
       },
 
-      restartSession(): void {
-        const filtered = store.filteredQuestions();
-        patchState(store, {
-          filteredQuestions: shuffle(filtered),
-          currentIndex: 0,
-          isFlipped: false,
-          answers: [],
-          sessionComplete: false,
-          showJustification: false,
-        });
+      restartSession(): Promise<void> {
+        return beginSession(store.filteredQuestions(), store.sessionKind());
       },
 
-      reviewMistakes(): void {
-        const answers = store.answers();
-        const questions = store.filteredQuestions();
-        const mistakes = answers
+      reviewMistakes(): Promise<void> {
+        const byId = new Map(store.filteredQuestions().map((q) => [q.id, q]));
+        const mistakes = store
+          .answers()
           .filter((a) => !a.answeredCorrectly)
-          .map((a) => questions.find((q) => q.id === a.questionId)!)
-          .filter(Boolean);
+          .flatMap((a) => {
+            const question = byId.get(a.questionId);
+            return question ? [question] : [];
+          });
 
-        if (mistakes.length === 0) return;
+        if (mistakes.length === 0) return Promise.resolve();
 
-        patchState(store, {
-          filteredQuestions: shuffle(mistakes),
-          currentIndex: 0,
-          isFlipped: false,
-          answers: [],
-          sessionComplete: false,
-          showJustification: false,
-        });
+        return beginSession(mistakes, SESSION_KINDS.mistakes);
       },
     };
   }),

@@ -295,11 +295,14 @@ export default class SessionPage implements OnInit {
   protected handleNext(): void {
     this.store.nextQuestion();
     if (this.store.sessionComplete()) {
+      void this.store.finishSession();
       this.router.navigate(['/results']);
     }
   }
 
   protected goHome(): void {
+    // Abandonar también cuenta: la sesión parcial queda registrada.
+    void this.store.finishSession();
     this.store.endSession();
     this.router.navigate(['/']);
   }

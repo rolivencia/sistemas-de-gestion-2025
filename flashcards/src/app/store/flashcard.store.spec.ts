@@ -1,8 +1,16 @@
 import { TestBed } from '@angular/core/testing';
 import { provideHttpClient } from '@angular/common/http';
-import { HttpTestingController, provideHttpClientTesting } from '@angular/common/http/testing';
+import {
+  HttpTestingController,
+  provideHttpClientTesting,
+} from '@angular/common/http/testing';
 import { FlashcardStore } from './flashcard.store';
+import { provideMemoryStudyStorage } from '../storage/study-storage.token';
+import { CLOCK } from '../core/clock';
 import type { Question } from '../models/question.model';
+
+/** Reloj fijo: las respuestas llevan timestamp y no deben depender del real. */
+const NOW = 1_700_000_000_000;
 
 function baseQuestion(overrides: Partial<Question>): Question {
   return {
@@ -45,7 +53,12 @@ async function loadStore(questions: Question[]): Promise<Store> {
 describe('FlashcardStore', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [provideHttpClient(), provideHttpClientTesting()],
+      providers: [
+        provideHttpClient(),
+        provideHttpClientTesting(),
+        provideMemoryStudyStorage(),
+        { provide: CLOCK, useValue: () => NOW },
+      ],
     });
   });
 
@@ -75,12 +88,7 @@ describe('FlashcardStore', () => {
       store.toggleUnidad('Unidad 2');
       store.startSession();
 
-      expect(
-        store
-          .filteredQuestions()
-          .map((q) => q.id)
-          .sort(),
-      ).toEqual([2, 3]);
+      expect(store.filteredQuestions().map((q) => q.id).sort()).toEqual([2, 3]);
     });
   });
 
@@ -96,6 +104,7 @@ describe('FlashcardStore', () => {
           questionId: 7,
           answeredCorrectly: true,
           userAnswer: true,
+          answeredAt: NOW,
         },
       ]);
       expect(store.isFlipped()).toBe(true);
@@ -127,7 +136,10 @@ describe('FlashcardStore', () => {
 
   describe('nextQuestion', () => {
     it('avanza el índice y reinicia el estado de la tarjeta', async () => {
-      const store = await loadStore([baseQuestion({ id: 1 }), baseQuestion({ id: 2 })]);
+      const store = await loadStore([
+        baseQuestion({ id: 1 }),
+        baseQuestion({ id: 2 }),
+      ]);
       store.startSession();
       store.answerQuestion(true);
 
@@ -164,7 +176,10 @@ describe('FlashcardStore', () => {
 
   describe('restartSession', () => {
     it('conserva el mismo conjunto de preguntas y limpia las respuestas', async () => {
-      const store = await loadStore([baseQuestion({ id: 1 }), baseQuestion({ id: 2 })]);
+      const store = await loadStore([
+        baseQuestion({ id: 1 }),
+        baseQuestion({ id: 2 }),
+      ]);
       store.startSession();
       store.answerQuestion(true);
 
@@ -173,12 +188,7 @@ describe('FlashcardStore', () => {
       expect(store.answers()).toEqual([]);
       expect(store.currentIndex()).toBe(0);
       expect(store.sessionComplete()).toBe(false);
-      expect(
-        store
-          .filteredQuestions()
-          .map((q) => q.id)
-          .sort(),
-      ).toEqual([1, 2]);
+      expect(store.filteredQuestions().map((q) => q.id).sort()).toEqual([1, 2]);
     });
   });
 
@@ -207,7 +217,10 @@ describe('FlashcardStore', () => {
     });
 
     it('no hace nada cuando no hubo errores', async () => {
-      const store = await loadStore([baseQuestion({ id: 1 }), baseQuestion({ id: 2 })]);
+      const store = await loadStore([
+        baseQuestion({ id: 1 }),
+        baseQuestion({ id: 2 }),
+      ]);
       store.startSession();
       answerCurrent(store, true);
 
