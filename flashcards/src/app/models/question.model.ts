@@ -33,6 +33,11 @@ export interface SessionAnswer {
   readonly userAnswer: boolean;
 }
 
+/** Una respuesta de la sesión junto a la pregunta a la que corresponde. */
+export interface AnsweredQuestion extends SessionAnswer {
+  readonly question: Question;
+}
+
 export interface SessionStats {
   readonly total: number;
   readonly answered: number;

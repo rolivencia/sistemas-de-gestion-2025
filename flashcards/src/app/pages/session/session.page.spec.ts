@@ -95,4 +95,11 @@ describe('SessionPage · referencias', () => {
     const text = (fixture.nativeElement as HTMLElement).textContent ?? '';
     expect(text).not.toContain('Ver en el apunte');
   });
+
+  it('muestra el id de la tarjeta junto a los metadatos de la pregunta', async () => {
+    const fixture = await renderAnswered([baseQuestion({ id: 137 })]);
+
+    const text = (fixture.nativeElement as HTMLElement).textContent ?? '';
+    expect(text).toContain('#137');
+  });
 });
